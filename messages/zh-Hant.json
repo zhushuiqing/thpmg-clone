@@ -261,13 +261,13 @@
       "baxin": {
         "name": "秉信包裝",
         "english": "Baxin Packaging",
-        "description": "致力於以環保瓦楞紙箱為媒介，為客戶提供一站式包裝服務解決方案",
+        "description": "專注於向客戶提供中高檔瓦楞紙箱的專業包裝公司，是中國布局最廣、輻射範圍最大的包裝集團",
         "category": "包材事業",
         "products": [
-          { "name": "環保瓦楞紙箱", "description": "高強度、可回收的環保包裝材料，適用於各類產品運輸包裝" },
-          { "name": "彩色印刷紙箱", "description": "精美印刷效果，提升產品包裝形象和品牌識別度" },
-          { "name": "定製包裝解決方案", "description": "根據客戶需求提供從設計到生產的一站式包裝服務" },
-          { "name": "緩衝包裝材料", "description": "蜂窩紙板、紙護角等環保緩衝材料，有效保護產品在運輸中的安全" }
+          { "name": "水印瓦楞紙箱", "description": "採用水性油墨印刷，環保無毒，適用於食品、電子產品等普通包裝" },
+          { "name": "預印瓦楞紙箱", "description": "先印刷後裱貼，印刷精度高，適合大批量標準化包裝需求" },
+          { "name": "膠印瓦楞紙箱", "description": "膠印印刷效果精美，適用於高檔禮品盒、展示盒等高端包裝" },
+          { "name": "功能性瓦楞包裝", "description": "具有防潮、防靜電、抗菌等特殊功能的定製化包裝解決方案" }
         ]
       },
       "tingzheng": {
@@ -285,13 +285,13 @@
       "hesheng": {
         "name": "和昇塑料",
         "english": "Hesheng Plastic",
-        "description": "食品級塑膠製品製造商",
+        "description": "食品級塑膠製品製造商，專業生產各類塑膠包裝容器",
         "category": "包材事業",
         "products": [
-          { "name": "食品級 PP 容器", "description": "耐高溫、可微波的食品容器，安全健康" },
-          { "name": "PET 透明容器", "description": "高透明度、高強度，適用於糕點、水果等食品展示包裝" },
-          { "name": "吸塑包裝", "description": "定製化吸塑內托、泡殼包裝，有效固定和保護產品" },
-          { "name": "塑膠蓋/封口膜", "description": "食品級密封蓋和封口膜，確保食品新鮮度和安全性" }
+          { "name": "塑膠叉子", "description": "食品級塑膠餐具，適用於餐飲、外賣等行業" },
+          { "name": "塑膠瓶蓋", "description": "各種規格的食品級塑膠瓶蓋，密封性能好" },
+          { "name": "塑膠瓶/杯", "description": "PET、PP 等材質的塑膠瓶杯，適用於飲料、食品包裝" },
+          { "name": "塑膠提把", "description": "便携式塑膠提手，適用於禮盒、包裝箱等" }
         ]
       },
       "prostar": {
