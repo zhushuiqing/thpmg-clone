@@ -362,7 +362,7 @@
         "english": "Baxin Packaging",
         "description": "致力於以環保瓦楞紙箱為媒介，為客戶提供一站式包裝服務解決方案",
         "category": "包材事業",
-        "website": "https://www.bxpackaging.com"
+        "website": "https://www.bxpackaging.com/"
       },
       {
         "id": 2,
@@ -370,7 +370,7 @@
         "english": "Tingzheng Packaging",
         "description": "軟包裝、彩盒、食品紙質容器生產企業",
         "category": "包材事業",
-        "website": "https://www.tingzhengpack.com"
+        "website": "https://www.tingzheng.com.cn/"
       },
       {
         "id": 3,
@@ -378,7 +378,7 @@
         "english": "Hesheng Plastic",
         "description": "食品級塑膠製品製造商",
         "category": "包材事業",
-        "website": "https://www.heshengplastic.com"
+        "website": "https://www.hs-plastic.net/"
       },
       {
         "id": 4,
@@ -386,7 +386,7 @@
         "english": "Prostar Starch",
         "description": "致力於澱粉及澱粉衍生物的研發和應用創新的食品級變性澱粉廠商",
         "category": "原料事業",
-        "website": "https://www.prostarstarch.com"
+        "website": "https://www.starpro.com.cn/"
       },
       {
         "id": 5,
@@ -394,7 +394,7 @@
         "english": "Tingzhi Food",
         "description": "芝麻油和芝麻製品供應商",
         "category": "原料事業",
-        "website": "https://www.tingzhifood.com"
+        "website": "https://www.tingzhisesame.com/"
       },
       {
         "id": 6,
@@ -402,7 +402,7 @@
         "english": "Starpro Thailand",
         "description": "泰國食品級木薯原澱粉、變性澱粉製造商",
         "category": "原料事業",
-        "website": "https://www.starprothailand.com"
+        "website": "https://starpro.co.th/"
       },
       {
         "id": 7,
@@ -410,7 +410,7 @@
         "english": "Weizhen Food",
         "description": "凍乾食品加工企業",
         "category": "食材事業",
-        "website": "https://www.weizhenfood.com"
+        "website": "https://www.weizhenfd.com/"
       },
       {
         "id": 8,
@@ -418,7 +418,7 @@
         "english": "Tingtong Logistics",
         "description": "專業物流服務提供商",
         "category": "物流事業",
-        "website": "https://www.tingtonglogistics.com"
+        "website": "https://www.tingtong.com.cn/"
       }
     ]
   },

@@ -33,12 +33,24 @@ export default function HomePage() {
   }>;
   const subsidiaries = subsidiariesData.slice(0, 4);
 
+  // Get products data
+  const productsData = tSubs.raw('products') as Record<string, {
+    name: string;
+    english: string;
+    description: string;
+    category: string;
+    products: Array<{ name: string; description: string }>;
+  }>;
+
   const businessAreas = [
     { name: t('packaging'), count: 3, desc: t('businessDesc.packaging'), icon: '📦' },
     { name: t('materials'), count: 3, desc: t('businessDesc.materials'), icon: '🌾' },
     { name: t('ingredients'), count: 1, desc: t('businessDesc.ingredients'), icon: '🍜' },
     { name: t('logistics'), count: 1, desc: t('businessDesc.logistics'), icon: '🚚' },
   ];
+
+  // Company list in display order
+  const companyOrder = ['baxin', 'tingzheng', 'hesheng', 'prostar', 'tingzhi', 'starpro', 'weizhen', 'tingtong'];
 
   return (
     <div className="min-h-screen bg-white">
@@ -226,6 +238,72 @@ export default function HomePage() {
             >
               {t('viewAll')}
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Company Products Section */}
+      <section className="py-12 sm:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
+              事业单位产品与服务
+            </h2>
+            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
+            <p className="text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base max-w-2xl mx-auto px-4">
+              8 家事业单位提供多元化产品与服务，满足客户全方位需求
+            </p>
+          </div>
+
+          <div className="space-y-12 sm:space-y-16">
+            {companyOrder.map((companyId) => {
+              const company = productsData[companyId];
+              if (!company) return null;
+
+              return (
+                <div key={companyId} className="bg-white rounded-xl shadow-sm overflow-hidden">
+                  {/* Company Header */}
+                  <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 sm:px-8 py-4 sm:py-6">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                      <div>
+                        <h3 className="text-xl sm:text-2xl font-bold text-white">{company.name}</h3>
+                        <p className="text-blue-100 text-sm mt-1">{company.english}</p>
+                      </div>
+                      <span className="inline-block px-3 sm:px-4 py-1 bg-white/20 rounded-full text-white text-xs sm:text-sm font-medium">
+                        {company.category}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Company Description */}
+                  <div className="px-4 sm:px-8 py-3 sm:py-4 bg-blue-50 border-b border-blue-100">
+                    <p className="text-gray-700 text-sm sm:text-base">{company.description}</p>
+                  </div>
+
+                  {/* Products Grid */}
+                  <div className="px-4 sm:px-8 py-6 sm:py-8">
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+                      {company.products.map((product, index) => (
+                        <div
+                          key={index}
+                          className="bg-gray-50 rounded-lg p-4 sm:p-5 hover:shadow-md transition-shadow"
+                        >
+                          <div className="flex items-start gap-3 mb-3">
+                            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                              <svg className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                              </svg>
+                            </div>
+                            <h4 className="text-sm sm:text-base font-bold text-gray-900">{product.name}</h4>
+                          </div>
+                          <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{product.description}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

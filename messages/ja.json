@@ -362,7 +362,7 @@
         "english": "Baxin Packaging",
         "description": "環境に優しい段ボール箱を媒体とし、顧客にワンストップパッケージングサービスソリューションを提供することに尽力しています",
         "category": "包装資材事業",
-        "website": "https://www.bxpackaging.com"
+        "website": "https://www.bxpackaging.com/"
       },
       {
         "id": 2,
@@ -370,7 +370,7 @@
         "english": "Tingzheng Packaging",
         "description": "ソフトパッケージ、カラーボックス、食品用紙容器の製造企業",
         "category": "包装資材事業",
-        "website": "https://www.tingzhengpack.com"
+        "website": "https://www.tingzheng.com.cn/"
       },
       {
         "id": 3,
@@ -378,7 +378,7 @@
         "english": "Hesheng Plastic",
         "description": "食品級プラスチック製品製造業者",
         "category": "包装資材事業",
-        "website": "https://www.heshengplastic.com"
+        "website": "https://www.hs-plastic.net/"
       },
       {
         "id": 4,
@@ -386,7 +386,7 @@
         "english": "Prostar Starch",
         "description": "澱粉および澱粉誘導体の研究開発と応用革新に取り組む食品級変性澱粉メーカー",
         "category": "原料事業",
-        "website": "https://www.prostarstarch.com"
+        "website": "https://www.starpro.com.cn/"
       },
       {
         "id": 5,
@@ -394,7 +394,7 @@
         "english": "Tingzhi Food",
         "description": "ごま油およびごま製品サプライヤー",
         "category": "原料事業",
-        "website": "https://www.tingzhifood.com"
+        "website": "https://www.tingzhisesame.com/"
       },
       {
         "id": 6,
@@ -402,7 +402,7 @@
         "english": "Starpro Thailand",
         "description": "タイ食品級キャッサバ原澱粉・変性澱粉製造業者",
         "category": "原料事業",
-        "website": "https://www.starprothailand.com"
+        "website": "https://starpro.co.th/"
       },
       {
         "id": 7,
@@ -410,7 +410,7 @@
         "english": "Weizhen Food",
         "description": "凍結乾燥食品加工企業",
         "category": "食材事業",
-        "website": "https://www.weizhenfood.com"
+        "website": "https://www.weizhenfd.com/"
       },
       {
         "id": 8,
@@ -418,7 +418,7 @@
         "english": "Tingtong Logistics",
         "description": "専門物流サービスプロバイダー",
         "category": "物流事業",
-        "website": "https://www.tingtonglogistics.com"
+        "website": "https://www.tingtong.com.cn/"
       }
     ]
   },
