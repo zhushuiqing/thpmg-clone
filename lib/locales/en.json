@@ -1,0 +1,11 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "news": "News",
+    "contact": "Contact Us",
+    "language": "中文",
+    "english": "English"
+  }
+}

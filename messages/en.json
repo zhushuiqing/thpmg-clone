@@ -1,0 +1,94 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "news": "News",
+    "contact": "Contact",
+    "language": "English",
+    "english": "中文"
+  },
+  "Home": {
+    "heroTitle": "Professional Service, Trustworthy",
+    "heroSubtitle": "We are committed to providing customers with the highest quality professional services, winning their trust and support with excellent quality and professional attitude.",
+    "ctaServices": "Learn About Our Services",
+    "ctaContact": "Contact Us",
+    "aboutTitle": "About Us",
+    "aboutSubtitle": "Company Profile",
+    "servicesTitle": "Our Services",
+    "servicesSubtitle": "We provide comprehensive professional services to meet customers' diverse needs",
+    "newsTitle": "News Center",
+    "newsSubtitle": "Learn about our latest updates and industry information",
+    "contactCtaTitle": "Contact Us",
+    "contactCtaSubtitle": "If you have any questions or needs, please feel free to contact us. Our professional team will serve you wholeheartedly.",
+    "contactCtaButton": "Consult Now"
+  },
+  "About": {
+    "pageTitle": "About Us",
+    "companyTitle": "Company Profile",
+    "coreValuesTitle": "Core Values",
+    "strengthsTitle": "Our Strengths",
+    "ctaTitle": "Looking Forward to Working With You",
+    "ctaSubtitle": "We look forward to working with you to create a better future. If you have any questions or needs, please feel free to contact us.",
+    "ctaButton": "Contact Us"
+  },
+  "Services": {
+    "pageTitle": "Services",
+    "overviewTitle": "Our Services",
+    "advantagesTitle": "Service Advantages",
+    "processTitle": "Service Process",
+    "ctaTitle": "Start Your Project",
+    "ctaSubtitle": "No matter the size of your project, we can provide professional services. Contact us now to start your journey.",
+    "ctaButton": "Get Free Consultation"
+  },
+  "News": {
+    "pageTitle": "News Center",
+    "categories": {
+      "all": "All",
+      "company": "Company News",
+      "industry": "Industry News",
+      "product": "Product Updates"
+    },
+    "subscribeTitle": "Subscribe to Our News",
+    "subscribeSubtitle": "Stay updated with our latest news and industry information",
+    "subscribePlaceholder": "Enter your email",
+    "subscribeButton": "Subscribe"
+  },
+  "Contact": {
+    "pageTitle": "Contact Us",
+    "infoTitle": "Contact Information",
+    "infoSubtitle": "Choose the best way to contact us",
+    "formTitle": "Online Inquiry",
+    "formSubtitle": "Fill out the form below and our customer service team will contact you soon.",
+    "mapTitle": "Company Location",
+    "hoursTitle": "Business Hours",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company Name",
+    "message": "Message",
+    "submit": "Submit Message",
+    "loading": "Submitting...",
+    "successTitle": "Submission Successful!",
+    "successMessage": "Thank you for your message. Our customer service team will contact you soon.",
+    "successButton": "Send Another Message",
+    "submitError": "Submission failed, please try again later",
+    "required": "Required",
+    "minLength": "Too short",
+    "maxLength": "Too long",
+    "minLengthMessage": "Minimum 10 characters required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "rateLimited": "Too many requests, please try again later",
+    "rateLimitWarning": "Remaining requests",
+    "forbidden": "Request origin not allowed",
+    "networkError": "Network error, please check your connection"
+  },
+  "Common": {
+    "backToHome": "Back to Home",
+    "backToNews": "Back to News Center",
+    "readMore": "Read More",
+    "loading": "Loading...",
+    "required": "Required"
+  }
+}

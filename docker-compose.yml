@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  thpmg-clone:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
+      - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
+    restart: unless-stopped
+    volumes:
+      # Remove this volume in production - only for development
+      # - ./public:/app/public
+    networks:
+      - thpmg-network
+
+networks:
+  thpmg-network:
+    driver: bridge
