@@ -437,27 +437,27 @@
         "english": "Weizhen Food",
         "description": "冻干食品加工企业",
         "category": "食材事业",
-        "image": null,
+        "image": "/images/company-products/products/weizhen-product-1.jpg",
         "products": [
           {
             "name": "冻干水果",
             "description": "草莓、芒果、榴莲等热带水果冻干，保留新鲜水果的营养和风味",
-            "image": null
+            "image": "/images/company-products/products/weizhen-product-1.jpg"
           },
           {
             "name": "冻干蔬菜",
             "description": "玉米粒、胡萝卜丁、青豆等，方便储存和运输",
-            "image": null
+            "image": "/images/company-products/products/weizhen-product-2.jpg"
           },
           {
             "name": "冻干肉类",
             "description": "鸡肉丁、牛肉粒等，适用于方便食品、宠物食品等",
-            "image": null
+            "image": "/images/company-products/products/weizhen-product-3.jpg"
           },
           {
             "name": "冻干即食食品",
             "description": "冻干粥、冻干汤等即食产品，冲泡即食，便捷美味",
-            "image": null
+            "image": "/images/company-products/products/weizhen-product-4.jpg"
           }
         ]
       },
