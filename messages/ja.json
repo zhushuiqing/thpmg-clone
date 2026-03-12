@@ -265,10 +265,10 @@
         "category": "包装資材事業",
         "image": "/images/company-products/products/baxin-product-1.jpg",
         "products": [
-          { "name": "水印瓦楞紙箱", "description": "水性インクを使用し、環境に優しく無毒。食品、電子製品などの普通包装に適用", "image": "/images/company-products/products/baxin-product-1.jpg" },
-          { "name": "預印瓦楞紙箱", "description": "先印刷後裱貼。印刷精度が高く、大批量標準化包装ニーズに適す", "image": "/images/company-products/products/baxin-product-2.jpg" },
-          { "name": "膠印瓦楞紙箱", "description": "膠印印刷効果は精美。高級ギフトボックス、展示ボックスなど高端包装に適用", "image": "/images/company-products/products/baxin-product-3.jpg" },
-          { "name": "機能性瓦楞包装", "description": "防潮、防静電気、抗菌などの特殊機能を備えたカスタマイズ包装ソリューション", "image": "/images/company-products/products/baxin-product-4.jpg" }
+          { "name": "水印瓦楞紙箱", "description": "リサイクル可能、低コスト、環境に優しい", "image": "/images/company-products/products/baxin-product-1.jpg" },
+          { "name": "預印瓦楞紙箱", "description": "色ずれ精度が高く、低炭素環境に優しい", "image": "/images/company-products/products/baxin-product-2.jpg" },
+          { "name": "膠印瓦楞紙箱", "description": "図版が精細、ラミネートや光沢処理が可能", "image": "/images/company-products/products/baxin-product-3.jpg" },
+          { "name": "機能性瓦楞包装", "description": "防水箱、コールドチェーン箱、巡回箱など", "image": "/images/company-products/products/baxin-product-4.jpg" }
         ]
       },
       "tingzheng": {

@@ -265,10 +265,10 @@
         "category": "包材事業",
         "image": "/images/company-products/products/baxin-product-1.jpg",
         "products": [
-          { "name": "水印瓦楞紙箱", "description": "採用水性油墨印刷，環保無毒，適用於食品、電子產品等普通包裝", "image": "/images/company-products/products/baxin-product-1.jpg" },
-          { "name": "預印瓦楞紙箱", "description": "先印刷後裱貼，印刷精度高，適合大批量標準化包裝需求", "image": "/images/company-products/products/baxin-product-2.jpg" },
-          { "name": "膠印瓦楞紙箱", "description": "膠印印刷效果精美，適用於高檔禮品盒、展示盒等高端包裝", "image": "/images/company-products/products/baxin-product-3.jpg" },
-          { "name": "功能性瓦楞包裝", "description": "具有防潮、防靜電、抗菌等特殊功能的定製化包裝解決方案", "image": "/images/company-products/products/baxin-product-4.jpg" }
+          { "name": "水印瓦楞紙箱", "description": "可回收，成本低，環保", "image": "/images/company-products/products/baxin-product-1.jpg" },
+          { "name": "預印瓦楞紙箱", "description": "套印精度高，低碳環保", "image": "/images/company-products/products/baxin-product-2.jpg" },
+          { "name": "膠印瓦楞紙箱", "description": "圖文精細，可覆膜和上光", "image": "/images/company-products/products/baxin-product-3.jpg" },
+          { "name": "功能性瓦楞包裝", "description": "防水箱、冷鏈箱、周轉箱等", "image": "/images/company-products/products/baxin-product-4.jpg" }
         ]
       },
       "tingzheng": {

@@ -267,22 +267,22 @@
         "products": [
           {
             "name": "水印瓦楞纸箱",
-            "description": "采用水性油墨印刷，环保无毒，适用于食品、电子产品等普通包装",
+            "description": "可回收，成本低，环保",
             "image": "/images/company-products/products/baxin-product-1.jpg"
           },
           {
             "name": "预印瓦楞纸箱",
-            "description": "先印刷后裱贴，印刷精度高，适合大批量标准化包装需求",
+            "description": "套印精度高，低碳环保",
             "image": "/images/company-products/products/baxin-product-2.jpg"
           },
           {
             "name": "胶印瓦楞纸箱",
-            "description": "胶印印刷效果精美，适用于高档礼品盒、展示盒等高端包装",
+            "description": "图文精细，可覆膜和上光",
             "image": "/images/company-products/products/baxin-product-3.jpg"
           },
           {
             "name": "功能性瓦楞包装",
-            "description": "具有防潮、防静电、抗菌等特殊功能的定制化包装解决方案",
+            "description": "防水箱、冷链箱、周转箱等",
             "image": "/images/company-products/products/baxin-product-4.jpg"
           }
         ]
