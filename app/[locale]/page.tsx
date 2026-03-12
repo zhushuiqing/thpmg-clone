@@ -286,17 +286,19 @@ export default function HomePage() {
                       {company.products.map((product, index) => (
                         <div
                           key={index}
-                          className="bg-gray-50 rounded-lg p-4 sm:p-5 hover:shadow-md transition-shadow"
+                          className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
                         >
-                          <div className="flex items-start gap-3 mb-3">
-                            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                              <svg className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                          <div className="aspect-square bg-gray-200 flex items-center justify-center">
+                            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                              <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                               </svg>
                             </div>
-                            <h4 className="text-sm sm:text-base font-bold text-gray-900">{product.name}</h4>
                           </div>
-                          <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{product.description}</p>
+                          <div className="p-4 sm:p-5">
+                            <h4 className="text-sm sm:text-base font-bold text-gray-900 mb-2">{product.name}</h4>
+                            <p className="text-gray-600 text-xs sm:text-sm leading-relaxed line-clamp-3">{product.description}</p>
+                          </div>
                         </div>
                       ))}
                     </div>
