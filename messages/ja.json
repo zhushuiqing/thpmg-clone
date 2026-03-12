@@ -341,12 +341,12 @@
         "english": "Weizhen Food",
         "description": "凍結乾燥食品加工企業",
         "category": "食材事業",
-        "image": "/images/company-products/products/weizhen-product-1.jpg",
+        "image": null,
         "products": [
-          { "name": "凍結乾燥果物", "description": "イチゴ、マンゴー、ドリアンなどの熱帯果実の凍結乾燥。新鮮な果物の栄養と風味を保持", "image": "/images/company-products/products/weizhen-product-1.jpg" },
-          { "name": "凍結乾燥野菜", "description": "コーン粒、ニンジンダイス、グリーンピースなど。保存・輸送に便利", "image": "/images/company-products/products/weizhen-product-2.jpg" },
-          { "name": "凍結乾燥肉類", "description": "鶏肉ダイス、牛肉粒など。インスタント食品、ペットフードなどに適用", "image": "/images/company-products/products/weizhen-product-3.jpg" },
-          { "name": "凍結乾燥即席食品", "description": "凍結乾燥粥、凍結乾燥スープなどの即席製品。お湯を注ぐだけで食べられて便利で美味しい", "image": "/images/company-products/products/weizhen-product-4.jpg" }
+          { "name": "凍結乾燥果物", "description": "イチゴ、マンゴー、ドリアンなどの熱帯果実の凍結乾燥。新鮮な果物の栄養と風味を保持", "image": null },
+          { "name": "凍結乾燥野菜", "description": "コーン粒、ニンジンダイス、グリーンピースなど。保存・輸送に便利", "image": null },
+          { "name": "凍結乾燥肉類", "description": "鶏肉ダイス、牛肉粒など。インスタント食品、ペットフードなどに適用", "image": null },
+          { "name": "凍結乾燥即席食品", "description": "凍結乾燥粥、凍結乾燥スープなどの即席製品。お湯を注ぐだけで食べられて便利で美味しい", "image": null }
         ]
       },
       "tingtong": {
@@ -356,10 +356,11 @@
         "category": "物流事業",
         "image": null,
         "products": [
-          { "name": "倉庫サービス", "description": "全国複数地点に倉庫基地を開設。貨物の保管、ピッキング、配送のワンストップサービスを提供", "image": null },
-          { "name": "幹線輸送", "description": "全国をカバーする幹線輸送ネットワーク。タイミングが安定し、安全で信頼性が高い", "image": null },
-          { "name": "都市配送", "description": "都市のラストワンマイル配送サービス。顧客のニーズに迅速に対応", "image": null },
-          { "name": "サプライチェーン管理", "description": "顧客にサプライチェーン最適化、在庫管理、物流情報化などの総合サービスを提供", "image": null }
+          { "name": "全国に広がる物流ネットワーク", "description": "全国 270 余りの都市に"直営拠点"を保有。顧客事業の持続的な展開に合わせ、迅速で全国統一基準の質の高いサービスを提供。", "image": null },
+          { "name": "豊富な配送経験", "description": "あらゆる小売形態に向けた配送サービス。各業態の配送拠点における複雑多様な納品ルールにも対応。", "image": null },
+          { "name": "全方位的なサービス体系", "description": "顧客のニーズや業界特性に応じ、倉庫、配送、物流付加価値サービス、サプライチェーンソリューションを提供し、個別最適化されたサービス体系を構築。", "image": null },
+          { "name": "数智化プラットフォーム", "description": "倉庫、運輸、コスト、資源需要などを可視化し、シミュレーション・予測・即時警告を行い、インテリジェントな意思決定を支援。", "image": null },
+          { "name": "KPI 管理および業務改善", "description": "KPI 管理を実施し、プロジェクトの要因分析と継続的な改善を推進。", "image": null }
         ]
       }
     },

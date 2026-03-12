@@ -437,27 +437,27 @@
         "english": "Weizhen Food",
         "description": "冻干食品加工企业",
         "category": "食材事业",
-        "image": "/images/company-products/products/weizhen-product-1.jpg",
+        "image": null,
         "products": [
           {
             "name": "冻干水果",
             "description": "草莓、芒果、榴莲等热带水果冻干，保留新鲜水果的营养和风味",
-            "image": "/images/company-products/products/weizhen-product-1.jpg"
+            "image": null
           },
           {
             "name": "冻干蔬菜",
             "description": "玉米粒、胡萝卜丁、青豆等，方便储存和运输",
-            "image": "/images/company-products/products/weizhen-product-2.jpg"
+            "image": null
           },
           {
             "name": "冻干肉类",
             "description": "鸡肉丁、牛肉粒等，适用于方便食品、宠物食品等",
-            "image": "/images/company-products/products/weizhen-product-3.jpg"
+            "image": null
           },
           {
             "name": "冻干即食食品",
             "description": "冻干粥、冻干汤等即食产品，冲泡即食，便捷美味",
-            "image": "/images/company-products/products/weizhen-product-4.jpg"
+            "image": null
           }
         ]
       },
@@ -469,23 +469,28 @@
         "image": null,
         "products": [
           {
-            "name": "仓储服务",
-            "description": "全国多地设有仓储基地，提供货物存储、分拣、配送一站式服务",
+            "name": "遍布全国的物流网络",
+            "description": "在全国 270 余个城市拥有"直营网点"。为客户事业的持续展开提供快捷、全国统一标准的优质服务。",
             "image": null
           },
           {
-            "name": "干线运输",
-            "description": "覆盖全国的干线运输网络，时效稳定、安全可靠",
+            "name": "丰富的配送货经验",
+            "description": "面向所有零售形态的配送服务，熟悉各种业态配送点复杂纷繁的配送交货规则。",
             "image": null
           },
           {
-            "name": "城市配送",
-            "description": "城市最后一公里配送服务，快速响应客户需求",
+            "name": "全方位的服务体系",
+            "description": "根据客户需求及行业特点，顶通物流提供包括仓储、配送、物流增值服务及供应链解决方案，形成个性化服务体系。",
             "image": null
           },
           {
-            "name": "供应链管理",
-            "description": "为客户提供供应链优化、库存管理、物流信息化等综合服务",
+            "name": "数智化平台",
+            "description": "实现对仓储、运输、成本、资源需求等图形化展示，并进行模拟、预测、即时预警，提供智能决策。",
+            "image": null
+          },
+          {
+            "name": "KPI 管理及业务改善",
+            "description": "进行 KPI 管理，对项目进行原因分析与持续改善。",
             "image": null
           }
         ]

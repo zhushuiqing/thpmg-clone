@@ -341,12 +341,12 @@
         "english": "Weizhen Food",
         "description": "凍乾食品加工企業",
         "category": "食材事業",
-        "image": "/images/company-products/products/weizhen-product-1.jpg",
+        "image": null,
         "products": [
-          { "name": "凍乾水果", "description": "草莓、芒果、榴槤等熱帶水果凍乾，保留新鮮水果的營養和風味", "image": "/images/company-products/products/weizhen-product-1.jpg" },
-          { "name": "凍乾蔬菜", "description": "玉米粒、胡蘿蔔丁、青豆等，方便儲存和運輸", "image": "/images/company-products/products/weizhen-product-2.jpg" },
-          { "name": "凍乾肉類", "description": "雞肉丁、牛肉粒等，適用於方便食品、寵物食品等", "image": "/images/company-products/products/weizhen-product-3.jpg" },
-          { "name": "凍乾即食食品", "description": "凍乾粥、凍乾湯等即食產品，沖泡即食，便捷美味", "image": "/images/company-products/products/weizhen-product-4.jpg" }
+          { "name": "凍乾水果", "description": "草莓、芒果、榴槤等熱帶水果凍乾，保留新鮮水果的營養和風味", "image": null },
+          { "name": "凍乾蔬菜", "description": "玉米粒、胡蘿蔔丁、青豆等，方便儲存和運輸", "image": null },
+          { "name": "凍乾肉類", "description": "雞肉丁、牛肉粒等，適用於方便食品、寵物食品等", "image": null },
+          { "name": "凍乾即食食品", "description": "凍乾粥、凍乾湯等即食產品，沖泡即食，便捷美味", "image": null }
         ]
       },
       "tingtong": {
@@ -356,10 +356,11 @@
         "category": "物流事業",
         "image": null,
         "products": [
-          { "name": "倉儲服務", "description": "全國多地設有倉儲基地，提供貨物存儲、分揀、配送一站式服務", "image": null },
-          { "name": "幹線運輸", "description": "覆蓋全國的幹線運輸網絡，時效穩定、安全可靠", "image": null },
-          { "name": "城市配送", "description": "城市最後一公里配送服務，快速響應客戶需求", "image": null },
-          { "name": "供應鏈管理", "description": "為客戶提供供應鏈優化、庫存管理、物流資訊化等綜合服務", "image": null }
+          { "name": "遍佈全國的物流網絡", "description": "在全國 270 餘個城市擁有"直營網點"。為客戶事業的持續展開提供快捷、全國統一標準的優質服務。", "image": null },
+          { "name": "豐富的配送貨經驗", "description": "面向所有零售形態的配送服務，熟悉各種業態配送點複雜紛繁的配送交貨規則。", "image": null },
+          { "name": "全方位的服務體系", "description": "根據客戶需求及行業特點，頂通物流提供包括倉儲、配送、物流增值服務及供應鏈解決方案，形成個性化服務體系。", "image": null },
+          { "name": "數智化平台", "description": "實現對倉儲、運輸、成本、資源需求等圖形化展示，並進行模擬、預測、即時預警，提供智能決策。", "image": null },
+          { "name": "KPI 管理及業務改善", "description": "進行 KPI 管理，對項目進行原因分析與持續改善。", "image": null }
         ]
       }
     },
