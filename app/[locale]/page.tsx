@@ -39,7 +39,8 @@ export default function HomePage() {
     english: string;
     description: string;
     category: string;
-    products: Array<{ name: string; description: string }>;
+    image?: string;
+    products: Array<{ name: string; description: string; image?: string }>;
   }>;
 
   const businessAreas = [
