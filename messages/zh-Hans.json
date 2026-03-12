@@ -290,29 +290,29 @@
       "tingzheng": {
         "name": "顶正包材",
         "english": "Tingzheng Packaging",
-        "description": "软包装、彩盒、食品纸质容器生产企业",
+        "description": "专业软包装、彩盒、食品纸质容器生产企业",
         "category": "包材事业",
-        "image": null,
+        "image": "/images/company-products/products/tingzheng-product-1.jpg",
         "products": [
           {
             "name": "软包装材料",
-            "description": "食品级复合膜、铝箔袋、真空袋等高品质软包装产品",
-            "image": null
+            "description": "食品级复合膜、铝箔袋、真空袋、蒸煮袋等高品质软包装产品",
+            "image": "/images/company-products/products/tingzheng-product-2.jpg"
           },
           {
-            "name": "精品彩盒",
+            "name": "彩盒包装",
             "description": "高档礼品盒、化妆品盒、电子产品包装盒等精美彩盒",
-            "image": null
+            "image": "/images/company-products/products/tingzheng-product-3.jpg"
           },
           {
             "name": "食品纸质容器",
             "description": "纸杯、纸碗、纸盒等食品级纸质包装容器，安全卫生",
-            "image": null
+            "image": "/images/company-products/products/tingzheng-product-4.jpg"
           },
           {
             "name": "自立袋/吸嘴袋",
             "description": "方便实用的液体、半流体食品包装解决方案",
-            "image": null
+            "image": "/images/company-products/products/tingzheng-product-2.jpg"
           }
         ]
       },

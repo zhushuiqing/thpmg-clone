@@ -274,14 +274,14 @@
       "tingzheng": {
         "name": "頂正包材",
         "english": "Tingzheng Packaging",
-        "description": "ソフトパッケージ、カラーボックス、食品用紙容器の製造企業",
+        "description": "専門的な軟包装材料、彩盒、食品用紙容器の製造企業",
         "category": "包装資材事業",
-        "image": null,
+        "image": "/images/company-products/products/tingzheng-product-1.jpg",
         "products": [
-          { "name": "軟包装材料", "description": "食品級複合フィルム、アルミ箔袋、真空袋などの高品質軟包装製品", "image": null },
-          { "name": "プレミアムギフトボックス", "description": "高級ギフトボックス、化粧品ボックス、電子製品パッケージボックスなどの精美な彩盒", "image": null },
-          { "name": "食品用紙容器", "description": "紙コップ、紙ボウル、紙箱などの食品級紙質包装容器。安全で衛生的", "image": null },
-          { "name": "自立袋/スパウト袋", "description": "液体、半流体食品包装のための便利で実用的なソリューション", "image": null }
+          { "name": "軟包装材料", "description": "食品級複合フィルム、アルミ箔袋、真空袋、蒸煮袋などの高品質軟包装製品", "image": "/images/company-products/products/tingzheng-product-2.jpg" },
+          { "name": "彩盒包装", "description": "高級ギフトボックス、化粧品ボックス、電子製品パッケージボックスなどの精美な彩盒", "image": "/images/company-products/products/tingzheng-product-3.jpg" },
+          { "name": "食品用紙容器", "description": "紙コップ、紙ボウル、紙箱などの食品級紙質包装容器。安全で衛生的", "image": "/images/company-products/products/tingzheng-product-4.jpg" },
+          { "name": "自立袋/スパウト袋", "description": "液体、半流体食品包装のための便利で実用的なソリューション", "image": "/images/company-products/products/tingzheng-product-2.jpg" }
         ]
       },
       "hesheng": {

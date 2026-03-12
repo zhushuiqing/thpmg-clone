@@ -274,14 +274,14 @@
       "tingzheng": {
         "name": "頂正包材",
         "english": "Tingzheng Packaging",
-        "description": "軟包裝、彩盒、食品紙質容器生產企業",
+        "description": "專業軟包裝、彩盒、食品紙質容器生產企業",
         "category": "包材事業",
-        "image": null,
+        "image": "/images/company-products/products/tingzheng-product-1.jpg",
         "products": [
-          { "name": "軟包裝材料", "description": "食品級複合膜、鋁箔袋、真空袋等高品質軟包裝產品", "image": null },
-          { "name": "精品彩盒", "description": "高檔禮品盒、化妝品盒、電子產品包裝盒等精美彩盒", "image": null },
-          { "name": "食品紙質容器", "description": "紙杯、紙碗、紙盒等食品級紙質包裝容器，安全衛生", "image": null },
-          { "name": "自立袋/吸嘴袋", "description": "方便實用的液體、半流體食品包裝解決方案", "image": null }
+          { "name": "軟包裝材料", "description": "食品級複合膜、鋁箔袋、真空袋、蒸煮袋等高品質軟包裝產品", "image": "/images/company-products/products/tingzheng-product-2.jpg" },
+          { "name": "彩盒包裝", "description": "高檔禮品盒、化妝品盒、電子產品包裝盒等精美彩盒", "image": "/images/company-products/products/tingzheng-product-3.jpg" },
+          { "name": "食品紙質容器", "description": "紙杯、紙碗、紙盒等食品級紙質包裝容器，安全衛生", "image": "/images/company-products/products/tingzheng-product-4.jpg" },
+          { "name": "自立袋/吸嘴袋", "description": "方便實用的液體、半流體食品包裝解決方案", "image": "/images/company-products/products/tingzheng-product-2.jpg" }
         ]
       },
       "hesheng": {
