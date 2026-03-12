@@ -259,15 +259,16 @@
     },
     "products": {
       "baxin": {
-        "name": "秉信包裝",
+        "name": "秉信包装",
         "english": "Baxin Packaging",
         "description": "專注於向客戶提供中高檔瓦楞紙箱的專業包裝公司，是中國布局最廣、輻射範圍最大的包裝集團",
         "category": "包材事業",
+        "image": "/images/company-products/products/baxin-product-1.jpg",
         "products": [
-          { "name": "水印瓦楞紙箱", "description": "採用水性油墨印刷，環保無毒，適用於食品、電子產品等普通包裝" },
-          { "name": "預印瓦楞紙箱", "description": "先印刷後裱貼，印刷精度高，適合大批量標準化包裝需求" },
-          { "name": "膠印瓦楞紙箱", "description": "膠印印刷效果精美，適用於高檔禮品盒、展示盒等高端包裝" },
-          { "name": "功能性瓦楞包裝", "description": "具有防潮、防靜電、抗菌等特殊功能的定製化包裝解決方案" }
+          { "name": "水印瓦楞紙箱", "description": "採用水性油墨印刷，環保無毒，適用於食品、電子產品等普通包裝", "image": "/images/company-products/products/baxin-product-1.jpg" },
+          { "name": "預印瓦楞紙箱", "description": "先印刷後裱貼，印刷精度高，適合大批量標準化包裝需求", "image": "/images/company-products/products/baxin-product-2.jpg" },
+          { "name": "膠印瓦楞紙箱", "description": "膠印印刷效果精美，適用於高檔禮品盒、展示盒等高端包裝", "image": "/images/company-products/products/baxin-product-3.jpg" },
+          { "name": "功能性瓦楞包裝", "description": "具有防潮、防靜電、抗菌等特殊功能的定製化包裝解決方案", "image": "/images/company-products/products/baxin-product-4.jpg" }
         ]
       },
       "tingzheng": {
@@ -275,11 +276,12 @@
         "english": "Tingzheng Packaging",
         "description": "軟包裝、彩盒、食品紙質容器生產企業",
         "category": "包材事業",
+        "image": null,
         "products": [
-          { "name": "軟包裝材料", "description": "食品級複合膜、鋁箔袋、真空袋等高品質軟包裝產品" },
-          { "name": "精品彩盒", "description": "高檔禮品盒、化妝品盒、電子產品包裝盒等精美彩盒" },
-          { "name": "食品紙質容器", "description": "紙杯、紙碗、紙盒等食品級紙質包裝容器，安全衛生" },
-          { "name": "自立袋/吸嘴袋", "description": "方便實用的液體、半流體食品包裝解決方案" }
+          { "name": "軟包裝材料", "description": "食品級複合膜、鋁箔袋、真空袋等高品質軟包裝產品", "image": null },
+          { "name": "精品彩盒", "description": "高檔禮品盒、化妝品盒、電子產品包裝盒等精美彩盒", "image": null },
+          { "name": "食品紙質容器", "description": "紙杯、紙碗、紙盒等食品級紙質包裝容器，安全衛生", "image": null },
+          { "name": "自立袋/吸嘴袋", "description": "方便實用的液體、半流體食品包裝解決方案", "image": null }
         ]
       },
       "hesheng": {
@@ -287,11 +289,12 @@
         "english": "Hesheng Plastic",
         "description": "食品級塑膠製品製造商，專業生產各類塑膠包裝容器",
         "category": "包材事業",
+        "image": "/images/company-products/products/hesheng-product-1.jpg",
         "products": [
-          { "name": "塑膠叉子", "description": "食品級塑膠餐具，適用於餐飲、外賣等行業" },
-          { "name": "塑膠瓶蓋", "description": "各種規格的食品級塑膠瓶蓋，密封性能好" },
-          { "name": "塑膠瓶/杯", "description": "PET、PP 等材質的塑膠瓶杯，適用於飲料、食品包裝" },
-          { "name": "塑膠提把", "description": "便携式塑膠提手，適用於禮盒、包裝箱等" }
+          { "name": "塑膠叉子", "description": "食品級塑膠餐具，適用於餐飲、外賣等行業", "image": "/images/company-products/products/hesheng-product-1.jpg" },
+          { "name": "塑膠瓶蓋", "description": "各種規格的食品級塑膠瓶蓋，密封性能好", "image": "/images/company-products/products/hesheng-product-2.jpg" },
+          { "name": "塑膠瓶/杯", "description": "PET、PP 等材質的塑膠瓶杯，適用於飲料、食品包裝", "image": null },
+          { "name": "塑膠提把", "description": "便携式塑膠提手，適用於禮盒、包裝箱等", "image": null }
         ]
       },
       "prostar": {
@@ -299,11 +302,12 @@
         "english": "Prostar Starch",
         "description": "致力於澱粉及澱粉衍生物的研發和應用創新的食品級變性澱粉廠商",
         "category": "原料事業",
+        "image": null,
         "products": [
-          { "name": "食品級變性澱粉", "description": "應用於肉製品、乳製品、調味品等食品領域的增稠劑、穩定劑" },
-          { "name": "工業澱粉", "description": "應用於造紙、紡織、膠黏劑等工業領域的高性能澱粉產品" },
-          { "name": "澱粉衍生物", "description": "氧化澱粉、酯化澱粉、醚化澱粉等功能性澱粉衍生物" },
-          { "name": "定製澱粉解決方案", "description": "根據客戶產品需求定製研發專用澱粉配方" }
+          { "name": "食品級變性澱粉", "description": "應用於肉製品、乳製品、調味品等食品領域的增稠劑、穩定劑", "image": null },
+          { "name": "工業澱粉", "description": "應用於造紙、紡織、膠黏劑等工業領域的高性能澱粉產品", "image": null },
+          { "name": "澱粉衍生物", "description": "氧化澱粉、酯化澱粉、醚化澱粉等功能性澱粉衍生物", "image": null },
+          { "name": "定製澱粉解決方案", "description": "根據客戶產品需求定製研發專用澱粉配方", "image": null }
         ]
       },
       "tingzhi": {
@@ -311,11 +315,12 @@
         "english": "Tingzhi Food",
         "description": "芝麻油和芝麻製品供應商",
         "category": "原料事業",
+        "image": "/images/company-products/products/tingzhi-product-1.jpg",
         "products": [
-          { "name": "純正芝麻油", "description": "傳統工藝壓榨，香氣濃郁，適用於烹飪、涼拌等多種用途" },
-          { "name": "調味芝麻油", "description": "添加花椒、辣椒等香料的調味芝麻油，風味獨特" },
-          { "name": "熟芝麻/芝麻粉", "description": "精選優質芝麻烘焙研磨，適用於烘焙、調味品等" },
-          { "name": "芝麻醬", "description": "純芝麻研磨製成，濃郁香醇，適用於火鍋蘸料、拌麵等" }
+          { "name": "純正芝麻油", "description": "傳統工藝壓榨，香氣濃郁，適用於烹飪、涼拌等多種用途", "image": "/images/company-products/products/tingzhi-product-1.jpg" },
+          { "name": "調味芝麻油", "description": "添加花椒、辣椒等香料的調味芝麻油，風味獨特", "image": "/images/company-products/products/tingzhi-product-2.jpg" },
+          { "name": "熟芝麻/芝麻粉", "description": "精選優質芝麻烘焙研磨，適用於烘焙、調味品等", "image": "/images/company-products/products/tingzhi-product-3.jpg" },
+          { "name": "芝麻醬", "description": "純芝麻研磨製成，濃郁香醇，適用於火鍋蘸料、拌麵等", "image": "/images/company-products/products/tingzhi-product-4.jpg" }
         ]
       },
       "starpro": {
@@ -323,11 +328,12 @@
         "english": "Starpro Thailand",
         "description": "泰國食品級木薯原澱粉、變性澱粉製造商",
         "category": "原料事業",
+        "image": "/images/company-products/products/starpro-product-1.jpg",
         "products": [
-          { "name": "木薯原澱粉", "description": "泰國優質木薯製成，高純度、高粘度，適用於食品、造紙等行業" },
-          { "name": "木薯變性澱粉", "description": "預糊化澱粉、交聯澱粉等，具有特殊功能特性" },
-          { "name": "食品級木薯澱粉", "description": "符合國際食品安全標準，適用於休閒食品、速凍食品等" },
-          { "name": "工業級木薯澱粉", "description": "應用於生物降解材料、膠黏劑等工業領域" }
+          { "name": "木薯原澱粉", "description": "泰國優質木薯製成，高純度、高粘度，適用於食品、造紙等行業", "image": "/images/company-products/products/starpro-product-1.jpg" },
+          { "name": "木薯變性澱粉", "description": "預糊化澱粉、交聯澱粉等，具有特殊功能特性", "image": "/images/company-products/products/starpro-product-2.jpg" },
+          { "name": "食品級木薯澱粉", "description": "符合國際食品安全標準，適用於休閒食品、速凍食品等", "image": "/images/company-products/products/starpro-product-3.jpg" },
+          { "name": "工業級木薯澱粉", "description": "應用於生物降解材料、膠黏劑等工業領域", "image": "/images/company-products/products/starpro-product-4.jpg" }
         ]
       },
       "weizhen": {
@@ -335,11 +341,12 @@
         "english": "Weizhen Food",
         "description": "凍乾食品加工企業",
         "category": "食材事業",
+        "image": null,
         "products": [
-          { "name": "凍乾水果", "description": "草莓、芒果、榴槤等熱帶水果凍乾，保留新鮮水果的營養和風味" },
-          { "name": "凍乾蔬菜", "description": "玉米粒、胡蘿蔔丁、青豆等，方便儲存和運輸" },
-          { "name": "凍乾肉類", "description": "雞肉丁、牛肉粒等，適用於方便食品、寵物食品等" },
-          { "name": "凍乾即食食品", "description": "凍乾粥、凍乾湯等即食產品，沖泡即食，便捷美味" }
+          { "name": "凍乾水果", "description": "草莓、芒果、榴槤等熱帶水果凍乾，保留新鮮水果的營養和風味", "image": null },
+          { "name": "凍乾蔬菜", "description": "玉米粒、胡蘿蔔丁、青豆等，方便儲存和運輸", "image": null },
+          { "name": "凍乾肉類", "description": "雞肉丁、牛肉粒等，適用於方便食品、寵物食品等", "image": null },
+          { "name": "凍乾即食食品", "description": "凍乾粥、凍乾湯等即食產品，沖泡即食，便捷美味", "image": null }
         ]
       },
       "tingtong": {
@@ -347,11 +354,12 @@
         "english": "Tingtong Logistics",
         "description": "專業物流服務提供商",
         "category": "物流事業",
+        "image": null,
         "products": [
-          { "name": "倉儲服務", "description": "全國多地設有倉儲基地，提供貨物存儲、分揀、配送一站式服務" },
-          { "name": "幹線運輸", "description": "覆蓋全國的幹線運輸網絡，時效穩定、安全可靠" },
-          { "name": "城市配送", "description": "城市最後一公里配送服務，快速響應客戶需求" },
-          { "name": "供應鏈管理", "description": "為客戶提供供應鏈優化、庫存管理、物流資訊化等綜合服務" }
+          { "name": "倉儲服務", "description": "全國多地設有倉儲基地，提供貨物存儲、分揀、配送一站式服務", "image": null },
+          { "name": "幹線運輸", "description": "覆蓋全國的幹線運輸網絡，時效穩定、安全可靠", "image": null },
+          { "name": "城市配送", "description": "城市最後一公里配送服務，快速響應客戶需求", "image": null },
+          { "name": "供應鏈管理", "description": "為客戶提供供應鏈優化、庫存管理、物流資訊化等綜合服務", "image": null }
         ]
       }
     },

@@ -263,27 +263,27 @@
         "english": "Baxin Packaging",
         "description": "专注于向客户提供中高档瓦楞纸箱的专业包装公司，是中国布局最广、辐射范围最大的包装集团",
         "category": "包材事业",
-        "image": "/images/company-products/baxin-img-3.jpg",
+        "image": "/images/company-products/products/baxin-product-1.jpg",
         "products": [
           {
             "name": "水印瓦楞纸箱",
             "description": "采用水性油墨印刷，环保无毒，适用于食品、电子产品等普通包装",
-            "image": "/images/company-products/baxin-img-3.jpg"
+            "image": "/images/company-products/products/baxin-product-1.jpg"
           },
           {
             "name": "预印瓦楞纸箱",
             "description": "先印刷后裱贴，印刷精度高，适合大批量标准化包装需求",
-            "image": "/images/company-products/baxin-img-5.jpg"
+            "image": "/images/company-products/products/baxin-product-2.jpg"
           },
           {
             "name": "胶印瓦楞纸箱",
             "description": "胶印印刷效果精美，适用于高档礼品盒、展示盒等高端包装",
-            "image": "/images/company-products/baxin-img-6.jpg"
+            "image": "/images/company-products/products/baxin-product-3.jpg"
           },
           {
             "name": "功能性瓦楞包装",
             "description": "具有防潮、防静电、抗菌等特殊功能的定制化包装解决方案",
-            "image": "/images/company-products/baxin-img-1.jpg"
+            "image": "/images/company-products/products/baxin-product-4.jpg"
           }
         ]
       },
@@ -292,27 +292,27 @@
         "english": "Tingzheng Packaging",
         "description": "软包装、彩盒、食品纸质容器生产企业",
         "category": "包材事业",
-        "image": "/images/company-products/tingzheng-placeholder.jpg",
+        "image": null,
         "products": [
           {
             "name": "软包装材料",
             "description": "食品级复合膜、铝箔袋、真空袋等高品质软包装产品",
-            "image": "/images/company-products/tingzheng-placeholder.jpg"
+            "image": null
           },
           {
             "name": "精品彩盒",
             "description": "高档礼品盒、化妆品盒、电子产品包装盒等精美彩盒",
-            "image": "/images/company-products/tingzheng-placeholder.jpg"
+            "image": null
           },
           {
             "name": "食品纸质容器",
             "description": "纸杯、纸碗、纸盒等食品级纸质包装容器，安全卫生",
-            "image": "/images/company-products/tingzheng-placeholder.jpg"
+            "image": null
           },
           {
             "name": "自立袋/吸嘴袋",
             "description": "方便实用的液体、半流体食品包装解决方案",
-            "image": "/images/company-products/tingzheng-placeholder.jpg"
+            "image": null
           }
         ]
       },
@@ -321,27 +321,27 @@
         "english": "Hesheng Plastic",
         "description": "食品级塑料制品制造商，专业生产各类塑料包装容器",
         "category": "包材事业",
-        "image": "/images/company-products/hesheng-img-1.jpg",
+        "image": "/images/company-products/products/hesheng-product-1.jpg",
         "products": [
           {
             "name": "塑料叉子",
             "description": "食品级塑料餐具，适用于餐饮、外卖等行业",
-            "image": "/images/company-products/hesheng-img-3.jpg"
+            "image": "/images/company-products/products/hesheng-product-1.jpg"
           },
           {
             "name": "塑料瓶盖",
             "description": "各种规格的食品级塑料瓶盖，密封性能好",
-            "image": "/images/company-products/hesheng-img-4.jpg"
+            "image": "/images/company-products/products/hesheng-product-2.jpg"
           },
           {
             "name": "塑料瓶/杯",
             "description": "PET、PP 等材质的塑料瓶杯，适用于饮料、食品包装",
-            "image": "/images/company-products/hesheng-img-1.jpg"
+            "image": null
           },
           {
             "name": "塑料提把",
             "description": "便携式塑料提手，适用于礼盒、包装箱等",
-            "image": "/images/company-products/hesheng-img-5.jpg"
+            "image": null
           }
         ]
       },
@@ -350,27 +350,27 @@
         "english": "Prostar Starch",
         "description": "致力于淀粉及淀粉衍生物的研发和应用创新的食品级变性淀粉厂商",
         "category": "原料事业",
-        "image": "/images/company-products/prostar-placeholder.jpg",
+        "image": null,
         "products": [
           {
             "name": "食品级变性淀粉",
             "description": "应用于肉制品、乳制品、调味品等食品领域的增稠剂、稳定剂",
-            "image": "/images/company-products/prostar-placeholder.jpg"
+            "image": null
           },
           {
             "name": "工业淀粉",
             "description": "应用于造纸、纺织、胶粘剂等工业领域的高性能淀粉产品",
-            "image": "/images/company-products/prostar-placeholder.jpg"
+            "image": null
           },
           {
             "name": "淀粉衍生物",
             "description": "氧化淀粉、酯化淀粉、醚化淀粉等功能性淀粉衍生物",
-            "image": "/images/company-products/prostar-placeholder.jpg"
+            "image": null
           },
           {
             "name": "定制淀粉解决方案",
             "description": "根据客户产品需求定制研发专用淀粉配方",
-            "image": "/images/company-products/prostar-placeholder.jpg"
+            "image": null
           }
         ]
       },
@@ -379,27 +379,27 @@
         "english": "Tingzhi Food",
         "description": "芝麻油和芝麻制品供应商",
         "category": "原料事业",
-        "image": "/images/company-products/tingzhi-img-2.jpg",
+        "image": "/images/company-products/products/tingzhi-product-1.jpg",
         "products": [
           {
             "name": "纯正芝麻油",
             "description": "传统工艺压榨，香气浓郁，适用于烹饪、凉拌等多种用途",
-            "image": "/images/company-products/tingzhi-img-5.jpg"
+            "image": "/images/company-products/products/tingzhi-product-1.jpg"
           },
           {
             "name": "调味芝麻油",
             "description": "添加花椒、辣椒等香料的调味芝麻油，风味独特",
-            "image": "/images/company-products/tingzhi-img-6.jpg"
+            "image": "/images/company-products/products/tingzhi-product-2.jpg"
           },
           {
             "name": "熟芝麻/芝麻粉",
             "description": "精选优质芝麻烘焙研磨，适用于烘焙、调味品等",
-            "image": "/images/company-products/tingzhi-img-7.jpg"
+            "image": "/images/company-products/products/tingzhi-product-3.jpg"
           },
           {
             "name": "芝麻酱",
             "description": "纯芝麻研磨制成，浓郁香醇，适用于火锅蘸料、拌面等",
-            "image": "/images/company-products/tingzhi-img-8.jpg"
+            "image": "/images/company-products/products/tingzhi-product-4.jpg"
           }
         ]
       },
@@ -408,27 +408,27 @@
         "english": "Starpro Thailand",
         "description": "泰国食品级木薯原淀粉、变性淀粉制造商",
         "category": "原料事业",
-        "image": "/images/company-products/starpro-img-6.jpg",
+        "image": "/images/company-products/products/starpro-product-1.jpg",
         "products": [
           {
             "name": "木薯原淀粉",
             "description": "泰国优质木薯制成，高纯度、高粘度，适用于食品、造纸等行业",
-            "image": "/images/company-products/starpro-img-7.jpg"
+            "image": "/images/company-products/products/starpro-product-1.jpg"
           },
           {
             "name": "木薯变性淀粉",
             "description": "预糊化淀粉、交联淀粉等，具有特殊功能特性",
-            "image": "/images/company-products/starpro-img-8.jpg"
+            "image": "/images/company-products/products/starpro-product-2.jpg"
           },
           {
             "name": "食品级木薯淀粉",
             "description": "符合国际食品安全标准，适用于休闲食品、速冻食品等",
-            "image": "/images/company-products/starpro-img-9.jpg"
+            "image": "/images/company-products/products/starpro-product-3.jpg"
           },
           {
             "name": "工业级木薯淀粉",
             "description": "应用于生物降解材料、胶粘剂等工业领域",
-            "image": "/images/company-products/starpro-img-10.jpg"
+            "image": "/images/company-products/products/starpro-product-4.jpg"
           }
         ]
       },
@@ -437,27 +437,27 @@
         "english": "Weizhen Food",
         "description": "冻干食品加工企业",
         "category": "食材事业",
-        "image": "/images/company-products/weizhen-placeholder.jpg",
+        "image": null,
         "products": [
           {
             "name": "冻干水果",
             "description": "草莓、芒果、榴莲等热带水果冻干，保留新鲜水果的营养和风味",
-            "image": "/images/company-products/weizhen-placeholder.jpg"
+            "image": null
           },
           {
             "name": "冻干蔬菜",
             "description": "玉米粒、胡萝卜丁、青豆等，方便储存和运输",
-            "image": "/images/company-products/weizhen-placeholder.jpg"
+            "image": null
           },
           {
             "name": "冻干肉类",
             "description": "鸡肉丁、牛肉粒等，适用于方便食品、宠物食品等",
-            "image": "/images/company-products/weizhen-placeholder.jpg"
+            "image": null
           },
           {
             "name": "冻干即食食品",
             "description": "冻干粥、冻干汤等即食产品，冲泡即食，便捷美味",
-            "image": "/images/company-products/weizhen-placeholder.jpg"
+            "image": null
           }
         ]
       },
@@ -466,27 +466,27 @@
         "english": "Tingtong Logistics",
         "description": "专业物流服务提供商",
         "category": "物流事业",
-        "image": "/images/company-products/tingtong-placeholder.jpg",
+        "image": null,
         "products": [
           {
             "name": "仓储服务",
             "description": "全国多地设有仓储基地，提供货物存储、分拣、配送一站式服务",
-            "image": "/images/company-products/tingtong-placeholder.jpg"
+            "image": null
           },
           {
             "name": "干线运输",
             "description": "覆盖全国的干线运输网络，时效稳定、安全可靠",
-            "image": "/images/company-products/tingtong-placeholder.jpg"
+            "image": null
           },
           {
             "name": "城市配送",
             "description": "城市最后一公里配送服务，快速响应客户需求",
-            "image": "/images/company-products/tingtong-placeholder.jpg"
+            "image": null
           },
           {
             "name": "供应链管理",
             "description": "为客户提供供应链优化、库存管理、物流信息化等综合服务",
-            "image": "/images/company-products/tingtong-placeholder.jpg"
+            "image": null
           }
         ]
       }
