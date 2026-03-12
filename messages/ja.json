@@ -263,11 +263,12 @@
         "english": "Baxin Packaging",
         "description": "中高檔瓦楞紙箱の提供に特化した専門包装会社。中国で最も広範囲に展開し、最も広いカバレッジを誇る包装グループ",
         "category": "包装資材事業",
+        "image": "/images/company-products/products/baxin-product-1.jpg",
         "products": [
-          { "name": "水印瓦楞紙箱", "description": "水性インクを使用し、環境に優しく無毒。食品、電子製品などの普通包装に適用" },
-          { "name": "預印瓦楞紙箱", "description": "先印刷後裱貼。印刷精度が高く、大批量標準化包装ニーズに適す" },
-          { "name": "膠印瓦楞紙箱", "description": "膠印印刷効果は精美。高級ギフトボックス、展示ボックスなど高端包装に適用" },
-          { "name": "機能性瓦楞包装", "description": "防潮、防静電気、抗菌などの特殊機能を備えたカスタマイズ包装ソリューション" }
+          { "name": "水印瓦楞紙箱", "description": "水性インクを使用し、環境に優しく無毒。食品、電子製品などの普通包装に適用", "image": "/images/company-products/products/baxin-product-1.jpg" },
+          { "name": "預印瓦楞紙箱", "description": "先印刷後裱貼。印刷精度が高く、大批量標準化包装ニーズに適す", "image": "/images/company-products/products/baxin-product-2.jpg" },
+          { "name": "膠印瓦楞紙箱", "description": "膠印印刷効果は精美。高級ギフトボックス、展示ボックスなど高端包装に適用", "image": "/images/company-products/products/baxin-product-3.jpg" },
+          { "name": "機能性瓦楞包装", "description": "防潮、防静電気、抗菌などの特殊機能を備えたカスタマイズ包装ソリューション", "image": "/images/company-products/products/baxin-product-4.jpg" }
         ]
       },
       "tingzheng": {
@@ -275,11 +276,12 @@
         "english": "Tingzheng Packaging",
         "description": "ソフトパッケージ、カラーボックス、食品用紙容器の製造企業",
         "category": "包装資材事業",
+        "image": null,
         "products": [
-          { "name": "軟包装材料", "description": "食品級複合フィルム、アルミ箔袋、真空袋などの高品質軟包装製品" },
-          { "name": "プレミアムギフトボックス", "description": "高級ギフトボックス、化粧品ボックス、電子製品パッケージボックスなどの精美な彩盒" },
-          { "name": "食品用紙容器", "description": "紙コップ、紙ボウル、紙箱などの食品級紙質包装容器。安全で衛生的" },
-          { "name": "自立袋/スパウト袋", "description": "液体、半流体食品包装のための便利で実用的なソリューション" }
+          { "name": "軟包装材料", "description": "食品級複合フィルム、アルミ箔袋、真空袋などの高品質軟包装製品", "image": null },
+          { "name": "プレミアムギフトボックス", "description": "高級ギフトボックス、化粧品ボックス、電子製品パッケージボックスなどの精美な彩盒", "image": null },
+          { "name": "食品用紙容器", "description": "紙コップ、紙ボウル、紙箱などの食品級紙質包装容器。安全で衛生的", "image": null },
+          { "name": "自立袋/スパウト袋", "description": "液体、半流体食品包装のための便利で実用的なソリューション", "image": null }
         ]
       },
       "hesheng": {
@@ -287,11 +289,12 @@
         "english": "Hesheng Plastic",
         "description": "食品級プラスチック製品製造業者。各类プラスチック包装容器を専門に生産",
         "category": "包装資材事業",
+        "image": "/images/company-products/products/hesheng-product-1.jpg",
         "products": [
-          { "name": "プラスチックフォーク", "description": "食品級プラスチック食器。飲食店、テイクアウト業界に適用" },
-          { "name": "プラスチックボトルキャップ", "description": "各種規格の食品級プラスチックボトルキャップ。密封性が良好" },
-          { "name": "プラスチックボトル/カップ", "description": "PET、PP などの材質のプラスチックボトルカップ。飲料、食品包装に適用" },
-          { "name": "プラスチック取っ手", "description": "携帯に便利なプラスチック取っ手。ギフトボックス、包装箱などに適用" }
+          { "name": "プラスチックフォーク", "description": "食品級プラスチック食器。飲食店、テイクアウト業界に適用", "image": "/images/company-products/products/hesheng-product-1.jpg" },
+          { "name": "プラスチックボトルキャップ", "description": "各種規格の食品級プラスチックボトルキャップ。密封性が良好", "image": "/images/company-products/products/hesheng-product-2.jpg" },
+          { "name": "プラスチックボトル/カップ", "description": "PET、PP などの材質のプラスチックボトルカップ。飲料、食品包装に適用", "image": null },
+          { "name": "プラスチック取っ手", "description": "携帯に便利なプラスチック取っ手。ギフトボックス、包装箱などに適用", "image": null }
         ]
       },
       "prostar": {
@@ -299,11 +302,12 @@
         "english": "Prostar Starch",
         "description": "澱粉および澱粉誘導体の研究開発と応用革新に取り組む食品級変性澱粉メーカー",
         "category": "原料事業",
+        "image": null,
         "products": [
-          { "name": "食品級変性澱粉", "description": "肉製品、乳製品、調味料などの食品分野に適用される増粘剤、安定剤" },
-          { "name": "工業用澱粉", "description": "製紙、繊維、接着剤などの工業分野に適用される高性能澱粉製品" },
-          { "name": "澱粉誘導体", "description": "酸化澱粉、エステル化澱粉、エーテル化澱粉などの機能性澱粉誘導体" },
-          { "name": "カスタム澱粉ソリューション", "description": "顧客の製品ニーズに応じて専用澱粉処方をカスタム研究開発" }
+          { "name": "食品級変性澱粉", "description": "肉製品、乳製品、調味料などの食品分野に適用される増粘剤、安定剤", "image": null },
+          { "name": "工業用澱粉", "description": "製紙、繊維、接着剤などの工業分野に適用される高性能澱粉製品", "image": null },
+          { "name": "澱粉誘導体", "description": "酸化澱粉、エステル化澱粉、エーテル化澱粉などの機能性澱粉誘導体", "image": null },
+          { "name": "カスタム澱粉ソリューション", "description": "顧客の製品ニーズに応じて専用澱粉処方をカスタム研究開発", "image": null }
         ]
       },
       "tingzhi": {
@@ -311,11 +315,12 @@
         "english": "Tingzhi Food",
         "description": "ごま油およびごま製品サプライヤー",
         "category": "原料事業",
+        "image": "/images/company-products/products/tingzhi-product-1.jpg",
         "products": [
-          { "name": "純正ごま油", "description": "伝統的な製法で搾油。濃厚な香り。調理、冷拌など多様な用途に適用" },
-          { "name": "調味ごま油", "description": "山椒、唐辛子などの香料を添加した調味ごま油。独特の風味" },
-          { "name": "焙煎ごま/ごま粉", "description": "厳選した高品質ごまを焙煎・粉砕。ベーカリー、調味料などに適用" },
-          { "name": "ごまペースト", "description": "純ごまをすりつぶして製造。濃厚で香ばしい。火鍋のタレ、拌麺などに適用" }
+          { "name": "純正ごま油", "description": "伝統的な製法で搾油。濃厚な香り。調理、冷拌など多様な用途に適用", "image": "/images/company-products/products/tingzhi-product-1.jpg" },
+          { "name": "調味ごま油", "description": "山椒、唐辛子などの香料を添加した調味ごま油。独特の風味", "image": "/images/company-products/products/tingzhi-product-2.jpg" },
+          { "name": "焙煎ごま/ごま粉", "description": "厳選した高品質ごまを焙煎・粉砕。ベーカリー、調味料などに適用", "image": "/images/company-products/products/tingzhi-product-3.jpg" },
+          { "name": "ごまペースト", "description": "純ごまをすりつぶして製造。濃厚で香ばしい。火鍋のタレ、拌麺などに適用", "image": "/images/company-products/products/tingzhi-product-4.jpg" }
         ]
       },
       "starpro": {
@@ -323,11 +328,12 @@
         "english": "Starpro Thailand",
         "description": "タイ食品級キャッサバ原澱粉・変性澱粉製造業者",
         "category": "原料事業",
+        "image": "/images/company-products/products/starpro-product-1.jpg",
         "products": [
-          { "name": "キャッサバ原澱粉", "description": "タイ産高品質キャッサバ製。高純度、高粘度。食品、製紙などの業界に適用" },
-          { "name": "キャッサバ変性澱粉", "description": "プレ糊化澱粉、架橋澱粉など。特殊な機能特性を備える" },
-          { "name": "食品級キャッサバ澱粉", "description": "国際食品安全基準に適合。スナック菓子、速凍食品などに適用" },
-          { "name": "工業級キャッサバ澱粉", "description": "生分解性材料、接着剤などの工業分野に適用" }
+          { "name": "キャッサバ原澱粉", "description": "タイ産高品質キャッサバ製。高純度、高粘度。食品、製紙などの業界に適用", "image": "/images/company-products/products/starpro-product-1.jpg" },
+          { "name": "キャッサバ変性澱粉", "description": "プレ糊化澱粉、架橋澱粉など。特殊な機能特性を備える", "image": "/images/company-products/products/starpro-product-2.jpg" },
+          { "name": "食品級キャッサバ澱粉", "description": "国際食品安全基準に適合。スナック菓子、速凍食品などに適用", "image": "/images/company-products/products/starpro-product-3.jpg" },
+          { "name": "工業級キャッサバ澱粉", "description": "生分解性材料、接着剤などの工業分野に適用", "image": "/images/company-products/products/starpro-product-4.jpg" }
         ]
       },
       "weizhen": {
@@ -335,11 +341,12 @@
         "english": "Weizhen Food",
         "description": "凍結乾燥食品加工企業",
         "category": "食材事業",
+        "image": null,
         "products": [
-          { "name": "凍結乾燥果物", "description": "イチゴ、マンゴー、ドリアンなどの熱帯果実の凍結乾燥。新鮮な果物の栄養と風味を保持" },
-          { "name": "凍結乾燥野菜", "description": "コーン粒、ニンジンダイス、グリーンピースなど。保存・輸送に便利" },
-          { "name": "凍結乾燥肉類", "description": "鶏肉ダイス、牛肉粒など。インスタント食品、ペットフードなどに適用" },
-          { "name": "凍結乾燥即席食品", "description": "凍結乾燥粥、凍結乾燥スープなどの即席製品。お湯を注ぐだけで食べられて便利で美味しい" }
+          { "name": "凍結乾燥果物", "description": "イチゴ、マンゴー、ドリアンなどの熱帯果実の凍結乾燥。新鮮な果物の栄養と風味を保持", "image": null },
+          { "name": "凍結乾燥野菜", "description": "コーン粒、ニンジンダイス、グリーンピースなど。保存・輸送に便利", "image": null },
+          { "name": "凍結乾燥肉類", "description": "鶏肉ダイス、牛肉粒など。インスタント食品、ペットフードなどに適用", "image": null },
+          { "name": "凍結乾燥即席食品", "description": "凍結乾燥粥、凍結乾燥スープなどの即席製品。お湯を注ぐだけで食べられて便利で美味しい", "image": null }
         ]
       },
       "tingtong": {
@@ -347,11 +354,12 @@
         "english": "Tingtong Logistics",
         "description": "専門物流サービスプロバイダー",
         "category": "物流事業",
+        "image": null,
         "products": [
-          { "name": "倉庫サービス", "description": "全国複数地点に倉庫基地を開設。貨物の保管、ピッキング、配送のワンストップサービスを提供" },
-          { "name": "幹線輸送", "description": "全国をカバーする幹線輸送ネットワーク。タイミングが安定し、安全で信頼性が高い" },
-          { "name": "都市配送", "description": "都市のラストワンマイル配送サービス。顧客のニーズに迅速に対応" },
-          { "name": "サプライチェーン管理", "description": "顧客にサプライチェーン最適化、在庫管理、物流情報化などの総合サービスを提供" }
+          { "name": "倉庫サービス", "description": "全国複数地点に倉庫基地を開設。貨物の保管、ピッキング、配送のワンストップサービスを提供", "image": null },
+          { "name": "幹線輸送", "description": "全国をカバーする幹線輸送ネットワーク。タイミングが安定し、安全で信頼性が高い", "image": null },
+          { "name": "都市配送", "description": "都市のラストワンマイル配送サービス。顧客のニーズに迅速に対応", "image": null },
+          { "name": "サプライチェーン管理", "description": "顧客にサプライチェーン最適化、在庫管理、物流情報化などの総合サービスを提供", "image": null }
         ]
       }
     },
