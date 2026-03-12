@@ -1,28 +1,64 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import FadeIn from '@/components/FadeIn';
 
 export const dynamic = 'force-dynamic';
 
 export default function AboutPage() {
+  const t = useTranslations('About');
+  const tHome = useTranslations('Home');
+  const tCommon = useTranslations('Common');
+  const tContact = useTranslations('Contact');
+
+  // Get history data from translations
+  const historyData = t.raw('historyData') as Array<{
+    year: string;
+    event: string;
+  }>;
+
+  const strategyItems = [
+    { key: 'steady', label: t('steady') },
+    { key: 'technology', label: t('technology') },
+    { key: 'quality', label: t('quality') },
+    { key: 'cost', label: t('cost') },
+  ];
+
+  const valuesItems = [
+    { key: 'integrity', label: t('integrity') },
+    { key: 'pragmatic', label: t('pragmatic') },
+    { key: 'innovation', label: t('innovation') },
+    { key: 'progress', label: t('progress') },
+  ];
+
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 to-indigo-100 overflow-hidden pt-20 pb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <FadeIn>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              关于我们
-            </h1>
-          </FadeIn>
-          <nav className="mt-4 text-gray-600 text-sm">
-            <Link href="/" className="hover:text-blue-600 transition-colors">
-              首页
-            </Link>
-            <span className="mx-2">/</span>
-            <span className="text-gray-900">关于我们</span>
-          </nav>
+      {/* Hero Section with Banner */}
+      <section className="relative h-[400px] overflow-hidden">
+        <Image
+          src="/images/thpmg/about-banner.jpg"
+          alt={t('pageTitle')}
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-blue-900/30"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white">
+            <FadeIn>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">
+                {tHome('heroTitle')}
+              </h1>
+            </FadeIn>
+            <nav className="mt-4 text-gray-200 text-sm">
+              <Link href="/" className="hover:text-white transition-colors">
+                {tCommon('home')}
+              </Link>
+              <span className="mx-2">/</span>
+              <span>{t('pageTitle')}</span>
+            </nav>
+          </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-white rounded-t-[50%]"></div>
       </section>
 
       {/* Company Profile */}
@@ -30,159 +66,236 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              公司简介
+              {t('companyTitle')}
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
           </div>
           <div className="max-w-4xl mx-auto">
-            <div className="bg-gray-50 p-8 rounded-lg shadow-sm">
+            <div className="bg-gray-50 p-8 rounded-lg shadow-sm mb-8">
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                THPMG是一家专业的服务型企业，致力于为客户提供最优质的专业解决方案。公司成立于多年前，凭借卓越的服务质量和专业的团队，已发展成为行业内具有重要影响力的企业。
+                {t('companyDescription')}
               </p>
-              <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                我们始终坚持"客户至上、质量第一"的经营理念，注重技术创新和管理优化，不断提升服务质量和客户满意度。我们的专业团队由经验丰富的行业专家组成，具备深厚的专业知识和丰富的实践经验。
-              </p>
+            </div>
+            <div className="bg-white border-2 border-blue-600 p-8 rounded-lg mb-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t('pmiTitle')}</h3>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <span className="font-bold text-blue-600 text-xl mr-3 flex-shrink-0">P</span>
+                  <div>
+                    <span className="font-semibold text-gray-900">Packaging</span>
+                    <p className="text-gray-700 mt-1">{tHome('pmiP')}</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="font-bold text-blue-600 text-xl mr-3 flex-shrink-0">M</span>
+                  <div>
+                    <span className="font-semibold text-gray-900">Materials</span>
+                    <p className="text-gray-700 mt-1">{tHome('pmiM')}</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="font-bold text-blue-600 text-xl mr-3 flex-shrink-0">I</span>
+                  <div>
+                    <span className="font-semibold text-gray-900">Ingredients</span>
+                    <p className="text-gray-700 mt-1">{tHome('pmiI')}</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-50 p-8 rounded-lg">
               <p className="text-gray-700 text-lg leading-relaxed">
-                通过多年的发展，我们已经为众多企业提供了优质的服务，赢得了广大客户的信赖和支持。未来，我们将继续秉承专业、诚信、创新、共赢的核心价值观，不断追求卓越，为客户创造更大的价值。
+                {t('pmiDescription')}
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Core Values */}
+      {/* Strategy & Values */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              核心价值观
+              {t('strategyTitle')}
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              我们的企业文化和核心价值观
-            </p>
           </div>
-          <div className="grid md:grid-cols-4 gap-8">
-            {[
-              {
-                title: '专业',
-                icon: '🎯',
-                description: '我们拥有专业的团队和深厚的技术积累，为客户提供专业的服务和解决方案。',
-              },
-              {
-                title: '诚信',
-                icon: '🤝',
-                description: '我们始终坚持诚信经营，以诚待人，赢得了客户的信任和尊重。',
-              },
-              {
-                title: '创新',
-                icon: '🚀',
-                description: '我们注重技术创新和管理创新，不断提升服务质量和效率。',
-              },
-              {
-                title: '共赢',
-                icon: '⭐',
-                description: '我们与客户、合作伙伴共同发展，实现互利共赢。'
-              },
-            ].map((value, index) => (
-              <div
-                key={index}
-                className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center"
-              >
-                <div className="text-5xl mb-4">{value.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  {value.title}
-                </h3>
-                <p className="text-gray-600">{value.description}</p>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t('strategy')}</h3>
+              <div className="grid grid-cols-2 gap-4">
+                {strategyItems.map((item, index) => (
+                  <div key={index} className="bg-blue-50 p-6 rounded-lg text-center">
+                    <div className="text-2xl font-bold text-blue-600">{item.label}</div>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-sm">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t('values')}</h3>
+              <div className="grid grid-cols-2 gap-4">
+                {valuesItems.map((item, index) => (
+                  <div key={index} className="bg-green-50 p-6 rounded-lg text-center">
+                    <div className="text-2xl font-bold text-green-600">{item.label}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Our Strengths */}
+      {/* History Timeline */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              我们的优势
+              {t('historyTitle')}
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              为什么选择我们
-            </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  专业的团队
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  我们拥有一支经验丰富、专业素质过硬的团队，成员均具备深厚的专业知识和丰富的实践经验，能够为客户提供专业的解决方案。
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  丰富的经验
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  多年行业经验积累，我们深入了解行业特点和客户需求，能够提供针对性的解决方案，帮助客户实现业务目标。
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  优质的服务
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  我们始终坚持以客户为中心的服务理念，注重服务质量和客户体验，提供全方位、一站式的专业服务。
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  持续创新
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  我们注重技术创新和管理创新，不断引进新技术、新方法，提升服务质量和效率，保持行业领先地位。
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-blue-50 p-8 rounded-lg text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
-                <div className="text-gray-700 font-medium">年经验</div>
-              </div>
-              <div className="bg-green-50 p-8 rounded-lg text-center">
-                <div className="text-4xl font-bold text-green-600 mb-2">100+</div>
-                <div className="text-gray-700 font-medium">合作企业</div>
-              </div>
-              <div className="bg-purple-50 p-8 rounded-lg text-center">
-                <div className="text-4xl font-bold text-purple-600 mb-2">98%</div>
-                <div className="text-gray-700 font-medium">客户满意度</div>
-              </div>
-              <div className="bg-orange-50 p-8 rounded-lg text-center">
-                <div className="text-4xl font-bold text-orange-600 mb-2">50+</div>
-                <div className="text-gray-700 font-medium">专业团队</div>
+          <div className="mb-12">
+            <Image
+              src="/images/thpmg/history.png"
+              alt={t('historyTitle')}
+              width={800}
+              height={400}
+              className="rounded-lg shadow-lg mx-auto"
+            />
+          </div>
+          <div className="max-w-3xl mx-auto">
+            <div className="relative">
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-600"></div>
+              <div className="space-y-8">
+                {historyData.map((item, index) => (
+                  <div key={index} className={`flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
+                    <div className={`w-5/12 ${index % 2 === 0 ? 'text-right pr-8' : 'text-left pl-8'}`}>
+                      <div className="bg-blue-50 p-4 rounded-lg shadow-sm">
+                        <div className="text-2xl font-bold text-blue-600">{item.year}{t('year')}</div>
+                        <div className="text-gray-700 mt-2">{item.event}</div>
+                      </div>
+                    </div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow"></div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Contact CTA */}
+      {/* Scale Stats */}
+      <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              {t('scaleTitle')}
+            </h2>
+            <div className="w-24 h-1 bg-white mx-auto opacity-50"></div>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center text-white">
+              <div className="text-5xl font-bold mb-4">7500+</div>
+              <div className="text-xl opacity-80">{t('scaleEmployees')}</div>
+              <div className="text-sm opacity-60 mt-1">{t('asOfDate')}</div>
+            </div>
+            <div className="text-center text-white">
+              <div className="text-5xl font-bold mb-4">14+4</div>
+              <div className="text-xl opacity-80">{t('scaleBases')}</div>
+              <div className="text-sm opacity-60 mt-1">{t('scaleBasesDetail')}</div>
+            </div>
+            <div className="text-center text-white">
+              <div className="text-5xl font-bold mb-4">8+</div>
+              <div className="text-xl opacity-80">{t('scaleCompanies')}</div>
+              <div className="text-sm opacity-60 mt-1">{t('scaleCompaniesDetail')}</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Subsidiaries */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              {t('subsidiariesTitle')}
+            </h2>
+            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+          </div>
+          <div className="mb-12">
+            <Image
+              src="/images/thpmg/subsidiaries.jpg"
+              alt={t('subsidiariesTitle')}
+              width={800}
+              height={500}
+              className="rounded-lg shadow-lg mx-auto"
+            />
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Subsidiaries content removed - now handled in /subsidiaries page */}
+          </div>
+        </div>
+      </section>
+
+      {/* Factory Map */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              {t('factoryTitle')}
+            </h2>
+            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+              {t('factorySubtitle')}
+            </p>
+          </div>
+          <div className="bg-white p-8 rounded-lg shadow-sm">
+            <Image
+              src="/images/thpmg/factory-map.png"
+              alt={t('factoryTitle')}
+              width={650}
+              height={500}
+              className="mx-auto"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Info */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+            {t('contactTitle')}
+          </h2>
+          <div className="bg-gray-50 p-8 rounded-lg">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <div className="text-gray-500 text-sm mb-2">{t('address')}</div>
+                <div className="text-gray-900 font-medium">{tContact('addressValue')}</div>
+              </div>
+              <div>
+                <div className="text-gray-500 text-sm mb-2">{t('phone')}</div>
+                <div className="text-gray-900 font-medium">{tContact('phoneValue')}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            期待与您合作
+            {t('ctaTitle')}
           </h2>
           <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-            我们期待与您的合作，共同创造更美好的未来。如有任何问题或需求，欢迎随时与我们联系。
+            {t('ctaSubtitle')}
           </p>
           <Link
             href="/contact"
-            className="inline-block px-8 py-4 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl"
+            className="inline-block px-8 py-4 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition-colors"
           >
-            联系我们
+            {t('ctaButton')}
           </Link>
         </div>
       </section>

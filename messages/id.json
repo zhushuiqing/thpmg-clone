@@ -1,0 +1,403 @@
+{
+  "Navigation": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "news": "Berita",
+    "recruitment": "Karir",
+    "subsidiaries": "Anak Perusahaan",
+    "contact": "Kontak",
+    "services": "Layanan",
+    "language": "Bahasa Indonesia",
+    "locale": "id"
+  },
+  "Home": {
+    "heroTitle": "Kantor Pusat P.M.I",
+    "heroSubtitle": "Stabil · Teknologi · Kualitas · Biaya",
+    "heroDescription": "8 anak perusahaan, basis produksi di 14 provinsi Tiongkok dan 4 kota Thailand, dengan hampir 7.500 karyawan",
+    "ctaAbout": "Tentang Kami",
+    "ctaSubsidiaries": "Anak Perusahaan",
+    "aboutTitle": "Tentang P.M.I",
+    "aboutDescription": "Kantor Pusat P.M.I didirikan pada Januari 2015, mengawasi Kantor Direktur Keuangan, Institut Penelitian Pusat, Departemen Sumber Daya Manusia, Departemen Perencanaan Bisnis, dan 8 anak perusahaan (termasuk 3 bisnis kemasan, 3 bisnis bahan baku, 1 bisnis bahan makanan, dan 1 bisnis logistik). Memiliki basis produksi di 14 provinsi di Tiongkok dan 4 kota di Thailand. Hingga Desember 2025, Kantor Pusat P.M.I memiliki hampir 7.500 karyawan.",
+    "pmiTitle": "Arti P.M.I",
+    "pmiP": "Packaging(Kemasan): Produsen kemasan lunak, kotak warna, dan wadah kertas makanan - Tingzheng Packaging; Perusahaan kemasan yang berkomitmen menyediakan solusi layanan kemasan satu pintu dengan kertas bergelombang ramah lingkungan - Baxin Packaging; Produsen produk plastik grade makanan - Hesheng Plastic",
+    "pmiM": "Materials(Bahan Baku): Pemasok minyak wijen dan produk wijen - Tingzhi Food; Produsen pati termodifikasi grade makanan yang berdedikasi pada penelitian dan pengembangan pati dan turunannya - China Prostar; Produsen pati singkong asli dan pati termodifikasi grade makanan - Thailand Prostar",
+    "pmiI": "Ingredients(Bahan Makanan): Perusahaan pengolahan makanan beku kering - Weizhen Food",
+    "scaleTitle": "Skala Perusahaan",
+    "scaleEmployees": "Karyawan",
+    "scaleBases": "Basis Produksi",
+    "scaleCompanies": "Anak Perusahaan",
+    "scaleSince": "Sejak",
+    "businessTitle": "Bidang Usaha",
+    "businessSubtitle": "Mencakup empat bidang utama: Kemasan, Bahan Baku, Bahan Makanan, dan Logistik",
+    "packaging": "Bisnis Kemasan",
+    "materials": "Bisnis Bahan Baku",
+    "ingredients": "Bisnis Bahan Makanan",
+    "logistics": "Bisnis Logistik",
+    "subsidiariesTitle": "Anak Perusahaan",
+    "viewAll": "Lihat Semua",
+    "newsTitle": "Berita Karyawan",
+    "viewAllNews": "Lihat Semua Berita",
+    "contactTitle": "Hubungi Kami",
+    "contactButton": "Kirim Pertanyaan",
+    "recruitButton": "Bergabunglah",
+    "businessDesc": {
+      "packaging": "Kemasan lunak, kotak warna, wadah kertas makanan, kertas bergelombang ramah lingkungan",
+      "materials": "Minyak wijen, pati dan turunannya",
+      "ingredients": "Pengolahan makanan beku kering",
+      "logistics": "Layanan logistik profesional"
+    },
+    "companiesCount": " perusahaan",
+    "learnMore": "Pelajari lebih lanjut",
+    "factoryTitle": "Distribusi Basis Produksi",
+    "factorySubtitle": "Basis produksi di 14 provinsi Tiongkok dan 4 kota Thailand",
+    "readMore": "Baca lebih lanjut",
+    "addressLabel": "Alamat",
+    "phoneLabel": "Telepon",
+    "footerName": "Kantor Pusat",
+    "history": "Sejarah"
+  },
+  "About": {
+    "pageTitle": "Tentang Kami",
+    "companyTitle": "Profil Perusahaan",
+    "companyDescription": "Kantor Pusat P.M.I didirikan pada Januari 2015, mengawasi Kantor Direktur Keuangan, Institut Penelitian Pusat, Departemen Sumber Daya Manusia, Departemen Perencanaan Bisnis, dan 8 anak perusahaan. Memiliki basis produksi di 14 provinsi Tiongkok dan 4 kota Thailand. Hingga Desember 2025, memiliki hampir 7.500 karyawan.",
+    "pmiTitle": "Arti P.M.I",
+    "pmiDescription": "Kantor Pusat P.M.I menjadikan 'Stabil, Teknologi, Kualitas, Biaya' sebagai kebijakan strategis, bertanggung jawab atas integrasi, layanan, kinerja, dan pengawasan 8 anak perusahaan. Setiap anak perusahaan beroperasi dengan filosofi 'Integritas, Pragmatis, Inovasi', terus menciptakan nilai lebih bagi pelanggan.",
+    "strategyTitle": "Strategi dan Nilai Inti",
+    "strategy": "Strategi",
+    "values": "Nilai Inti",
+    "steady": "Stabil",
+    "technology": "Teknologi",
+    "quality": "Kualitas",
+    "cost": "Biaya",
+    "integrity": "Integritas",
+    "pragmatic": "Pragmatis",
+    "innovation": "Inovasi",
+    "progress": "Progres",
+    "historyTitle": "Sejarah P.M.I",
+    "scaleTitle": "Skala Perusahaan",
+    "scaleEmployees": "Karyawan",
+    "scaleBases": "Basis Produksi",
+    "scaleCompanies": "Anak Perusahaan",
+    "asOfDate": "Hingga Desember 2025",
+    "scaleBasesDetail": "14 provinsi Tiongkok + 4 kota Thailand",
+    "scaleCompaniesDetail": "4 Bidang Usaha",
+    "subsidiariesTitle": "Anak Perusahaan",
+    "factoryTitle": "Distribusi Basis Produksi",
+    "factorySubtitle": "Basis produksi di 14 provinsi Tiongkok dan 4 kota Thailand",
+    "contactTitle": "Hubungi Kami",
+    "address": "Alamat Perusahaan",
+    "phone": "Telepon Kontak",
+    "ctaTitle": "Mengharapkan Kerjasama",
+    "ctaSubtitle": "Kami mengharapkan kerjasama dengan Anda untuk menciptakan masa depan yang lebih baik. Jika ada pertanyaan atau kebutuhan, silakan hubungi kami.",
+    "ctaButton": "Hubungi Kami",
+    "visitWebsite": "Kunjungi Website",
+    "history": "Sejarah",
+    "year": "Tahun",
+    "historyData": [
+      { "year": "2015", "event": "Kantor Pusat P.M.I didirikan" },
+      { "year": "2016", "event": "Integrasi bertahap anak perusahaan" },
+      { "year": "2019", "event": "Basis produksi diperluas ke 14 provinsi Tiongkok" },
+      { "year": "2025", "event": "Hampir 7.500 karyawan, basis produksi didirikan di 4 kota Thailand" }
+    ]
+  },
+  "News": {
+    "pageTitle": "Pusat Berita",
+    "employeeNews": "Berita Karyawan",
+    "readMore": "Baca lebih lanjut",
+    "allNews": "Semua Berita",
+    "noNews": "Tidak ada berita",
+    "category": {
+      "employee": "Berita Karyawan"
+    },
+    "data": [
+      {
+        "id": 1,
+        "title": "Perayaan Ulang Tahun Karyawan Q2 Kantor Shanghai",
+        "date": "2019-08-13",
+        "category": "employee",
+        "excerpt": "Karyawan PMI Shanghai berkumpul untuk merayakan pesta ulang tahun karyawan Q2, suasana hangat meningkatkan kohesi tim.",
+        "content": "Baru-baru ini, PMI Shanghai mengadakan perayaan ulang tahun karyawan Q2 di gedung kantor pusat. Para karyawan yang berulang tahun berkumpul bersama, berbagi kue lezat, dan berpartisipasi dalam permainan interaktif. Manajemen perusahaan hadir untuk memberikan ucapan dan hadiah ulang tahun. Semua orang menikmati sore yang tak terlupakan dalam tawa, meningkatkan kohesi tim dan rasa memiliki."
+      },
+      {
+        "id": 2,
+        "title": "Perjalanan Pemurnian Mei P.M.I",
+        "date": "2019-08-14",
+        "category": "employee",
+        "excerpt": "P.M.I menyelenggarakan kegiatan perjalanan pemurnian untuk karyawan, memungkinkan karyawan bersantai di alam dan meningkatkan komunikasi.",
+        "content": "Di bawah sinar matahari Mei yang hangat, P.M.I menyelenggarakan perjalanan pemurnian yang unik untuk karyawan. Kegiatan termasuk hiking, team building, dan relaksasi meditasi. Karyawan melepaskan stres kerja di alam, meningkatkan saling pengertian, dan meningkatkan semangat kerja sama tim."
+      },
+      {
+        "id": 3,
+        "title": "Pelatihan Ekspansi Musim Gugur di Herb Garden dan Gunung Mogan",
+        "date": "2019-08-15",
+        "category": "employee",
+        "excerpt": "PMI menyelenggarakan kegiatan ekspansi musim gugur untuk karyawan di Herb Garden dan Gunung Mogan, menantang diri sendiri dan mengasah tim.",
+        "content": "Di musim gugur yang sejuk, PMI menyelenggarakan pelatihan ekspansi untuk karyawan di Herb Garden dan Gunung Mogan yang indah. Kegiatan包括 jembatan ketinggian, kejatuhan kepercayaan, dinding kelulusan dan proyek ekspansi klasik lainnya. Karyawan menembus diri dalam tantangan dan meningkatkan kepercayaan dalam kolaborasi."
+      }
+    ]
+  },
+  "Recruitment": {
+    "pageTitle": "Karir",
+    "joinUsTitle": "Bergabunglah Bersama Kami",
+    "joinUsDescription": "Kantor Pusat P.M.I didirikan tahun 2015, memiliki 8 anak perusahaan dan hampir 7.500 karyawan. Kami menganut kebijakan strategis 'Stabil, Teknologi, Kualitas, Biaya' dan nilai inti 'Integritas, Pragmatis, Inovasi, Progres'. Di sini, Anda akan mendapatkan ruang pengembangan yang luas, kompensasi dan tunjangan yang kompetitif, serta sistem pelatihan profesional.",
+    "benefitsTitle": "Kompensasi & Tunjangan",
+    "positionsTitle": "Posisi",
+    "location": "Lokasi",
+    "department": "Departemen",
+    "responsibilities": "Tanggung Jawab",
+    "requirements": "Persyaratan",
+    "applyButton": "Lamar",
+    "ctaTitle": "Mengharapkan Bergabung Anda",
+    "ctaSubtitle": "Jika Anda tertarik dengan posisi kami, silakan kirim CV ke email rekrutmen kami",
+    "emailTitle": "Email Rekrutmen",
+    "positions": [
+      {
+        "id": 1,
+        "title": "Programmer Rantai Pasokan (2 posisi)",
+        "department": "Institut Penelitian Pusat",
+        "location": "Xiasha, Hangzhou",
+        "responsibilities": [
+          "Pengembangan, pengujian, pemeliharaan modul rantai pasokan dan sistem informasi terkait",
+          "Berpartisipasi dalam pekerjaan proyek terkait",
+          "Menulis manual operasi dan melakukan pelatihan pengguna",
+          "Membantu analis bisnis dengan pekerjaan analisis sistem"
+        ],
+        "requirements": [
+          "Jurusan perangkat keras/perangkat lunak komputer, manajemen informasi, matematika, teknik komunikasi, e-commerce",
+          "Pengalaman kerja ERP atau lulusan baru"
+        ]
+      }
+    ]
+  },
+  "Subsidiaries": {
+    "pageTitle": "Anak Perusahaan",
+    "pageSubtitle": "P.M.I memiliki 8 anak perusahaan yang mencakup empat bidang: Kemasan, Bahan Baku, Bahan Makanan, dan Logistik",
+    "overviewTitle": "Ikhtisar Bisnis",
+    "overviewDescription": "Kantor Pusat P.M.I mengawasi 8 anak perusahaan, termasuk:",
+    "packaging": "Bisnis Kemasan",
+    "materials": "Bisnis Bahan Baku",
+    "ingredients": "Bisnis Bahan Makanan",
+    "logistics": "Bisnis Logistik",
+    "factoryTitle": "Distribusi Basis Produksi",
+    "factorySubtitle": "Basis produksi di 14 provinsi Tiongkok dan 4 kota Thailand",
+    "visitWebsite": "Kunjungi Website",
+    "ctaTitle": "Pelajari Lebih Lanjut",
+    "ctaSubtitle": "Selamat datang mengunjungi website resmi anak perusahaan untuk mempelajari lebih lanjut tentang produk dan layanan",
+    "ctaButton": "Tentang Kami",
+    "packagingCount": "Kemasan (3 perusahaan)",
+    "materialsCount": "Bahan Baku (3 perusahaan)",
+    "ingredientsCount": "Bahan Makanan (1 perusahaan)",
+    "logisticsCount": "Logistik (1 perusahaan)",
+    "subsidiaryNames": {
+      "packaging": "Baxin Packaging, Tingzheng Packaging, Hesheng Plastic",
+      "materials": "Prostar Starch, Tingzhi Food, Taipu Starch",
+      "ingredients": "Weizhen Food",
+      "logistics": "Dingtong Logistics"
+    },
+    "subsidiaries": [
+      {
+        "id": 1,
+        "name": "Baxin Packaging",
+        "english": "Baxin Packaging",
+        "description": "Berdedikasi menyediakan solusi layanan kemasan satu pintu dengan kertas bergelombang ramah lingkungan",
+        "category": "Kemasan",
+        "website": "https://www.bxpackaging.com"
+      },
+      {
+        "id": 2,
+        "name": "Tingzheng Packaging",
+        "english": "Tingzheng Packaging",
+        "description": "Produsen kemasan lunak, kotak warna, dan wadah kertas makanan",
+        "category": "Kemasan",
+        "website": "https://www.tingzhengpack.com"
+      },
+      {
+        "id": 3,
+        "name": "Hesheng Plastic",
+        "english": "Hesheng Plastic",
+        "description": "Produsen produk plastik grade makanan",
+        "category": "Kemasan",
+        "website": "https://www.heshengplastic.com"
+      },
+      {
+        "id": 4,
+        "name": "Prostar Starch",
+        "english": "Prostar Starch",
+        "description": "Produsen pati termodifikasi grade makanan yang berdedikasi pada penelitian dan pengembangan",
+        "category": "Bahan Baku",
+        "website": "https://www.prostarstarch.com"
+      },
+      {
+        "id": 5,
+        "name": "Tingzhi Food",
+        "english": "Tingzhi Food",
+        "description": "Pemasok minyak wijen dan produk wijen",
+        "category": "Bahan Baku",
+        "website": "https://www.tingzhifood.com"
+      },
+      {
+        "id": 6,
+        "name": "Starpro Thailand",
+        "english": "Starpro Thailand",
+        "description": "Produsen pati singkong dan pati termodifikasi grade makanan (Thailand)",
+        "category": "Bahan Baku",
+        "website": "https://www.starprothailand.com"
+      },
+      {
+        "id": 7,
+        "name": "Weizhen Food",
+        "english": "Weizhen Food",
+        "description": "Perusahaan pengolahan makanan beku kering",
+        "category": "Bahan Makanan",
+        "website": "https://www.weizhenfood.com"
+      },
+      {
+        "id": 8,
+        "name": "Tingtong Logistics",
+        "english": "Tingtong Logistics",
+        "description": "Perusahaan layanan logistik profesional",
+        "category": "Logistik",
+        "website": "https://www.tingtonglogistics.com"
+      }
+    ]
+  },
+  "Contact": {
+    "pageTitle": "Hubungi Kami",
+    "companyName": "Kantor Pusat P.M.I",
+    "addressTitle": "Alamat Perusahaan",
+    "phoneTitle": "Telepon Kontak",
+    "emailTitle": "Email Rekrutmen",
+    "infoTitle": "Informasi Perusahaan",
+    "companyFullName": "Nama Perusahaan",
+    "foundedTime": "Didirikan",
+    "employees": "Karyawan",
+    "bases": "Basis Produksi",
+    "companies": "Anak Perusahaan",
+    "icp": "Izin ICP",
+    "mapTitle": "Lokasi Perusahaan",
+    "formTitle": "Kirim Pertanyaan Online",
+    "formSubtitle": "Isi formulir di bawah ini dan kami akan menghubungi Anda segera",
+    "name": "Nama",
+    "email": "Email",
+    "phone": "Telepon",
+    "company": "Nama Perusahaan",
+    "message": "Pesan",
+    "submit": "Kirim",
+    "loading": "Mengirim...",
+    "successTitle": "Berhasil Dikirim!",
+    "successMessage": "Terima kasih atas pesan Anda. Kami akan menghubungi Anda segera.",
+    "submitError": "Pengiriman gagal, silakan coba lagi nanti",
+    "contactMethods": "Metode Kontak",
+    "required": "Wajib Diisi",
+    "successButton": "Kirim Pesan Lain",
+    "rateLimited": "Terlalu banyak permintaan. Silakan coba lagi nanti.",
+    "forbidden": "Akses ditolak.",
+    "networkError": "Kesalahan jaringan. Silakan periksa koneksi Anda.",
+    "invalidEmail": "Masukkan alamat email yang valid.",
+    "invalidPhone": "Masukkan nomor telepon yang valid.",
+    "minLength": "terlalu pendek.",
+    "maxLength": "terlalu panjang.",
+    "minLengthMessage": "Pesan terlalu pendek (minimal 10 karakter).",
+    "rateLimitWarning": "Sisa permintaan",
+    "companyFullNameValue": "Hangzhou Bingyu Enterprise Consulting Management Co., Ltd.",
+    "employeesValue": "Hampir 7.500 karyawan (hingga Desember 2025)",
+    "basesValue": "14 provinsi Tiongkok + 4 kota Thailand",
+    "companiesValue": "8 anak perusahaan",
+    "icpValue": "Izin ICP Zhejiang No. 14023763",
+    "addressValue": "Lantai 7, Gedung A, No. 1688 Jalan Wuzhong, Distrik Minhang, Shanghai",
+    "phoneValue": "021-31754203",
+    "policeIcpValue": "Izin Keamanan Zhejiang No. 33011802001131",
+    "year": "",
+    "home": "Beranda"
+  },
+  "Common": {
+    "backToHome": "Kembali ke Beranda",
+    "backToNews": "Kembali ke Berita",
+    "readMore": "Baca lebih lanjut",
+    "loading": "Memuat...",
+    "required": "Wajib Diisi",
+    "copyright": "Hak Cipta Dilindungi",
+    "home": "Beranda",
+    "arrowRight": "→",
+    "siteTitle": "Kantor Pusat P.M.I",
+    "siteDescription": "Kantor Pusat P.M.I mengawasi 8 anak perusahaan dengan basis produksi di 14 provinsi Tiongkok dan 4 kota Thailand, dengan hampir 7.500 karyawan"
+  },
+  "Footer": {
+    "quickLinks": "Tautan Cepat",
+    "moreInfo": "Info Lainnya",
+    "contactUs": "Hubungi Kami",
+    "address": "Lantai 7, Gedung A, No. 1688 Jalan Wuzhong, Distrik Minhang, Shanghai",
+    "icp1": "Izin ICP Zhejiang No. 14023763",
+    "icp2": "Izin Keamanan Zhejiang No. 33011802001131",
+    "companyName": "Kantor Pusat P.M.I"
+  },
+  "Benefits": {
+    "salary": "Kompensasi",
+    "salaryDesc": "Kompensasi terdepan di industri untuk menghargai kontribusi Anda",
+    "insurance": "Asuransi & Tunjangan",
+    "insuranceDesc": "Asuransi komprehensif termasuk asuransi sosial, dana perumahan, dan asuransi komersial untuk Anda dan keluarga",
+    "vacation": "Cuti Tahunan Berbayar",
+    "vacationDesc": "Cuti tahunan berbayar selain hari libur nasional untuk keseimbangan kerja-hidup",
+    "training": "Pelatihan & Pengembangan",
+    "trainingDesc": "Sistem pelatihan komprehensif dengan promosi internal dan peluang pengembangan lintas departemen",
+    "culture": "Budaya Perusahaan",
+    "cultureDesc": "Aktivitas karyawan yang kaya menciptakan suasana kerja yang positif",
+    "care": "Perawatan Karyawan",
+    "careDesc": "Hadiah liburan, bonus ulang tahun, pemeriksaan kesehatan rutin menunjukkan perhatian bagi setiap karyawan"
+  },
+  "Services": {
+    "pageTitle": "Layanan",
+    "home": "Beranda",
+    "ourServices": "Layanan Kami",
+    "serviceDescription": "Kami menyediakan layanan profesional komprehensif untuk memenuhi beragam kebutuhan Anda",
+    "advantagesTitle": "Keunggulan Layanan",
+    "advantagesDescription": "Alasan memilih kami",
+    "processTitle": "Proses Layanan",
+    "processDescription": "Proses layanan standar kami",
+    "ctaTitle": "Mulai Proyek Anda",
+    "ctaDescription": "Tidak peduli ukuran proyek Anda, kami dapat menyediakan layanan profesional. Hubungi kami sekarang untuk memulai perjalanan Anda.",
+    "ctaButton": "Dapatkan Konsultasi Gratis",
+    "categories": [
+      {
+        "title": "Konsultasi Profesional",
+        "description": "Menyediakan layanan konsultasi profesional komprehensif, solusi optimal yang disesuaikan untuk pelanggan",
+        "icon": "💡",
+        "services": ["Konsultasi Perencanaan Strategis", "Optimasi Proses Bisnis", "Konsultasi Manajemen Risiko", "Layanan Konsultasi Kepatuhan"]
+      },
+      {
+        "title": "Dukungan Teknis",
+        "description": "Tim teknis yang kuat, menyediakan dukungan dan jaminan teknis komprehensif bagi pelanggan",
+        "icon": "🛠️",
+        "services": ["Desain Arsitektur Sistem", "Implementasi Solusi Teknis", "Dukungan Operasi Sistem", "Layanan Pelatihan Teknis"]
+      },
+      {
+        "title": "Pengembangan Kustom",
+        "description": "Pengembangan yang disesuaikan sesuai kebutuhan pelanggan untuk memastikan operasi sistem yang stabil dan efisien",
+        "icon": "💻",
+        "services": ["Pengembangan Aplikasi Web", "Pengembangan Aplikasi Mobile", "Kustomisasi Sistem Perusahaan", "Pengembangan Integrasi Antarmuka"]
+      },
+      {
+        "title": "Analisis Data",
+        "description": "Layanan analisis data profesional membantu perusahaan mendapatkan wawasan bisnis dan mengoptimalkan keputusan",
+        "icon": "📊",
+        "services": ["Pengumpulan dan Pembersihan Data", "Analisis dan Penambangan Data", "Visualisasi Data", "Laporan Bisnis Intelijen"]
+      }
+    ],
+    "advantages": [
+      { "title": "Tim Profesional", "description": "Tim kami terdiri dari profesional berpengalaman dengan keahlian mendalam dan pengalaman praktis yang kaya, mampu menyediakan layanan berkualitas tinggi bagi pelanggan." },
+      { "title": "Solusi yang Disesuaikan", "description": "Kami menyesuaikan solusi yang paling sesuai sesuai dengan kebutuhan aktual pelanggan, memastikan relevansi dan efektivitas layanan." },
+      { "title": "Jaminan Kualitas", "description": "Kami secara ketat mengendalikan kualitas layanan, membangun sistem manajemen kualitas yang komprehensif, dan memastikan setiap proyek memenuhi standar tertinggi." },
+      { "title": "Dukungan Penuh", "description": "Kami menyediakan dukungan layanan komprehensif sepanjang siklus penuh, dari konsultasi proyek hingga implementasi dan pengiriman, hingga perawatan pasca penjualan, memastikan pelanggan tidak khawatir." },
+      { "title": "Inovasi Teknis", "description": "Kami mengikuti tren pengembangan teknologi, terus memperkenalkan teknologi dan metode baru, meningkatkan kualitas dan efisiensi layanan." },
+      { "title": "Pelanggan adalah Pusat", "description": "Kami selalu berpegang pada filosofi layanan yang berpusat pada pelanggan, fokus pada pengalaman pelanggan, dan berusaha melampaui harapan pelanggan." }
+    ],
+    "process": [
+      { "step": 1, "title": "Komunikasi Kebutuhan", "description": "Memahami secara mendalam kebutuhan dan tujuan pelanggan" },
+      { "step": 2, "title": "Penyusunan Rencana", "description": "Menyusun rencana dan jadwal layanan yang terperinci" },
+      { "step": 3, "title": "Konfirmasi Rencana", "description": "Mengkonfirmasi detail rencana dengan pelanggan" },
+      { "step": 4, "title": "Implementasi Proyek", "description": "Melaksanakan proyek sesuai rencana" },
+      { "step": 5, "title": "Penerimaan Kualitas", "description": "Memastikan kualitas proyek memenuhi persyaratan" },
+      { "step": 6, "title": "Pengiriman & Dukungan", "description": "Pengiriman proyek dan dukungan tindak lanjut" }
+    ]
+  }
+}

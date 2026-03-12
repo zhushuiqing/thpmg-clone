@@ -1,0 +1,464 @@
+{
+  "Navigation": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "news": "ニュースセンター",
+    "recruitment": "採用情報",
+    "subsidiaries": "傘下企業",
+    "contact": "お問い合わせ",
+    "services": "サービス",
+    "language": "日本語",
+    "locale": "ja"
+  },
+  "Home": {
+    "heroTitle": "P.M.I 総管理処",
+    "heroSubtitle": "堅実・技術・品質・コスト",
+    "heroDescription": "8 つの事業ユニットを擁し、中国 14 の省市、タイ 4 都市に生産拠点を持ち、従業員約 7500 名",
+    "ctaAbout": "私たちについて",
+    "ctaSubsidiaries": "傘下企業",
+    "aboutTitle": "P.M.I.について",
+    "aboutDescription": "P.M.I.総管理処は 2015 年 1 月に設立され、財務長室、中央研究所、人事部、経営企画部および 8 つの事業ユニット（包装資材事業 3 社、原料事業 3 社、食材事業 1 社、物流事業 1 社）を擁しています。中国 14 の省市、タイ 4 都市に生産拠点を持ち、2025 年 12 月現在、従業員は約 7500 名です。",
+    "pmiTitle": "P.M.I.の意味",
+    "pmiP": "Packaging(包装資材)：ソフトパッケージ、カラーボックス、食品用紙容器の製造企業 - 頂正包材、環境に優しい段ボール箱を媒体とし、顧客にワンストップパッケージングサービスソリューションを提供する包装会社 - 秉信包装、食品級プラスチック製品製造業者 - 和昇塑料",
+    "pmiM": "Materials(原料)：ごま油およびごま製品サプライヤー - 頂志食品、澱粉および澱粉誘導体の研究開発と応用革新に取り組む食品級変性澱粉メーカー - 中国普羅星、食品級キャッサバ原澱粉・変性澱粉の製造業者 - タイ普羅星",
+    "pmiI": "Ingredients(食材)：凍結乾燥食品加工企業 - 味珍食品",
+    "scaleTitle": "企業規模",
+    "scaleEmployees": "従業員数",
+    "scaleBases": "生産拠点",
+    "scaleCompanies": "事業ユニット",
+    "scaleSince": "発展スタート",
+    "businessTitle": "事業領域",
+    "businessSubtitle": "包装資材、原料、食材、物流の 4 つの分野をカバー",
+    "packaging": "包装資材事業",
+    "materials": "原料事業",
+    "ingredients": "食材事業",
+    "logistics": "物流事業",
+    "subsidiariesTitle": "傘下事業ユニット",
+    "viewAll": "すべての傘下企業を見る",
+    "newsTitle": "従業員ダイナミクス",
+    "viewAllNews": "すべてのニュースを見る",
+    "contactTitle": "お問い合わせ",
+    "contactButton": "オンラインメッセージ",
+    "recruitButton": "参加する",
+    "businessDesc": {
+      "packaging": "ソフトパッケージ、カラーボックス、食品用紙容器、環境に優しい段ボール箱",
+      "materials": "ごま油、澱粉および澱粉誘導体",
+      "ingredients": "凍結乾燥食品加工",
+      "logistics": "専門物流サービス"
+    },
+    "companiesCount": "社",
+    "learnMore": "詳しく見る",
+    "factoryTitle": "生産拠点分布",
+    "factorySubtitle": "中国 14 の省市、タイ 4 都市に生産拠点を持ちます",
+    "readMore": "もっと読む",
+    "addressLabel": "住所",
+    "phoneLabel": "電話",
+    "footerName": "総管理処",
+    "history": "発展の歩み"
+  },
+  "About": {
+    "pageTitle": "私たちについて",
+    "companyTitle": "会社概要",
+    "companyDescription": "P.M.I.総管理処は 2015 年 1 月に設立され、財務長室、中央研究所、人事部、経営企画部および 8 つの事業ユニット（包装資材事業 3 社、原料事業 3 社、食材事業 1 社、物流事業 1 社）を擁しています。中国 14 の省市、タイ 4 都市に生産拠点を持ち、2025 年 12 月現在、従業員は約 7500 名です。",
+    "pmiTitle": "P.M.I.の意味",
+    "pmiDescription": "P.M.I.総管理処は「堅実、技術、品質、コスト」の 8 文字を戦略方針とし、傘下 8 つの事業ユニットに対して統合、サービス、パフォーマンス、監督の責任を負っています。各事業ユニットは誠実、実務的、革新的な経営理念を掲げて自己研鑽し、コストの洗練、技術革新、品質向上を通じて顧客により多くの価値を創造します。",
+    "strategyTitle": "戦略方針と中核的価値観",
+    "strategy": "戦略方針",
+    "values": "中核的価値観",
+    "steady": "堅実",
+    "technology": "技術",
+    "quality": "品質",
+    "cost": "コスト",
+    "integrity": "誠実",
+    "pragmatic": "実務的",
+    "innovation": "革新",
+    "progress": "進取",
+    "historyTitle": "P.M.I. 発展の歩み",
+    "scaleTitle": "企業規模",
+    "scaleEmployees": "従業員数",
+    "scaleBases": "生産拠点",
+    "scaleCompanies": "事業ユニット",
+    "asOfDate": "2025 年 12 月現在",
+    "scaleBasesDetail": "中国 14 省市 + タイ 4 都市",
+    "scaleCompaniesDetail": "4 つの事業分野",
+    "subsidiariesTitle": "傘下事業ユニット",
+    "factoryTitle": "生産拠点分布",
+    "factorySubtitle": "中国 14 の省市、タイ 4 都市に生産拠点を持ちます",
+    "contactTitle": "お問い合わせ",
+    "address": "会社住所",
+    "phone": "連絡先電話",
+    "ctaTitle": "ご協力を楽しみにしています",
+    "ctaSubtitle": "皆様との協力を通じて、より良い未来を創造していけることを楽しみにしています。ご質問やご要望がございましたら、いつでもお気軽にお問い合わせください。",
+    "ctaButton": "お問い合わせ",
+    "visitWebsite": "公式ウェブサイト",
+    "history": "歴史",
+    "year": "年",
+    "historyData": [
+      { "year": "2015", "event": "P.M.I.総管理処設立" },
+      { "year": "2016", "event": "傘下事業ユニットの統合を段階的に推進" },
+      { "year": "2019", "event": "生産拠点を全国 14 の省市に拡大" },
+      { "year": "2025", "event": "従業員約 7500 名、タイ 4 都市に生産拠点を開設" }
+    ]
+  },
+  "News": {
+    "pageTitle": "ニュースセンター",
+    "employeeNews": "従業員ダイナミクス",
+    "readMore": "もっと読む",
+    "allNews": "すべてのニュース",
+    "noNews": "ニュースコンテンツがありません",
+    "category": {
+      "employee": "従業員ダイナミクス"
+    },
+    "data": [
+      {
+        "id": 1,
+        "title": "PMI 上海本社第 2 四半期従業員バースデーパーティー",
+        "date": "2019-08-13",
+        "category": "employee",
+        "excerpt": "PMI 上海従業員が集まり、第 2 四半期従業員バースデーパーティーを祝いました。现场の雰囲気は盛り上がり、チームの結束力を高めました。",
+        "content": "このほど、PMI 上海本社ビルで第 2 四半期従業員バースデー祝賀イベントが開催されました。イベントでは、誕生日を迎えた従業員たちが一堂に会し、美味しいケーキを分かち合い、インタラクティブゲームに参加しました。会社経営陣も现场を訪れ、従業員に誕生日の祝福と素敵なギフトを贈りました。皆様は笑い声の中で忘れられない午後を過ごし、チームの結束力と帰属意識をさらに高めました。"
+      },
+      {
+        "id": 2,
+        "title": "P.M.I 5 月ピュリフィケーション之旅",
+        "date": "2019-08-14",
+        "category": "employee",
+        "excerpt": "P.M.I は従業員向けに 5 月ピュリフィケーション之旅を開催し、自然の中で心身をリラックスさせ、交流を深めました。",
+        "content": "5 月の阳光明媚、P.M.I は従業員向けに一味違ったピュリフィケーション之旅を開催しました。イベントにはハイキング、チームビルディング、マインドフルネスリラクゼーションなどのプログラムが含まれていました。従業員たちは自然の中で仕事のプレッシャーを解放し、互いの理解を深め、チームワーク精神を向上させました。"
+      },
+      {
+        "id": 3,
+        "title": "PMI 香草園 + 莫干山秋期拓展訓練",
+        "date": "2019-08-15",
+        "category": "employee",
+        "excerpt": "PMI は従業員向けに香草園と莫干山で秋期拓展活動を開催し、自己に挑戦し、チームを磨きました。",
+        "content": "秋高气爽の季節、PMI は風景秀麗な香草園と莫干山で秋期拓展訓練を開催しました。イベントには高空断橋、信頼背摔、卒業壁などのクラシック拓展プロジェクトが設置されていました。従業員たちは挑戦の中で自己を突破し、協力の中で信頼を深めました。今回の活動は従業員の意志力を鍛えただけでなく、チームの結束力と戦闘力も高めました。"
+      }
+    ]
+  },
+  "Recruitment": {
+    "pageTitle": "採用情報",
+    "joinUsTitle": "参加する",
+    "joinUsDescription": "P.M.I.総管理処は 2015 年に設立され、8 つの事業ユニットを擁し、従業員は約 7500 名です。私たちは「堅実、技術、品質、コスト」の戦略方針を掲げ、「誠実、実務的、革新、進取」の中核的価値観を堅持しています。ここでは、広大な発展スペース、競争力のある給与福利厚生、専門的なトレーニングシステムを手に入れることができます。",
+    "benefitsTitle": "給与福利厚生",
+    "positionsTitle": "採用ポジション",
+    "location": "勤務地",
+    "department": "所属部門",
+    "responsibilities": "職務責任",
+    "requirements": "任职要求",
+    "applyButton": "職位を申請する",
+    "ctaTitle": "あなたの参加を楽しみにしています",
+    "ctaSubtitle": "私たちの職位に興味を持っていただけましたら、履歴書を私たちの採用メールアドレスまでお送りください",
+    "emailTitle": "採用メールアドレス",
+    "positions": [
+      {
+        "id": 1,
+        "title": "サプライチェーンプログラマー（2 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "サプライチェーンモジュールおよび関連情報システム、アプリケーションソフトウェアの開発、テスト、保守、ユーザーガイドおよび問題処理",
+          "関連プロジェクト業務への参加",
+          "操作マニュアルの作成とユーザー培训",
+          "ビジネスアナリストによるシステム分析業務の支援"
+        ],
+        "requirements": [
+          "コンピュータハードウェア/ソフトウェア、情報管理、数学、通信工学、電子商取引、管理科学と工学などの専攻",
+          "ERP 業務経験者優遇、新卒者も可"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "販売プログラマー（1 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "販売モジュールおよび関連情報システム、アプリケーションソフトウェアの開発、テスト、保守、ユーザーガイドおよび問題処理",
+          "関連プロジェクト業務への参加",
+          "操作マニュアルの作成とユーザー培训",
+          "ビジネスアナリストによるシステム分析業務の支援"
+        ],
+        "requirements": [
+          "コンピュータハードウェア/ソフトウェア、情報管理、数学、通信工学、電子商取引、管理科学と工学などの専攻",
+          "ERP 業務経験者優遇、新卒者も可"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "財務プログラマー（1 名）",
+        "department": "財務長室",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "財務モジュールおよび関連情報システム、アプリケーションソフトウェアの開発、テスト、保守、ユーザーガイドおよび問題処理",
+          "関連プロジェクト業務への参加",
+          "操作マニュアルの作成とユーザー培训",
+          "ビジネスアナリストによるシステム分析業務の支援"
+        ],
+        "requirements": [
+          "コンピュータハードウェア/ソフトウェア、情報管理、数学、通信工学、電子商取引、管理科学と工学などの専攻",
+          "ERP 業務経験者優遇、新卒者も可"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "アプリケーションソフトウェアデザイナー（1 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "情報システム、アプリケーションソフトウェアの開発、テスト、保守、ユーザーガイドおよび問題処理",
+          "関連プロジェクト業務への参加",
+          "操作マニュアルの作成とユーザー培训",
+          "ビジネスアナリストによるシステム分析業務の支援"
+        ],
+        "requirements": [
+          "コンピュータハードウェア/ソフトウェア、情報管理、数学、通信工学、電子商取引、管理科学と工学などの専攻",
+          "ERP 業務経験者優遇、新卒者も可"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "バックエンド管理者（2 名）",
+        "department": "経営企画部",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "管理インストールおよびウイルス対策ソフトウェア、AD およびメールなどのマイクロソフト標準アプリケーションシステムの管理",
+          "アプリケーションシステムのセキュリティおよびユーザー権限管理、バックアップ、データアーカイブ",
+          "アプリケーションシステムのインストール、設定、アップグレード、監視および最適化"
+        ],
+        "requirements": [
+          "コンピュータハードウェア/ソフトウェア、情報管理、数学、通信工学、電子商取引、管理科学と工学などの専攻",
+          "システム管理経験者優遇、AD およびメール管理経験者優遇"
+        ]
+      }
+    ]
+  },
+  "Subsidiaries": {
+    "pageTitle": "傘下事業ユニット",
+    "pageSubtitle": "P.M.I.は 8 つの事業ユニットを擁し、包装資材、原料、食材、物流の 4 つの分野をカバーしています",
+    "overviewTitle": "事業版图",
+    "overviewDescription": "P.M.I.総管理処は 8 つの事業ユニットを擁しています：",
+    "packaging": "包装資材事業",
+    "materials": "原料事業",
+    "ingredients": "食材事業",
+    "logistics": "物流事業",
+    "factoryTitle": "生産拠点分布",
+    "factorySubtitle": "中国 14 の省市、タイ 4 都市に生産拠点を持ちます",
+    "visitWebsite": "公式ウェブサイト",
+    "ctaTitle": "詳しく見る",
+    "ctaSubtitle": "各事業ユニットの公式ウェブサイトを訪れて、製品とサービス情報の詳細をご覧ください",
+    "ctaButton": "私たちについて",
+    "packagingCount": "包装資材事業（3 社）",
+    "materialsCount": "原料事業（3 社）",
+    "ingredientsCount": "食材事業（1 社）",
+    "logisticsCount": "物流事業（1 社）",
+    "subsidiaryNames": {
+      "packaging": "秉信包装、頂正包材、和昇塑料",
+      "materials": "普羅星澱粉、頂志食品、泰普澱粉",
+      "ingredients": "味珍食品",
+      "logistics": "頂通物流"
+    },
+    "subsidiaries": [
+      {
+        "id": 1,
+        "name": "秉信包装",
+        "english": "Baxin Packaging",
+        "description": "環境に優しい段ボール箱を媒体とし、顧客にワンストップパッケージングサービスソリューションを提供することに尽力しています",
+        "category": "包装資材事業",
+        "website": "https://www.bxpackaging.com"
+      },
+      {
+        "id": 2,
+        "name": "頂正包材",
+        "english": "Tingzheng Packaging",
+        "description": "ソフトパッケージ、カラーボックス、食品用紙容器の製造企業",
+        "category": "包装資材事業",
+        "website": "https://www.tingzhengpack.com"
+      },
+      {
+        "id": 3,
+        "name": "和昇塑料",
+        "english": "Hesheng Plastic",
+        "description": "食品級プラスチック製品製造業者",
+        "category": "包装資材事業",
+        "website": "https://www.heshengplastic.com"
+      },
+      {
+        "id": 4,
+        "name": "普羅星澱粉",
+        "english": "Prostar Starch",
+        "description": "澱粉および澱粉誘導体の研究開発と応用革新に取り組む食品級変性澱粉メーカー",
+        "category": "原料事業",
+        "website": "https://www.prostarstarch.com"
+      },
+      {
+        "id": 5,
+        "name": "頂志食品",
+        "english": "Tingzhi Food",
+        "description": "ごま油およびごま製品サプライヤー",
+        "category": "原料事業",
+        "website": "https://www.tingzhifood.com"
+      },
+      {
+        "id": 6,
+        "name": "タイ普羅星",
+        "english": "Starpro Thailand",
+        "description": "タイ食品級キャッサバ原澱粉・変性澱粉製造業者",
+        "category": "原料事業",
+        "website": "https://www.starprothailand.com"
+      },
+      {
+        "id": 7,
+        "name": "味珍食品",
+        "english": "Weizhen Food",
+        "description": "凍結乾燥食品加工企業",
+        "category": "食材事業",
+        "website": "https://www.weizhenfood.com"
+      },
+      {
+        "id": 8,
+        "name": "頂通物流",
+        "english": "Tingtong Logistics",
+        "description": "専門物流サービスプロバイダー",
+        "category": "物流事業",
+        "website": "https://www.tingtonglogistics.com"
+      }
+    ]
+  },
+  "Contact": {
+    "pageTitle": "お問い合わせ",
+    "companyName": "P.M.I 総管理処",
+    "addressTitle": "会社住所",
+    "phoneTitle": "連絡先電話",
+    "emailTitle": "採用メールアドレス",
+    "infoTitle": "企業情報",
+    "companyFullName": "会社名称",
+    "foundedTime": "設立時間",
+    "employees": "従業員数",
+    "bases": "生産拠点",
+    "companies": "事業ユニット",
+    "icp": "ウェブサイト登録",
+    "mapTitle": "会社位置",
+    "formTitle": "オンラインメッセージ",
+    "formSubtitle": "以下のフォームに記入してください。できるだけ早くご連絡いたします",
+    "name": "お名前",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "company": "会社名",
+    "message": "メッセージ内容",
+    "submit": "メッセージを送信",
+    "loading": "送信中...",
+    "successTitle": "送信成功！",
+    "successMessage": "メッセージありがとうございます。できるだけ早くご連絡いたします。",
+    "submitError": "送信に失敗しました。しばらくしてからお試しください",
+    "contactMethods": "連絡先",
+    "required": "必須",
+    "successButton": "新しいメッセージを送信",
+    "rateLimited": "リクエストが多すぎます。しばらくしてからお試しください",
+    "forbidden": "アクセスが拒否されました",
+    "networkError": "ネットワークエラーです。接続を確認してください",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "invalidPhone": "有効な電話番号を入力してください",
+    "minLength": "長さが短すぎます",
+    "maxLength": "長さが長すぎます",
+    "minLengthMessage": "メッセージが短すぎます（最小 10 文字）",
+    "rateLimitWarning": "残りリクエスト数",
+    "companyFullNameValue": "杭州秉育企業諮詢管理有限公司",
+    "employeesValue": "約 7500 名（2025 年 12 月現在）",
+    "basesValue": "中国 14 省市 + タイ 4 都市",
+    "companiesValue": "8 社",
+    "icpValue": "浙 ICP 備 14023763 号",
+    "addressValue": "上海市閔行区呉中路 1688 号 A 棟 7 階",
+    "phoneValue": "021-31754203",
+    "policeIcpValue": "浙公网安备 33011802001131 号",
+    "year": "年",
+    "home": "ホーム"
+  },
+  "Common": {
+    "backToHome": "ホームに戻る",
+    "backToNews": "ニュースセンターに戻る",
+    "readMore": "もっと読む",
+    "loading": "読み込み中...",
+    "required": "必須",
+    "copyright": "著作権所有",
+    "home": "ホーム",
+    "arrowRight": "→"
+  },
+  "Footer": {
+    "quickLinks": "クイックリンク",
+    "moreInfo": "詳細情報",
+    "contactUs": "お問い合わせ",
+    "address": "上海市閔行区呉中路 1688 号 A 棟 7 階",
+    "icp1": "浙 ICP 備 14023763 号",
+    "icp2": "浙公网安备 33011802001131 号",
+    "companyName": "P.M.I 総管理処"
+  },
+  "Benefits": {
+    "salary": "給与",
+    "salaryDesc": "業界をリードする給与待遇を提供し、あなたの努力に丰厚的な見返りをもたらします",
+    "insurance": "福利厚生保障",
+    "insuranceDesc": "五険一金、補充商業保険で、あなたとご家族に全方位的な保障を提供します",
+    "vacation": "有給休暇",
+    "vacationDesc": "法定祝日のほか、有給休暇も提供し、仕事と生活のバランスを取れます",
+    "training": "トレーニング発展",
+    "trainingDesc": "完璧なトレーニングシステムで、社内昇進と他部門発展の機会を提供します",
+    "culture": "企業文化",
+    "cultureDesc": "多彩な従業員活動で、積極的で上向きな職場の雰囲気を作り出しています",
+    "care": "ケア福利厚生",
+    "careDesc": "祝日福利厚生、誕生日ギフト、定期健康診断で、一人ひとりの従業員をケアします"
+  },
+  "Services": {
+    "pageTitle": "サービス項目",
+    "home": "ホーム",
+    "ourServices": "私たちのサービス",
+    "serviceDescription": "私たちは顧客の多様なニーズに応えるための包括的な専門サービスを提供します",
+    "advantagesTitle": "サービス優位性",
+    "advantagesDescription": "私たちを選ぶ理由",
+    "processTitle": "サービスプロセス",
+    "processDescription": "私たちの標準サービスプロセス",
+    "ctaTitle": "プロジェクトを開始する",
+    "ctaDescription": "プロジェクトの規模にかかわらず、専門的なサービスを提供します。今すぐお問い合わせいただき、協力之旅を開始しましょう。",
+    "ctaButton": "無料相談を取得する",
+    "categories": [
+      {
+        "title": "専門コンサルティング",
+        "description": "全方位的な専門コンサルティングサービスを提供し、顧客に最適なソリューションをカスタマイズします",
+        "icon": "💡",
+        "services": ["戦略計画コンサルティング", "業務プロセス最適化", "リスク管理コンサルティング", "コンプライアンスコンサルティングサービス"]
+      },
+      {
+        "title": "技術サポート",
+        "description": "強力な技術チームが、顧客に全方位的な技術サポートと保障を提供します",
+        "icon": "🛠️",
+        "services": ["システムアーキテクチャ設計", "技術方案実施", "システム運用サポート", "技術トレーニングサービス"]
+      },
+      {
+        "title": "カスタム開発",
+        "description": "顧客のニーズに応じてカスタム開発を行い、システムの安定した効率的な運用を確保します",
+        "icon": "💻",
+        "services": ["Web アプリケーション開発", "モバイルアプリケーション開発", "企業システムカスタマイズ", "インターフェース統合開発"]
+      },
+      {
+        "title": "データ分析",
+        "description": "専門的なデータ分析サービスを提供し、企業の業務動向のインサイトと意思決定の最適化を支援します",
+        "icon": "📊",
+        "services": ["データ収集とクリーニング", "データ分析とマイニング", "データ可視化", "ビジネスインテリジェンスレポート"]
+      }
+    ],
+    "advantages": [
+      { "title": "専門チーム", "description": "私たちのチームは経験豊富な専門家によって構成されており、深い専門知識と豊富な実践経験を備え、顧客に高品質なサービスを提供できます。" },
+      { "title": "カスタム方案", "description": "顧客の実際のニーズに応じて、最適なソリューションをカスタマイズし、サービスの的を射た性と有効性を確保します。" },
+      { "title": "品質保証", "description": "サービス品質を厳格に管理し、完璧な品質管理体制を構築して、すべてのプロジェクトが最高基準に達することを確保します。" },
+      { "title": "フルサポート", "description": "プロジェクトコンサルティングから実施交付、さらに後期保守まで、全方位的・フルサイクルのサービスサポートを提供し、顧客に後顧の憂いなしを確保します。" },
+      { "title": "技術革新", "description": "技術発展の傾向に紧跟し、新しい技術・新しい方法を絶えず導入して、サービス品質と効率を向上させます。" },
+      { "title": "顧客第一", "description": "顧客を中心としたサービス理念を堅持し、顧客体験を重視し、顧客の期待を超えるよう努力します。" }
+    ],
+    "process": [
+      { "step": 1, "title": "ニーズコミュニケーション", "description": "顧客のニーズと目標を深く理解する" },
+      { "step": 2, "title": "方案策定", "description": "詳細なサービス方案と計画を策定する" },
+      { "step": 3, "title": "方案確認", "description": "顧客と方案の詳細を確認する" },
+      { "step": 4, "title": "プロジェクト実施", "description": "方案に従ってプロジェクトを実行する" },
+      { "step": 5, "title": "品質検収", "description": "プロジェクト品質が要件を満たしていることを確保する" },
+      { "step": 6, "title": "交付サポート", "description": "プロジェクト交付と後続サポート" }
+    ]
+  }
+}

@@ -1,11 +1,13 @@
 import createMiddleware from 'next-intl/middleware';
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import { SUPPORTED_LOCALES, DEFAULT_LOCALE, getEnabledLocales } from '@/lib/i18n/config';
 
 // Create the internationalization middleware
 const intlMiddleware = createMiddleware({
-  locales: ['zh', 'en'],
-  defaultLocale: 'zh',
+  locales: getEnabledLocales(),
+  defaultLocale: DEFAULT_LOCALE,
+  localePrefix: 'always',
 });
 
 // Security headers to add to all responses

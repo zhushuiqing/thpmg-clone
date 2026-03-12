@@ -1,0 +1,464 @@
+{
+  "Navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "news": "新闻中心",
+    "recruitment": "招贤纳士",
+    "subsidiaries": "下属企业",
+    "contact": "联系我们",
+    "services": "服务",
+    "language": "简体中文",
+    "locale": "zh-Hans"
+  },
+  "Home": {
+    "heroTitle": "P.M.I 总管理处",
+    "heroSubtitle": "稳健 · 技术 · 品质 · 成本",
+    "heroDescription": "下辖 8 家事业单位，在国内 14 个省市、泰国 4 个城市开设有生产基地，拥有员工近 7500 人",
+    "ctaAbout": "关于我们",
+    "ctaSubsidiaries": "下属企业",
+    "aboutTitle": "关于 P.M.I.",
+    "aboutDescription": "P.M.I.总管理处成立于 2015 年 1 月，下辖财务长室、中央研究所、人资部、经营规划部及 8 家事业单位（含 3 家包材事业、3 家原料事业、1 家食材事业、1 家物流事业）。在国内 14 个省市、泰国 4 个城市开设有生产基地，截至 2025 年 12 月，P.M.I.总管理处拥有员工近 7500 人。",
+    "pmiTitle": "P.M.I. 含义",
+    "pmiP": "Packaging(包材)：包含软包装、彩盒、食品纸质容器的生产企业 - 顶正包材，以环保瓦楞纸箱为媒介、致力于为客户提供一站式包装服务解决方案的包装公司 - 秉信包装，食品级塑料制品制造商 - 和昇塑料",
+    "pmiM": "Materials(原料)：包含芝麻油和芝麻制品供应商 - 顶志食品，致力于淀粉及淀粉衍生物的研发和应用创新的食品级变性淀粉厂商 - 中国普罗星，食品级木薯原淀粉、变性淀粉的制造商 - 泰国普罗星",
+    "pmiI": "Ingredients(食材)：包含冻干食品加工企业 - 味珍食品",
+    "scaleTitle": "企业规模",
+    "scaleEmployees": "员工人数",
+    "scaleBases": "生产基地",
+    "scaleCompanies": "事业单位",
+    "scaleSince": "起步发展",
+    "businessTitle": "事业领域",
+    "businessSubtitle": "涵盖包材、原料、食材、物流四大领域",
+    "packaging": "包材事业",
+    "materials": "原料事业",
+    "ingredients": "食材事业",
+    "logistics": "物流事业",
+    "subsidiariesTitle": "下属事业单位",
+    "viewAll": "查看全部下属企业",
+    "newsTitle": "员工动态",
+    "viewAllNews": "浏览所有新闻",
+    "contactTitle": "联系我们",
+    "contactButton": "在线留言",
+    "recruitButton": "加入我们",
+    "businessDesc": {
+      "packaging": "软包装、彩盒、食品纸质容器、环保瓦楞纸箱",
+      "materials": "芝麻油、淀粉及淀粉衍生物",
+      "ingredients": "冻干食品加工",
+      "logistics": "专业物流服务"
+    },
+    "companiesCount": "家企业",
+    "learnMore": "了解更多",
+    "factoryTitle": "生产基地分布",
+    "factorySubtitle": "在国内 14 个省市、泰国 4 个城市开设有生产基地",
+    "readMore": "阅读更多",
+    "addressLabel": "地址",
+    "phoneLabel": "电话",
+    "footerName": "总管理处",
+    "history": "发展历程"
+  },
+  "About": {
+    "pageTitle": "关于我们",
+    "companyTitle": "公司简介",
+    "companyDescription": "P.M.I.总管理处成立于 2015 年 1 月，下辖财务长室、中央研究所、人资部、经营规划部及 8 家事业单位（含 3 家包材事业、3 家原料事业、1 家食材事业、1 家物流事业）。在国内 14 个省市、泰国 4 个城市开设有生产基地，截至 2025 年 12 月，P.M.I.总管理处拥有员工近 7500 人。",
+    "pmiTitle": "P.M.I. 含义",
+    "pmiDescription": "P.M.I.总管理处以\"稳健、技术、品质、成本\"8 字作为策略方针，对下属 8 家事业单位负有整合、服务、绩效、监督的职责，各事业单位本着诚信、务实、创新的经营理念自我要求、不断进取，通过精进成本、技术创新、提升品质为客户创造更多的价值。",
+    "strategyTitle": "策略方针与核心价值观",
+    "strategy": "策略方针",
+    "values": "核心价值观",
+    "steady": "稳健",
+    "technology": "技术",
+    "quality": "品质",
+    "cost": "成本",
+    "integrity": "诚信",
+    "pragmatic": "务实",
+    "innovation": "创新",
+    "progress": "进取",
+    "historyTitle": "P.M.I. 发展历程",
+    "scaleTitle": "企业规模",
+    "scaleEmployees": "员工人数",
+    "scaleBases": "生产基地",
+    "scaleCompanies": "事业单位",
+    "asOfDate": "截至 2025 年 12 月",
+    "scaleBasesDetail": "国内 14 省市 + 泰国 4 城市",
+    "scaleCompaniesDetail": "四大事业领域",
+    "subsidiariesTitle": "下属事业单位",
+    "factoryTitle": "生产基地分布",
+    "factorySubtitle": "在国内 14 个省市、泰国 4 个城市开设有生产基地",
+    "contactTitle": "联系我们",
+    "address": "公司地址",
+    "phone": "联系电话",
+    "ctaTitle": "期待与您合作",
+    "ctaSubtitle": "我们期待与您的合作，共同创造更美好的未来。如有任何问题或需求，欢迎随时与我们联系。",
+    "ctaButton": "联系我们",
+    "visitWebsite": "访问官网",
+    "history": "历史",
+    "year": "年",
+    "historyData": [
+      { "year": "2015", "event": "P.M.I.总管理处成立" },
+      { "year": "2016", "event": "旗下事业单位逐步整合" },
+      { "year": "2019", "event": "生产基地扩展至全国 14 个省市" },
+      { "year": "2025", "event": "拥有员工近 7500 人，泰国 4 个城市开设生产基地" }
+    ]
+  },
+  "News": {
+    "pageTitle": "新闻中心",
+    "employeeNews": "员工动态",
+    "readMore": "阅读更多",
+    "allNews": "全部新闻",
+    "noNews": "暂无新闻内容",
+    "category": {
+      "employee": "员工动态"
+    },
+    "data": [
+      {
+        "id": 1,
+        "title": "PMI 上海总部二季度员工生日会",
+        "date": "2019-08-13",
+        "category": "employee",
+        "excerpt": "PMI 上海员工齐聚一堂，庆祝二季度员工生日会，现场气氛热烈，增强了团队凝聚力。",
+        "content": "近日，PMI 上海总部大楼内举行了二季度员工生日庆祝活动。活动中，寿星们齐聚一堂，共同分享美味的蛋糕，参与互动游戏。公司管理层亲临现场，为员工送上生日祝福和精美礼品。大家在欢声笑语中度过了一个难忘的下午，进一步增强了团队凝聚力和归属感。"
+      },
+      {
+        "id": 2,
+        "title": "P.M.I 五月净化之旅",
+        "date": "2019-08-14",
+        "category": "employee",
+        "excerpt": "P.M.I 组织员工开展五月净化之旅活动，让员工在大自然中放松身心，增进交流。",
+        "content": "五月阳光明媚，P.M.I 组织员工开展了一场别开生面的净化之旅。活动包括徒步登山、团队建设、冥想放松等环节。员工们在大自然中释放工作压力，增进彼此了解，提升团队协作精神。"
+      },
+      {
+        "id": 3,
+        "title": "PMI 香草园 + 莫干山秋季拓展训练",
+        "date": "2019-08-15",
+        "category": "employee",
+        "excerpt": "PMI 组织员工在香草园和莫干山开展秋季拓展活动，挑战自我，磨砺团队。",
+        "content": "秋高气爽时节，PMI 组织员工在风景秀丽的香草园和莫干山开展秋季拓展训练。活动设置了高空断桥、信任背摔、毕业墙等经典拓展项目。员工们在挑战中突破自我，在协作中增进信任。此次活动不仅锻炼了员工的意志力，也增强了团队凝聚力和战斗力。"
+      }
+    ]
+  },
+  "Recruitment": {
+    "pageTitle": "招贤纳士",
+    "joinUsTitle": "加入我们",
+    "joinUsDescription": "P.M.I.总管理处成立于 2015 年，旗下拥有 8 家事业单位，员工近 7500 人。我们秉承\"稳健、技术、品质、成本\"的策略方针，坚持\"诚信、务实、创新、进取\"的核心价值观。在这里，您将获得广阔的发展空间、具有竞争力的薪酬福利和专业的培训体系。",
+    "benefitsTitle": "薪酬福利",
+    "positionsTitle": "招聘职位",
+    "location": "工作地点",
+    "department": "所属部门",
+    "responsibilities": "岗位职责",
+    "requirements": "任职要求",
+    "applyButton": "申请职位",
+    "ctaTitle": "期待您的加入",
+    "ctaSubtitle": "如果您对我们的职位感兴趣，欢迎发送简历至我们的招聘邮箱",
+    "emailTitle": "招聘邮箱",
+    "positions": [
+      {
+        "id": 1,
+        "title": "供应链程序员（2 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "供应链模块及相关信息系统、应用软件开发、测试、维护，用户辅导及问题处理",
+          "参与相关项目工作",
+          "编写操作手册并进行用户培训",
+          "协助业务分析师进行系统分析工作"
+        ],
+        "requirements": [
+          "计算机硬件/软件、信息管理、数学、通信工程、电子商务、管理科学与工程等专业",
+          "有 ERP 工作经验者优先，应届毕业生亦可"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "销售程序员（1 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "销售模块及相关信息系统、应用软件开发、测试、维护，用户辅导及问题处理",
+          "参与相关项目工作",
+          "编写操作手册并进行用户培训",
+          "协助业务分析师进行系统分析工作"
+        ],
+        "requirements": [
+          "计算机硬件/软件、信息管理、数学、通信工程、电子商务、管理科学与工程等专业",
+          "有 ERP 工作经验者优先，应届毕业生亦可"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "财务程序员（1 名）",
+        "department": "财务长室",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "财务模块及相关信息系统、应用软件开发、测试、维护，用户辅导及问题处理",
+          "参与相关项目工作",
+          "编写操作手册并进行用户培训",
+          "协助业务分析师进行系统分析工作"
+        ],
+        "requirements": [
+          "计算机硬件/软件、信息管理、数学、通信工程、电子商务、管理科学与工程等专业",
+          "有 ERP 工作经验者优先，应届毕业生亦可"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "应用软件设计师（1 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "信息系统、应用软件开发、测试、维护，用户辅导及问题处理",
+          "参与相关项目工作",
+          "编写操作手册并进行用户培训",
+          "协助业务分析师进行系统分析工作"
+        ],
+        "requirements": [
+          "计算机硬件/软件、信息管理、数学、通信工程、电子商务、管理科学与工程等专业",
+          "有 ERP 工作经验者优先，应届毕业生亦可"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "后台管理员（2 名）",
+        "department": "经营规划部",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "管理安装及杀毒软件，管理 AD 及邮件等微软标准应用系统",
+          "应用系统安全及用户权限管理，备份、数据归档",
+          "应用系统安装、配置、升级、监控及优化"
+        ],
+        "requirements": [
+          "计算机硬件/软件、信息管理、数学、通信工程、电子商务、管理科学与工程等专业",
+          "有系统管理经验者优先，有 AD 及邮件管理经验者优先"
+        ]
+      }
+    ]
+  },
+  "Subsidiaries": {
+    "pageTitle": "下属事业单位",
+    "pageSubtitle": "P.M.I.旗下拥有 8 家事业单位，涵盖包材、原料、食材、物流四大领域",
+    "overviewTitle": "事业版图",
+    "overviewDescription": "P.M.I.总管理处下辖 8 家事业单位，包括：",
+    "packaging": "包材事业",
+    "materials": "原料事业",
+    "ingredients": "食材事业",
+    "logistics": "物流事业",
+    "factoryTitle": "生产基地分布",
+    "factorySubtitle": "在国内 14 个省市、泰国 4 个城市开设有生产基地",
+    "visitWebsite": "访问官网",
+    "ctaTitle": "了解更多",
+    "ctaSubtitle": "欢迎访问各事业单位官网，了解更多产品和服务信息",
+    "ctaButton": "关于我们",
+    "packagingCount": "包材事业（3 家）",
+    "materialsCount": "原料事业（3 家）",
+    "ingredientsCount": "食材事业（1 家）",
+    "logisticsCount": "物流事业（1 家）",
+    "subsidiaryNames": {
+      "packaging": "秉信包装、顶正包材、和昇塑料",
+      "materials": "普罗星淀粉、顶志食品、泰普淀粉",
+      "ingredients": "味珍食品",
+      "logistics": "顶通物流"
+    },
+    "subsidiaries": [
+      {
+        "id": 1,
+        "name": "秉信包装",
+        "english": "Baxin Packaging",
+        "description": "致力于以环保瓦楞纸箱为媒介，为客户提供一站式包装服务解决方案",
+        "category": "包材事业",
+        "website": "https://www.bxpackaging.com"
+      },
+      {
+        "id": 2,
+        "name": "顶正包材",
+        "english": "Tingzheng Packaging",
+        "description": "软包装、彩盒、食品纸质容器生产企业",
+        "category": "包材事业",
+        "website": "https://www.tingzhengpack.com"
+      },
+      {
+        "id": 3,
+        "name": "和昇塑料",
+        "english": "Hesheng Plastic",
+        "description": "食品级塑料制品制造商",
+        "category": "包材事业",
+        "website": "https://www.heshengplastic.com"
+      },
+      {
+        "id": 4,
+        "name": "普罗星淀粉",
+        "english": "Prostar Starch",
+        "description": "致力于淀粉及淀粉衍生物的研发和应用创新的食品级变性淀粉厂商",
+        "category": "原料事业",
+        "website": "https://www.prostarstarch.com"
+      },
+      {
+        "id": 5,
+        "name": "顶志食品",
+        "english": "Tingzhi Food",
+        "description": "芝麻油和芝麻制品供应商",
+        "category": "原料事业",
+        "website": "https://www.tingzhifood.com"
+      },
+      {
+        "id": 6,
+        "name": "泰国普罗星",
+        "english": "Starpro Thailand",
+        "description": "泰国食品级木薯原淀粉、变性淀粉制造商",
+        "category": "原料事业",
+        "website": "https://www.starprothailand.com"
+      },
+      {
+        "id": 7,
+        "name": "味珍食品",
+        "english": "Weizhen Food",
+        "description": "冻干食品加工企业",
+        "category": "食材事业",
+        "website": "https://www.weizhenfood.com"
+      },
+      {
+        "id": 8,
+        "name": "顶通物流",
+        "english": "Tingtong Logistics",
+        "description": "专业物流服务提供商",
+        "category": "物流事业",
+        "website": "https://www.tingtonglogistics.com"
+      }
+    ]
+  },
+  "Contact": {
+    "pageTitle": "联系我们",
+    "companyName": "P.M.I 总管理处",
+    "addressTitle": "公司地址",
+    "phoneTitle": "联系电话",
+    "emailTitle": "招聘邮箱",
+    "infoTitle": "企业信息",
+    "companyFullName": "公司名称",
+    "foundedTime": "成立时间",
+    "employees": "员工人数",
+    "bases": "生产基地",
+    "companies": "事业单位",
+    "icp": "网站备案",
+    "mapTitle": "公司位置",
+    "formTitle": "在线留言",
+    "formSubtitle": "填写以下表单，我们将尽快与您联系",
+    "name": "姓名",
+    "email": "邮箱",
+    "phone": "电话",
+    "company": "公司名称",
+    "message": "留言内容",
+    "submit": "提交留言",
+    "loading": "提交中...",
+    "successTitle": "提交成功！",
+    "successMessage": "感谢您的留言，我们将尽快与您联系。",
+    "submitError": "提交失败，请稍后重试",
+    "contactMethods": "联系方式",
+    "required": "必填",
+    "successButton": "发送新消息",
+    "rateLimited": "请求次数过多，请稍后再试",
+    "forbidden": "访问被拒绝",
+    "networkError": "网络错误，请检查您的连接",
+    "invalidEmail": "请输入有效的电子邮件地址",
+    "invalidPhone": "请输入有效的电话号码",
+    "minLength": "长度太短",
+    "maxLength": "长度太长",
+    "minLengthMessage": "消息太短（最少 10 个字符）",
+    "rateLimitWarning": "剩余请求次数",
+    "companyFullNameValue": "杭州秉育企业咨询管理有限公司",
+    "employeesValue": "近 7500 人（截至 2025 年 12 月）",
+    "basesValue": "国内 14 省市 + 泰国 4 城市",
+    "companiesValue": "8 家",
+    "icpValue": "浙 ICP 备 14023763 号",
+    "addressValue": "上海市闵行区吴中路 1688 号 A 栋 7 楼",
+    "phoneValue": "021-31754203",
+    "policeIcpValue": "浙公网安备 33011802001131 号",
+    "year": "年",
+    "home": "首页"
+  },
+  "Common": {
+    "backToHome": "回到首页",
+    "backToNews": "返回新闻中心",
+    "readMore": "阅读更多",
+    "loading": "加载中...",
+    "required": "必填",
+    "copyright": "版权所有",
+    "home": "首页",
+    "arrowRight": "→"
+  },
+  "Footer": {
+    "quickLinks": "快速链接",
+    "moreInfo": "更多信息",
+    "contactUs": "联系我们",
+    "address": "上海市闵行区吴中路 1688 号 A 栋 7 楼",
+    "icp1": "浙 ICP 备 14023763 号",
+    "icp2": "浙公网安备 33011802001131 号",
+    "companyName": "P.M.I 总管理处"
+  },
+  "Benefits": {
+    "salary": "薪酬",
+    "salaryDesc": "提供行业领先的薪酬待遇，让您的付出获得丰厚回报",
+    "insurance": "福利保障",
+    "insuranceDesc": "五险一金、补充商业保险，为您和家人提供全方位保障",
+    "vacation": "带薪年假",
+    "vacationDesc": "除法定节假日外，另提供带薪年假，让您工作生活两不误",
+    "training": "培训发展",
+    "trainingDesc": "完善的培训体系，提供内部晋升和跨部门发展机会",
+    "culture": "企业文化",
+    "cultureDesc": "丰富多彩的员工活动，营造积极向上的工作氛围",
+    "care": "关怀福利",
+    "careDesc": "节日福利、生日礼金、定期体检，关爱每一位员工"
+  },
+  "Services": {
+    "pageTitle": "服务项目",
+    "home": "首页",
+    "ourServices": "我们的服务",
+    "serviceDescription": "我们提供全面的专业服务，满足客户的多样化需求",
+    "advantagesTitle": "服务优势",
+    "advantagesDescription": "选择我们的理由",
+    "processTitle": "服务流程",
+    "processDescription": "我们的标准服务流程",
+    "ctaTitle": "开始您的项目",
+    "ctaDescription": "无论您的项目规模大小，我们都能提供专业的服务。立即联系我们，开启合作之旅。",
+    "ctaButton": "获取免费咨询",
+    "categories": [
+      {
+        "title": "专业咨询",
+        "description": "提供全方位的专业咨询服务，为客户量身定制最优解决方案",
+        "icon": "💡",
+        "services": ["战略规划咨询", "业务流程优化", "风险管理咨询", "合规咨询服务"]
+      },
+      {
+        "title": "技术支持",
+        "description": "强大的技术团队，为客户提供全方位的技术支持和保障",
+        "icon": "🛠️",
+        "services": ["系统架构设计", "技术方案实施", "系统运维支持", "技术培训服务"]
+      },
+      {
+        "title": "定制开发",
+        "description": "根据客户需求进行定制化开发，确保系统稳定高效运行",
+        "icon": "💻",
+        "services": ["Web 应用开发", "移动应用开发", "企业系统定制", "接口集成开发"]
+      },
+      {
+        "title": "数据分析",
+        "description": "专业的数据分析服务，帮助企业洞察业务趋势和优化决策",
+        "icon": "📊",
+        "services": ["数据采集与清洗", "数据分析与挖掘", "数据可视化", "商业智能报告"]
+      }
+    ],
+    "advantages": [
+      { "title": "专业团队", "description": "我们的团队由经验丰富的专业人士组成，具备深厚的专业知识和丰富的实践经验，能够为客户提供高质量的服务。" },
+      { "title": "定制方案", "description": "我们根据客户的实际需求，量身定制最适合的解决方案，确保服务的针对性和有效性。" },
+      { "title": "质量保证", "description": "我们严格把控服务质量，建立完善的质量管理体系，确保每一个项目都能达到最高标准。" },
+      { "title": "全程支持", "description": "我们提供全方位、全周期的服务支持，从项目咨询到实施交付，再到后期维护，确保客户无后顾之忧。" },
+      { "title": "技术创新", "description": "我们紧跟技术发展趋势，不断引进新技术、新方法，提升服务质量和效率。" },
+      { "title": "客户至上", "description": "我们始终坚持以客户为中心的服务理念，注重客户体验，努力超越客户期望。" }
+    ],
+    "process": [
+      { "step": 1, "title": "需求沟通", "description": "深入了解客户需求和目标" },
+      { "step": 2, "title": "方案制定", "description": "制定详细的服务方案和计划" },
+      { "step": 3, "title": "方案确认", "description": "与客户确认方案细节" },
+      { "step": 4, "title": "项目实施", "description": "按照方案执行项目" },
+      { "step": 5, "title": "质量验收", "description": "确保项目质量符合要求" },
+      { "step": 6, "title": "交付支持", "description": "项目交付和后续支持" }
+    ]
+  }
+}

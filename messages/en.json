@@ -2,93 +2,465 @@
   "Navigation": {
     "home": "Home",
     "about": "About Us",
+    "news": "News Center",
+    "recruitment": "Recruitment",
+    "subsidiaries": "Subsidiaries",
+    "contact": "Contact Us",
     "services": "Services",
-    "news": "News",
-    "contact": "Contact",
     "language": "English",
-    "english": "中文"
+    "locale": "en"
   },
   "Home": {
-    "heroTitle": "Professional Service, Trustworthy",
-    "heroSubtitle": "We are committed to providing customers with the highest quality professional services, winning their trust and support with excellent quality and professional attitude.",
-    "ctaServices": "Learn About Our Services",
-    "ctaContact": "Contact Us",
-    "aboutTitle": "About Us",
-    "aboutSubtitle": "Company Profile",
-    "servicesTitle": "Our Services",
-    "servicesSubtitle": "We provide comprehensive professional services to meet customers' diverse needs",
-    "newsTitle": "News Center",
-    "newsSubtitle": "Learn about our latest updates and industry information",
-    "contactCtaTitle": "Contact Us",
-    "contactCtaSubtitle": "If you have any questions or needs, please feel free to contact us. Our professional team will serve you wholeheartedly.",
-    "contactCtaButton": "Consult Now"
+    "heroTitle": "P.M.I Head Office",
+    "heroSubtitle": "Steady · Technology · Quality · Cost",
+    "heroDescription": "8 subsidiaries, production bases in 14 provinces of China and 4 cities in Thailand, with nearly 7,500 employees",
+    "ctaAbout": "About Us",
+    "ctaSubsidiaries": "Subsidiaries",
+    "aboutTitle": "About P.M.I.",
+    "aboutDescription": "P.M.I. Head Office was established in January 2015, overseeing the Chief Financial Officer Office, Central Research Institute, Human Resources Department, Business Planning Department, and 8 subsidiaries (including 3 packaging businesses, 3 raw material businesses, 1 food ingredient business, and 1 logistics business). Production bases are located in 14 provinces in China and 4 cities in Thailand. As of December 2025, P.M.I. Head Office has nearly 7,500 employees.",
+    "pmiTitle": "Meaning of P.M.I.",
+    "pmiP": "Packaging: Manufacturers of soft packaging, color boxes, and food paper containers - Tingzheng Packaging; Packaging company dedicated to providing one-stop packaging service solutions with environmentally friendly corrugated cardboard as the medium - Baxin Packaging; Food-grade plastic products manufacturer - Hesheng Plastic",
+    "pmiM": "Materials: Sesame oil and sesame products supplier - Tingzhi Food; Food-grade modified starch manufacturer dedicated to R&D and application innovation of starch and starch derivatives - China Prostar; Food-grade cassava native starch and modified starch manufacturer - Thailand Prostar",
+    "pmiI": "Ingredients: Freeze-dried food processing enterprise - Weizhen Food",
+    "scaleTitle": "Enterprise Scale",
+    "scaleEmployees": "Employees",
+    "scaleBases": "Production Bases",
+    "scaleCompanies": "Subsidiaries",
+    "scaleSince": "Since",
+    "businessTitle": "Business Areas",
+    "businessSubtitle": "Covering four major fields: Packaging, Materials, Ingredients, and Logistics",
+    "packaging": "Packaging Business",
+    "materials": "Materials Business",
+    "ingredients": "Ingredients Business",
+    "logistics": "Logistics Business",
+    "subsidiariesTitle": "Subsidiaries",
+    "viewAll": "View All Subsidiaries",
+    "newsTitle": "Employee News",
+    "viewAllNews": "View All News",
+    "contactTitle": "Contact Us",
+    "contactButton": "Online Inquiry",
+    "recruitButton": "Join Us",
+    "businessDesc": {
+      "packaging": "Soft packaging, color boxes, food paper containers, eco-friendly corrugated cardboard",
+      "materials": "Sesame oil, starch and starch derivatives",
+      "ingredients": "Freeze-dried food processing",
+      "logistics": "Professional logistics services"
+    },
+    "companiesCount": " companies",
+    "learnMore": "Learn more",
+    "factoryTitle": "Production Base Distribution",
+    "factorySubtitle": "Production bases in 14 provinces of China and 4 cities in Thailand",
+    "readMore": "Read more",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "footerName": "Head Office",
+    "history": "History"
   },
   "About": {
     "pageTitle": "About Us",
     "companyTitle": "Company Profile",
-    "coreValuesTitle": "Core Values",
-    "strengthsTitle": "Our Strengths",
-    "ctaTitle": "Looking Forward to Working With You",
-    "ctaSubtitle": "We look forward to working with you to create a better future. If you have any questions or needs, please feel free to contact us.",
-    "ctaButton": "Contact Us"
-  },
-  "Services": {
-    "pageTitle": "Services",
-    "overviewTitle": "Our Services",
-    "advantagesTitle": "Service Advantages",
-    "processTitle": "Service Process",
-    "ctaTitle": "Start Your Project",
-    "ctaSubtitle": "No matter the size of your project, we can provide professional services. Contact us now to start your journey.",
-    "ctaButton": "Get Free Consultation"
+    "companyDescription": "P.M.I. Head Office was established in January 2015, overseeing the Chief Financial Officer Office, Central Research Institute, Human Resources Department, Business Planning Department, and 8 subsidiaries (including 3 packaging businesses, 3 raw material businesses, 1 food ingredient business, and 1 logistics business). Production bases are located in 14 provinces in China and 4 cities in Thailand. As of December 2025, P.M.I. Head Office has nearly 7,500 employees.",
+    "pmiTitle": "Meaning of P.M.I.",
+    "pmiDescription": "P.M.I. Head Office takes 'Steady, Technology, Quality, Cost' as its strategic policy, responsible for integration, service, performance, and supervision of its 8 subsidiaries. Each subsidiary operates with the business philosophy of 'Integrity, Pragmatism, Innovation', continuously striving to create more value for customers through cost improvement, technological innovation, and quality enhancement.",
+    "strategyTitle": "Strategy and Core Values",
+    "strategy": "Strategy",
+    "values": "Core Values",
+    "steady": "Steady",
+    "technology": "Technology",
+    "quality": "Quality",
+    "cost": "Cost",
+    "integrity": "Integrity",
+    "pragmatic": "Pragmatic",
+    "innovation": "Innovation",
+    "progress": "Progress",
+    "historyTitle": "P.M.I. History",
+    "scaleTitle": "Enterprise Scale",
+    "scaleEmployees": "Employees",
+    "scaleBases": "Production Bases",
+    "scaleCompanies": "Subsidiaries",
+    "asOfDate": "As of December 2025",
+    "scaleBasesDetail": "14 provinces in China + 4 cities in Thailand",
+    "scaleCompaniesDetail": "4 Business Areas",
+    "subsidiariesTitle": "Subsidiaries",
+    "factoryTitle": "Production Base Distribution",
+    "factorySubtitle": "Production bases in 14 provinces in China and 4 cities in Thailand",
+    "contactTitle": "Contact Us",
+    "address": "Company Address",
+    "phone": "Contact Phone",
+    "ctaTitle": "Looking Forward to Cooperation",
+    "ctaSubtitle": "We look forward to cooperating with you to create a better future. If you have any questions or needs, please feel free to contact us.",
+    "ctaButton": "Contact Us",
+    "visitWebsite": "Visit Website",
+    "history": "History",
+    "year": "Year",
+    "historyData": [
+      { "year": "2015", "event": "P.M.I. Head Office established" },
+      { "year": "2016", "event": "Gradual integration of subsidiaries" },
+      { "year": "2019", "event": "Production bases expanded to 14 provinces across China" },
+      { "year": "2025", "event": "Nearly 7,500 employees, production bases established in 4 cities in Thailand" }
+    ]
   },
   "News": {
     "pageTitle": "News Center",
-    "categories": {
-      "all": "All",
-      "company": "Company News",
-      "industry": "Industry News",
-      "product": "Product Updates"
+    "employeeNews": "Employee News",
+    "readMore": "Read More",
+    "allNews": "All News",
+    "noNews": "No news available",
+    "category": {
+      "employee": "Employee News"
     },
-    "subscribeTitle": "Subscribe to Our News",
-    "subscribeSubtitle": "Stay updated with our latest news and industry information",
-    "subscribePlaceholder": "Enter your email",
-    "subscribeButton": "Subscribe"
+    "data": [
+      {
+        "id": 1,
+        "title": "PMI Shanghai Office Q2 Birthday Celebration",
+        "date": "2019-08-13",
+        "category": "employee",
+        "excerpt": "PMI Shanghai employees gathered together to celebrate the Q2 employee birthday party, with a warm atmosphere that enhanced team cohesion.",
+        "content": "Recently, PMI Shanghai held the Q2 employee birthday celebration at the headquarters building. At the event, birthday stars gathered together to share delicious cakes and participate in interactive games. Company management attended the scene to deliver birthday blessings and exquisite gifts to employees. Everyone spent an unforgettable afternoon in laughter, further enhancing team cohesion and sense of belonging."
+      },
+      {
+        "id": 2,
+        "title": "P.M.I. May Purification Journey",
+        "date": "2019-08-14",
+        "category": "employee",
+        "excerpt": "P.M.I. organized employees to carry out May purification journey activities, allowing employees to relax in nature and enhance communication.",
+        "content": "In the warm sunshine of May, P.M.I. organized employees to carry out a unique purification journey. Activities included hiking, team building, meditation relaxation and other links. Employees released work stress in nature, enhanced mutual understanding, and improved team collaboration spirit."
+      },
+      {
+        "id": 3,
+        "title": "PMI Herb Garden + Mogan Mountain Autumn Expansion",
+        "date": "2019-08-15",
+        "category": "employee",
+        "excerpt": "PMI organized employees to carry out autumn expansion activities at Herb Garden and Mogan Mountain, challenging themselves and refining the team.",
+        "content": "In the crisp autumn season, PMI organized employees to carry out autumn expansion training at the scenic Herb Garden and Mogan Mountain. The activities set up classic expansion projects such as high-altitude bridge, trust fall, and graduation wall. Employees broke through themselves in challenges and enhanced trust in collaboration. This activity not only exercised employees' willpower but also enhanced team cohesion and combat effectiveness."
+      }
+    ]
+  },
+  "Recruitment": {
+    "pageTitle": "Recruitment",
+    "joinUsTitle": "Join Us",
+    "joinUsDescription": "P.M.I. Head Office was established in 2015, with 8 subsidiaries and nearly 7,500 employees. We adhere to the strategic policy of 'Steady, Technology, Quality, Cost' and the core values of 'Integrity, Pragmatism, Innovation, Progress'. Here, you will get broad development space, competitive compensation and benefits, and a professional training system.",
+    "benefitsTitle": "Compensation & Benefits",
+    "positionsTitle": "Positions",
+    "location": "Location",
+    "department": "Department",
+    "responsibilities": "Responsibilities",
+    "requirements": "Requirements",
+    "applyButton": "Apply",
+    "ctaTitle": "Looking Forward to Your Joining",
+    "ctaSubtitle": "If you are interested in our positions, please send your resume to our recruitment email",
+    "emailTitle": "Recruitment Email",
+    "positions": [
+      {
+        "id": 1,
+        "title": "Supply Chain Programmer (2 positions)",
+        "department": "Central Research Institute",
+        "location": "Xiasha, Hangzhou",
+        "responsibilities": [
+          "Development, testing, maintenance of supply chain modules and related information systems and application software, user coaching and problem handling",
+          "Participate in related project work",
+          "Write operation manuals and conduct user training",
+          "Assist business analysts with system analysis work"
+        ],
+        "requirements": [
+          "Computer hardware/software, information management, mathematics, communication engineering, e-commerce, management science and engineering majors",
+          "ERP work experience or fresh graduates"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Sales Programmer (1 position)",
+        "department": "Central Research Institute",
+        "location": "Xiasha, Hangzhou",
+        "responsibilities": [
+          "Development, testing, maintenance of sales modules and related information systems and application software, user coaching and problem handling",
+          "Participate in related project work",
+          "Write operation manuals and conduct user training",
+          "Assist business analysts with system analysis work"
+        ],
+        "requirements": [
+          "Computer hardware/software, information management, mathematics, communication engineering, e-commerce, management science and engineering majors",
+          "ERP work experience or fresh graduates"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Finance Programmer (1 position)",
+        "department": "Chief Financial Officer Office",
+        "location": "Xiasha, Hangzhou",
+        "responsibilities": [
+          "Development, testing, maintenance of finance modules and related information systems and application software, user coaching and problem handling",
+          "Participate in related project work",
+          "Write operation manuals and conduct user training",
+          "Assist business analysts with system analysis work"
+        ],
+        "requirements": [
+          "Computer hardware/software, information management, mathematics, communication engineering, e-commerce, management science and engineering majors",
+          "ERP work experience or fresh graduates"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Application Software Designer (1 position)",
+        "department": "Central Research Institute",
+        "location": "Xiasha, Hangzhou",
+        "responsibilities": [
+          "Development, testing, maintenance of information systems and application software, user coaching and problem handling",
+          "Participate in related project work",
+          "Write operation manuals and conduct user training",
+          "Assist business analysts with system analysis work"
+        ],
+        "requirements": [
+          "Computer hardware/software, information management, mathematics, communication engineering, e-commerce, management science and engineering majors",
+          "ERP work experience or fresh graduates"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Backend Administrator (2 positions)",
+        "department": "Business Planning Department",
+        "location": "Xiasha, Hangzhou",
+        "responsibilities": [
+          "Manage installation and antivirus software, manage AD and email and other Microsoft standard application systems",
+          "Application system security and user permission management, backup, data archiving",
+          "Application system installation, configuration, upgrade, monitoring and optimization"
+        ],
+        "requirements": [
+          "Computer hardware/software, information management, mathematics, communication engineering, e-commerce, management science and engineering majors",
+          "System management experience, AD and email management experience preferred"
+        ]
+      }
+    ]
+  },
+  "Subsidiaries": {
+    "pageTitle": "Subsidiaries",
+    "pageSubtitle": "P.M.I. has 8 subsidiaries covering four major fields: Packaging, Materials, Ingredients, and Logistics",
+    "overviewTitle": "Business Overview",
+    "overviewDescription": "P.M.I. Head Office oversees 8 subsidiaries, including:",
+    "packaging": "Packaging Business",
+    "materials": "Materials Business",
+    "ingredients": "Ingredients Business",
+    "logistics": "Logistics Business",
+    "factoryTitle": "Production Base Distribution",
+    "factorySubtitle": "Production bases in 14 provinces in China and 4 cities in Thailand",
+    "visitWebsite": "Visit Website",
+    "ctaTitle": "Learn More",
+    "ctaSubtitle": "Welcome to visit the official websites of subsidiaries to learn more about products and services",
+    "ctaButton": "About Us",
+    "packagingCount": "Packaging (3 companies)",
+    "materialsCount": "Materials (3 companies)",
+    "ingredientsCount": "Ingredients (1 company)",
+    "logisticsCount": "Logistics (1 company)",
+    "subsidiaryNames": {
+      "packaging": "Baxin Packaging, Tingzheng Packaging, Hesheng Plastic",
+      "materials": "Prostar Starch, Tingzhi Food, Taipu Starch",
+      "ingredients": "Weizhen Food",
+      "logistics": "Dingtong Logistics"
+    },
+    "subsidiaries": [
+      {
+        "id": 1,
+        "name": "Baxin Packaging",
+        "english": "Baxin Packaging",
+        "description": "Dedicated to providing one-stop packaging service solutions with environmentally friendly corrugated cardboard",
+        "category": "Packaging",
+        "website": "https://www.bxpackaging.com"
+      },
+      {
+        "id": 2,
+        "name": "Tingzheng Packaging",
+        "english": "Tingzheng Packaging",
+        "description": "Manufacturer of soft packaging, color boxes, and food paper containers",
+        "category": "Packaging",
+        "website": "https://www.tingzhengpack.com"
+      },
+      {
+        "id": 3,
+        "name": "Hesheng Plastic",
+        "english": "Hesheng Plastic",
+        "description": "Food-grade plastic products manufacturer",
+        "category": "Packaging",
+        "website": "https://www.heshengplastic.com"
+      },
+      {
+        "id": 4,
+        "name": "Prostar Starch",
+        "english": "Prostar Starch",
+        "description": "Food-grade modified starch manufacturer dedicated to R&D and application innovation",
+        "category": "Materials",
+        "website": "https://www.prostarstarch.com"
+      },
+      {
+        "id": 5,
+        "name": "Tingzhi Food",
+        "english": "Tingzhi Food",
+        "description": "Sesame oil and sesame products supplier",
+        "category": "Materials",
+        "website": "https://www.tingzhifood.com"
+      },
+      {
+        "id": 6,
+        "name": "Starpro Thailand",
+        "english": "Starpro Thailand",
+        "description": "Food-grade cassava native starch and modified starch manufacturer (Thailand)",
+        "category": "Materials",
+        "website": "https://www.starprothailand.com"
+      },
+      {
+        "id": 7,
+        "name": "Weizhen Food",
+        "english": "Weizhen Food",
+        "description": "Freeze-dried food processing enterprise",
+        "category": "Ingredients",
+        "website": "https://www.weizhenfood.com"
+      },
+      {
+        "id": 8,
+        "name": "Tingtong Logistics",
+        "english": "Tingtong Logistics",
+        "description": "Professional logistics service enterprise",
+        "category": "Logistics",
+        "website": "https://www.tingtonglogistics.com"
+      }
+    ]
   },
   "Contact": {
     "pageTitle": "Contact Us",
-    "infoTitle": "Contact Information",
-    "infoSubtitle": "Choose the best way to contact us",
-    "formTitle": "Online Inquiry",
-    "formSubtitle": "Fill out the form below and our customer service team will contact you soon.",
+    "companyName": "P.M.I Head Office",
+    "addressTitle": "Company Address",
+    "phoneTitle": "Contact Phone",
+    "emailTitle": "Recruitment Email",
+    "infoTitle": "Company Information",
+    "companyFullName": "Company Name",
+    "foundedTime": "Founded",
+    "employees": "Employees",
+    "bases": "Production Bases",
+    "companies": "Subsidiaries",
+    "icp": "ICP Filing",
     "mapTitle": "Company Location",
-    "hoursTitle": "Business Hours",
+    "formTitle": "Online Inquiry",
+    "formSubtitle": "Fill out the form below and we will contact you soon",
     "name": "Name",
     "email": "Email",
     "phone": "Phone",
     "company": "Company Name",
     "message": "Message",
-    "submit": "Submit Message",
+    "submit": "Submit",
     "loading": "Submitting...",
     "successTitle": "Submission Successful!",
-    "successMessage": "Thank you for your message. Our customer service team will contact you soon.",
-    "successButton": "Send Another Message",
+    "successMessage": "Thank you for your message. We will contact you soon.",
     "submitError": "Submission failed, please try again later",
+    "contactMethods": "Contact Methods",
     "required": "Required",
-    "minLength": "Too short",
-    "maxLength": "Too long",
-    "minLengthMessage": "Minimum 10 characters required",
-    "invalidEmail": "Please enter a valid email address",
-    "invalidPhone": "Please enter a valid phone number",
-    "rateLimited": "Too many requests, please try again later",
-    "rateLimitWarning": "Remaining requests",
-    "forbidden": "Request origin not allowed",
-    "networkError": "Network error, please check your connection"
+    "successButton": "Send Another Message",
+    "rateLimited": "Too many requests. Please try again later.",
+    "forbidden": "Access denied.",
+    "networkError": "Network error. Please check your connection.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPhone": "Please enter a valid phone number.",
+    "minLength": "is too short.",
+    "maxLength": "is too long.",
+    "minLengthMessage": "Message is too short (minimum 10 characters).",
+    "rateLimitWarning": "Rate limit remaining",
+    "companyFullNameValue": "Hangzhou Bingyu Enterprise Consulting Management Co., Ltd.",
+    "employeesValue": "Nearly 7,500 (as of December 2025)",
+    "basesValue": "14 provinces in China + 4 cities in Thailand",
+    "companiesValue": "8 subsidiaries",
+    "icpValue": "Zhejiang ICP No. 14023763",
+    "addressValue": "7th Floor, Building A, No. 1688 Wuzhong Road, Minhang District, Shanghai",
+    "phoneValue": "021-31754203",
+    "policeIcpValue": "Zhejiang Public Security No. 33011802001131",
+    "year": "",
+    "home": "Home"
   },
   "Common": {
     "backToHome": "Back to Home",
-    "backToNews": "Back to News Center",
+    "backToNews": "Back to News",
     "readMore": "Read More",
     "loading": "Loading...",
-    "required": "Required"
+    "required": "Required",
+    "copyright": "All Rights Reserved",
+    "home": "Home",
+    "arrowRight": "→",
+    "siteTitle": "P.M.I Head Office",
+    "siteDescription": "P.M.I. Head Office oversees 8 subsidiaries with production bases in 14 provinces of China and 4 cities in Thailand, with nearly 7,500 employees"
+  },
+  "Footer": {
+    "quickLinks": "Quick Links",
+    "moreInfo": "More Info",
+    "contactUs": "Contact Us",
+    "address": "7th Floor, Building A, No. 1688 Wuzhong Road, Minhang District, Shanghai",
+    "icp1": "Zhejiang ICP No. 14023763",
+    "icp2": "Zhejiang Public Security No. 33011802001131",
+    "companyName": "P.M.I Head Office"
+  },
+  "Benefits": {
+    "salary": "Compensation",
+    "salaryDesc": "Industry-leading compensation to reward your contributions",
+    "insurance": "Insurance & Benefits",
+    "insuranceDesc": "Comprehensive insurance including social insurance, housing fund, and commercial insurance for you and your family",
+    "vacation": "Paid Vacation",
+    "vacationDesc": "Paid annual leave in addition to national holidays for work-life balance",
+    "training": "Training & Development",
+    "trainingDesc": "Comprehensive training system with internal promotion and cross-department development opportunities",
+    "culture": "Corporate Culture",
+    "cultureDesc": "Rich employee activities creating a positive work atmosphere",
+    "care": "Employee Care",
+    "careDesc": "Holiday gifts, birthday bonuses, regular health checkups showing care for every employee"
+  },
+  "Services": {
+    "pageTitle": "Services",
+    "home": "Home",
+    "ourServices": "Our Services",
+    "serviceDescription": "We provide comprehensive professional services to meet your diverse needs",
+    "advantagesTitle": "Service Advantages",
+    "advantagesDescription": "Reasons to choose us",
+    "processTitle": "Service Process",
+    "processDescription": "Our standard service process",
+    "ctaTitle": "Start Your Project",
+    "ctaDescription": "No matter the size of your project, we can provide professional services. Contact us now to start your journey.",
+    "ctaButton": "Get Free Consultation",
+    "categories": [
+      {
+        "title": "Professional Consulting",
+        "description": "Provide comprehensive professional consulting services, tailor-made optimal solutions for customers",
+        "icon": "💡",
+        "services": ["Strategic Planning Consulting", "Business Process Optimization", "Risk Management Consulting", "Compliance Consulting Services"]
+      },
+      {
+        "title": "Technical Support",
+        "description": "Strong technical team, providing comprehensive technical support and guarantee for customers",
+        "icon": "🛠️",
+        "services": ["System Architecture Design", "Technical Solution Implementation", "System Operations Support", "Technical Training Services"]
+      },
+      {
+        "title": "Custom Development",
+        "description": "Customized development according to customer needs to ensure stable and efficient system operation",
+        "icon": "💻",
+        "services": ["Web Application Development", "Mobile Application Development", "Enterprise System Customization", "Interface Integration Development"]
+      },
+      {
+        "title": "Data Analysis",
+        "description": "Professional data analysis services to help enterprises gain business insights and optimize decisions",
+        "icon": "📊",
+        "services": ["Data Collection and Cleaning", "Data Analysis and Mining", "Data Visualization", "Business Intelligence Reports"]
+      }
+    ],
+    "advantages": [
+      { "title": "Professional Team", "description": "Our team consists of experienced professionals with deep expertise and rich practical experience, capable of providing high-quality services to customers." },
+      { "title": "Customized Solutions", "description": "We tailor the most suitable solutions according to customers' actual needs, ensuring the relevance and effectiveness of services." },
+      { "title": "Quality Assurance", "description": "We strictly control service quality, establish a comprehensive quality management system, and ensure that every project meets the highest standards." },
+      { "title": "Full-process Support", "description": "We provide comprehensive, full-cycle service support, from project consulting to implementation and delivery, to after-sales maintenance, ensuring customers have no worries." },
+      { "title": "Technical Innovation", "description": "We keep up with technology development trends, continuously introduce new technologies and methods, and improve service quality and efficiency." },
+      { "title": "Customer First", "description": "We always adhere to the customer-centric service philosophy, focus on customer experience, and strive to exceed customer expectations." }
+    ],
+    "process": [
+      { "step": 1, "title": "Requirement Communication", "description": "Deeply understand customer needs and goals" },
+      { "step": 2, "title": "Solution Formulation", "description": "Develop detailed service plan and schedule" },
+      { "step": 3, "title": "Solution Confirmation", "description": "Confirm solution details with customer" },
+      { "step": 4, "title": "Project Implementation", "description": "Execute project according to plan" },
+      { "step": 5, "title": "Quality Acceptance", "description": "Ensure project quality meets requirements" },
+      { "step": 6, "title": "Delivery Support", "description": "Project delivery and follow-up support" }
+    ]
   }
 }

@@ -1,0 +1,403 @@
+{
+  "Navigation": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "news": "Tin tức",
+    "recruitment": "Tuyển dụng",
+    "subsidiaries": "Công ty con",
+    "contact": "Liên hệ",
+    "services": "Dịch vụ",
+    "language": "Tiếng Việt",
+    "locale": "vi"
+  },
+  "Home": {
+    "heroTitle": "Trụ sở chính P.M.I",
+    "heroSubtitle": "Ổn định · Công nghệ · Chất lượng · Chi phí",
+    "heroDescription": "8 công ty con, có cơ sở sản xuất tại 14 tỉnh thành Trung Quốc và 4 thành phố Thái Lan, với gần 7.500 nhân viên",
+    "ctaAbout": "Về chúng tôi",
+    "ctaSubsidiaries": "Công ty con",
+    "aboutTitle": "Về P.M.I",
+    "aboutDescription": "Trụ sở chính P.M.I được thành lập vào tháng 1 năm 2015, quản lý Văn phòng Giám đốc Tài chính, Viện Nghiên cứu Trung tâm, Phòng Nhân sự, Phòng Kế hoạch Kinh doanh và 8 công ty con (bao gồm 3 doanh nghiệp bao bì, 3 doanh nghiệp nguyên liệu, 1 doanh nghiệp thực phẩm và 1 doanh nghiệp logistics). Có cơ sở sản xuất tại 14 tỉnh thành Trung Quốc và 4 thành phố Thái Lan. Tính đến tháng 12 năm 2025, Trụ sở chính P.M.I có gần 7.500 nhân viên.",
+    "pmiTitle": "Ý nghĩa của P.M.I",
+    "pmiP": "Packaging(Bao bì): Nhà sản xuất bao bì mềm, hộp màu và hộp giấy thực phẩm - Tingzheng Packaging; Công ty bao bì cam kết cung cấp giải pháp dịch vụ bao bì một cửa với giấy sóng thân thiện môi trường - Baxin Packaging; Nhà sản xuất sản phẩm nhựa cấp thực phẩm - Hesheng Plastic",
+    "pmiM": "Materials(Nguyên liệu): Nhà cung cấp dầu mè và sản phẩm mè - Tingzhi Food; Nhà sản xuất tinh bột biến tính cấp thực phẩm cam kết nghiên cứu và phát triển tinh bột và dẫn xuất tinh bột - China Prostar; Nhà sản xuất tinh bột sắn nguyên chất và tinh bột biến tính cấp thực phẩm - Thailand Prostar",
+    "pmiI": "Ingredients(Thực phẩm): Doanh nghiệp chế biến thực phẩm sấy lạnh - Weizhen Food",
+    "scaleTitle": "Quy mô doanh nghiệp",
+    "scaleEmployees": "Nhân viên",
+    "scaleBases": "Cơ sở sản xuất",
+    "scaleCompanies": "Công ty con",
+    "scaleSince": "Từ năm",
+    "businessTitle": "Lĩnh vực kinh doanh",
+    "businessSubtitle": "Bao phủ 4 lĩnh vực chính: Bao bì, Nguyên liệu, Thực phẩm và Logistics",
+    "packaging": "Kinh doanh Bao bì",
+    "materials": "Kinh doanh Nguyên liệu",
+    "ingredients": "Kinh doanh Thực phẩm",
+    "logistics": "Kinh doanh Logistics",
+    "subsidiariesTitle": "Công ty con",
+    "viewAll": "Xem tất cả",
+    "newsTitle": "Tin tức nhân viên",
+    "viewAllNews": "Xem tất cả tin tức",
+    "contactTitle": "Liên hệ chúng tôi",
+    "contactButton": "Gửi yêu cầu",
+    "recruitButton": "Gia nhập cùng chúng tôi",
+    "businessDesc": {
+      "packaging": "Bao bì mềm, hộp màu, hộp giấy thực phẩm, giấy sóng thân thiện môi trường",
+      "materials": "Dầu mè, tinh bột và dẫn xuất tinh bột",
+      "ingredients": "Chế biến thực phẩm sấy lạnh",
+      "logistics": "Dịch vụ logistics chuyên nghiệp"
+    },
+    "companiesCount": " công ty",
+    "learnMore": "Tìm hiểu thêm",
+    "factoryTitle": "Phân bố cơ sở sản xuất",
+    "factorySubtitle": "Cơ sở sản xuất tại 14 tỉnh thành Trung Quốc và 4 thành phố Thái Lan",
+    "readMore": "Đọc thêm",
+    "addressLabel": "Địa chỉ",
+    "phoneLabel": "Điện thoại",
+    "footerName": "Trụ sở chính",
+    "history": "Lịch sử"
+  },
+  "About": {
+    "pageTitle": "Về chúng tôi",
+    "companyTitle": "Giới thiệu công ty",
+    "companyDescription": "Trụ sở chính P.M.I được thành lập vào tháng 1 năm 2015, quản lý Văn phòng Giám đốc Tài chính, Viện Nghiên cứu Trung tâm, Phòng Nhân sự, Phòng Kế hoạch Kinh doanh và 8 công ty con. Có cơ sở sản xuất tại 14 tỉnh thành Trung Quốc và 4 thành phố Thái Lan. Tính đến tháng 12 năm 2025, có gần 7.500 nhân viên.",
+    "pmiTitle": "Ý nghĩa của P.M.I",
+    "pmiDescription": "Trụ sở chính P.M.I lấy 'Ổn định, Công nghệ, Chất lượng, Chi phí' làm phương châm chiến lược, có trách nhiệm tích hợp, phục vụ, hiệu suất và giám sát 8 công ty con. Mỗi công ty con hoạt động với triết lý 'Chính trực, Thực tế, Đổi mới', không ngừng tạo ra nhiều giá trị hơn cho khách hàng.",
+    "strategyTitle": "Chiến lược và Giá trị cốt lõi",
+    "strategy": "Chiến lược",
+    "values": "Giá trị cốt lõi",
+    "steady": "Ổn định",
+    "technology": "Công nghệ",
+    "quality": "Chất lượng",
+    "cost": "Chi phí",
+    "integrity": "Chính trực",
+    "pragmatic": "Thực tế",
+    "innovation": "Đổi mới",
+    "progress": "Tiến bộ",
+    "historyTitle": "Lịch sử P.M.I",
+    "scaleTitle": "Quy mô doanh nghiệp",
+    "scaleEmployees": "Nhân viên",
+    "scaleBases": "Cơ sở sản xuất",
+    "scaleCompanies": "Công ty con",
+    "asOfDate": "Tính đến tháng 12 năm 2025",
+    "scaleBasesDetail": "14 tỉnh thành Trung Quốc + 4 thành phố Thái Lan",
+    "scaleCompaniesDetail": "4 Lĩnh vực kinh doanh",
+    "subsidiariesTitle": "Công ty con",
+    "factoryTitle": "Phân bố cơ sở sản xuất",
+    "factorySubtitle": "Cơ sở sản xuất tại 14 tỉnh thành Trung Quốc và 4 thành phố Thái Lan",
+    "contactTitle": "Liên hệ chúng tôi",
+    "address": "Địa chỉ công ty",
+    "phone": "Số điện thoại",
+    "ctaTitle": "Mong đợi hợp tác",
+    "ctaSubtitle": "Chúng tôi mong đợi được hợp tác với bạn để tạo ra tương lai tốt đẹp hơn. Nếu có bất kỳ câu hỏi hoặc nhu cầu nào, vui lòng liên hệ với chúng tôi.",
+    "ctaButton": "Liên hệ chúng tôi",
+    "visitWebsite": "Truy cập website",
+    "history": "Lịch sử",
+    "year": "Năm",
+    "historyData": [
+      { "year": "2015", "event": "Thành lập Trụ sở chính P.M.I" },
+      { "year": "2016", "event": "Tích hợp dần các công ty con" },
+      { "year": "2019", "event": "Mở rộng cơ sở sản xuất ra 14 tỉnh thành Trung Quốc" },
+      { "year": "2025", "event": "Gần 7.500 nhân viên, thành lập cơ sở sản xuất tại 4 thành phố Thái Lan" }
+    ]
+  },
+  "News": {
+    "pageTitle": "Tin tức",
+    "employeeNews": "Tin tức nhân viên",
+    "readMore": "Đọc thêm",
+    "allNews": "Tất cả tin tức",
+    "noNews": "Không có tin tức",
+    "category": {
+      "employee": "Tin tức nhân viên"
+    },
+    "data": [
+      {
+        "id": 1,
+        "title": "Tiệc sinh nhật nhân viên Q2 văn phòng Thượng Hải",
+        "date": "2019-08-13",
+        "category": "employee",
+        "excerpt": "Nhân viên PMI Thượng Hải cùng nhau kỷ niệm tiệc sinh nhật nhân viên Q2, không khí ấm cúng tăng cường sự gắn kết nhóm.",
+        "content": "Gần đây, PMI Thượng Hải tổ chức tiệc sinh nhật nhân viên Q2 tại tòa nhà trụ sở. Tại sự kiện, những người sinh nhật cùng nhau chia sẻ bánh ngon và tham gia trò chơi tương tác. Ban quản lý công ty đã đến trao quà và lời chúc sinh nhật cho nhân viên. Mọi người đã trải qua một buổi chiều khó quên trong tiếng cười, tăng cường sự gắn kết và cảm giác thuộc về nhóm."
+      },
+      {
+        "id": 2,
+        "title": "Hành trình thanh lọc tháng 5 của P.M.I",
+        "date": "2019-08-14",
+        "category": "employee",
+        "excerpt": "P.M.I tổ chức hoạt động hành trình thanh lọc cho nhân viên, giúp nhân viên thư giãn trong thiên nhiên và tăng cường giao tiếp.",
+        "content": "Trong ánh nắng ấm áp của tháng 5, P.M.I tổ chức một hành trình thanh lọc độc đáo cho nhân viên. Các hoạt động bao gồm đi bộ đường dài, xây dựng nhóm, thiền định và thư giãn. Nhân viên đã giải tỏa căng thẳng trong thiên nhiên, tăng cường hiểu biết lẫn nhau và nâng cao tinh thần hợp tác nhóm."
+      },
+      {
+        "id": 3,
+        "title": "Hoạt động mở rộng mùa thu tại Vườn thảo dược và núi Mogan",
+        "date": "2019-08-15",
+        "category": "employee",
+        "excerpt": "PMI tổ chức hoạt động mở rộng mùa thu cho nhân viên tại Vườn thảo dược và núi Mogan, thách thức bản thân và rèn luyện nhóm.",
+        "content": "Vào mùa thu mát trời, PMI tổ chức huấn luyện mở rộng cho nhân viên tại Vườn thảo dược và núi Mogan. Các hoạt động bao gồm cầu trên cao, ngã ngược tin tưởng, tường tốt nghiệp và các dự án mở rộng cổ điển khác. Nhân viên đã đột phá bản thân trong thách thức và tăng cường niềm tin trong hợp tác."
+      }
+    ]
+  },
+  "Recruitment": {
+    "pageTitle": "Tuyển dụng",
+    "joinUsTitle": "Gia nhập cùng chúng tôi",
+    "joinUsDescription": "Trụ sở chính P.M.I được thành lập năm 2015, có 8 công ty con và gần 7.500 nhân viên. Chúng tôi tuân thủ phương châm chiến lược 'Ổn định, Công nghệ, Chất lượng, Chi phí' và giá trị cốt lõi 'Chính trực, Thực tế, Đổi mới, Tiến bộ'. Tại đây, bạn sẽ có được không gian phát triển rộng rãi, chế độ đãi ngộ cạnh tranh và hệ thống đào tạo chuyên nghiệp.",
+    "benefitsTitle": "Chế độ đãi ngộ",
+    "positionsTitle": "Vị trí tuyển dụng",
+    "location": "Địa điểm",
+    "department": "Phòng ban",
+    "responsibilities": "Trách nhiệm",
+    "requirements": "Yêu cầu",
+    "applyButton": "Ứng tuyển",
+    "ctaTitle": "Mong chờ sự gia nhập của bạn",
+    "ctaSubtitle": "Nếu bạn quan tâm đến các vị trí của chúng tôi, vui lòng gửi CV đến email tuyển dụng",
+    "emailTitle": "Email tuyển dụng",
+    "positions": [
+      {
+        "id": 1,
+        "title": "Lập trình viên chuỗi cung ứng (2 vị trí)",
+        "department": "Viện Nghiên cứu Trung tâm",
+        "location": "Hạ Sa, Hàng Châu",
+        "responsibilities": [
+          "Phát triển, kiểm tra, bảo trì mô-đun chuỗi cung ứng và hệ thống thông tin liên quan",
+          "Tham gia các công việc dự án liên quan",
+          "Viết tài liệu hướng dẫn và đào tạo người dùng",
+          "Hỗ trợ chuyên viên phân tích kinh doanh phân tích hệ thống"
+        ],
+        "requirements": [
+          "Chuyên ngành phần cứng/phanh mềm máy tính, quản lý thông tin, toán học, kỹ thuật truyền thông, thương mại điện tử",
+          "Có kinh nghiệm làm việc với ERP hoặc sinh viên mới tốt nghiệp"
+        ]
+      }
+    ]
+  },
+  "Subsidiaries": {
+    "pageTitle": "Công ty con",
+    "pageSubtitle": "P.M.I có 8 công ty con bao phủ 4 lĩnh vực: Bao bì, Nguyên liệu, Thực phẩm và Logistics",
+    "overviewTitle": "Tổng quan kinh doanh",
+    "overviewDescription": "Trụ sở chính P.M.I quản lý 8 công ty con, bao gồm:",
+    "packaging": "Kinh doanh Bao bì",
+    "materials": "Kinh doanh Nguyên liệu",
+    "ingredients": "Kinh doanh Thực phẩm",
+    "logistics": "Kinh doanh Logistics",
+    "factoryTitle": "Phân bố cơ sở sản xuất",
+    "factorySubtitle": "Cơ sở sản xuất tại 14 tỉnh thành Trung Quốc và 4 thành phố Thái Lan",
+    "visitWebsite": "Truy cập website",
+    "ctaTitle": "Tìm hiểu thêm",
+    "ctaSubtitle": "Chào mừng truy cập website chính thức của các công ty con để tìm hiểu thêm về sản phẩm và dịch vụ",
+    "ctaButton": "Về chúng tôi",
+    "packagingCount": "Bao bì (3 công ty)",
+    "materialsCount": "Nguyên liệu (3 công ty)",
+    "ingredientsCount": "Thực phẩm (1 công ty)",
+    "logisticsCount": "Logistics (1 công ty)",
+    "subsidiaryNames": {
+      "packaging": "Baxin Packaging, Tingzheng Packaging, Hesheng Plastic",
+      "materials": "Prostar Starch, Tingzhi Food, Taipu Starch",
+      "ingredients": "Weizhen Food",
+      "logistics": "Dingtong Logistics"
+    },
+    "subsidiaries": [
+      {
+        "id": 1,
+        "name": "Baxin Packaging",
+        "english": "Baxin Packaging",
+        "description": "Cam kết cung cấp giải pháp dịch vụ bao bì một cửa với giấy sóng thân thiện môi trường",
+        "category": "Bao bì",
+        "website": "https://www.bxpackaging.com"
+      },
+      {
+        "id": 2,
+        "name": "Tingzheng Packaging",
+        "english": "Tingzheng Packaging",
+        "description": "Nhà sản xuất bao bì mềm, hộp màu và hộp giấy thực phẩm",
+        "category": "Bao bì",
+        "website": "https://www.tingzhengpack.com"
+      },
+      {
+        "id": 3,
+        "name": "Hesheng Plastic",
+        "english": "Hesheng Plastic",
+        "description": "Nhà sản xuất sản phẩm nhựa cấp thực phẩm",
+        "category": "Bao bì",
+        "website": "https://www.heshengplastic.com"
+      },
+      {
+        "id": 4,
+        "name": "Prostar Starch",
+        "english": "Prostar Starch",
+        "description": "Nhà sản xuất tinh bột biến tính cấp thực phẩm",
+        "category": "Nguyên liệu",
+        "website": "https://www.prostarstarch.com"
+      },
+      {
+        "id": 5,
+        "name": "Tingzhi Food",
+        "english": "Tingzhi Food",
+        "description": "Nhà cung cấp dầu mè và sản phẩm mè",
+        "category": "Nguyên liệu",
+        "website": "https://www.tingzhifood.com"
+      },
+      {
+        "id": 6,
+        "name": "Starpro Thailand",
+        "english": "Starpro Thailand",
+        "description": "Nhà sản xuất tinh bột sắn và tinh bột biến tính cấp thực phẩm (Thái Lan)",
+        "category": "Nguyên liệu",
+        "website": "https://www.starprothailand.com"
+      },
+      {
+        "id": 7,
+        "name": "Weizhen Food",
+        "english": "Weizhen Food",
+        "description": "Doanh nghiệp chế biến thực phẩm sấy lạnh",
+        "category": "Thực phẩm",
+        "website": "https://www.weizhenfood.com"
+      },
+      {
+        "id": 8,
+        "name": "Tingtong Logistics",
+        "english": "Tingtong Logistics",
+        "description": "Doanh nghiệp dịch vụ logistics chuyên nghiệp",
+        "category": "Logistics",
+        "website": "https://www.tingtonglogistics.com"
+      }
+    ]
+  },
+  "Contact": {
+    "pageTitle": "Liên hệ",
+    "companyName": "Trụ sở chính P.M.I",
+    "addressTitle": "Địa chỉ công ty",
+    "phoneTitle": "Số điện thoại",
+    "emailTitle": "Email tuyển dụng",
+    "infoTitle": "Thông tin công ty",
+    "companyFullName": "Tên công ty",
+    "foundedTime": "Thời gian thành lập",
+    "employees": "Nhân viên",
+    "bases": "Cơ sở sản xuất",
+    "companies": "Công ty con",
+    "icp": "Giấy phép ICP",
+    "mapTitle": "Vị trí công ty",
+    "formTitle": "Gửi yêu cầu",
+    "formSubtitle": "Điền vào biểu mẫu dưới đây và chúng tôi sẽ liên hệ với bạn sớm",
+    "name": "Họ tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "company": "Tên công ty",
+    "message": "Nội dung tin nhắn",
+    "submit": "Gửi",
+    "loading": "Đang gửi...",
+    "successTitle": "Gửi thành công!",
+    "successMessage": "Cảm ơn tin nhắn của bạn. Chúng tôi sẽ liên hệ với bạn sớm.",
+    "submitError": "Gửi thất bại, vui lòng thử lại sau",
+    "contactMethods": "Phương thức liên hệ",
+    "required": "Bắt buộc",
+    "successButton": "Gửi tin nhắn khác",
+    "rateLimited": "Quá nhiều yêu cầu. Vui lòng thử lại sau.",
+    "forbidden": "Truy cập bị từ chối.",
+    "networkError": "Lỗi mạng. Vui lòng kiểm tra kết nối của bạn.",
+    "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "invalidPhone": "Vui lòng nhập số điện thoại hợp lệ.",
+    "minLength": "quá ngắn.",
+    "maxLength": "quá dài.",
+    "minLengthMessage": "Tin nhắn quá ngắn (tối thiểu 10 ký tự).",
+    "rateLimitWarning": "Số yêu cầu còn lại",
+    "companyFullNameValue": "Hàng Châu Băng Vũ Quản lý Tư vấn Doanh nghiệp TNHH",
+    "employeesValue": "Gần 7.500 người (tính đến tháng 12 năm 2025)",
+    "basesValue": "14 tỉnh thành Trung Quốc + 4 thành phố Thái Lan",
+    "companiesValue": "8 công ty con",
+    "icpValue": "Giấy phép ICP Chiết Giang số 14023763",
+    "addressValue": "Lầu 7, Tòa nhà A, số 1688 đường Ngô Trung, quận Mính Hàng, Thượng Hải",
+    "phoneValue": "021-31754203",
+    "policeIcpValue": "Giấy phép an ninh Chiết Giang số 33011802001131",
+    "year": "",
+    "home": "Trang chủ"
+  },
+  "Common": {
+    "backToHome": "Về trang chủ",
+    "backToNews": "Về trang tin tức",
+    "readMore": "Đọc thêm",
+    "loading": "Đang tải...",
+    "required": "Bắt buộc",
+    "copyright": "Đã bảo lưu mọi quyền",
+    "home": "Trang chủ",
+    "arrowRight": "→",
+    "siteTitle": "Trụ sở chính P.M.I",
+    "siteDescription": "Trụ sở chính P.M.I quản lý 8 công ty con với cơ sở sản xuất tại 14 tỉnh thành Trung Quốc và 4 thành phố Thái Lan, với gần 7.500 nhân viên"
+  },
+  "Footer": {
+    "quickLinks": "Liên kết nhanh",
+    "moreInfo": "Thông tin thêm",
+    "contactUs": "Liên hệ chúng tôi",
+    "address": "Lầu 7, Tòa nhà A, số 1688 đường Ngô Trung, quận Mính Hàng, Thượng Hải",
+    "icp1": "Giấy phép ICP Chiết Giang số 14023763",
+    "icp2": "Giấy phép an ninh Chiết Giang số 33011802001131",
+    "companyName": "Trụ sở chính P.M.I"
+  },
+  "Benefits": {
+    "salary": "Lương thưởng",
+    "salaryDesc": "Mức lương dẫn đầu ngành để thưởng cho sự đóng góp của bạn",
+    "insurance": "Bảo hiểm và Phúc lợi",
+    "insuranceDesc": "Bảo hiểm toàn diện bao gồm bảo hiểm xã hội, quỹ nhà ở và bảo hiểm thương mại cho bạn và gia đình",
+    "vacation": "Ngày phép có lương",
+    "vacationDesc": "Nghỉ phép hàng năm có lương ngoài các ngày lễ quốc gia để cân bằng công việc và cuộc sống",
+    "training": "Đào tạo và Phát triển",
+    "trainingDesc": "Hệ thống đào tạo toàn diện với cơ hội thăng tiến nội bộ và phát triển liên phòng ban",
+    "culture": "Văn hóa doanh nghiệp",
+    "cultureDesc": "Các hoạt động nhân viên phong phú tạo nên bầu không khí làm việc tích cực",
+    "care": "Chăm sóc nhân viên",
+    "careDesc": "Quà tặng ngày lễ, thưởng sinh nhật, khám sức khỏe định kỳ thể hiện sự quan tâm đến mọi nhân viên"
+  },
+  "Services": {
+    "pageTitle": "Dịch vụ",
+    "home": "Trang chủ",
+    "ourServices": "Dịch vụ của chúng tôi",
+    "serviceDescription": "Chúng tôi cung cấp dịch vụ chuyên nghiệp toàn diện để đáp ứng nhu cầu đa dạng của bạn",
+    "advantagesTitle": "Ưu điểm dịch vụ",
+    "advantagesDescription": "Lý do chọn chúng tôi",
+    "processTitle": "Quy trình dịch vụ",
+    "processDescription": "Quy trình dịch vụ tiêu chuẩn của chúng tôi",
+    "ctaTitle": "Bắt đầu dự án của bạn",
+    "ctaDescription": "Bất kể quy mô dự án của bạn, chúng tôi đều có thể cung cấp dịch vụ chuyên nghiệp. Liên hệ ngay để bắt đầu hành trình của bạn.",
+    "ctaButton": "Nhận tư vấn miễn phí",
+    "categories": [
+      {
+        "title": "Tư vấn chuyên nghiệp",
+        "description": "Cung cấp dịch vụ tư vấn chuyên nghiệp toàn diện, may đo giải pháp tối ưu cho khách hàng",
+        "icon": "💡",
+        "services": ["Tư vấn hoạch định chiến lược", "Tối ưu hóa quy trình kinh doanh", "Tư vấn quản lý rủi ro", "Dịch vụ tư vấn tuân thủ"]
+      },
+      {
+        "title": "Hỗ trợ kỹ thuật",
+        "description": "Đội ngũ kỹ thuật mạnh mẽ, cung cấp hỗ trợ và đảm bảo kỹ thuật toàn diện cho khách hàng",
+        "icon": "🛠️",
+        "services": ["Thiết kế kiến trúc hệ thống", "Triển khai giải pháp kỹ thuật", "Hỗ trợ vận hành hệ thống", "Dịch vụ đào tạo kỹ thuật"]
+      },
+      {
+        "title": "Phát triển tùy chỉnh",
+        "description": "Phát triển tùy chỉnh theo nhu cầu khách hàng để đảm bảo hệ thống vận hành ổn định và hiệu quả",
+        "icon": "💻",
+        "services": ["Phát triển ứng dụng Web", "Phát triển ứng dụng di động", "Tùy chỉnh hệ thống doanh nghiệp", "Phát triển tích hợp giao diện"]
+      },
+      {
+        "title": "Phân tích dữ liệu",
+        "description": "Dịch vụ phân tích dữ liệu chuyên nghiệp giúp doanh nghiệp có được thông tin kinh doanh và tối ưu hóa quyết định",
+        "icon": "📊",
+        "services": ["Thu thập và làm sạch dữ liệu", "Phân tích và khai thác dữ liệu", "Trực quan hóa dữ liệu", "Báo cáo thông minh kinh doanh"]
+      }
+    ],
+    "advantages": [
+      { "title": "Đội ngũ chuyên nghiệp", "description": "Đội ngũ của chúng tôi gồm các chuyên gia giàu kinh nghiệm với chuyên môn sâu và kinh nghiệm thực tiễn phong phú, có khả năng cung cấp dịch vụ chất lượng cao cho khách hàng." },
+      { "title": "Giải pháp tùy chỉnh", "description": "Chúng tôi may đo giải pháp phù hợp nhất theo nhu cầu thực tế của khách hàng, đảm bảo tính phù hợp và hiệu quả của dịch vụ." },
+      { "title": "Đảm bảo chất lượng", "description": "Chúng tôi kiểm soát chặt chẽ chất lượng dịch vụ, thiết lập hệ thống quản lý chất lượng toàn diện và đảm bảo mọi dự án đều đạt tiêu chuẩn cao nhất." },
+      { "title": "Hỗ trợ toàn trình", "description": "Chúng tôi cung cấp hỗ trợ dịch vụ toàn diện, toàn chu kỳ, từ tư vấn dự án đến triển khai và giao hàng, đến bảo trì sau bán hàng, đảm bảo khách hàng không lo lắng." },
+      { "title": "Đổi mới kỹ thuật", "description": "Chúng tôi theo kịp xu hướng phát triển kỹ thuật, liên tục giới thiệu công nghệ và phương pháp mới, nâng cao chất lượng và hiệu quả dịch vụ." },
+      { "title": "Khách hàng là trung tâm", "description": "Chúng tôi luôn tuân thủ triết lý dịch vụ lấy khách hàng làm trung tâm, tập trung vào trải nghiệm khách hàng và nỗ lực vượt quá mong đợi của khách hàng." }
+    ],
+    "process": [
+      { "step": 1, "title": "Giao tiếp nhu cầu", "description": "Hiểu sâu nhu cầu và mục tiêu của khách hàng" },
+      { "step": 2, "title": "Xây dựng phương án", "description": "Xây dựng phương án và lịch trình dịch vụ chi tiết" },
+      { "step": 3, "title": "Xác nhận phương án", "description": "Xác nhận chi tiết phương án với khách hàng" },
+      { "step": 4, "title": "Triển khai dự án", "description": "Thực hiện dự án theo phương án" },
+      { "step": 5, "title": "Nghiệm thu chất lượng", "description": "Đảm bảo chất lượng dự án đạt yêu cầu" },
+      { "step": 6, "title": "Giao hàng và hỗ trợ", "description": "Giao dự án và hỗ trợ tiếp theo" }
+    ]
+  }
+}

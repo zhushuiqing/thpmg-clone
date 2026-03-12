@@ -1,0 +1,464 @@
+{
+  "Navigation": {
+    "home": "首頁",
+    "about": "關於我們",
+    "news": "新聞中心",
+    "recruitment": "招賢納士",
+    "subsidiaries": "下屬企業",
+    "contact": "聯繫我們",
+    "services": "服務",
+    "language": "繁體中文",
+    "locale": "zh-Hant"
+  },
+  "Home": {
+    "heroTitle": "P.M.I 總管理處",
+    "heroSubtitle": "穩健 · 技術 · 品質 · 成本",
+    "heroDescription": "下轄 8 家事業單位，在國內 14 個省市、泰國 4 個城市開設有色產基地，擁有員工近 7500 人",
+    "ctaAbout": "關於我們",
+    "ctaSubsidiaries": "下屬企業",
+    "aboutTitle": "關於 P.M.I.",
+    "aboutDescription": "P.M.I.總管理處成立於 2015 年 1 月，下轄財務長室、中央研究所、人資部、經營規劃部及 8 家事業單位（含 3 家包材事業、3 家原料事業、1 家食材事業、1 家物流事業）。在國內 14 個省市、泰國 4 個城市開設有色產基地，截至 2025 年 12 月，P.M.I.總管理處擁有員工近 7500 人。",
+    "pmiTitle": "P.M.I. 含義",
+    "pmiP": "Packaging(包材)：包含軟包裝、彩盒、食品紙質容器的生產企業 - 頂正包材，以環保瓦楞紙箱為媒介、致力於為客戶提供一站式包裝服務解決方案的包裝公司 - 秉信包裝，食品級塑膠製品製造商 - 和昇塑料",
+    "pmiM": "Materials(原料)：包含芝麻油和芝麻製品供應商 - 頂志食品，致力於澱粉及澱粉衍生物的研發和應用創新的食品級變性澱粉廠商 - 中國普羅星，食品級木薯原澱粉、變性澱粉的製造商 - 泰國普羅星",
+    "pmiI": "Ingredients(食材)：包含凍乾食品加工企業 - 味珍食品",
+    "scaleTitle": "企業規模",
+    "scaleEmployees": "員工人數",
+    "scaleBases": "生產基地",
+    "scaleCompanies": "事業單位",
+    "scaleSince": "起步發展",
+    "businessTitle": "事業領域",
+    "businessSubtitle": "涵蓋包材、原料、食材、物流四大領域",
+    "packaging": "包材事業",
+    "materials": "原料事業",
+    "ingredients": "食材事業",
+    "logistics": "物流事業",
+    "subsidiariesTitle": "下屬事業單位",
+    "viewAll": "查看全部下屬企業",
+    "newsTitle": "員工動態",
+    "viewAllNews": "瀏覽所有新聞",
+    "contactTitle": "聯繫我們",
+    "contactButton": "在線留言",
+    "recruitButton": "加入我們",
+    "businessDesc": {
+      "packaging": "軟包裝、彩盒、食品紙質容器、環保瓦楞紙箱",
+      "materials": "芝麻油、澱粉及澱粉衍生物",
+      "ingredients": "凍乾食品加工",
+      "logistics": "專業物流服務"
+    },
+    "companiesCount": "家企業",
+    "learnMore": "瞭解更多",
+    "factoryTitle": "生產基地分佈",
+    "factorySubtitle": "在國內 14 個省市、泰國 4 個城市開設有色產基地",
+    "readMore": "閱讀更多",
+    "addressLabel": "地址",
+    "phoneLabel": "電話",
+    "footerName": "總管理處",
+    "history": "發展歷程"
+  },
+  "About": {
+    "pageTitle": "關於我們",
+    "companyTitle": "公司簡介",
+    "companyDescription": "P.M.I.總管理處成立於 2015 年 1 月，下轄財務長室、中央研究所、人資部、經營規劃部及 8 家事業單位（含 3 家包材事業、3 家原料事業、1 家食材事業、1 家物流事業）。在國內 14 個省市、泰國 4 個城市開設有色產基地，截至 2025 年 12 月，P.M.I.總管理處擁有員工近 7500 人。",
+    "pmiTitle": "P.M.I. 含義",
+    "pmiDescription": "P.M.I.總管理處以\"穩健、技術、品質、成本\"8 字作為策略方針，對下屬 8 家事業單位負有整合、服務、績效、監督的職責，各事業單位本著誠信、務實、創新的經營理念自我要求、不斷進取，通過精進成本、技術創新、提升品質為客戶創造更多的價值。",
+    "strategyTitle": "策略方針與核心價值觀",
+    "strategy": "策略方針",
+    "values": "核心價值觀",
+    "steady": "穩健",
+    "technology": "技術",
+    "quality": "品質",
+    "cost": "成本",
+    "integrity": "誠信",
+    "pragmatic": "務實",
+    "innovation": "創新",
+    "progress": "進取",
+    "historyTitle": "P.M.I. 發展歷程",
+    "scaleTitle": "企業規模",
+    "scaleEmployees": "員工人數",
+    "scaleBases": "生產基地",
+    "scaleCompanies": "事業單位",
+    "asOfDate": "截至 2025 年 12 月",
+    "scaleBasesDetail": "國內 14 省市 + 泰國 4 城市",
+    "scaleCompaniesDetail": "四大事業領域",
+    "subsidiariesTitle": "下屬事業單位",
+    "factoryTitle": "生產基地分佈",
+    "factorySubtitle": "在國內 14 個省市、泰國 4 個城市開設有色產基地",
+    "contactTitle": "聯繫我們",
+    "address": "公司地址",
+    "phone": "聯繫電話",
+    "ctaTitle": "期待與您合作",
+    "ctaSubtitle": "我們期待與您的合作，共同創造更美好的未來。如有任何問題或需求，歡迎隨時與我們聯繫。",
+    "ctaButton": "聯繫我們",
+    "visitWebsite": "訪問官網",
+    "history": "歷史",
+    "year": "年",
+    "historyData": [
+      { "year": "2015", "event": "P.M.I.總管理處成立" },
+      { "year": "2016", "event": "旗下事業單位逐步整合" },
+      { "year": "2019", "event": "生產基地擴展至全國 14 個省市" },
+      { "year": "2025", "event": "擁有員工近 7500 人，泰國 4 個城市開設生產基地" }
+    ]
+  },
+  "News": {
+    "pageTitle": "新聞中心",
+    "employeeNews": "員工動態",
+    "readMore": "閱讀更多",
+    "allNews": "全部新聞",
+    "noNews": "暫無新聞內容",
+    "category": {
+      "employee": "員工動態"
+    },
+    "data": [
+      {
+        "id": 1,
+        "title": "PMI 上海總部二季度員工生日會",
+        "date": "2019-08-13",
+        "category": "employee",
+        "excerpt": "PMI 上海員工齊聚一堂，慶祝二季度員工生日會，現場氣氛熱烈，增強了團隊凝聚力。",
+        "content": "近日，PMI 上海總部大樓內舉行了二季度員工生日慶祝活動。活動中，壽星們齊聚一堂，共同分享美味的蛋糕，參與互動遊戲。公司管理層親臨現場，為員工送上生日祝福和精美禮品。大家在歡聲笑語中度過了一個難忘的下午，進一步增強了團隊凝聚力和歸屬感。"
+      },
+      {
+        "id": 2,
+        "title": "P.M.I 五月淨化之旅",
+        "date": "2019-08-14",
+        "category": "employee",
+        "excerpt": "P.M.I 組織員工開展五月淨化之旅活動，讓員工在大自然中放鬆身心，增進交流。",
+        "content": "五月陽光明媚，P.M.I 組織員工開展了一場別開生面的淨化之旅。活動包括徒步登山、團隊建設、冥想放鬆等環節。員工們在大自然中釋放工作壓力，增進彼此瞭解，提升團隊協作精神。"
+      },
+      {
+        "id": 3,
+        "title": "PMI 香草園 + 莫干山秋季拓展訓練",
+        "date": "2019-08-15",
+        "category": "employee",
+        "excerpt": "PMI 組織員工在香草園和莫干山開展秋季拓展活動，挑戰自我，砥礪團隊。",
+        "content": "秋高氣爽時節，PMI 組織員工在風景秀麗的香草園和莫干山開展秋季拓展訓練。活動設置了高空斷橋、信任背摔、畢業牆等經典拓展項目。員工們在挑戰中突破自我，在協作中增進信任。此次活動不僅鍛鍊了員工的意志力，也增強了團隊凝聚力和戰鬥力。"
+      }
+    ]
+  },
+  "Recruitment": {
+    "pageTitle": "招賢納士",
+    "joinUsTitle": "加入我們",
+    "joinUsDescription": "P.M.I.總管理處成立於 2015 年，旗下擁有 8 家事業單位，員工近 7500 人。我們秉承\"穩健、技術、品質、成本\"的策略方針，堅持\"誠信、務實、創新、進取\"的核心價值觀。在這裡，您將獲得廣闊的發展空間、具有競爭力的薪酬福利和專業的培訓體系。",
+    "benefitsTitle": "薪酬福利",
+    "positionsTitle": "招聘職位",
+    "location": "工作地點",
+    "department": "所屬部門",
+    "responsibilities": "崗位職責",
+    "requirements": "任職要求",
+    "applyButton": "申請職位",
+    "ctaTitle": "期待您的加入",
+    "ctaSubtitle": "如果您對我們的職位感興趣，歡迎發送簡歷至我們的招聘郵箱",
+    "emailTitle": "招聘郵箱",
+    "positions": [
+      {
+        "id": 1,
+        "title": "供應鏈程式設計師（2 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "供應鏈模組及相關資訊系統、應用軟體開發、測試、維護，用戶輔導及問題處理",
+          "參與相關項目工作",
+          "編寫操作手冊並進行用戶培訓",
+          "協助業務分析師進行系統分析工作"
+        ],
+        "requirements": [
+          "計算機硬體/軟體、資訊管理、數學、通信工程、電子商務、管理科學與工程等專業",
+          "有 ERP 工作經驗者優先，應屆畢業生亦可"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "銷售程式設計師（1 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "銷售模組及相關資訊系統、應用軟體開發、測試、維護，用戶輔導及問題處理",
+          "參與相關項目工作",
+          "編寫操作手冊並進行用戶培訓",
+          "協助業務分析師進行系統分析工作"
+        ],
+        "requirements": [
+          "計算機硬體/軟體、資訊管理、數學、通信工程、電子商務、管理科學與工程等專業",
+          "有 ERP 工作經驗者優先，應屆畢業生亦可"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "財務程式設計師（1 名）",
+        "department": "財務長室",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "財務模組及相關資訊系統、應用軟體開發、測試、維護，用戶輔導及問題處理",
+          "參與相關項目工作",
+          "編寫操作手冊並進行用戶培訓",
+          "協助業務分析師進行系統分析工作"
+        ],
+        "requirements": [
+          "計算機硬體/軟體、資訊管理、數學、通信工程、電子商務、管理科學與工程等專業",
+          "有 ERP 工作經驗者優先，應屆畢業生亦可"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "應用軟體設計師（1 名）",
+        "department": "中央研究所",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "資訊系統、應用軟體開發、測試、維護，用戶輔導及問題處理",
+          "參與相關項目工作",
+          "編寫操作手冊並進行用戶培訓",
+          "協助業務分析師進行系統分析工作"
+        ],
+        "requirements": [
+          "計算機硬體/軟體、資訊管理、數學、通信工程、電子商務、管理科學與工程等專業",
+          "有 ERP 工作經驗者優先，應屆畢業生亦可"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "後台管理員（2 名）",
+        "department": "經營規劃部",
+        "location": "杭州下沙",
+        "responsibilities": [
+          "管理安裝及殺毒軟體，管理 AD 及郵件等微軟標準應用系統",
+          "應用系統安全及用戶權限管理，備份、數據歸檔",
+          "應用系統安裝、配置、升級、監控及優化"
+        ],
+        "requirements": [
+          "計算機硬體/軟體、資訊管理、數學、通信工程、電子商務、管理科學與工程等專業",
+          "有系統管理經驗者優先，有 AD 及郵件管理經驗者優先"
+        ]
+      }
+    ]
+  },
+  "Subsidiaries": {
+    "pageTitle": "下屬事業單位",
+    "pageSubtitle": "P.M.I.旗下擁有 8 家事業單位，涵蓋包材、原料、食材、物流四大領域",
+    "overviewTitle": "事業版圖",
+    "overviewDescription": "P.M.I.總管理處下轄 8 家事業單位，包括：",
+    "packaging": "包材事業",
+    "materials": "原料事業",
+    "ingredients": "食材事業",
+    "logistics": "物流事業",
+    "factoryTitle": "生產基地分佈",
+    "factorySubtitle": "在國內 14 個省市、泰國 4 個城市開設有色產基地",
+    "visitWebsite": "訪問官網",
+    "ctaTitle": "瞭解更多",
+    "ctaSubtitle": "歡迎訪問各事業單位官網，瞭解更多產品和服務資訊",
+    "ctaButton": "關於我們",
+    "packagingCount": "包材事業（3 家）",
+    "materialsCount": "原料事業（3 家）",
+    "ingredientsCount": "食材事業（1 家）",
+    "logisticsCount": "物流事業（1 家）",
+    "subsidiaryNames": {
+      "packaging": "秉信包裝、頂正包材、和昇塑料",
+      "materials": "普羅星澱粉、頂志食品、泰普澱粉",
+      "ingredients": "味珍食品",
+      "logistics": "頂通物流"
+    },
+    "subsidiaries": [
+      {
+        "id": 1,
+        "name": "秉信包裝",
+        "english": "Baxin Packaging",
+        "description": "致力於以環保瓦楞紙箱為媒介，為客戶提供一站式包裝服務解決方案",
+        "category": "包材事業",
+        "website": "https://www.bxpackaging.com"
+      },
+      {
+        "id": 2,
+        "name": "頂正包材",
+        "english": "Tingzheng Packaging",
+        "description": "軟包裝、彩盒、食品紙質容器生產企業",
+        "category": "包材事業",
+        "website": "https://www.tingzhengpack.com"
+      },
+      {
+        "id": 3,
+        "name": "和昇塑料",
+        "english": "Hesheng Plastic",
+        "description": "食品級塑膠製品製造商",
+        "category": "包材事業",
+        "website": "https://www.heshengplastic.com"
+      },
+      {
+        "id": 4,
+        "name": "普羅星澱粉",
+        "english": "Prostar Starch",
+        "description": "致力於澱粉及澱粉衍生物的研發和應用創新的食品級變性澱粉廠商",
+        "category": "原料事業",
+        "website": "https://www.prostarstarch.com"
+      },
+      {
+        "id": 5,
+        "name": "頂志食品",
+        "english": "Tingzhi Food",
+        "description": "芝麻油和芝麻製品供應商",
+        "category": "原料事業",
+        "website": "https://www.tingzhifood.com"
+      },
+      {
+        "id": 6,
+        "name": "泰國普羅星",
+        "english": "Starpro Thailand",
+        "description": "泰國食品級木薯原澱粉、變性澱粉製造商",
+        "category": "原料事業",
+        "website": "https://www.starprothailand.com"
+      },
+      {
+        "id": 7,
+        "name": "味珍食品",
+        "english": "Weizhen Food",
+        "description": "凍乾食品加工企業",
+        "category": "食材事業",
+        "website": "https://www.weizhenfood.com"
+      },
+      {
+        "id": 8,
+        "name": "頂通物流",
+        "english": "Tingtong Logistics",
+        "description": "專業物流服務提供商",
+        "category": "物流事業",
+        "website": "https://www.tingtonglogistics.com"
+      }
+    ]
+  },
+  "Contact": {
+    "pageTitle": "聯繫我們",
+    "companyName": "P.M.I 總管理處",
+    "addressTitle": "公司地址",
+    "phoneTitle": "聯繫電話",
+    "emailTitle": "招聘郵箱",
+    "infoTitle": "企業資訊",
+    "companyFullName": "公司名稱",
+    "foundedTime": "成立時間",
+    "employees": "員工人數",
+    "bases": "生產基地",
+    "companies": "事業單位",
+    "icp": "網站備案",
+    "mapTitle": "公司位置",
+    "formTitle": "在線留言",
+    "formSubtitle": "填寫以下表單，我們將盡快與您聯繫",
+    "name": "姓名",
+    "email": "郵箱",
+    "phone": "電話",
+    "company": "公司名稱",
+    "message": "留言內容",
+    "submit": "提交留言",
+    "loading": "提交中...",
+    "successTitle": "提交成功！",
+    "successMessage": "感謝您的留言，我們將盡快與您聯繫。",
+    "submitError": "提交失敗，請稍後重試",
+    "contactMethods": "聯繫方式",
+    "required": "必填",
+    "successButton": "發送新消息",
+    "rateLimited": "請求次數過多，請稍後再試",
+    "forbidden": "訪問被拒絕",
+    "networkError": "網路錯誤，請檢查您的連接",
+    "invalidEmail": "請輸入有效的電子郵件地址",
+    "invalidPhone": "請輸入有效的電話號碼",
+    "minLength": "長度太短",
+    "maxLength": "長度太長",
+    "minLengthMessage": "消息太短（最少 10 個字元）",
+    "rateLimitWarning": "剩餘請求次數",
+    "companyFullNameValue": "杭州秉育企業諮詢管理有限公司",
+    "employeesValue": "近 7500 人（截至 2025 年 12 月）",
+    "basesValue": "國內 14 省市 + 泰國 4 城市",
+    "companiesValue": "8 家",
+    "icpValue": "浙 ICP 備 14023763 號",
+    "addressValue": "上海市閔行區吳中路 1688 號 A 棟 7 樓",
+    "phoneValue": "021-31754203",
+    "policeIcpValue": "浙公車安網備 33011802001131 號",
+    "year": "年",
+    "home": "首頁"
+  },
+  "Common": {
+    "backToHome": "回到首頁",
+    "backToNews": "返回新聞中心",
+    "readMore": "閱讀更多",
+    "loading": "載入中...",
+    "required": "必填",
+    "copyright": "版權所有",
+    "home": "首頁",
+    "arrowRight": "→"
+  },
+  "Footer": {
+    "quickLinks": "快速連結",
+    "moreInfo": "更多資訊",
+    "contactUs": "聯繫我們",
+    "address": "上海市閔行區吳中路 1688 號 A 棟 7 樓",
+    "icp1": "浙 ICP 備 14023763 號",
+    "icp2": "浙公車安網備 33011802001131 號",
+    "companyName": "P.M.I 總管理處"
+  },
+  "Benefits": {
+    "salary": "薪酬",
+    "salaryDesc": "提供行業領先的薪酬待遇，讓您的付出獲得豐厚回報",
+    "insurance": "福利保障",
+    "insuranceDesc": "五險一金、補充商業保險，為您和家人提供全方位保障",
+    "vacation": "帶薪年假",
+    "vacationDesc": "除法定節假日外，另提供帶薪年假，讓您工作生活兩不誤",
+    "training": "培訓發展",
+    "trainingDesc": "完善的培訓體系，提供內部晉升和跨部門發展機會",
+    "culture": "企業文化",
+    "cultureDesc": "豐富多彩的員工活動，營造積極向上的工作氛圍",
+    "care": "關懷福利",
+    "careDesc": "節日福利、生日禮金、定期體檢，關愛每一位員工"
+  },
+  "Services": {
+    "pageTitle": "服務項目",
+    "home": "首頁",
+    "ourServices": "我們的服務",
+    "serviceDescription": "我們提供全面的專業服務，滿足客戶的多樣化需求",
+    "advantagesTitle": "服務優勢",
+    "advantagesDescription": "選擇我們的理由",
+    "processTitle": "服務流程",
+    "processDescription": "我們的標準服務流程",
+    "ctaTitle": "開始您的項目",
+    "ctaDescription": "無論您的項目規模大小，我們都能提供專業的服務。立即聯繫我們，開啟合作之旅。",
+    "ctaButton": "獲取免費諮詢",
+    "categories": [
+      {
+        "title": "專業諮詢",
+        "description": "提供全方位的專業諮詢服務，為客戶量身定製最優解決方案",
+        "icon": "💡",
+        "services": ["戰略規劃諮詢", "業務流程優化", "風險管理諮詢", "合規諮詢服務"]
+      },
+      {
+        "title": "技術支援",
+        "description": "強大的技術團隊，為客戶提供全方位的技術支援和保障",
+        "icon": "🛠️",
+        "services": ["系統架構設計", "技術方案實施", "系統運維支援", "技術培訓服務"]
+      },
+      {
+        "title": "定製開發",
+        "description": "根據客戶需求進行定製化開發，確保系統穩定高效運行",
+        "icon": "💻",
+        "services": ["Web 應用開發", "移動應用開發", "企業系統定製", "接口集成開發"]
+      },
+      {
+        "title": "數據分析",
+        "description": "專業的數據分析服務，幫助企業洞察業務趨勢和優化決策",
+        "icon": "📊",
+        "services": ["數據採集與清洗", "數據分析與挖掘", "數據可視化", "商業智能報告"]
+      }
+    ],
+    "advantages": [
+      { "title": "專業團隊", "description": "我們的團隊由經驗豐富的專業人士組成，具備深厚的專業知識和豐富的實踐經驗，能夠為客戶提供高質量的服務。" },
+      { "title": "定製方案", "description": "我們根據客戶的實際需求，量身定製最適合的解決方案，確保服務的針對性和有效性。" },
+      { "title": "質量保證", "description": "我們嚴格把控服務質量，建立完善的質量管理體系，確保每一個項目都能達到最高標準。" },
+      { "title": "全程支援", "description": "我們提供全方位、全週期的服務支援，從項目諮詢到實施交付，再到後期維護，確保客戶無後顧之憂。" },
+      { "title": "技術創新", "description": "我們緊跟技術發展趨勢，不斷引進新技術、新方法，提升服務質量和效率。" },
+      { "title": "客戶至上", "description": "我們始終堅持以客戶為中心的服務理念，注重客戶體驗，努力超越客戶期望。" }
+    ],
+    "process": [
+      { "step": 1, "title": "需求溝通", "description": "深入瞭解客戶需求和目標" },
+      { "step": 2, "title": "方案製定", "description": "製定詳細的服務方案和計劃" },
+      { "step": 3, "title": "方案確認", "description": "與客戶確認方案細節" },
+      { "step": 4, "title": "項目實施", "description": "按照方案執行項目" },
+      { "step": 5, "title": "質量驗收", "description": "確保項目質量符合要求" },
+      { "step": 6, "title": "交付支援", "description": "項目交付和後續支援" }
+    ]
+  }
+}
