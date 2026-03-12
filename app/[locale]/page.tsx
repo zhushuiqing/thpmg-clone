@@ -296,10 +296,6 @@ export default function HomePage() {
                                 alt={product.name}
                                 fill
                                 className="object-cover"
-                                onError={(e) => {
-                                  // Fallback to placeholder if image fails to load
-                                  e.currentTarget.src = '/images/thpmg/placeholder.jpg';
-                                }}
                               />
                             ) : (
                               <div className="w-full h-full flex items-center justify-center">
