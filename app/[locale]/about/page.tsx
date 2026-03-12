@@ -34,7 +34,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section with Banner */}
-      <section className="relative h-[400px] overflow-hidden">
+      <section className="relative h-[30vh] sm:h-[400px] overflow-hidden">
         <Image
           src="/images/thpmg/about-banner.jpg"
           alt={t('pageTitle')}
@@ -44,13 +44,13 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-blue-900/30"></div>
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center text-white">
+          <div className="text-center text-white px-4">
             <FadeIn>
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-2 sm:mb-4">
                 {tHome('heroTitle')}
               </h1>
             </FadeIn>
-            <nav className="mt-4 text-gray-200 text-sm">
+            <nav className="mt-2 sm:mt-4 text-gray-200 text-xs sm:text-sm">
               <Link href="/" className="hover:text-white transition-colors">
                 {tCommon('home')}
               </Link>
@@ -62,48 +62,48 @@ export default function AboutPage() {
       </section>
 
       {/* Company Profile */}
-      <section className="py-20 bg-white">
+      <section className="py-10 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-10 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
               {t('companyTitle')}
             </h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
           </div>
           <div className="max-w-4xl mx-auto">
-            <div className="bg-gray-50 p-8 rounded-lg shadow-sm mb-8">
-              <p className="text-gray-700 text-lg leading-relaxed mb-6">
+            <div className="bg-gray-50 p-4 sm:p-8 rounded-lg shadow-sm mb-4 sm:mb-8">
+              <p className="text-gray-700 text-sm sm:text-lg leading-relaxed mb-4 sm:mb-6">
                 {t('companyDescription')}
               </p>
             </div>
-            <div className="bg-white border-2 border-blue-600 p-8 rounded-lg mb-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t('pmiTitle')}</h3>
-              <ul className="space-y-4">
+            <div className="bg-white border-2 border-blue-600 p-4 sm:p-8 rounded-lg mb-4 sm:mb-8">
+              <h3 className="text-lg sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">{t('pmiTitle')}</h3>
+              <ul className="space-y-3 sm:space-y-4">
                 <li className="flex items-start">
-                  <span className="font-bold text-blue-600 text-xl mr-3 flex-shrink-0">P</span>
+                  <span className="font-bold text-blue-600 text-base sm:text-xl mr-2 sm:mr-3 flex-shrink-0">P</span>
                   <div>
-                    <span className="font-semibold text-gray-900">Packaging</span>
-                    <p className="text-gray-700 mt-1">{tHome('pmiP')}</p>
+                    <span className="font-semibold text-gray-900 text-sm sm:text-base">Packaging</span>
+                    <p className="text-gray-700 text-xs sm:text-sm mt-1">{tHome('pmiP')}</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="font-bold text-blue-600 text-xl mr-3 flex-shrink-0">M</span>
+                  <span className="font-bold text-blue-600 text-base sm:text-xl mr-2 sm:mr-3 flex-shrink-0">M</span>
                   <div>
-                    <span className="font-semibold text-gray-900">Materials</span>
-                    <p className="text-gray-700 mt-1">{tHome('pmiM')}</p>
+                    <span className="font-semibold text-gray-900 text-sm sm:text-base">Materials</span>
+                    <p className="text-gray-700 text-xs sm:text-sm mt-1">{tHome('pmiM')}</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="font-bold text-blue-600 text-xl mr-3 flex-shrink-0">I</span>
+                  <span className="font-bold text-blue-600 text-base sm:text-xl mr-2 sm:mr-3 flex-shrink-0">I</span>
                   <div>
-                    <span className="font-semibold text-gray-900">Ingredients</span>
-                    <p className="text-gray-700 mt-1">{tHome('pmiI')}</p>
+                    <span className="font-semibold text-gray-900 text-sm sm:text-base">Ingredients</span>
+                    <p className="text-gray-700 text-xs sm:text-sm mt-1">{tHome('pmiI')}</p>
                   </div>
                 </li>
               </ul>
             </div>
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <p className="text-gray-700 text-lg leading-relaxed">
+            <div className="bg-gray-50 p-4 sm:p-8 rounded-lg">
+              <p className="text-gray-700 text-sm sm:text-lg leading-relaxed">
                 {t('pmiDescription')}
               </p>
             </div>
@@ -112,31 +112,31 @@ export default function AboutPage() {
       </section>
 
       {/* Strategy & Values */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 sm:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-10 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
               {t('strategyTitle')}
             </h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t('strategy')}</h3>
-              <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-4 sm:gap-8 max-w-4xl mx-auto">
+            <div className="bg-white p-4 sm:p-8 rounded-lg shadow-sm">
+              <h3 className="text-lg sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">{t('strategy')}</h3>
+              <div className="grid grid-cols-2 gap-2 sm:gap-4">
                 {strategyItems.map((item, index) => (
-                  <div key={index} className="bg-blue-50 p-6 rounded-lg text-center">
-                    <div className="text-2xl font-bold text-blue-600">{item.label}</div>
+                  <div key={index} className="bg-blue-50 p-3 sm:p-6 rounded-lg text-center">
+                    <div className="text-lg sm:text-2xl font-bold text-blue-600">{item.label}</div>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t('values')}</h3>
-              <div className="grid grid-cols-2 gap-4">
+            <div className="bg-white p-4 sm:p-8 rounded-lg shadow-sm">
+              <h3 className="text-lg sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">{t('values')}</h3>
+              <div className="grid grid-cols-2 gap-2 sm:gap-4">
                 {valuesItems.map((item, index) => (
-                  <div key={index} className="bg-green-50 p-6 rounded-lg text-center">
-                    <div className="text-2xl font-bold text-green-600">{item.label}</div>
+                  <div key={index} className="bg-green-50 p-3 sm:p-6 rounded-lg text-center">
+                    <div className="text-lg sm:text-2xl font-bold text-green-600">{item.label}</div>
                   </div>
                 ))}
               </div>
@@ -146,24 +146,25 @@ export default function AboutPage() {
       </section>
 
       {/* History Timeline */}
-      <section className="py-20 bg-white">
+      <section className="py-10 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-10 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
               {t('historyTitle')}
             </h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
           </div>
-          <div className="mb-12">
+          <div className="mb-8 sm:mb-12">
             <Image
               src="/images/thpmg/history.png"
               alt={t('historyTitle')}
               width={800}
               height={400}
-              className="rounded-lg shadow-lg mx-auto"
+              className="w-full h-auto rounded-lg shadow-lg mx-auto"
             />
           </div>
-          <div className="max-w-3xl mx-auto">
+          {/* Desktop Timeline */}
+          <div className="hidden md:block max-w-3xl mx-auto">
             <div className="relative">
               <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-600"></div>
               <div className="space-y-8">
@@ -181,54 +182,68 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
+          {/* Mobile Timeline */}
+          <div className="md:hidden space-y-4 px-4">
+            {historyData.map((item, index) => (
+              <div key={index} className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-white rounded-full"></div>
+                </div>
+                <div className="flex-grow bg-blue-50 p-4 rounded-lg shadow-sm">
+                  <div className="text-lg font-bold text-blue-600">{item.year}{t('year')}</div>
+                  <div className="text-gray-700 mt-1 text-sm">{item.event}</div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Scale Stats */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700">
+      <section className="py-10 sm:py-20 bg-gradient-to-r from-blue-600 to-indigo-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4">
               {t('scaleTitle')}
             </h2>
-            <div className="w-24 h-1 bg-white mx-auto opacity-50"></div>
+            <div className="w-16 sm:w-24 h-1 bg-white mx-auto opacity-50"></div>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8">
             <div className="text-center text-white">
-              <div className="text-5xl font-bold mb-4">7500+</div>
-              <div className="text-xl opacity-80">{t('scaleEmployees')}</div>
-              <div className="text-sm opacity-60 mt-1">{t('asOfDate')}</div>
+              <div className="text-3xl sm:text-5xl font-bold mb-2 sm:mb-4">7500+</div>
+              <div className="text-sm sm:text-xl opacity-80">{t('scaleEmployees')}</div>
+              <div className="text-xs sm:text-sm opacity-60 mt-1">{t('asOfDate')}</div>
             </div>
             <div className="text-center text-white">
-              <div className="text-5xl font-bold mb-4">14+4</div>
-              <div className="text-xl opacity-80">{t('scaleBases')}</div>
-              <div className="text-sm opacity-60 mt-1">{t('scaleBasesDetail')}</div>
+              <div className="text-3xl sm:text-5xl font-bold mb-2 sm:mb-4">14+4</div>
+              <div className="text-sm sm:text-xl opacity-80">{t('scaleBases')}</div>
+              <div className="text-xs sm:text-sm opacity-60 mt-1">{t('scaleBasesDetail')}</div>
             </div>
             <div className="text-center text-white">
-              <div className="text-5xl font-bold mb-4">8+</div>
-              <div className="text-xl opacity-80">{t('scaleCompanies')}</div>
-              <div className="text-sm opacity-60 mt-1">{t('scaleCompaniesDetail')}</div>
+              <div className="text-3xl sm:text-5xl font-bold mb-2 sm:mb-4">8+</div>
+              <div className="text-sm sm:text-xl opacity-80">{t('scaleCompanies')}</div>
+              <div className="text-xs sm:text-sm opacity-60 mt-1">{t('scaleCompaniesDetail')}</div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Subsidiaries */}
-      <section className="py-20 bg-white">
+      <section className="py-10 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
               {t('subsidiariesTitle')}
             </h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
           </div>
-          <div className="mb-12">
+          <div className="mb-8 sm:mb-12">
             <Image
               src="/images/thpmg/subsidiaries.jpg"
               alt={t('subsidiariesTitle')}
               width={800}
               height={500}
-              className="rounded-lg shadow-lg mx-auto"
+              className="w-full h-auto rounded-lg shadow-lg mx-auto"
             />
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -238,24 +253,24 @@ export default function AboutPage() {
       </section>
 
       {/* Factory Map */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 sm:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
               {t('factoryTitle')}
             </h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
+            <p className="text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base max-w-2xl mx-auto px-4">
               {t('factorySubtitle')}
             </p>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-sm">
+          <div className="bg-white p-4 sm:p-8 rounded-lg shadow-sm overflow-hidden">
             <Image
               src="/images/thpmg/factory-map.png"
               alt={t('factoryTitle')}
               width={650}
               height={500}
-              className="mx-auto"
+              className="w-full h-auto"
             />
           </div>
         </div>

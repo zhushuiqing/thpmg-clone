@@ -39,24 +39,25 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-lg">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center flex-shrink-0">
             <Link href="/" className="hover:opacity-80 transition-opacity">
               <Image
                 src="/images/thpmg/logo.png"
                 alt="THPMG Logo"
-                width={120}
-                height={48}
+                width={100}
+                height={40}
+                className="w-[100px] sm:w-[120px] h-auto"
                 priority
               />
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden lg:flex items-center space-x-1">
             {navItems.map((item) => {
               const active = isActive(item.href);
               return (
@@ -64,7 +65,7 @@ export default function Navigation() {
                   key={item.href}
                   href={item.href}
                   className={`
-                    relative px-4 py-2 font-medium transition-all duration-200
+                    relative px-3 py-2 text-sm font-medium transition-all duration-200
                     ${active
                       ? 'text-blue-600'
                       : 'text-gray-700 hover:text-blue-600'
@@ -86,18 +87,30 @@ export default function Navigation() {
             })}
           </div>
 
-          {/* Language Selector */}
-          <div className="hidden md:block">
+          {/* Desktop Right Side */}
+          <div className="hidden lg:block">
             <LanguageSwitcher />
           </div>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden flex items-center space-x-4">
-            <LanguageSwitcher />
+          {/* Mobile right side */}
+          <div className="lg:hidden flex items-center space-x-2">
+            {/* Mobile Language Switcher - Compact */}
+            <div className="sm:block hidden">
+              <LanguageSwitcher variant="compact" />
+            </div>
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500 transition-colors"
+              className={`
+                inline-flex items-center justify-center p-2 rounded-xl
+                transition-all duration-200
+                ${isMenuOpen
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }
+                focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500
+              `}
               aria-label="Toggle menu"
+              aria-expanded={isMenuOpen}
             >
               {isMenuOpen ? (
                 <svg
@@ -133,33 +146,76 @@ export default function Navigation() {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Navigation - Full Screen Overlay */}
       <div
         className={`
-          md:hidden overflow-hidden transition-all duration-300 ease-in-out
-          ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}
+          lg:hidden fixed inset-0 z-40 bg-black/50 backdrop-blur-sm
+          transition-opacity duration-300
+          ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}
+        `}
+        onClick={closeMenus}
+      />
+      <div
+        className={`
+          lg:hidden fixed top-16 right-0 z-40 w-full sm:w-80
+          bg-white shadow-2xl
+          transform transition-transform duration-300 ease-out
+          ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}
         `}
       >
-        <div className="px-4 py-3 space-y-1 bg-gray-50">
-          {navItems.map((item) => {
-            const active = isActive(item.href);
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
+        <div className="max-h-[calc(100vh-4rem)] overflow-y-auto">
+          {/* Header */}
+          <div className="px-6 py-4 border-b border-gray-100 bg-gradient-to-r from-blue-50 to-indigo-50">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-medium text-gray-500">菜单</span>
+              <button
                 onClick={closeMenus}
-                className={`
-                  block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200
-                  ${active
-                    ? 'bg-blue-600 text-white shadow-md'
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-gray-100'
-                  }
-                `}
+                className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                aria-label="关闭菜单"
               >
-                {item.label}
-              </Link>
-            );
-          })}
+                <svg className="h-5 w-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          {/* Navigation Items */}
+          <div className="px-4 py-6 space-y-2">
+            {navItems.map((item) => {
+              const active = isActive(item.href);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={closeMenus}
+                  className={`
+                    block px-4 py-4 rounded-xl text-base font-medium
+                    transition-all duration-200
+                    ${active
+                      ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-blue-200'
+                      : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
+                    }
+                  `}
+                >
+                  <div className="flex items-center justify-between">
+                    <span>{item.label}</span>
+                    {active && (
+                      <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+
+          {/* Mobile Language Switcher in Menu */}
+          <div className="px-4 py-4 border-t border-gray-100 bg-gray-50">
+            <div className="text-xs font-medium text-gray-500 mb-3 px-2">选择语言 / Language</div>
+            <LanguageSwitcher variant="mobile" />
+          </div>
         </div>
       </div>
     </nav>
