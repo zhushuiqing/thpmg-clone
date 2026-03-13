@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import FadeIn from '@/components/FadeIn';
 
 export const dynamic = 'force-dynamic';
 
@@ -31,7 +32,7 @@ export default function HomePage() {
     description: string;
     category: string;
   }>;
-  const subsidiaries = subsidiariesData.slice(0, 4);
+  const subsidiaries = subsidiariesData.slice(0, 6);
 
   // Get products data
   const productsData = tSubs.raw('products') as Record<string, {
@@ -55,388 +56,400 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section with Banner */}
-      <section className="relative h-[50vh] sm:h-[600px] overflow-hidden">
+      {/* Hero Section - NIO Style Full Screen with Centered Content */}
+      <section className="relative h-screen overflow-hidden">
         <Image
           src="/images/thpmg/banner1.jpg"
           alt={t('heroTitle')}
           fill
           className="object-cover"
           priority
+          quality={100}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-blue-900/30"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center text-white px-4 w-full max-w-4xl mx-auto">
-            <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-3 sm:mb-4 leading-tight">
-              {t('heroTitle')}
-            </h1>
-            <p className="text-base sm:text-xl md:text-2xl mb-2 font-light">
-              {t('heroSubtitle')}
-            </p>
-            <p className="text-sm sm:text-lg max-w-2xl mx-auto opacity-90 line-clamp-2 sm:line-clamp-none">
-              {t('heroDescription')}
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-6 sm:mt-8 px-4">
-              <Link
-                href={`/${tNav('locale')}/about`}
-                className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors text-center"
-              >
-                {t('ctaAbout')}
-              </Link>
-              <Link
-                href={`/${tNav('locale')}/subsidiaries`}
-                className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition-colors text-center"
-              >
-                {t('ctaSubsidiaries')}
-              </Link>
-            </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/50 via-blue-900/30 to-blue-900/50"></div>
+        <div className="absolute inset-0 flex flex-col justify-center items-center px-4">
+          <div className="max-w-[1440px] mx-auto w-full text-center">
+            <FadeIn direction="up" distance={60} delay={200}>
+              <div className="text-white">
+                <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6 mx-auto" style={{ letterSpacing: '-0.03em' }}>
+                  {t('heroTitle')}
+                </h1>
+                <p className="text-base sm:text-xl md:text-2xl font-light max-w-3xl mx-auto opacity-90 mb-10">
+                  {t('heroSubtitle')}
+                </p>
+                <div className="flex flex-col sm:flex-row justify-center gap-4">
+                  <Link
+                    href={`/${tNav('locale')}/about`}
+                    className="group inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 font-medium rounded-none hover:bg-blue-50 transition-all duration-300"
+                  >
+                    {t('ctaAbout')}
+                    <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
+                  <Link
+                    href={`/${tNav('locale')}/subsidiaries`}
+                    className="group inline-flex items-center justify-center px-8 py-4 bg-transparent text-white font-medium border-2 border-white/50 hover:border-white hover:bg-white/10 transition-all duration-300 rounded-none"
+                  >
+                    {t('ctaSubsidiaries')}
+                  </Link>
+                </div>
+              </div>
+            </FadeIn>
           </div>
         </div>
       </section>
 
-      {/* Company Intro */}
-      <section className="py-12 sm:py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-            <div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+      {/* Company Intro - NIO Style Left-Aligned Large Layout */}
+      <section className="py-24 sm:py-32 bg-white">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn direction="up" distance={40}>
+            <div className="max-w-4xl">
+              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+                ABOUT US
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('aboutTitle')}
               </h2>
-              <div className="w-16 sm:w-24 h-1 bg-blue-600 mb-4 sm:mb-6"></div>
-              <p className="text-gray-600 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
+            </div>
+          </FadeIn>
+          <div className="grid md:grid-cols-2 gap-12 lg:gap-20 mt-16">
+            <FadeIn direction="right" distance={40} delay={200}>
+              <p className="text-lg sm:text-xl text-gray-600 leading-relaxed font-light">
                 {t('aboutDescription')}
               </p>
-              <div className="bg-blue-50 p-4 sm:p-6 rounded-lg mb-4 sm:mb-6">
-                <h4 className="font-bold text-gray-900 mb-3 sm:mb-4 text-base sm:text-lg">{t('pmiTitle')}</h4>
-                <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700">
-                  <li className="flex items-start">
-                    <span className="font-bold text-blue-600 mr-2 flex-shrink-0">P</span>
-                    <span>{t('pmiP')}</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="font-bold text-blue-600 mr-2 flex-shrink-0">M</span>
-                    <span>{t('pmiM')}</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="font-bold text-blue-600 mr-2 flex-shrink-0">I</span>
-                    <span>{t('pmiI')}</span>
-                  </li>
-                </ul>
+              <div className="mt-8 space-y-4">
+                <div className="flex items-start">
+                  <span className="text-2xl font-bold text-blue-600 mr-4">P</span>
+                  <div>
+                    <span className="font-semibold text-gray-900">Packaging</span>
+                    <p className="text-gray-600 font-light">{t('pmiP')}</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-2xl font-bold text-blue-600 mr-4">M</span>
+                  <div>
+                    <span className="font-semibold text-gray-900">Materials</span>
+                    <p className="text-gray-600 font-light">{t('pmiM')}</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-2xl font-bold text-blue-600 mr-4">I</span>
+                  <div>
+                    <span className="font-semibold text-gray-900">Ingredients</span>
+                    <p className="text-gray-600 font-light">{t('pmiI')}</p>
+                  </div>
+                </div>
               </div>
               <Link
                 href="/about"
-                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors text-sm sm:text-base"
+                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors group mt-8"
               >
-                {t('learnMore')} <span className="ml-1">{tCommon('arrowRight')}</span>
+                {t('learnMore')}
+                <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </Link>
-            </div>
-            <div className="relative w-full">
-              <Image
-                src="/images/thpmg/history.png"
-                alt={t('history')}
-                width={600}
-                height={350}
-                className="w-full h-auto rounded-lg shadow-lg"
-              />
-            </div>
+            </FadeIn>
+            <FadeIn direction="left" distance={40} delay={300}>
+              <div className="relative">
+                <Image
+                  src="/images/thpmg/history.png"
+                  alt={t('history')}
+                  width={600}
+                  height={400}
+                  className="w-full h-auto"
+                />
+              </div>
+            </FadeIn>
           </div>
         </div>
       </section>
 
-      {/* Scale Stats */}
-      <section className="py-12 sm:py-20 bg-gradient-to-r from-blue-600 to-indigo-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4">
-              {t('scaleTitle')}
-            </h2>
-            <div className="w-16 sm:w-24 h-1 bg-white mx-auto opacity-50"></div>
-          </div>
+      {/* Scale Stats - Minimalist Full Width Dark Section */}
+      <section className="py-24 sm:py-32 bg-gray-900 relative overflow-hidden">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <FadeIn direction="up" distance={40}>
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+              <div>
+                <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-400 mb-4">
+                  OUR SCALE
+                </p>
+                <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight" style={{ letterSpacing: '-0.02em' }}>
+                  {t('scaleTitle')}
+                </h2>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-16">
+                {[
+                  { value: '7500+', label: t('scaleEmployees') },
+                  { value: '14+4', label: t('scaleBases') },
+                  { value: '8+', label: t('scaleCompanies') },
+                  { value: '1992', label: t('scaleSince') },
+                ].map((stat, index) => (
+                  <FadeIn key={index} direction="up" distance={30} delay={index * 100}>
+                    <div>
+                      <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-2 tracking-tight">{stat.value}</div>
+                      <div className="text-sm text-gray-400 font-light">{stat.label}</div>
+                    </div>
+                  </FadeIn>
+                ))}
+              </div>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* Business Areas - Clean Minimalist Grid */}
+      <section className="py-24 sm:py-32 bg-white">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn direction="up" distance={40}>
+            <div className="text-center mb-16 sm:mb-24">
+              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+                BUSINESS AREAS
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
+                {t('businessTitle')}
+              </h2>
+              <p className="text-lg text-gray-600 font-light max-w-2xl mx-auto">
+                {t('businessSubtitle')}
+              </p>
+            </div>
+          </FadeIn>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
-            <div className="text-center text-white">
-              <div className="text-3xl sm:text-5xl font-bold mb-1 sm:mb-2">7500+</div>
-              <div className="text-xs sm:text-lg opacity-80">{t('scaleEmployees')}</div>
-            </div>
-            <div className="text-center text-white">
-              <div className="text-3xl sm:text-5xl font-bold mb-1 sm:mb-2">14+4</div>
-              <div className="text-xs sm:text-lg opacity-80">{t('scaleBases')}</div>
-            </div>
-            <div className="text-center text-white">
-              <div className="text-3xl sm:text-5xl font-bold mb-1 sm:mb-2">8+</div>
-              <div className="text-xs sm:text-lg opacity-80">{t('scaleCompanies')}</div>
-            </div>
-            <div className="text-center text-white">
-              <div className="text-3xl sm:text-5xl font-bold mb-1 sm:mb-2">1992</div>
-              <div className="text-xs sm:text-lg opacity-80">{t('scaleSince')}</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Business Areas */}
-      <section className="py-12 sm:py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10 sm:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-              {t('businessTitle')}
-            </h2>
-            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
-            <p className="text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base max-w-2xl mx-auto px-4">
-              {t('businessSubtitle')}
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
             {businessAreas.map((area, index) => (
-              <div
-                key={index}
-                className="bg-white p-4 sm:p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center"
-              >
-                <div className="text-3xl sm:text-5xl mb-2 sm:mb-4">{area.icon}</div>
-                <h3 className="text-sm sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2">{area.name}</h3>
-                <div className="text-lg sm:text-2xl font-bold text-blue-600 mb-1 sm:mb-2">{area.count}{t('companiesCount')}</div>
-                <p className="text-gray-600 text-xs sm:text-sm line-clamp-2">{area.desc}</p>
-              </div>
+              <FadeIn key={index} direction="up" distance={30} delay={index * 100}>
+                <div className="group p-6 sm:p-8 border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition-all duration-500 text-center">
+                  <div className="text-4xl sm:text-5xl mb-6">{area.icon}</div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{area.name}</h3>
+                  <div className="text-3xl font-bold text-blue-600 mb-3">{area.count}<span className="text-lg font-normal text-gray-500">{t('companiesCount')}</span></div>
+                  <p className="text-sm text-gray-600 font-light leading-relaxed">{area.desc}</p>
+                </div>
+              </FadeIn>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Subsidiaries Image */}
-      <section className="py-12 sm:py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-              {t('subsidiariesTitle')}
-            </h2>
-            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
-          </div>
-          <div className="mb-6 sm:mb-8">
-            <Image
-              src="/images/thpmg/subsidiaries.jpg"
-              alt={t('subsidiariesTitle')}
-              width={800}
-              height={600}
-              className="w-full h-auto rounded-lg shadow-lg mx-auto"
-            />
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
-            {subsidiaries.map((sub) => (
-              <div
-                key={sub.id}
-                className="bg-gray-50 p-3 sm:p-6 rounded-lg text-center"
-              >
-                <div className="text-xs sm:text-sm text-blue-600 font-medium mb-1 sm:mb-2">{sub.category}</div>
-                <h3 className="text-sm sm:text-lg font-bold text-gray-900 mb-1 sm:mb-2">{sub.name}</h3>
-                <p className="text-gray-500 text-xs sm:text-sm mb-1 sm:mb-2">{sub.english}</p>
-                <p className="text-gray-600 text-xs sm:text-sm line-clamp-2">{sub.description}</p>
+      {/* Subsidiaries - Full Width Image Layout */}
+      <section className="py-0 bg-gray-50">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn direction="up" distance={40}>
+            <div className="py-24 sm:py-32">
+              <div className="text-center mb-16">
+                <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+                  SUBSIDIARIES
+                </p>
+                <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
+                  {t('subsidiariesTitle')}
+                </h2>
               </div>
-            ))}
-          </div>
-          <div className="text-center mt-8 sm:mt-12">
-            <Link
-              href="/subsidiaries"
-              className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors text-sm sm:text-base"
-            >
-              {t('viewAll')}
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Company Products Section */}
-      <section className="py-12 sm:py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10 sm:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-              事业单位产品与服务
-            </h2>
-            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
-            <p className="text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base max-w-2xl mx-auto px-4">
-              8 家事业单位提供多元化产品与服务，满足客户全方位需求
-            </p>
-          </div>
-
-          <div className="space-y-12 sm:space-y-16">
-            {companyOrder.map((companyId) => {
-              const company = productsData[companyId];
-              if (!company) return null;
-
-              return (
-                <div key={companyId} className="bg-white rounded-xl shadow-sm overflow-hidden">
-                  {/* Company Header */}
-                  <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 sm:px-8 py-4 sm:py-6">
-                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-                      <div>
-                        <h3 className="text-xl sm:text-2xl font-bold text-white">{company.name}</h3>
-                        <p className="text-blue-100 text-sm mt-1">{company.english}</p>
-                      </div>
-                      <span className="inline-block px-3 sm:px-4 py-1 bg-white/20 rounded-full text-white text-xs sm:text-sm font-medium">
-                        {company.category}
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Company Description */}
-                  <div className="px-4 sm:px-8 py-3 sm:py-4 bg-blue-50 border-b border-blue-100">
-                    <p className="text-gray-700 text-sm sm:text-base">{company.description}</p>
-                  </div>
-
-                  {/* Products Grid */}
-                  <div className="px-4 sm:px-8 py-6 sm:py-8">
-                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-                      {company.products.map((product, index) => (
-                        <div
-                          key={index}
-                          className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
-                        >
-                          <div className="aspect-square bg-gray-200 relative">
-                            {product.image ? (
-                              <Image
-                                src={product.image}
-                                alt={product.name}
-                                fill
-                                className="object-cover"
-                              />
-                            ) : (
-                              <div className="w-full h-full flex items-center justify-center">
-                                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
-                                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                                  </svg>
-                                </div>
-                              </div>
-                            )}
-                          </div>
-                          <div className="p-4 sm:p-5">
-                            <h4 className="text-sm sm:text-base font-bold text-gray-900 mb-2">{product.name}</h4>
-                            <p className="text-gray-600 text-xs sm:text-sm leading-relaxed line-clamp-3">{product.description}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+            </div>
+          </FadeIn>
+          <FadeIn direction="up" distance={40} delay={200}>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+              {subsidiaries.map((sub, index) => (
+                <div
+                  key={sub.id}
+                  className="group relative aspect-[3/4] overflow-hidden bg-white"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray-900/80 z-10"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 z-20">
+                    <p className="text-xs text-blue-400 font-medium uppercase tracking-wide mb-1">{sub.category}</p>
+                    <h3 className="text-white font-bold text-sm sm:text-base mb-1">{sub.name}</h3>
+                    <p className="text-gray-300 text-xs font-light">{sub.english}</p>
                   </div>
                 </div>
+              ))}
+            </div>
+          </FadeIn>
+          <FadeIn direction="up" distance={40} delay={400}>
+            <div className="text-center py-12">
+              <Link
+                href="/subsidiaries"
+                className="group inline-flex items-center px-8 py-4 bg-gray-900 text-white font-medium hover:bg-gray-800 transition-all duration-300"
+              >
+                {t('viewAll')}
+                <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* Company Products - Alternating Cards Layout */}
+      <section className="py-24 sm:py-32 bg-white">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn direction="up" distance={40}>
+            <div className="text-center mb-16 sm:mb-24">
+              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+                PRODUCTS & SERVICES
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
+                事业单位产品与服务
+              </h2>
+              <p className="text-lg text-gray-600 font-light max-w-2xl mx-auto">
+                8 家事业单位提供多元化产品与服务
+              </p>
+            </div>
+          </FadeIn>
+
+          <div className="space-y-16 sm:space-y-24">
+            {companyOrder.slice(0, 4).map((companyId, index) => {
+              const company = productsData[companyId];
+              if (!company) return null;
+              const isEven = index % 2 === 0;
+
+              return (
+                <FadeIn key={companyId} direction="up" distance={40} delay={index * 100}>
+                  <div className={`grid md:grid-cols-2 gap-8 lg:gap-16 items-center ${isEven ? '' : 'md:flex-row-reverse'}`}>
+                    <div className={isEven ? 'md:order-1' : 'md:order-2'}>
+                      <p className="text-xs font-medium tracking-[0.2em] uppercase text-blue-600 mb-3">
+                        {company.category}
+                      </p>
+                      <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 tracking-tight">{company.name}</h3>
+                      <p className="text-gray-500 font-light mb-6">{company.english}</p>
+                      <p className="text-gray-600 font-light leading-relaxed mb-8">{company.description}</p>
+                      <div className="grid grid-cols-2 gap-4">
+                        {company.products.slice(0, 4).map((product, idx) => (
+                          <div key={idx} className="group">
+                            <div className="aspect-square bg-gray-100 mb-3 overflow-hidden">
+                              {product.image ? (
+                                <Image
+                                  src={product.image}
+                                  alt={product.name}
+                                  width={200}
+                                  height={200}
+                                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                />
+                              ) : (
+                                <div className="w-full h-full flex items-center justify-center">
+                                  <svg className="w-10 h-10 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                                  </svg>
+                                </div>
+                              )}
+                            </div>
+                            <p className="text-sm font-medium text-gray-900">{product.name}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className={isEven ? 'md:order-2' : 'md:order-1'}>
+                      <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
+                        {company.products[0]?.image ? (
+                          <Image
+                            src={company.products[0].image}
+                            alt={company.name}
+                            width={600}
+                            height={450}
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50">
+                            <svg className="w-20 h-20 text-blue-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </FadeIn>
               );
             })}
           </div>
         </div>
       </section>
 
-      {/* Factory Map */}
-      <section className="py-12 sm:py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-              {t('factoryTitle')}
-            </h2>
-            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
-            <p className="text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base max-w-2xl mx-auto px-4">
-              {t('factorySubtitle')}
-            </p>
-          </div>
-          <div className="bg-white p-4 sm:p-8 rounded-lg shadow-sm overflow-hidden">
-            <Image
-              src="/images/thpmg/factory-map.png"
-              alt={t('factoryTitle')}
-              width={600}
-              height={400}
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* News Section */}
-      <section className="py-12 sm:py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10 sm:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-              {t('newsTitle')}
-            </h2>
-            <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
-          </div>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8">
-            {latestNews.map((news) => (
+      {/* News - Minimalist Cards */}
+      <section className="py-24 sm:py-32 bg-gray-50">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn direction="up" distance={40}>
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16 sm:mb-24">
+              <div>
+                <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+                  NEWS & UPDATES
+                </p>
+                <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-tight" style={{ letterSpacing: '-0.02em' }}>
+                  {t('newsTitle')}
+                </h2>
+              </div>
               <Link
-                key={news.id}
-                href={`/news/${news.id}`}
-                className="bg-gray-50 p-4 sm:p-6 rounded-lg hover:shadow-md transition-shadow"
+                href="/news"
+                className="group inline-flex items-center text-gray-900 font-medium hover:text-blue-600 transition-colors"
               >
-                <div className="text-blue-600 font-medium text-xs sm:text-sm mb-2">{news.date}</div>
-                <h3 className="text-base sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 line-clamp-2">
-                  {news.title}
-                </h3>
-                <p className="text-gray-600 text-xs sm:text-sm line-clamp-3">{news.excerpt}</p>
-                <div className="mt-3 sm:mt-4 text-blue-600 font-medium text-xs sm:text-sm flex items-center">
-                  {t('readMore')} <span className="ml-1">{tCommon('arrowRight')}</span>
-                </div>
+                {t('viewAllNews')}
+                <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
               </Link>
+            </div>
+          </FadeIn>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            {latestNews.map((news, index) => (
+              <FadeIn key={news.id} direction="up" distance={30} delay={index * 100}>
+                <Link
+                  href={`/news/${news.id}`}
+                  className="group block bg-white p-6 sm:p-8 hover:bg-gray-900 hover:text-white transition-all duration-500"
+                >
+                  <p className="text-sm text-gray-500 group-hover:text-gray-400 mb-3">{news.date}</p>
+                  <h3 className="text-xl font-bold mb-4 line-clamp-2 group-hover:text-white transition-colors">
+                    {news.title}
+                  </h3>
+                  <p className="text-gray-600 font-light text-sm line-clamp-3 group-hover:text-gray-300 transition-colors">
+                    {news.excerpt}
+                  </p>
+                </Link>
+              </FadeIn>
             ))}
           </div>
-          <div className="text-center mt-8 sm:mt-12">
-            <Link
-              href="/news"
-              className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors text-sm sm:text-base"
-            >
-              {t('viewAllNews')}
-            </Link>
-          </div>
         </div>
       </section>
 
-      {/* Contact CTA Section */}
-      <section className="py-12 sm:py-20 bg-gradient-to-r from-blue-600 to-indigo-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-            {t('contactTitle')}
-          </h2>
-          <p className="text-blue-100 mb-6 sm:mb-8 text-sm sm:text-base max-w-2xl mx-auto px-4">
-            <span className="block sm:inline">{t('addressLabel')}：{tContact('addressValue')}</span>
-            <span className="block sm:inline sm:ml-4">{t('phoneLabel')}：{tContact('phoneValue')}</span>
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 px-4">
-            <Link
-              href="/contact"
-              className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition-colors text-center text-sm sm:text-base"
-            >
-              {t('contactButton')}
-            </Link>
-            <Link
-              href="/recruitment"
-              className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition-colors text-center text-sm sm:text-base"
-            >
-              {t('recruitButton')}
-            </Link>
-          </div>
+      {/* Contact CTA - Full Width Minimalist */}
+      <section className="py-24 sm:py-32 bg-blue-600 relative overflow-hidden">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <FadeIn direction="up" distance={40}>
+            <div className="max-w-3xl">
+              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-200 mb-4">
+                GET IN TOUCH
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-8 leading-tight" style={{ letterSpacing: '-0.02em' }}>
+                {t('contactTitle')}
+              </h2>
+              <div className="grid sm:grid-cols-2 gap-6 mb-12">
+                <div>
+                  <p className="text-blue-200 text-sm mb-1">{t('addressLabel')}</p>
+                  <p className="text-white font-medium">{tContact('addressValue')}</p>
+                </div>
+                <div>
+                  <p className="text-blue-200 text-sm mb-1">{t('phoneLabel')}</p>
+                  <p className="text-white font-medium">{tContact('phoneValue')}</p>
+                </div>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="group inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300"
+                >
+                  {t('contactButton')}
+                  <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+                <Link
+                  href="/recruitment"
+                  className="group inline-flex items-center justify-center px-8 py-4 bg-transparent text-white font-medium border-2 border-white/50 hover:border-white hover:bg-white/10 transition-all duration-300"
+                >
+                  {t('recruitButton')}
+                </Link>
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-8 sm:py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="mb-3 sm:mb-4">
-            <span className="text-white font-bold text-lg sm:text-xl">P.M.I</span>
-            <span className="ml-2 text-sm sm:text-base">{t('footerName')}</span>
-          </div>
-          <div className="text-xs sm:text-sm mb-3 sm:mb-4 px-2">
-            {tContact('addressValue')}<br className="sm:hidden" />
-            <span className="hidden sm:inline"> | </span>
-            {tContact('phoneValue')}
-          </div>
-          <div className="text-xs sm:text-sm mb-3 sm:mb-4">
-            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
-              {tContact('icpValue')}
-            </a>
-            <span className="mx-2 hidden sm:inline">|</span>
-            <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011802001131" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
-              {tContact('policeIcpValue')}
-            </a>
-          </div>
-          <div className="text-xs sm:text-sm">
-            {tCommon('copyright')} © 2015 - {new Date().getFullYear()} P.M.I
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

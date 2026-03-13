@@ -1,7 +1,9 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import FadeIn from '@/components/FadeIn';
 
 export default function NewsPage() {
   const t = useTranslations('News');
@@ -29,39 +31,56 @@ export default function NewsPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 to-indigo-100 overflow-hidden pt-20 pb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            {t('pageTitle')}
-          </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            {t('employeeNews')}
-          </p>
-          <nav className="mt-4 text-gray-600 text-sm">
-            <Link href="/" className="hover:text-blue-600 transition-colors">
-              {tCommon('home')}
-            </Link>
-            <span className="mx-2">/</span>
-            <span className="text-gray-900">{t('pageTitle')}</span>
-          </nav>
+      {/* Hero Section - NIO Style Banner */}
+      <section className="relative h-[50vh] sm:h-[60vh] overflow-hidden">
+        <Image
+          src="/images/thpmg/news-banner.jpg"
+          alt={t('pageTitle')}
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <FadeIn direction="up" distance={50}>
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold mb-4 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+                {t('pageTitle')}
+              </h1>
+            </FadeIn>
+            <FadeIn direction="up" distance={30} delay={200}>
+              <p className="text-xl opacity-90 font-light">{t('employeeNews')}</p>
+            </FadeIn>
+            <FadeIn direction="up" distance={30} delay={400}>
+              <nav className="mt-4 text-gray-200 text-sm sm:text-base">
+                <Link href="/" className="hover:text-white transition-colors">
+                  {tCommon('home')}
+                </Link>
+                <span className="mx-2">/</span>
+                <span className="text-gray-900">{t('pageTitle')}</span>
+              </nav>
+            </FadeIn>
+          </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-white rounded-t-[50%]"></div>
       </section>
 
-      {/* News Categories */}
-      <section className="py-8 bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-4">
+      {/* News Categories - Modern Tabs */}
+      <section className="py-8 sm:py-12 bg-white border-b border-gray-100 sticky top-16 sm:top-20 z-40 glass">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
             {categories.map((category) => (
               <button
                 key={category.id}
                 onClick={() => setActiveCategory(category.id)}
-                className={`px-6 py-2 rounded-full font-medium transition-colors ${
-                  activeCategory === category.id
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                }`}
+                className={`
+                  px-6 sm:px-8 py-2.5 sm:py-3 rounded-full font-medium text-sm sm:text-base
+                  transition-all duration-300
+                  ${
+                    activeCategory === category.id
+                      ? 'bg-gray-900 text-white shadow-lg shadow-gray-900/20'
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  }
+                `}
               >
                 {category.name}
               </button>
@@ -70,44 +89,53 @@ export default function NewsPage() {
         </div>
       </section>
 
-      {/* News List */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* News List - Modern Cards */}
+      <section className="py-20 sm:py-32 bg-gray-50">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           {filteredNews.length === 0 ? (
-            <div className="text-center py-12">
-              <p className="text-gray-500 text-lg">{t('noNews')}</p>
-            </div>
+            <FadeIn direction="up" distance={30}>
+              <div className="text-center py-20">
+                <div className="text-6xl mb-4">📰</div>
+                <p className="text-gray-500 text-lg font-light">{t('noNews')}</p>
+              </div>
+            </FadeIn>
           ) : (
-            <div className="space-y-6">
-              {filteredNews.map((news) => (
-                <Link
-                  key={news.id}
-                  href={`/news/${news.id}`}
-                  className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"
-                >
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-4 mb-2">
-                        <span className="text-sm text-blue-600 font-medium">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              {filteredNews.map((news, index) => (
+                <FadeIn key={news.id} direction="up" distance={30} delay={index * 100}>
+                  <Link
+                    href={`/news/${news.id}`}
+                    className="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 h-full"
+                  >
+                    <div className="aspect-[16/10] bg-gradient-to-br from-blue-50 to-indigo-100 relative overflow-hidden">
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <svg className="w-16 h-16 text-blue-200" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M4 4h16v16H4V4zm2 2v12h12V6H6zm2 2h2v8H8V8zm4 0h2v8h-2V8zm4 0h2v8h-2V8z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="px-3 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full">
                           {news.category === 'employee' ? t('category.employee') : news.category}
                         </span>
                         <span className="text-sm text-gray-500">{news.date}</span>
                       </div>
-                      <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                      <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors tracking-tight">
                         {news.title}
                       </h3>
-                      <p className="text-gray-600 mt-2 line-clamp-2">
+                      <p className="text-gray-600 text-sm leading-relaxed line-clamp-3 font-light">
                         {news.excerpt}
                       </p>
+                      <div className="mt-4 flex items-center text-blue-600 font-medium text-sm group-hover:translate-x-1 transition-transform">
+                        {t('readMore')}
+                        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </div>
                     </div>
-                    <div className="flex items-center text-blue-600 font-medium group-hover:translate-x-2 transition-transform">
-                      {t('readMore')}
-                      <svg className="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
-                  </div>
-                </Link>
+                  </Link>
+                </FadeIn>
               ))}
             </div>
           )}
