@@ -354,22 +354,22 @@
         "products": [
           {
             "name": "食品级变性淀粉",
-            "description": "应用于肉制品、乳制品、调味品等食品领域的增稠剂、稳定剂",
+            "description": "应用于肉制品、乳制品、调味品、速冻食品等食品领域的增稠剂、稳定剂，改善食品品质和口感",
             "image": null
           },
           {
-            "name": "工业淀粉",
-            "description": "应用于造纸、纺织、胶粘剂等工业领域的高性能淀粉产品",
+            "name": "造纸用淀粉",
+            "description": "应用于造纸工业的施胶剂、增强剂，提高纸张强度和表面性能，降低生产成本",
             "image": null
           },
           {
-            "name": "淀粉衍生物",
-            "description": "氧化淀粉、酯化淀粉、醚化淀粉等功能性淀粉衍生物",
+            "name": "纺织用淀粉",
+            "description": "纺织浆料用变性淀粉，提高浆纱质量和织造效率，适用于棉、麻、化纤等多种纤维",
             "image": null
           },
           {
-            "name": "定制淀粉解决方案",
-            "description": "根据客户产品需求定制研发专用淀粉配方",
+            "name": "其他工业淀粉",
+            "description": "应用于胶粘剂、建材、石油开采、日化等工业领域的高性能淀粉及衍生物",
             "image": null
           }
         ]
@@ -435,29 +435,29 @@
       "weizhen": {
         "name": "味珍食品",
         "english": "Weizhen Food",
-        "description": "冻干食品加工企业",
+        "description": "专业从事冻干食品加工的企业，采用先进冻干技术保留食材营养与风味",
         "category": "食材事业",
-        "image": null,
+        "image": "/images/company-products/products/weizhen-product-1.jpg",
         "products": [
           {
             "name": "冻干水果",
-            "description": "草莓、芒果、榴莲等热带水果冻干，保留新鲜水果的营养和风味",
-            "image": null
+            "description": "草莓、芒果、榴莲等热带水果冻干，保留新鲜水果的营养和风味，口感酥脆",
+            "image": "/images/company-products/products/weizhen-product-1.jpg"
           },
           {
             "name": "冻干蔬菜",
-            "description": "玉米粒、胡萝卜丁、青豆等，方便储存和运输",
-            "image": null
+            "description": "玉米粒、胡萝卜丁、青豆等，方便储存和运输，复水性好，适用于方便面、汤料等",
+            "image": "/images/company-products/products/weizhen-product-2.jpg"
           },
           {
             "name": "冻干肉类",
-            "description": "鸡肉丁、牛肉粒等，适用于方便食品、宠物食品等",
-            "image": null
+            "description": "鸡肉丁、牛肉粒等，适用于方便食品、宠物食品等，高蛋白低脂肪",
+            "image": "/images/company-products/products/weizhen-product-3.jpg"
           },
           {
             "name": "冻干即食食品",
-            "description": "冻干粥、冻干汤等即食产品，冲泡即食，便捷美味",
-            "image": null
+            "description": "冻干粥、冻干汤等即食产品，冲泡即食，便捷美味，营养健康",
+            "image": "/images/company-products/products/weizhen-product-4.jpg"
           }
         ]
       },

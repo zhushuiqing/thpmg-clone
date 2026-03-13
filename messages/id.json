@@ -259,7 +259,114 @@
         "category": "Logistik",
         "website": "https://www.tingtonglogistics.com"
       }
-    ]
+    ],
+    "products": {
+      "baxin": {
+        "name": "Baxin Packaging",
+        "english": "Baxin Packaging",
+        "description": "Perusahaan kemasan profesional yang menyediakan karton bergelombang menengah dan tinggi untuk pelanggan, merupakan grup kemasan dengan distribusi terluas di Tiongkok",
+        "category": "Kemasan",
+        "image": "/images/company-products/products/baxin-product-1.jpg",
+        "products": [
+          { "name": "Karton Bergelombang Watermark", "description": "Dapat didaur ulang, biaya rendah, ramah lingkungan", "image": "/images/company-products/products/baxin-product-1.jpg" },
+          { "name": "Karton Bergelombang Pre-printed", "description": "Akurasi pencetakan tinggi, karbon rendah, ramah lingkungan", "image": "/images/company-products/products/baxin-product-2.jpg" },
+          { "name": "Karton Bergelombang Offset", "description": "Gambar dan teks halus, dapat dilaminasi dan dipoles", "image": "/images/company-products/products/baxin-product-3.jpg" },
+          { "name": "Kemasan Bergelombang Fungsional", "description": "Kotak tahan air, kotak rantai dingin, kotak sirkulasi, dll.", "image": "/images/company-products/products/baxin-product-4.jpg" }
+        ]
+      },
+      "tingzheng": {
+        "name": "Tingzheng Packaging",
+        "english": "Tingzheng Packaging",
+        "description": "Produsen kemasan lunak, kotak warna, dan wadah kertas makanan profesional",
+        "category": "Kemasan",
+        "image": "/images/company-products/products/tingzheng-product-1.jpg",
+        "products": [
+          { "name": "Bahan Kemasan Lunak", "description": "Film komposit grade makanan, tas foil aluminium, tas vakum, tas retort dan produk kemasan lunak berkualitas tinggi lainnya", "image": "/images/company-products/products/tingzheng-product-2.jpg" },
+          { "name": "Kemasan Kotak Warna", "description": "Kotak hadiah high-end, kotak kosmetik, kotak kemasan produk elektronik dan kotak warna indah lainnya", "image": "/images/company-products/products/tingzheng-product-3.jpg" },
+          { "name": "Wadah Kertas Makanan", "description": "Gelas kertas, mangkuk kertas, kotak kertas dan wadah kertas grade makanan lainnya, aman dan higienis", "image": "/images/company-products/products/tingzheng-product-4.jpg" },
+          { "name": "Tas Stand-up/Tas Spout", "description": "Solusi kemasan yang nyaman dan praktis untuk cairan dan makanan semi-cair", "image": "/images/company-products/products/tingzheng-product-2.jpg" }
+        ]
+      },
+      "hesheng": {
+        "name": "Hesheng Plastic",
+        "english": "Hesheng Plastic",
+        "description": "Produsen produk plastik grade makanan, khusus memproduksi berbagai wadah kemasan plastik",
+        "category": "Kemasan",
+        "image": "/images/company-products/products/hesheng-product-1.jpg",
+        "products": [
+          { "name": "Garpu Plastik", "description": "Peralatan makan plastik grade makanan, cocok untuk industri katering, take-out dan lainnya", "image": "/images/company-products/products/hesheng-product-1.jpg" },
+          { "name": "Tutup Botol Plastik", "description": "Tutup botol plastik grade makanan berbagai spesifikasi, performa penyegelan baik", "image": "/images/company-products/products/hesheng-product-2.jpg" },
+          { "name": "Botol/Cangkir Plastik", "description": "Botol dan cangkir plastik bahan PET, PP, dll., cocok untuk minuman dan kemasan makanan", "image": null },
+          { "name": "Gagang Plastik", "description": "Gagang plastik portabel, cocok untuk kotak hadiah, kotak kemasan, dll.", "image": null }
+        ]
+      },
+      "prostar": {
+        "name": "Prostar Starch",
+        "english": "Prostar Starch",
+        "description": "Produsen pati termodifikasi grade makanan yang berdedikasi untuk R&D dan aplikasi inovasi pati dan turunan pati",
+        "category": "Bahan Baku",
+        "image": null,
+        "products": [
+          { "name": "Pati Termodifikasi Grade Makanan", "description": "Agen pengental dan stabilizer yang diaplikasikan pada produk daging, produk susu, bumbu dan bidang makanan lainnya", "image": null },
+          { "name": "Pati Industri Kertas", "description": "Agen sizing dan penguat yang diaplikasikan pada industri kertas, meningkatkan kekuatan dan sifat permukaan kertas", "image": null },
+          { "name": "Pati Industri Tekstil", "description": "Pati termodifikasi untuk sizing tekstil, meningkatkan kualitas benang dan efisiensi tenun", "image": null },
+          { "name": "Pati Industri Lainnya", "description": "Pati dan derivatif berkinerja tinggi yang diaplikasikan pada perekat, bahan bangunan, pengeboran minyak, kimia harian dan bidang industri lainnya", "image": null }
+        ]
+      },
+      "tingzhi": {
+        "name": "Tingzhi Food",
+        "english": "Tingzhi Food",
+        "description": "Pemasok minyak wijen dan produk wijen",
+        "category": "Bahan Baku",
+        "image": "/images/company-products/products/tingzhi-product-1.jpg",
+        "products": [
+          { "name": "Minyak Wijen Murni", "description": "Diperas dengan proses tradisional, aroma kaya, cocok untuk memasak,凉拌 dan berbagai keperluan lainnya", "image": "/images/company-products/products/tingzhi-product-1.jpg" },
+          { "name": "Minyak Wijen Bumbu", "description": "Minyak wijen bumbu dengan rempah seperti lada Sichuan, cabai, dll., rasa unik", "image": "/images/company-products/products/tingzhi-product-2.jpg" },
+          { "name": "Wijen Panggang/Bubuk Wijen", "description": "Wijen berkualitas tinggi yang dipanggang dan digiling, cocok untuk烘焙, bumbu, dll.", "image": "/images/company-products/products/tingzhi-product-3.jpg" },
+          { "name": "Pasta Wijen", "description": "Digiling dari wijen murni, kaya dan harum, cocok untuk saus celup hot pot, mie campur, dll.", "image": "/images/company-products/products/tingzhi-product-4.jpg" }
+        ]
+      },
+      "starpro": {
+        "name": "Starpro Thailand",
+        "english": "Starpro Thailand",
+        "description": "Produsen pati singkong asli dan pati termodifikasi grade makanan di Thailand",
+        "category": "Bahan Baku",
+        "image": "/images/company-products/products/starpro-product-1.jpg",
+        "products": [
+          { "name": "Pati Singkong Asli", "description": "Dibuat dari singkong berkualitas tinggi Thailand, kemurnian dan viskositas tinggi, cocok untuk industri makanan, kertas, dll.", "image": "/images/company-products/products/starpro-product-1.jpg" },
+          { "name": "Pati Singkong Termodifikasi", "description": "Pati pre-gelatinized, pati cross-linked, dll., dengan sifat fungsional khusus", "image": "/images/company-products/products/starpro-product-2.jpg" },
+          { "name": "Pati Singkong Grade Makanan", "description": "Sesuai dengan standar keamanan pangan internasional, cocok untuk makanan ringan, makanan beku, dll.", "image": "/images/company-products/products/starpro-product-3.jpg" },
+          { "name": "Pati Singkong Grade Industri", "description": "Dipakai pada bahan biodegradable, perekat dan bidang industri lainnya", "image": "/images/company-products/products/starpro-product-4.jpg" }
+        ]
+      },
+      "weizhen": {
+        "name": "Weizhen Food",
+        "english": "Weizhen Food",
+        "description": "Perusahaan pengolahan makanan beku kering profesional, menggunakan teknologi freeze-drying canggih untuk mempertahankan nutrisi dan rasa",
+        "category": "Bahan Makanan",
+        "image": "/images/company-products/products/weizhen-product-1.jpg",
+        "products": [
+          { "name": "Buah Freeze-dried", "description": "Buah tropis freeze-dried seperti stroberi, mangga, durian, mempertahankan nutrisi dan rasa buah segar, tekstur renyah", "image": "/images/company-products/products/weizhen-product-1.jpg" },
+          { "name": "Sayur Freeze-dried", "description": "Biji jagung, wortel dadu, kacang polong, dll., mudah disimpan dan diangkut, rehidrasi baik, cocok untuk mie instan, sup, dll.", "image": "/images/company-products/products/weizhen-product-2.jpg" },
+          { "name": "Daging Freeze-dried", "description": "Ayam dadu, daging sapi kotak, dll., cocok untuk makanan instan, makanan hewan peliharaan, dll., protein tinggi rendah lemak", "image": "/images/company-products/products/weizhen-product-3.jpg" },
+          { "name": "Makanan Instan Freeze-dried", "description": "Bubur freeze-dried, sup freeze-dried dan produk instan lainnya, siap makan setelah diseduh, nyaman dan bergizi", "image": "/images/company-products/products/weizhen-product-4.jpg" }
+        ]
+      },
+      "tingtong": {
+        "name": "Tingtong Logistics",
+        "english": "Tingtong Logistics",
+        "description": "Penyedia layanan logistik profesional",
+        "category": "Logistik",
+        "image": null,
+        "products": [
+          { "name": "Jaringan Logistik Nasional", "description": "Memiliki kantor langsung di lebih dari 270 kota di seluruh Tiongkok, menyediakan layanan berkualitas tinggi yang cepat dan standar nasional terpadu untuk pelanggan", "image": null },
+          { "name": "Pengalaman Distribusi yang Kaya", "description": "Layanan distribusi untuk semua format ritel, akrab dengan aturan pengiriman yang kompleks dari titik distribusi berbagai format", "image": null },
+          { "name": "Sistem Layanan Komprehensif", "description": "Menyediakan pergudangan, distribusi, layanan nilai tambah logistik dan solusi rantai pasokan sesuai kebutuhan pelanggan dan karakteristik industri", "image": null },
+          { "name": "Platform Digital", "description": "Tampilan visual pergudangan, transportasi, biaya, kebutuhan sumber daya, dll., dengan simulasi, prediksi, peringatan instan dan pengambilan keputusan cerdas", "image": null },
+          { "name": "Manajemen KPI & Perbaikan Bisnis", "description": "Melakukan manajemen KPI, menganalisis dan terus memperbaiki proyek", "image": null }
+        ]
+      }
+    }
   },
   "Contact": {
     "pageTitle": "Hubungi Kami",

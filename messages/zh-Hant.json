@@ -339,14 +339,14 @@
       "weizhen": {
         "name": "味珍食品",
         "english": "Weizhen Food",
-        "description": "凍乾食品加工企業",
+        "description": "專業從事凍乾食品加工的企業，採用先進凍乾技術保留食材營養與風味",
         "category": "食材事業",
-        "image": null,
+        "image": "/images/company-products/products/weizhen-product-1.jpg",
         "products": [
-          { "name": "凍乾水果", "description": "草莓、芒果、榴槤等熱帶水果凍乾，保留新鮮水果的營養和風味", "image": null },
-          { "name": "凍乾蔬菜", "description": "玉米粒、胡蘿蔔丁、青豆等，方便儲存和運輸", "image": null },
-          { "name": "凍乾肉類", "description": "雞肉丁、牛肉粒等，適用於方便食品、寵物食品等", "image": null },
-          { "name": "凍乾即食食品", "description": "凍乾粥、凍乾湯等即食產品，沖泡即食，便捷美味", "image": null }
+          { "name": "凍乾水果", "description": "草莓、芒果、榴槤等熱帶水果凍乾，保留新鮮水果的營養和風味，口感酥脆", "image": "/images/company-products/products/weizhen-product-1.jpg" },
+          { "name": "凍乾蔬菜", "description": "玉米粒、胡蘿蔔丁、青豆等，方便儲存和運輸，復水性好，適用於速食麵、湯料等", "image": "/images/company-products/products/weizhen-product-2.jpg" },
+          { "name": "凍乾肉類", "description": "雞肉丁、牛肉粒等，適用於方便食品、寵物食品等，高蛋白低脂肪", "image": "/images/company-products/products/weizhen-product-3.jpg" },
+          { "name": "凍乾即食食品", "description": "凍乾粥、凍乾湯等即食產品，沖泡即食，便捷美味，營養健康", "image": "/images/company-products/products/weizhen-product-4.jpg" }
         ]
       },
       "tingtong": {

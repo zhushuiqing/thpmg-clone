@@ -259,7 +259,114 @@
         "category": "Logistics",
         "website": "https://www.tingtonglogistics.com"
       }
-    ]
+    ],
+    "products": {
+      "baxin": {
+        "name": "Baxin Packaging",
+        "english": "Baxin Packaging",
+        "description": "Công ty bao bì chuyên nghiệp cung cấp thùng carton sóng trung và cao cấp cho khách hàng, là tập đoàn bao bì có phạm vi phân bố rộng nhất Trung Quốc",
+        "category": "Bao bì",
+        "image": "/images/company-products/products/baxin-product-1.jpg",
+        "products": [
+          { "name": "Thùng carton in watermark", "description": "Có thể tái chế, chi phí thấp, thân thiện với môi trường", "image": "/images/company-products/products/baxin-product-1.jpg" },
+          { "name": "Thùng carton in trước", "description": "Độ chính xác in cao, carbon thấp, thân thiện với môi trường", "image": "/images/company-products/products/baxin-product-2.jpg" },
+          { "name": "Thùng carton offset", "description": "Hình ảnh và văn bản tinh tế, có thể tráng màng và đánh bóng", "image": "/images/company-products/products/baxin-product-3.jpg" },
+          { "name": "Bao bì carton chức năng", "description": "Thùng chống thấm, thùng dây chuyền lạnh, thùng luân chuyển, v.v.", "image": "/images/company-products/products/baxin-product-4.jpg" }
+        ]
+      },
+      "tingzheng": {
+        "name": "Tingzheng Packaging",
+        "english": "Tingzheng Packaging",
+        "description": "Nhà sản xuất bao bì mềm, hộp màu và thùng giấy thực phẩm chuyên nghiệp",
+        "category": "Bao bì",
+        "image": "/images/company-products/products/tingzheng-product-1.jpg",
+        "products": [
+          { "name": "Vật liệu bao bì mềm", "description": "Màng composite cấp thực phẩm, túi giấy nhôm, túi chân không, túi hấp và các sản phẩm bao bì mềm chất lượng cao khác", "image": "/images/company-products/products/tingzheng-product-2.jpg" },
+          { "name": "Bao bì hộp màu", "description": "Hộp quà cao cấp, hộp mỹ phẩm, hộp bao bì sản phẩm điện tử và các hộp màu tinh tế khác", "image": "/images/company-products/products/tingzheng-product-3.jpg" },
+          { "name": "Thùng giấy thực phẩm", "description": "Cốc giấy, bát giấy, hộp giấy và các thùng giấy cấp thực phẩm khác, an toàn và vệ sinh", "image": "/images/company-products/products/tingzheng-product-4.jpg" },
+          { "name": "Túi đứng/Túi vòi", "description": "Giải pháp bao bì tiện lợi và thiết thực cho chất lỏng và thực phẩm bán lỏng", "image": "/images/company-products/products/tingzheng-product-2.jpg" }
+        ]
+      },
+      "hesheng": {
+        "name": "Hesheng Plastic",
+        "english": "Hesheng Plastic",
+        "description": "Nhà sản xuất sản phẩm nhựa cấp thực phẩm, chuyên sản xuất các thùng chứa bao bì nhựa khác nhau",
+        "category": "Bao bì",
+        "image": "/images/company-products/products/hesheng-product-1.jpg",
+        "products": [
+          { "name": "Dĩa nhựa", "description": "Đồ dùng bằng nhựa cấp thực phẩm, phù hợp cho ngành ăn uống, mang đi và các ngành khác", "image": "/images/company-products/products/hesheng-product-1.jpg" },
+          { "name": "Nắp chai nhựa", "description": "Nắp chai nhựa cấp thực phẩm các quy cách khác nhau, hiệu suất niêm phong tốt", "image": "/images/company-products/products/hesheng-product-2.jpg" },
+          { "name": "Chai/cốc nhựa", "description": "Chai và cốc nhựa chất liệu PET, PP, v.v., phù hợp cho đồ uống và bao bì thực phẩm", "image": null },
+          { "name": "Tay cầm nhựa", "description": "Tay cầm nhựa di động, phù hợp cho hộp quà, hộp bao bì, v.v.", "image": null }
+        ]
+      },
+      "prostar": {
+        "name": "Prostar Starch",
+        "english": "Prostar Starch",
+        "description": "Nhà sản xuất tinh bột biến tính cấp thực phẩm chuyên nghiên cứu và phát triển tinh bột và dẫn xuất tinh bột",
+        "category": "Nguyên liệu",
+        "image": null,
+        "products": [
+          { "name": "Tinh bột biến tính cấp thực phẩm", "description": "Chất làm đặc và chất ổn định ứng dụng trong các lĩnh vực thực phẩm như sản phẩm thịt, sản phẩm sữa, gia vị, v.v.", "image": null },
+          { "name": "Tinh bột công nghiệp giấy", "description": "Chất hồ hóa và chất tăng cường ứng dụng trong công nghiệp giấy, cải thiện độ bền và tính chất bề mặt của giấy", "image": null },
+          { "name": "Tinh bột công nghiệp dệt", "description": "Tinh bột biến tính cho hồ sợi dệt, cải thiện chất lượng sợi và hiệu quả dệt", "image": null },
+          { "name": "Tinh bột công nghiệp khác", "description": "Tinh bột và dẫn xuất hiệu suất cao ứng dụng trong keo dán, vật liệu xây dựng, khai thác dầu, hóa chất hàng ngày và các lĩnh vực công nghiệp khác", "image": null }
+        ]
+      },
+      "tingzhi": {
+        "name": "Tingzhi Food",
+        "english": "Tingzhi Food",
+        "description": "Nhà cung cấp dầu mè và sản phẩm mè",
+        "category": "Nguyên liệu",
+        "image": "/images/company-products/products/tingzhi-product-1.jpg",
+        "products": [
+          { "name": "Dầu mè nguyên chất", "description": "Ép bằng quy trình truyền thống, hương thơm nồng, phù hợp cho nấu ăn, trộn nguội và nhiều mục đích sử dụng khác", "image": "/images/company-products/products/tingzhi-product-1.jpg" },
+          { "name": "Dầu mè调味", "description": "Dầu mè调味 với gia vị như hoa tiêu, ớt, v.v., hương vị độc đáo", "image": "/images/company-products/products/tingzhi-product-2.jpg" },
+          { "name": "Mè rang/bột mè", "description": "Mè chất lượng cao được rang và nghiền, phù hợp cho làm bánh, gia vị, v.v.", "image": "/images/company-products/products/tingzhi-product-3.jpg" },
+          { "name": "Bơ mè", "description": "Nghiền từ mè nguyên chất, đậm đà và thơm ngon, phù hợp cho nước chấm lẩu, mì trộn, v.v.", "image": "/images/company-products/products/tingzhi-product-4.jpg" }
+        ]
+      },
+      "starpro": {
+        "name": "Starpro Thailand",
+        "english": "Starpro Thailand",
+        "description": "Nhà sản xuất tinh bột sắn nguyên chất và tinh bột biến tính cấp thực phẩm tại Thái Lan",
+        "category": "Nguyên liệu",
+        "image": "/images/company-products/products/starpro-product-1.jpg",
+        "products": [
+          { "name": "Tinh bột sắn nguyên chất", "description": "Sản xuất từ sắn chất lượng cao của Thái Lan, độ tinh khiết và độ nhớt cao, phù hợp cho công nghiệp thực phẩm, giấy, v.v.", "image": "/images/company-products/products/starpro-product-1.jpg" },
+          { "name": "Tinh bột sắn biến tính", "description": "Tinh bột hồ hóa trước, tinh bột liên kết ngang, v.v., có đặc tính chức năng đặc biệt", "image": "/images/company-products/products/starpro-product-2.jpg" },
+          { "name": "Tinh bột sắn cấp thực phẩm", "description": "Tuân thủ tiêu chuẩn an toàn thực phẩm quốc tế, phù hợp cho thực phẩm ăn liền, thực phẩm đông lạnh, v.v.", "image": "/images/company-products/products/starpro-product-3.jpg" },
+          { "name": "Tinh bột sắn cấp công nghiệp", "description": "Ứng dụng trong vật liệu phân hủy sinh học, keo dán và các lĩnh vực công nghiệp khác", "image": "/images/company-products/products/starpro-product-4.jpg" }
+        ]
+      },
+      "weizhen": {
+        "name": "Weizhen Food",
+        "english": "Weizhen Food",
+        "description": "Doanh nghiệp chế biến thực phẩm sấy lạnh chuyên nghiệp, sử dụng công nghệ sấy lạnh tiên tiến để giữ nguyên dinh dưỡng và hương vị",
+        "category": "Thực phẩm",
+        "image": "/images/company-products/products/weizhen-product-1.jpg",
+        "products": [
+          { "name": "Trái cây sấy lạnh", "description": "Trái cây nhiệt đới sấy lạnh như dâu, xoài, sầu riêng, giữ nguyên dinh dưỡng và hương vị trái cây tươi, có kết cấu giòn", "image": "/images/company-products/products/weizhen-product-1.jpg" },
+          { "name": "Rau củ sấy lạnh", "description": "Hạt ngô, cà rốt cắt hạt lựu, đậu Hà Lan, v.v., thuận tiện bảo quản và vận chuyển, khả năng phục hồi nước tốt, phù hợp cho mì ăn liền, súp, v.v.", "image": "/images/company-products/products/weizhen-product-2.jpg" },
+          { "name": "Thịt sấy lạnh", "description": "Thịt gà cắt hạt lựu, thịt bò viên, v.v., phù hợp cho thực phẩm tiện lợi, thực phẩm cho thú cưng, v.v., protein cao chất béo thấp", "image": "/images/company-products/products/weizhen-product-3.jpg" },
+          { "name": "Thực phẩm ăn liền sấy lạnh", "description": "Cháo sấy lạnh, súp sấy lạnh và các sản phẩm ăn liền khác, chỉ cần pha nước nóng là có thể ăn được, tiện lợi và dinh dưỡng", "image": "/images/company-products/products/weizhen-product-4.jpg" }
+        ]
+      },
+      "tingtong": {
+        "name": "Tingtong Logistics",
+        "english": "Tingtong Logistics",
+        "description": "Nhà cung cấp dịch vụ logistics chuyên nghiệp",
+        "category": "Logistics",
+        "image": null,
+        "products": [
+          { "name": "Mạng lưới logistics toàn quốc", "description": "Có văn phòng trực tiếp tại hơn 270 thành phố trên toàn quốc, cung cấp dịch vụ chất lượng cao nhanh chóng và tiêu chuẩn thống nhất toàn quốc cho khách hàng", "image": null },
+          { "name": "Kinh nghiệm phân phối phong phú", "description": "Dịch vụ phân phối cho tất cả các hình thức bán lẻ, quen thuộc với quy tắc giao hàng phức tạp của các điểm phân phối các hình thức khác nhau", "image": null },
+          { "name": "Hệ thống dịch vụ toàn diện", "description": "Cung cấp kho bãi, phân phối, dịch vụ giá trị gia tăng logistics và giải pháp chuỗi cung ứng theo nhu cầu khách hàng và đặc điểm ngành", "image": null },
+          { "name": "Nền tảng số hóa", "description": "Trực quan hóa kho bãi, vận tải, chi phí, nhu cầu tài nguyên, v.v., thực hiện mô phỏng, dự đoán, cảnh báo tức thì và cung cấp quyết định thông minh", "image": null },
+          { "name": "Quản lý KPI và cải thiện kinh doanh", "description": "Thực hiện quản lý KPI, phân tích nguyên nhân và cải thiện liên tục các dự án", "image": null }
+        ]
+      }
+    }
   },
   "Contact": {
     "pageTitle": "Liên hệ",

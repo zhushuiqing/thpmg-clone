@@ -339,14 +339,14 @@
       "weizhen": {
         "name": "味珍食品",
         "english": "Weizhen Food",
-        "description": "凍結乾燥食品加工企業",
+        "description": "先進の凍結乾燥技術を採用し、食材の栄養と風味を保持する凍結乾燥食品加工企業",
         "category": "食材事業",
-        "image": null,
+        "image": "/images/company-products/products/weizhen-product-1.jpg",
         "products": [
-          { "name": "凍結乾燥果物", "description": "イチゴ、マンゴー、ドリアンなどの熱帯果実の凍結乾燥。新鮮な果物の栄養と風味を保持", "image": null },
-          { "name": "凍結乾燥野菜", "description": "コーン粒、ニンジンダイス、グリーンピースなど。保存・輸送に便利", "image": null },
-          { "name": "凍結乾燥肉類", "description": "鶏肉ダイス、牛肉粒など。インスタント食品、ペットフードなどに適用", "image": null },
-          { "name": "凍結乾燥即席食品", "description": "凍結乾燥粥、凍結乾燥スープなどの即席製品。お湯を注ぐだけで食べられて便利で美味しい", "image": null }
+          { "name": "凍結乾燥果物", "description": "イチゴ、マンゴー、ドリアンなどの熱帯果実の凍結乾燥。新鮮な果物の栄養と風味を保持し、サクサクとした食感", "image": "/images/company-products/products/weizhen-product-1.jpg" },
+          { "name": "凍結乾燥野菜", "description": "コーン粒、ニンジンダイス、グリーンピースなど。保存・輸送に便利。復水性が良く、インスタント麺、スープなどに適用", "image": "/images/company-products/products/weizhen-product-2.jpg" },
+          { "name": "凍結乾燥肉類", "description": "鶏肉ダイス、牛肉粒など。インスタント食品、ペットフードなどに適用。高タンパク低脂肪", "image": "/images/company-products/products/weizhen-product-3.jpg" },
+          { "name": "凍結乾燥即席食品", "description": "凍結乾燥粥、凍結乾燥スープなどの即席製品。お湯を注ぐだけで食べられて便利で美味しく、栄養健康", "image": "/images/company-products/products/weizhen-product-4.jpg" }
         ]
       },
       "tingtong": {

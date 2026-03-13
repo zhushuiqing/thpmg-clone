@@ -322,7 +322,114 @@
         "category": "ธุรกิจโลจิสติกส์",
         "website": "https://www.tingtonglogistics.com"
       }
-    ]
+    ],
+    "products": {
+      "baxin": {
+        "name": "Baxin Packaging",
+        "english": "Baxin Packaging",
+        "description": "บริษัทบรรจุภัณฑ์มืออาชีพที่มุ่งมั่นให้บริการกล่องลูกฟูกระดับกลางและระดับสูงแก่ลูกค้า เป็นกลุ่มบรรจุภัณฑ์ที่มีการกระจายตัวกว้างที่สุดในประเทศจีน",
+        "category": "ธุรกิจบรรจุภัณฑ์",
+        "image": "/images/company-products/products/baxin-product-1.jpg",
+        "products": [
+          { "name": "กล่องลูกฟูกพิมพ์ลายน้ำ", "description": "สามารถรีไซเคิลได้ ต้นทุนต่ำ เป็นมิตรต่อสิ่งแวดล้อม", "image": "/images/company-products/products/baxin-product-1.jpg" },
+          { "name": "กล่องลูกฟูกพิมพ์ล่วงหน้า", "description": "ความแม่นยำในการพิมพ์สูง คาร์บอนต่ำ เป็นมิตรต่อสิ่งแวดล้อม", "image": "/images/company-products/products/baxin-product-2.jpg" },
+          { "name": "กล่องลูกฟูกออฟเซ็ต", "description": "ลายกราฟิกละเอียด สามารถเคลือบฟิล์มและเคลือบเงาได้", "image": "/images/company-products/products/baxin-product-3.jpg" },
+          { "name": "บรรจุภัณฑ์ลูกฟูก fungsional", "description": "กล่องกันน้ำ กล่องโซ่เย็น กล่องหมุนเวียน ฯลฯ", "image": "/images/company-products/products/baxin-product-4.jpg" }
+        ]
+      },
+      "tingzheng": {
+        "name": "Tingzheng Packaging",
+        "english": "Tingzheng Packaging",
+        "description": "ผู้ผลิตบรรจุภัณฑ์อ่อน กล่องสี และภาชนะกระดาษสำหรับอาหารมืออาชีพ",
+        "category": "ธุรกิจบรรจุภัณฑ์",
+        "image": "/images/company-products/products/tingzheng-product-1.jpg",
+        "products": [
+          { "name": "วัสดุบรรจุภัณฑ์อ่อน", "description": "ฟิล์มคอมโพสิตเกรดอาหาร ถุงฟอยล์อลูมิเนียม ถุงสุญญากาศ ถุงนึ่งฆ่าเชื้อ และผลิตภัณฑ์บรรจุภัณฑ์อ่อนคุณภาพสูงอื่นๆ", "image": "/images/company-products/products/tingzheng-product-2.jpg" },
+          { "name": "กล่องสี", "description": "กล่องของขวัญระดับไฮเอนด์ กล่องเครื่องสำอาง กล่องบรรจุภัณฑ์ผลิตภัณฑ์อิเล็กทรอนิกส์ และกล่องสีประณีตอื่นๆ", "image": "/images/company-products/products/tingzheng-product-3.jpg" },
+          { "name": "ภาชนะกระดาษสำหรับอาหาร", "description": "ถ้วยกระดาษ ชามกระดาษ กล่องกระดาษ และภาชนะบรรจุกระดาษเกรดอาหารอื่นๆ ปลอดภัยและถูกสุขอนามัย", "image": "/images/company-products/products/tingzheng-product-4.jpg" },
+          { "name": "ถุงตั้งได้/ถุงมีจุก", "description": "โซลูชันบรรจุภัณฑ์ที่สะดวกและใช้งานได้จริงสำหรับของเหลวและอาหารกึ่งเหลว", "image": "/images/company-products/products/tingzheng-product-2.jpg" }
+        ]
+      },
+      "hesheng": {
+        "name": "Hesheng Plastic",
+        "english": "Hesheng Plastic",
+        "description": "ผู้ผลิตผลิตภัณฑ์พลาสติกเกรดอาหาร เชี่ยวชาญในการผลิตภาชนะบรรจุพลาสติกต่างๆ",
+        "category": "ธุรกิจบรรจุภัณฑ์",
+        "image": "/images/company-products/products/hesheng-product-1.jpg",
+        "products": [
+          { "name": "ส้อมพลาสติก", "description": "เครื่องใช้พลาสติกเกรดอาหาร เหมาะสำหรับอุตสาหกรรมอาหาร เครื่องดื่มTake-away และอื่นๆ", "image": "/images/company-products/products/hesheng-product-1.jpg" },
+          { "name": "ฝาขวดพลาสติก", "description": "ฝาขวดพลาสติกเกรดอาหารขนาดต่างๆ ประสิทธิภาพการปิดผนึกที่ดี", "image": "/images/company-products/products/hesheng-product-2.jpg" },
+          { "name": "ขวด/ถ้วยพลาสติก", "description": "ขวดและถ้วยพลาสติกวัสดุ PET, PP ฯลฯ เหมาะสำหรับเครื่องดื่มและบรรจุภัณฑ์อาหาร", "image": null },
+          { "name": "หูหิ้วพลาสติก", "description": "หูหิ้วพลาสติกแบบพกพา เหมาะสำหรับกล่องของขวัญ กล่องบรรจุภัณฑ์ ฯลฯ", "image": null }
+        ]
+      },
+      "prostar": {
+        "name": "Prostar Starch",
+        "english": "Prostar Starch",
+        "description": "ผู้ผลิตแป้งดัดแปรเกรดอาหารที่มุ่งมั่นในการวิจัยและพัฒนาแป้งและอนุพันธ์ของแป้ง",
+        "category": "ธุรกิจวัตถุดิบ",
+        "image": null,
+        "products": [
+          { "name": "แป้งดัดแปรเกรดอาหาร", "description": "สารทำให้ข้นและสารรักษาความคงตัวที่ใช้ในผลิตภัณฑ์เนื้อสัตว์ ผลิตภัณฑ์นม เครื่องปรุงรส และสาขาอาหารอื่นๆ", "image": null },
+          { "name": "แป้งสำหรับอุตสาหกรรมกระดาษ", "description": "สาร sizing และสารเสริมกำลังสำหรับอุตสาหกรรมกระดาษ ปรับปรุงความแข็งแรงและคุณสมบัติพื้นผิวของกระดาษ", "image": null },
+          { "name": "แป้งสำหรับอุตสาหกรรมสิ่งทอ", "description": "แป้งดัดแปรสำหรับการ sizing สิ่งทอ ปรับปรุงคุณภาพด้ายและประสิทธิภาพการทอ", "image": null },
+          { "name": "แป้งอุตสาหกรรมอื่นๆ", "description": "แป้งและอนุพันธ์ประสิทธิภาพสูงสำหรับกาว วัสดุก่อสร้าง การขุดเจาะน้ำมัน เคมีภัณฑ์ประจำวัน และสาขาอุตสาหกรรมอื่นๆ", "image": null }
+        ]
+      },
+      "tingzhi": {
+        "name": "Tingzhi Food",
+        "english": "Tingzhi Food",
+        "description": "ผู้จัดจำหน่ายน้ำมันงาและผลิตภัณฑ์งา",
+        "category": "ธุรกิจวัตถุดิบ",
+        "image": "/images/company-products/products/tingzhi-product-1.jpg",
+        "products": [
+          { "name": "น้ำมันงาบริสุทธิ์", "description": "การบีบอัดด้วยกระบวนการดั้งเดิม กลิ่นหอมเข้มข้น เหมาะสำหรับอาหารต่างๆ เช่น การปรุงอาหาร การยำ ฯลฯ", "image": "/images/company-products/products/tingzhi-product-1.jpg" },
+          { "name": "น้ำมันงาปรุงรส", "description": "น้ำมันงาปรุงรสด้วยเครื่องเทศเช่น พริกไทย พริก ฯลฯ มีรสชาติเป็นเอกลักษณ์", "image": "/images/company-products/products/tingzhi-product-2.jpg" },
+          { "name": "งาคั่ว/ผงงา", "description": "งาคุณภาพสูงที่ผ่านการคั่วและบด เหมาะสำหรับเบเกอรี่ เครื่องปรุงรส ฯลฯ", "image": "/images/company-products/products/tingzhi-product-3.jpg" },
+          { "name": "ペースตงา", "description": "บดจากงาบริสุทธิ์ เข้มข้นและหอมกลมกล่อม เหมาะสำหรับน้ำจิ้มหม้อไฟ บะหมี่คลุก ฯลฯ", "image": "/images/company-products/products/tingzhi-product-4.jpg" }
+        ]
+      },
+      "starpro": {
+        "name": "Starpro Thailand",
+        "english": "Starpro Thailand",
+        "description": "ผู้ผลิตแป้งมันสำปะหลังเกรดอาหารและแป้งดัดแปรในประเทศไทย",
+        "category": "ธุรกิจวัตถุดิบ",
+        "image": "/images/company-products/products/starpro-product-1.jpg",
+        "products": [
+          { "name": "แป้งมันสำปะหลังดั้งเดิม", "description": "ผลิตจากมันสำปะหลังคุณภาพสูงของไทย มีความบริสุทธิ์และความหนืดสูง เหมาะสำหรับอุตสาหกรรมอาหาร กระดาษ ฯลฯ", "image": "/images/company-products/products/starpro-product-1.jpg" },
+          { "name": "แป้งมันสำปะหลังดัดแปร", "description": "แป้งพรีเจลิเมชัน แป้งเชื่อมขวาง ฯลฯ มีคุณสมบัติ fungsional พิเศษ", "image": "/images/company-products/products/starpro-product-2.jpg" },
+          { "name": "แป้งมันสำปะหลังเกรดอาหาร", "description": "เป็นไปตามมาตรฐานความปลอดภัยด้านอาหารระหว่างประเทศ เหมาะสำหรับขนมขบเคี้ยว อาหารแช่แข็ง ฯลฯ", "image": "/images/company-products/products/starpro-product-3.jpg" },
+          { "name": "แป้งมันสำปะหลังเกรดอุตสาหกรรม", "description": "ใช้ในวัสดุที่ย่อยสลายได้ทางชีวภาพ กาว และสาขาอุตสาหกรรมอื่นๆ", "image": "/images/company-products/products/starpro-product-4.jpg" }
+        ]
+      },
+      "weizhen": {
+        "name": "Weizhen Food",
+        "english": "Weizhen Food",
+        "description": "ผู้ประกอบการแปรรูปอาหารแช่แข็งแห้งมืออาชีพ ใช้เทคโนโลยีแช่แข็งแห้งขั้นสูงเพื่อรักษาโภชนาการและรสชาติ",
+        "category": "ธุรกิจวัตถุดิบอาหาร",
+        "image": "/images/company-products/products/weizhen-product-1.jpg",
+        "products": [
+          { "name": "ผลไม้แช่แข็งแห้ง", "description": "ผลไม้เขตร้อนแช่แข็งแห้งเช่น สตรอเบอร์รี่ มะม่วง ทุเรียน รักษาโภชนาการและรสชาติของผลไม้สด มีเนื้อสัมผัสกรอบ", "image": "/images/company-products/products/weizhen-product-1.jpg" },
+          { "name": "ผักแช่แข็งแห้ง", "description": "เมล็ดข้าวโพด แครอทหั่นเต๋า ถั่วลันเตา ฯลฯ สะดอกในการเก็บรักษาและการขนส่ง การคืนน้ำได้ดี เหมาะสำหรับบะหมี่กึ่งสำเร็จรูป ซุป ฯลฯ", "image": "/images/company-products/products/weizhen-product-2.jpg" },
+          { "name": "เนื้อสัตว์แช่แข็งแห้ง", "description": "เนื้อไก่หั่นเต๋า เนื้อวัวก้อน ฯลฯ เหมาะสำหรับอาหารสำเร็จรูป อาหารสัตว์เลี้ยง ฯลฯ โปรตีนสูงไขมันต่ำ", "image": "/images/company-products/products/weizhen-product-3.jpg" },
+          { "name": "อาหารพร้อมรับประทานแช่แข็งแห้ง", "description": "ข้าวต้มแช่แข็งแห้ง ซุปแช่แข็งแห้ง และผลิตภัณฑ์พร้อมรับประทานอื่นๆ เพียงแค่เติมน้ำร้อนก็พร้อมรับประทาน สะดวกและมีคุณค่าทางโภชนาการ", "image": "/images/company-products/products/weizhen-product-4.jpg" }
+        ]
+      },
+      "tingtong": {
+        "name": "Tingtong Logistics",
+        "english": "Tingtong Logistics",
+        "description": "ผู้ให้บริการโลจิสติกส์มืออาชีพ",
+        "category": "ธุรกิจโลจิสติกส์",
+        "image": null,
+        "products": [
+          { "name": "เครือข่ายโลจิสติกส์ทั่วประเทศ", "description": "มีสำนักงานดำเนินงานในกว่า 270 เมืองทั่วประเทศจีน ให้บริการที่มีคุณภาพรวดเร็วและเป็นมาตรฐานเดียวกันทั่วประเทศ", "image": null },
+          { "name": "ประสบการณ์การจัดส่งที่อุดมสมบูรณ์", "description": "บริการจัดส่งสำหรับรูปแบบการขายปลีกทั้งหมด เข้าใจกฎการจัดส่งที่ซับซ้อนของจุดจัดส่งรูปแบบต่างๆ", "image": null },
+          { "name": "ระบบบริการที่ครอบคลุม", "description": "ให้บริการคลังสินค้า การจัดส่ง บริการโลจิสติกส์มูลค่าเพิ่ม และโซลูชันโซ่อุปทานตามความต้องการของลูกค้าและลักษณะอุตสาหกรรม", "image": null },
+          { "name": "แพลตฟอร์มดิจิทัล", "description": "การแสดงภาพคลังสินค้า การขนส่ง ต้นทุน ความต้องการทรัพยากร ฯลฯ พร้อมการจำลอง การคาดการณ์ การเตือนทันที และการตัดสินใจอย่างชาญฉลาด", "image": null },
+          { "name": "การจัดการ KPI และการปรับปรุงธุรกิจ", "description": "ดำเนินการจัดการ KPI วิเคราะห์และปรับปรุงโครงการอย่างต่อเนื่อง", "image": null }
+        ]
+      }
+    }
   },
   "Contact": {
     "pageTitle": "ติดต่อเรา",

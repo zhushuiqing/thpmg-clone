@@ -322,7 +322,114 @@
         "category": "Logistics",
         "website": "https://www.tingtonglogistics.com"
       }
-    ]
+    ],
+    "products": {
+      "baxin": {
+        "name": "Baxin Packaging",
+        "english": "Baxin Packaging",
+        "description": "Professional packaging company specializing in providing customers with medium and high-grade corrugated cartons, the most widely distributed and largest packaging group in China",
+        "category": "Packaging",
+        "image": "/images/company-products/products/baxin-product-1.jpg",
+        "products": [
+          { "name": "Watermark Corrugated Cartons", "description": "Recyclable, low cost, environmentally friendly", "image": "/images/company-products/products/baxin-product-1.jpg" },
+          { "name": "Pre-printed Corrugated Cartons", "description": "High registration accuracy, low carbon and environmentally friendly", "image": "/images/company-products/products/baxin-product-2.jpg" },
+          { "name": "Offset Corrugated Cartons", "description": "Fine graphics and text, can be laminated and glazed", "image": "/images/company-products/products/baxin-product-3.jpg" },
+          { "name": "Functional Corrugated Packaging", "description": "Waterproof boxes, cold chain boxes, turnover boxes, etc.", "image": "/images/company-products/products/baxin-product-4.jpg" }
+        ]
+      },
+      "tingzheng": {
+        "name": "Tingzheng Packaging",
+        "english": "Tingzheng Packaging",
+        "description": "Professional soft packaging, color boxes, and food paper container manufacturer",
+        "category": "Packaging",
+        "image": "/images/company-products/products/tingzheng-product-1.jpg",
+        "products": [
+          { "name": "Soft Packaging Materials", "description": "Food-grade composite films, aluminum foil bags, vacuum bags, retort bags and other high-quality soft packaging products", "image": "/images/company-products/products/tingzheng-product-2.jpg" },
+          { "name": "Color Box Packaging", "description": "High-end gift boxes, cosmetic boxes, electronic product packaging boxes and other exquisite color boxes", "image": "/images/company-products/products/tingzheng-product-3.jpg" },
+          { "name": "Food Paper Containers", "description": "Paper cups, paper bowls, paper boxes and other food-grade paper packaging containers, safe and hygienic", "image": "/images/company-products/products/tingzheng-product-4.jpg" },
+          { "name": "Stand-up Pouches/Spout Pouches", "description": "Convenient and practical packaging solutions for liquids and semi-fluid foods", "image": "/images/company-products/products/tingzheng-product-2.jpg" }
+        ]
+      },
+      "hesheng": {
+        "name": "Hesheng Plastic",
+        "english": "Hesheng Plastic",
+        "description": "Food-grade plastic products manufacturer specializing in various plastic packaging containers",
+        "category": "Packaging",
+        "image": "/images/company-products/products/hesheng-product-1.jpg",
+        "products": [
+          { "name": "Plastic Forks", "description": "Food-grade plastic tableware, suitable for catering, take-out and other industries", "image": "/images/company-products/products/hesheng-product-1.jpg" },
+          { "name": "Plastic Bottle Caps", "description": "Various specifications of food-grade plastic bottle caps with good sealing performance", "image": "/images/company-products/products/hesheng-product-2.jpg" },
+          { "name": "Plastic Bottles/Cups", "description": "PET, PP and other materials plastic bottles and cups, suitable for beverages and food packaging", "image": null },
+          { "name": "Plastic Handles", "description": "Portable plastic handles, suitable for gift boxes, packaging boxes, etc.", "image": null }
+        ]
+      },
+      "prostar": {
+        "name": "Prostar Starch",
+        "english": "Prostar Starch",
+        "description": "Food-grade modified starch manufacturer dedicated to R&D and application innovation of starch and starch derivatives",
+        "category": "Materials",
+        "image": null,
+        "products": [
+          { "name": "Food-grade Modified Starch", "description": "Thickening agents and stabilizers applied in meat products, dairy products, condiments and other food fields", "image": null },
+          { "name": "Papermaking Starch", "description": "Sizing agents and strengthening agents for paper industry, improving paper strength and surface properties", "image": null },
+          { "name": "Textile Starch", "description": "Modified starch for textile sizing, improving yarn quality and weaving efficiency", "image": null },
+          { "name": "Other Industrial Starch", "description": "High-performance starch and derivatives for adhesives, building materials, oil extraction, daily chemicals and other fields", "image": null }
+        ]
+      },
+      "tingzhi": {
+        "name": "Tingzhi Food",
+        "english": "Tingzhi Food",
+        "description": "Sesame oil and sesame products supplier",
+        "category": "Materials",
+        "image": "/images/company-products/products/tingzhi-product-1.jpg",
+        "products": [
+          { "name": "Pure Sesame Oil", "description": "Traditional process pressing, rich aroma, suitable for cooking, cold mixing and other purposes", "image": "/images/company-products/products/tingzhi-product-1.jpg" },
+          { "name": "Flavored Sesame Oil", "description": "Flavored sesame oil with spices such as Sichuan pepper and chili, unique flavor", "image": "/images/company-products/products/tingzhi-product-2.jpg" },
+          { "name": "Roasted Sesame/Sesame Powder", "description": "Selected high-quality sesame roasted and ground, suitable for baking, condiments, etc.", "image": "/images/company-products/products/tingzhi-product-3.jpg" },
+          { "name": "Sesame Paste", "description": "Ground from pure sesame, rich and mellow, suitable for hot pot dipping sauce, noodles, etc.", "image": "/images/company-products/products/tingzhi-product-4.jpg" }
+        ]
+      },
+      "starpro": {
+        "name": "Starpro Thailand",
+        "english": "Starpro Thailand",
+        "description": "Food-grade cassava native starch and modified starch manufacturer in Thailand",
+        "category": "Materials",
+        "image": "/images/company-products/products/starpro-product-1.jpg",
+        "products": [
+          { "name": "Cassava Native Starch", "description": "Made from high-quality Thai cassava, high purity and viscosity, suitable for food, papermaking and other industries", "image": "/images/company-products/products/starpro-product-1.jpg" },
+          { "name": "Cassava Modified Starch", "description": "Pre-gelatinized starch, cross-linked starch, etc., with special functional properties", "image": "/images/company-products/products/starpro-product-2.jpg" },
+          { "name": "Food-grade Cassava Starch", "description": "Complies with international food safety standards, suitable for snacks, frozen foods, etc.", "image": "/images/company-products/products/starpro-product-3.jpg" },
+          { "name": "Industrial-grade Cassava Starch", "description": "Applied in biodegradable materials, adhesives and other industrial fields", "image": "/images/company-products/products/starpro-product-4.jpg" }
+        ]
+      },
+      "weizhen": {
+        "name": "Weizhen Food",
+        "english": "Weizhen Food",
+        "description": "Professional freeze-dried food processing enterprise using advanced freeze-drying technology to retain nutrition and flavor",
+        "category": "Ingredients",
+        "image": "/images/company-products/products/weizhen-product-1.jpg",
+        "products": [
+          { "name": "Freeze-dried Fruits", "description": "Freeze-dried tropical fruits such as strawberries, mangoes, durians, retaining fresh fruit nutrition and flavor with crispy texture", "image": "/images/company-products/products/weizhen-product-1.jpg" },
+          { "name": "Freeze-dried Vegetables", "description": "Corn kernels, diced carrots, green peas, etc., convenient for storage and transportation, good rehydration, suitable for instant noodles, soups, etc.", "image": "/images/company-products/products/weizhen-product-2.jpg" },
+          { "name": "Freeze-dried Meat", "description": "Diced chicken, beef cubes, etc., suitable for instant foods, pet foods, etc., high protein and low fat", "image": "/images/company-products/products/weizhen-product-3.jpg" },
+          { "name": "Freeze-dried Instant Foods", "description": "Freeze-dried porridge, freeze-dried soup and other instant products, ready to eat after brewing, convenient and nutritious", "image": "/images/company-products/products/weizhen-product-4.jpg" }
+        ]
+      },
+      "tingtong": {
+        "name": "Tingtong Logistics",
+        "english": "Tingtong Logistics",
+        "description": "Professional logistics service provider",
+        "category": "Logistics",
+        "image": null,
+        "products": [
+          { "name": "Nationwide Logistics Network", "description": "Direct operation outlets in more than 270 cities across China, providing fast and high-quality services with unified national standards for customers.", "image": null },
+          { "name": "Rich Distribution Experience", "description": "Distribution services for all retail formats, familiar with complex delivery rules of various format distribution points.", "image": null },
+          { "name": "Comprehensive Service System", "description": "Providing warehousing, distribution, logistics value-added services and supply chain solutions according to customer needs and industry characteristics.", "image": null },
+          { "name": "Digital Platform", "description": "Visual display of warehousing, transportation, costs, resource requirements, etc., with simulation, prediction, real-time warnings and intelligent decision-making.", "image": null },
+          { "name": "KPI Management & Business Improvement", "description": "Conducting KPI management, analyzing and continuously improving projects.", "image": null }
+        ]
+      }
+    }
   },
   "Contact": {
     "pageTitle": "Contact Us",
