@@ -32,6 +32,8 @@
   --section-accent: #EEF2FF;
   --section-warm: #FFFEF9;
   --section-cool: #F7F9FC;
+  --section-gray-deep: #E8E8E8;
+  --section-gray-medium: #F0F0F0;
 }
 
 @theme inline {
@@ -264,6 +266,14 @@ body {
 
 .section-bg-cool {
   background: var(--section-cool);
+}
+
+.section-bg-gray-deep {
+  background: var(--section-gray-deep);
+}
+
+.section-bg-gray-medium {
+  background: var(--section-gray-medium);
 }
 
 /* Subtle gradient backgrounds */
