@@ -29,7 +29,7 @@ export default function SubsidiariesPage() {
   }, {} as Record<string, typeof subsidiariesData>);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-section-white">
       {/* Hero Section - NIO Style Banner */}
       <section className="relative h-[50vh] sm:h-[60vh] overflow-hidden">
         <Image
@@ -64,16 +64,19 @@ export default function SubsidiariesPage() {
       </section>
 
       {/* Overview - Modern Layout */}
-      <section className="py-20 sm:py-32 section-gradient-1">
+      <section className="py-24 sm:py-32 section-gradient-white">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
             <FadeIn direction="right" distance={40}>
               <div>
-                <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 tracking-tight">
+                <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
+                  OUR SUBSIDIARIES
+                </p>
+                <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                   {t('overviewTitle')}
                 </h2>
-                <div className="w-12 h-1 bg-blue-600 mb-6 rounded-full"></div>
-                <p className="text-gray-700 leading-relaxed mb-8 font-light">
+                <div className="w-16 h-1 bg-primary mb-6 rounded-full"></div>
+                <p className="text-gray-700 leading-relaxed mb-8 font-light text-lg">
                   {t('overviewDescription')}
                 </p>
                 <ul className="space-y-4">
@@ -84,16 +87,16 @@ export default function SubsidiariesPage() {
                     { count: t('logisticsCount'), label: t('subsidiaryNames.logistics') },
                   ].map((item, index) => (
                     <li key={index} className="flex items-start">
-                      <span className="text-blue-600 font-bold mr-3 flex-shrink-0 text-lg">{item.count}</span>
+                      <span className="text-primary font-bold mr-3 flex-shrink-0 text-lg">{item.count}</span>
                       <span className="text-gray-700">{item.label}</span>
                     </li>
                   ))}
                 </ul>
               </div>
             </FadeIn>
-            <FadeIn direction="left" distance={40}>
+            <FadeIn direction="left" distance={40} delay={200}>
               <div className="relative">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+                <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-premium-xl">
                   <Image
                     src="/images/thpmg/subsidiaries.jpg"
                     alt={t('pageTitle')}
@@ -110,18 +113,19 @@ export default function SubsidiariesPage() {
 
       {/* Subsidiaries by Category - Modern Cards */}
       {Object.entries(grouped).map(([category, items], categoryIndex) => (
-        <section key={category} className="py-20 sm:py-32 bg-gray-50">
+        <section key={category} className="py-24 sm:py-32 section-bg-gray-light">
           <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-            <FadeIn direction="up" distance={30}>
+            <FadeIn direction="up" distance={40}>
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 sm:mb-12 tracking-tight">
                 {category}
               </h2>
+              <div className="w-16 h-1 bg-primary mb-8 rounded-full"></div>
             </FadeIn>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {items.map((sub, index) => (
                 <FadeIn key={sub.id} direction="up" distance={30} delay={categoryIndex * 100 + index * 100}>
-                  <div className="group bg-white p-6 sm:p-8 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-500 h-full">
-                    <div className="text-sm text-blue-600 font-medium mb-3 uppercase tracking-wide">
+                  <div className="group bg-white p-6 sm:p-8 rounded-2xl shadow-premium hover:shadow-premium-lg transition-all duration-500 h-full border border-gray-200">
+                    <div className="text-sm text-primary font-medium mb-3 uppercase tracking-wide">
                       {sub.english}
                     </div>
                     <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 tracking-tight">{sub.name}</h3>
@@ -130,7 +134,7 @@ export default function SubsidiariesPage() {
                       href={sub.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors group-hover:translate-x-1"
+                      className="inline-flex items-center text-primary hover:text-primary-dark font-medium transition-colors group-hover:translate-x-1"
                     >
                       {t('visitWebsite')}
                       <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -146,21 +150,24 @@ export default function SubsidiariesPage() {
       ))}
 
       {/* Factory Map */}
-      <section className="py-20 sm:py-32 section-bg-accent">
+      <section className="py-24 sm:py-32 section-bg-white">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <FadeIn direction="up" distance={30}>
+          <FadeIn direction="up" distance={40}>
             <div className="text-center mb-12 sm:mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
+                GLOBAL PRESENCE
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('factoryTitle')}
               </h2>
-              <div className="w-12 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
+              <div className="w-16 h-1 bg-primary mx-auto rounded-full"></div>
               <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto font-light">
                 {t('factorySubtitle')}
               </p>
             </div>
           </FadeIn>
-          <FadeIn direction="up" distance={40}>
-            <div className="bg-gray-50 rounded-3xl p-4 sm:p-8 shadow-inner">
+          <FadeIn direction="up" distance={40} delay={100}>
+            <div className="bg-section-gray-light rounded-3xl p-4 sm:p-8 shadow-premium border border-gray-200">
               <Image
                 src="/images/thpmg/factory-map.png"
                 alt={t('factoryTitle')}
@@ -174,8 +181,8 @@ export default function SubsidiariesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+      <section className="py-24 sm:py-32 section-bg-dark relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
             backgroundSize: '48px 48px'
@@ -183,15 +190,16 @@ export default function SubsidiariesPage() {
         </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <FadeIn direction="up" distance={40}>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 tracking-tight">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
               {t('ctaTitle')}
             </h2>
+            <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full mb-8"></div>
             <p className="text-gray-300 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
               {t('ctaSubtitle')}
             </p>
             <Link
               href="/about"
-              className="inline-block px-10 py-5 bg-white text-gray-900 font-bold rounded-full hover:bg-gray-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+              className="inline-block px-10 py-5 bg-white text-gray-900 font-bold rounded-full hover:bg-section-blue-light transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               {t('ctaButton')}
             </Link>
