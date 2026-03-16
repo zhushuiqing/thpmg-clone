@@ -30,13 +30,13 @@ export default function Hero({
   }, []);
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-section-gray-light">
       {/* Animated background pattern */}
       <div className="absolute inset-0 overflow-hidden">
         <div
           className={`
             absolute -top-1/2 -right-1/4 w-[800px] h-[800px]
-            bg-gradient-to-br from-blue-100/40 to-transparent
+            bg-gradient-to-br from-primary/10 to-transparent
             rounded-full blur-3xl
             transition-all duration-1000 ease-out
             ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
@@ -45,7 +45,7 @@ export default function Hero({
         <div
           className={`
             absolute -bottom-1/2 -left-1/4 w-[600px] h-[600px]
-            bg-gradient-to-tr from-indigo-100/40 to-transparent
+            bg-gradient-to-tr from-primary/5 to-transparent
             rounded-full blur-3xl
             transition-all duration-1000 ease-out delay-300
             ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
@@ -94,7 +94,7 @@ export default function Hero({
         {/* Optional decorative line */}
         <div
           className={`
-            w-16 h-0.5 bg-gradient-to-r from-blue-600 to-indigo-600
+            w-16 h-0.5 bg-gradient-to-r from-primary to-primary-hover
             mx-auto mb-8 rounded-full
             transition-all duration-1000 cubic-bezier(0.16, 1, 0.3, 1) delay-300
             ${isVisible ? 'scale-x-100 opacity-100' : 'scale-x-0 opacity-0'}

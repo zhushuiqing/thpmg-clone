@@ -21,15 +21,15 @@ export default function ServiceCard({
   const t = useTranslations('Common');
 
   return (
-    <div className="bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow overflow-hidden border border-gray-100">
-      <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-6 text-center">
+    <div className="bg-white rounded-2xl shadow-premium hover:shadow-premium-lg transition-all duration-500 overflow-hidden border border-gray-200">
+      <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 text-center">
         <div className="text-6xl mb-4">{icon}</div>
-        <h3 className="text-xl font-bold text-gray-900 mb-2">
+        <h3 className="text-xl font-bold text-gray-900 mb-2 tracking-tight">
           {title}
         </h3>
       </div>
       <div className="p-6">
-        <p className="text-gray-600 text-sm mb-4">
+        <p className="text-gray-600 text-sm mb-4 font-light leading-relaxed">
           {description}
         </p>
         {services && (
@@ -37,7 +37,7 @@ export default function ServiceCard({
             {services.map((service, i) => (
               <div key={i} className="flex items-center text-gray-700">
                 <svg
-                  className="w-4 h-4 text-blue-600 mr-2 flex-shrink-0"
+                  className="w-4 h-4 text-primary mr-2 flex-shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -55,9 +55,12 @@ export default function ServiceCard({
         {link && (
           <Link
             href={link}
-            className="inline-block mt-4 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+            className="inline-flex items-center mt-4 text-primary hover:text-primary-hover font-medium transition-colors group"
           >
-            {t('readMore')} →
+            {t('readMore')}
+            <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
           </Link>
         )}
       </div>
