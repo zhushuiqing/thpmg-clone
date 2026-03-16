@@ -362,38 +362,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Contact CTA - Dark Premium Section */}
-      <section className="py-24 sm:py-32 section-bg-dark relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
+      {/* Contact CTA - Light Premium Section */}
+      <section className="py-24 sm:py-32 section-gradient-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-[0.02]">
           <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+            backgroundImage: 'radial-gradient(circle at 2px 2px, #000 1px, transparent 0)',
             backgroundSize: '48px 48px'
           }}></div>
         </div>
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <FadeIn direction="up" distance={40}>
             <div className="max-w-3xl">
-              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-400 mb-4">
+              <p className="text-sm font-medium tracking-[0.2em] uppercase text-primary mb-4">
                 GET IN TOUCH
               </p>
-              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-8 leading-tight" style={{ letterSpacing: '-0.02em' }}>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('contactTitle')}
               </h2>
-              <div className="w-16 h-1 bg-blue-500 rounded-full mb-8"></div>
+              <div className="w-16 h-1 bg-primary rounded-full mb-8"></div>
               <div className="grid sm:grid-cols-2 gap-6 mb-12">
-                <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
-                  <p className="text-blue-300 text-sm mb-2">{t('addressLabel')}</p>
-                  <p className="text-white font-medium">{tContact('addressValue')}</p>
+                <div className="bg-section-gray-light p-6 rounded-xl border border-gray-200">
+                  <p className="text-gray-500 text-sm mb-2">{t('addressLabel')}</p>
+                  <p className="text-gray-900 font-medium">{tContact('addressValue')}</p>
                 </div>
-                <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
-                  <p className="text-blue-300 text-sm mb-2">{t('phoneLabel')}</p>
-                  <p className="text-white font-medium">{tContact('phoneValue')}</p>
+                <div className="bg-section-gray-light p-6 rounded-xl border border-gray-200">
+                  <p className="text-gray-500 text-sm mb-2">{t('phoneLabel')}</p>
+                  <p className="text-gray-900 font-medium">{tContact('phoneValue')}</p>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/contact"
-                  className="group inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 font-medium hover:bg-section-blue-light transition-all duration-300 shadow-lg hover:shadow-xl"
+                  className="group inline-flex items-center justify-center px-8 py-4 bg-gray-900 text-white font-medium hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   {t('contactButton')}
                   <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -402,7 +402,7 @@ export default function HomePage() {
                 </Link>
                 <Link
                   href="/recruitment"
-                  className="group inline-flex items-center justify-center px-8 py-4 bg-transparent text-white font-medium border-2 border-white/50 hover:border-white hover:bg-white/10 transition-all duration-300"
+                  className="group inline-flex items-center justify-center px-8 py-4 bg-gray-100 text-gray-900 font-medium hover:bg-gray-200 transition-all duration-300 border-2 border-gray-200"
                 >
                   {t('recruitButton')}
                 </Link>
