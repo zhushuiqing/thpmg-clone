@@ -24,16 +24,6 @@ export default function HomePage() {
   }>;
   const latestNews = newsData.slice(0, 3);
 
-  // Get subsidiaries from translations
-  const subsidiariesData = tSubs.raw('subsidiaries') as Array<{
-    id: number;
-    name: string;
-    english: string;
-    description: string;
-    category: string;
-  }>;
-  const subsidiaries = subsidiariesData.slice(0, 6);
-
   // Get products data
   const productsData = tSubs.raw('products') as Record<string, {
     name: string;
@@ -227,54 +217,6 @@ export default function HomePage() {
               </FadeIn>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Subsidiaries - Full Width Image Layout */}
-      <section className="py-0 bg-gray-50">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <FadeIn direction="up" distance={40}>
-            <div className="py-24 sm:py-32">
-              <div className="text-center mb-16">
-                <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
-                  SUBSIDIARIES
-                </p>
-                <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
-                  {t('subsidiariesTitle')}
-                </h2>
-              </div>
-            </div>
-          </FadeIn>
-          <FadeIn direction="up" distance={40} delay={200}>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-              {subsidiaries.map((sub, index) => (
-                <div
-                  key={sub.id}
-                  className="group relative aspect-[3/4] overflow-hidden bg-white"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray-900/80 z-10"></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 z-20">
-                    <p className="text-xs text-blue-400 font-medium uppercase tracking-wide mb-1">{sub.category}</p>
-                    <h3 className="text-white font-bold text-sm sm:text-base mb-1">{sub.name}</h3>
-                    <p className="text-gray-300 text-xs font-light">{sub.english}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </FadeIn>
-          <FadeIn direction="up" distance={40} delay={400}>
-            <div className="text-center py-12">
-              <Link
-                href="/subsidiaries"
-                className="group inline-flex items-center px-8 py-4 bg-gray-900 text-white font-medium hover:bg-gray-800 transition-all duration-300"
-              >
-                {t('viewAll')}
-                <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-            </div>
-          </FadeIn>
         </div>
       </section>
 
