@@ -30,7 +30,7 @@ export default function NewsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       {/* Hero Section - NIO Style Banner */}
       <section className="relative h-[50vh] sm:h-[60vh] overflow-hidden">
         <Image
@@ -90,7 +90,7 @@ export default function NewsPage() {
       </section>
 
       {/* News List - Modern Cards */}
-      <section className="py-20 sm:py-32 bg-gray-50">
+      <section className="py-20 sm:py-32 section-bg-alt-2">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           {filteredNews.length === 0 ? (
             <FadeIn direction="up" distance={30}>
@@ -139,6 +139,32 @@ export default function NewsPage() {
               ))}
             </div>
           )}
+        </div>
+      </section>
+
+      {/* CTA Section - Gradient */}
+      <section className="py-20 sm:py-32 bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-700 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+            backgroundSize: '48px 48px'
+          }}></div>
+        </div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <FadeIn direction="up" distance={40}>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+              订阅更多资讯
+            </h2>
+            <p className="text-blue-100 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
+              获取 PMI 最新消息和活动通知
+            </p>
+            <Link
+              href="/contact"
+              className="inline-block px-10 py-5 bg-white text-blue-600 font-bold rounded-full hover:bg-gray-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+            >
+              立即订阅
+            </Link>
+          </FadeIn>
         </div>
       </section>
     </div>

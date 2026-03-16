@@ -90,7 +90,7 @@ export default function HomePage() {
       </section>
 
       {/* Company Intro - NIO Style Left-Aligned Large Layout */}
-      <section className="py-24 sm:py-32 bg-white">
+      <section className="py-24 sm:py-32 section-gradient-1">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="max-w-4xl">
@@ -189,7 +189,7 @@ export default function HomePage() {
       </section>
 
       {/* Business Areas - Clean Minimalist Grid */}
-      <section className="py-24 sm:py-32 bg-white">
+      <section className="py-24 sm:py-32 section-bg-accent">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-16 sm:mb-24">
@@ -220,7 +220,7 @@ export default function HomePage() {
       </section>
 
       {/* Company Products - Alternating Cards Layout */}
-      <section className="py-24 sm:py-32 bg-white">
+      <section className="py-24 sm:py-32 section-bg-alt-1">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-16 sm:mb-24">

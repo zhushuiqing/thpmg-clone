@@ -64,7 +64,7 @@ export default function SubsidiariesPage() {
       </section>
 
       {/* Overview - Modern Layout */}
-      <section className="py-20 sm:py-32 bg-white">
+      <section className="py-20 sm:py-32 section-gradient-1">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
             <FadeIn direction="right" distance={40}>
@@ -146,7 +146,7 @@ export default function SubsidiariesPage() {
       ))}
 
       {/* Factory Map */}
-      <section className="py-20 sm:py-32 bg-white">
+      <section className="py-20 sm:py-32 section-bg-accent">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={30}>
             <div className="text-center mb-12 sm:mb-16">

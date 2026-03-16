@@ -63,7 +63,7 @@ export default function AboutPage() {
       </section>
 
       {/* Company Profile - Minimalist Design */}
-      <section className="py-20 sm:py-32 bg-white">
+      <section className="py-20 sm:py-32 section-gradient-2">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={30}>
             <div className="text-center mb-12 sm:mb-20">
@@ -161,7 +161,7 @@ export default function AboutPage() {
       </section>
 
       {/* History Timeline - Modern Vertical */}
-      <section className="py-20 sm:py-32 bg-white">
+      <section className="py-20 sm:py-32 section-gradient-1">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={30}>
             <div className="text-center mb-12 sm:mb-20">
@@ -260,7 +260,7 @@ export default function AboutPage() {
       </section>
 
       {/* Factory Map */}
-      <section className="py-20 sm:py-32 bg-white">
+      <section className="py-20 sm:py-32 section-bg-accent">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={30}>
             <div className="text-center mb-12 sm:mb-20">

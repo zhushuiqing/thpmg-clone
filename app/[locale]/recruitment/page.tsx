@@ -57,7 +57,7 @@ export default function RecruitmentPage() {
       </section>
 
       {/* Intro Section */}
-      <section className="py-20 sm:py-32 bg-white">
+      <section className="py-20 sm:py-32 section-gradient-1">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn direction="up" distance={30}>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 tracking-tight">
@@ -103,7 +103,7 @@ export default function RecruitmentPage() {
       </section>
 
       {/* Job Listings - Modern Accordion */}
-      <section className="py-20 sm:py-32 bg-white">
+      <section className="py-20 sm:py-32 section-bg-accent">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={30}>
             <div className="text-center mb-12 sm:mb-20">

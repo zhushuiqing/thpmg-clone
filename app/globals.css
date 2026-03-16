@@ -25,6 +25,11 @@
   /* Dark mode */
   --background-dark: #0d0d0d;
   --foreground-dark: #fafafa;
+
+  /* Section background variants */
+  --section-alt-1: #F8FAFC;
+  --section-alt-2: #F1F5F9;
+  --section-accent: #EFF6FF;
 }
 
 @theme inline {
@@ -236,6 +241,28 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Section background variants */
+.section-bg-alt-1 {
+  background: var(--section-alt-1);
+}
+
+.section-bg-alt-2 {
+  background: var(--section-alt-2);
+}
+
+.section-bg-accent {
+  background: var(--section-accent);
+}
+
+/* Subtle gradient backgrounds */
+.section-gradient-1 {
+  background: linear-gradient(180deg, #ffffff 0%, #F8FAFC 100%);
+}
+
+.section-gradient-2 {
+  background: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%);
 }
 
 /* Glass effect */

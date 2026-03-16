@@ -43,7 +43,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       </section>
 
       {/* Contact Info - Modern Cards */}
-      <section className="py-20 sm:py-32 bg-gray-50">
+      <section className="py-20 sm:py-32 section-gradient-2">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={30}>
             <div className="text-center mb-12 sm:mb-20">
@@ -133,7 +133,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       </section>
 
       {/* Map Section */}
-      <section className="py-20 sm:py-32 bg-gray-50">
+      <section className="py-20 sm:py-32 section-bg-alt-1">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={30}>
             <div className="text-center mb-12 sm:mb-16">
