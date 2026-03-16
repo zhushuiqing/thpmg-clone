@@ -77,7 +77,7 @@ export default function LanguageSwitcher({ variant = 'default' }: LanguageSwitch
                 key={lang}
                 onClick={() => switchLanguage(lang)}
                 className={`w-full text-left px-4 py-2.5 text-sm transition-colors ${
-                  locale === lang ? 'bg-blue-50 text-blue-600 font-semibold' : 'text-gray-700 hover:bg-gray-50'
+                  locale === lang ? 'bg-primary-lighter text-primary font-semibold' : 'text-gray-700 hover:bg-gray-50'
                 }`}
               >
                 {localeNames[lang]}
@@ -99,8 +99,8 @@ export default function LanguageSwitcher({ variant = 'default' }: LanguageSwitch
           rounded-xl font-medium
           transition-all duration-200
           ${isOpen
-            ? 'bg-blue-50 text-blue-600 ring-2 ring-blue-200'
-            : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:text-blue-600'
+            ? 'bg-primary-lighter text-primary ring-2 ring-primary-light'
+            : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:text-primary'
           }
         `}
         aria-label="Switch language"
@@ -137,7 +137,7 @@ export default function LanguageSwitcher({ variant = 'default' }: LanguageSwitch
                   flex items-center justify-between
                   transition-all duration-150
                   ${isActive
-                    ? 'bg-blue-50 text-blue-600 font-semibold'
+                    ? 'bg-primary-lighter text-primary font-semibold'
                     : 'text-gray-700 hover:bg-gray-50'
                   }
                 `}
