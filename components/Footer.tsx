@@ -11,8 +11,15 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white pt-16 sm:pt-20 pb-8 sm:pb-12 mt-20 sm:mt-24">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="bg-section-dark text-white pt-16 sm:pt-20 pb-8 sm:pb-12 mt-20 sm:mt-24 relative overflow-hidden">
+      {/* Decorative pattern */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+          backgroundSize: '48px 48px'
+        }}></div>
+      </div>
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Main Footer Content */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 sm:gap-12 mb-12 sm:mb-16">
           {/* Brand Column - Spans 2 columns on mobile */}
