@@ -31,7 +31,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-section-white">
       {/* Hero Section - NIO Style Banner */}
       <section className="relative h-[50vh] sm:h-[60vh] overflow-hidden">
         <Image
@@ -63,44 +63,47 @@ export default function AboutPage() {
       </section>
 
       {/* Company Profile - Minimalist Design */}
-      <section className="py-20 sm:py-32 section-gradient-2">
+      <section className="py-24 sm:py-32 section-gradient-white">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <FadeIn direction="up" distance={30}>
+          <FadeIn direction="up" distance={40}>
             <div className="text-center mb-12 sm:mb-20">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
+                ABOUT PMI
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('companyTitle')}
               </h2>
-              <div className="w-12 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
+              <div className="w-16 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
           </FadeIn>
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto space-y-6 sm:space-y-8">
             <FadeIn direction="up" distance={30}>
-              <div className="bg-gradient-to-br from-gray-50 to-blue-50 p-6 sm:p-10 rounded-2xl mb-6 sm:mb-10">
+              <div className="bg-gradient-to-br from-section-gray-light to-section-blue-light p-6 sm:p-10 rounded-2xl border border-gray-200">
                 <p className="text-gray-700 text-base sm:text-lg leading-relaxed font-light">
                   {t('companyDescription')}
                 </p>
               </div>
             </FadeIn>
             <FadeIn direction="up" distance={30} delay={100}>
-              <div className="bg-white border border-gray-200 p-6 sm:p-10 rounded-2xl mb-6 sm:mb-10 shadow-sm">
+              <div className="bg-white border border-gray-200 p-6 sm:p-10 rounded-2xl shadow-premium">
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8 text-center tracking-tight">{t('pmiTitle')}</h3>
                 <ul className="space-y-4 sm:space-y-6">
                   <li className="flex items-start">
-                    <span className="font-bold text-blue-600 text-xl sm:text-2xl mr-3 sm:mr-4 flex-shrink-0">P</span>
+                    <span className="font-bold text-primary text-xl sm:text-2xl mr-3 sm:mr-4 flex-shrink-0">P</span>
                     <div>
                       <span className="font-semibold text-gray-900 text-base sm:text-lg">Packaging</span>
                       <p className="text-gray-600 text-sm sm:text-base mt-1 font-light">{tHome('pmiP')}</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-blue-600 text-xl sm:text-2xl mr-3 sm:mr-4 flex-shrink-0">M</span>
+                    <span className="font-bold text-primary text-xl sm:text-2xl mr-3 sm:mr-4 flex-shrink-0">M</span>
                     <div>
                       <span className="font-semibold text-gray-900 text-base sm:text-lg">Materials</span>
                       <p className="text-gray-600 text-sm sm:text-base mt-1 font-light">{tHome('pmiM')}</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-blue-600 text-xl sm:text-2xl mr-3 sm:mr-4 flex-shrink-0">I</span>
+                    <span className="font-bold text-primary text-xl sm:text-2xl mr-3 sm:mr-4 flex-shrink-0">I</span>
                     <div>
                       <span className="font-semibold text-gray-900 text-base sm:text-lg">Ingredients</span>
                       <p className="text-gray-600 text-sm sm:text-base mt-1 font-light">{tHome('pmiI')}</p>
@@ -110,7 +113,7 @@ export default function AboutPage() {
               </div>
             </FadeIn>
             <FadeIn direction="up" distance={30} delay={200}>
-              <div className="bg-gradient-to-br from-gray-50 to-blue-50 p-6 sm:p-10 rounded-2xl">
+              <div className="bg-gradient-to-br from-section-gray-light to-section-blue-light p-6 sm:p-10 rounded-2xl border border-gray-200">
                 <p className="text-gray-700 text-base sm:text-lg leading-relaxed font-light">
                   {t('pmiDescription')}
                 </p>
@@ -121,35 +124,38 @@ export default function AboutPage() {
       </section>
 
       {/* Strategy & Values - Modern Grid */}
-      <section className="py-20 sm:py-32 bg-gray-50">
+      <section className="py-24 sm:py-32 section-bg-gray-light">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <FadeIn direction="up" distance={30}>
+          <FadeIn direction="up" distance={40}>
             <div className="text-center mb-12 sm:mb-20">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
+                STRATEGY & VALUES
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('strategyTitle')}
               </h2>
-              <div className="w-12 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
+              <div className="w-16 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
           </FadeIn>
           <div className="grid md:grid-cols-2 gap-6 sm:gap-10 max-w-5xl mx-auto">
-            <FadeIn direction="right" distance={30}>
-              <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-sm h-full">
+            <FadeIn direction="right" distance={30} delay={100}>
+              <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-premium h-full border border-gray-200">
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8 text-center tracking-tight">{t('strategy')}</h3>
                 <div className="grid grid-cols-2 gap-3 sm:gap-4">
                   {strategyItems.map((item, index) => (
-                    <div key={index} className="bg-gradient-to-br from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-xl text-center hover:shadow-md transition-shadow duration-300">
-                      <div className="text-base sm:text-2xl font-bold text-blue-600">{item.label}</div>
+                    <div key={index} className="bg-gradient-to-br from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-xl text-center hover:shadow-md transition-shadow duration-300 border border-blue-100">
+                      <div className="text-base sm:text-2xl font-bold text-primary">{item.label}</div>
                     </div>
                   ))}
                 </div>
               </div>
             </FadeIn>
-            <FadeIn direction="left" distance={30}>
-              <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-sm h-full">
+            <FadeIn direction="left" distance={30} delay={200}>
+              <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-premium h-full border border-gray-200">
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8 text-center tracking-tight">{t('values')}</h3>
                 <div className="grid grid-cols-2 gap-3 sm:gap-4">
                   {valuesItems.map((item, index) => (
-                    <div key={index} className="bg-gradient-to-br from-green-50 to-emerald-50 p-4 sm:p-6 rounded-xl text-center hover:shadow-md transition-shadow duration-300">
+                    <div key={index} className="bg-gradient-to-br from-green-50 to-emerald-50 p-4 sm:p-6 rounded-xl text-center hover:shadow-md transition-shadow duration-300 border border-green-100">
                       <div className="text-base sm:text-2xl font-bold text-green-600">{item.label}</div>
                     </div>
                   ))}
@@ -161,19 +167,22 @@ export default function AboutPage() {
       </section>
 
       {/* History Timeline - Modern Vertical */}
-      <section className="py-20 sm:py-32 section-gradient-1">
+      <section className="py-24 sm:py-32 section-gradient-gray">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <FadeIn direction="up" distance={30}>
+          <FadeIn direction="up" distance={40}>
             <div className="text-center mb-12 sm:mb-20">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
+                OUR HISTORY
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('historyTitle')}
               </h2>
-              <div className="w-12 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
+              <div className="w-16 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
           </FadeIn>
-          <FadeIn direction="up" distance={40}>
+          <FadeIn direction="up" distance={40} delay={100}>
             <div className="mb-12 sm:mb-16">
-              <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
+              <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-premium-xl">
                 <Image
                   src="/images/thpmg/history.png"
                   alt={t('historyTitle')}
@@ -187,18 +196,18 @@ export default function AboutPage() {
           {/* Desktop Timeline */}
           <div className="hidden md:block max-w-3xl mx-auto">
             <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-blue-600 to-blue-200"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-primary to-blue-200"></div>
               <div className="space-y-8">
                 {historyData.map((item, index) => (
                   <FadeIn key={index} direction={index % 2 === 0 ? 'right' : 'left'} distance={30}>
                     <div className={`flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
                       <div className={`w-5/12 ${index % 2 === 0 ? 'text-right pr-8' : 'text-left pl-8'}`}>
-                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-5 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                          <div className="text-xl sm:text-2xl font-bold text-blue-600">{item.year}{t('year')}</div>
+                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-5 rounded-2xl shadow-premium hover:shadow-premium-md transition-shadow border border-blue-100">
+                          <div className="text-xl sm:text-2xl font-bold text-primary">{item.year}{t('year')}</div>
                           <div className="text-gray-700 mt-2 font-light">{item.event}</div>
                         </div>
                       </div>
-                      <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-br from-blue-600 to-blue-500 rounded-full border-4 border-white shadow-lg"></div>
+                      <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-br from-primary to-blue-500 rounded-full border-4 border-white shadow-lg"></div>
                     </div>
                   </FadeIn>
                 ))}
@@ -210,11 +219,11 @@ export default function AboutPage() {
             {historyData.map((item, index) => (
               <FadeIn key={index} direction="up" distance={30} delay={index * 50}>
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-500 rounded-full flex items-center justify-center shadow-lg">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary to-blue-500 rounded-full flex items-center justify-center shadow-lg">
                     <div className="w-3 h-3 bg-white rounded-full"></div>
                   </div>
-                  <div className="flex-grow bg-blue-50 p-5 rounded-2xl shadow-sm">
-                    <div className="text-lg font-bold text-blue-600">{item.year}{t('year')}</div>
+                  <div className="flex-grow bg-blue-50 p-5 rounded-2xl shadow-premium border border-blue-100">
+                    <div className="text-lg font-bold text-primary">{item.year}{t('year')}</div>
                     <div className="text-gray-700 mt-1 text-sm font-light">{item.event}</div>
                   </div>
                 </div>
@@ -225,20 +234,23 @@ export default function AboutPage() {
       </section>
 
       {/* Scale Stats - Dark Gradient */}
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+      <section className="py-24 sm:py-32 section-bg-dark relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
             backgroundSize: '48px 48px'
           }}></div>
         </div>
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <FadeIn direction="up" distance={30}>
+          <FadeIn direction="up" distance={40}>
             <div className="text-center mb-12 sm:mb-16">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-blue-400 mb-4">
+                OUR SCALE
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('scaleTitle')}
               </h2>
-              <div className="w-12 h-1 bg-blue-500 mx-auto rounded-full"></div>
+              <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full"></div>
             </div>
           </FadeIn>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-10">
@@ -250,8 +262,8 @@ export default function AboutPage() {
               <FadeIn key={index} direction="up" distance={30} delay={index * 100}>
                 <div className="text-center text-white">
                   <div className="text-4xl sm:text-6xl font-bold mb-3 sm:mb-4 tracking-tight">{stat.value}</div>
-                  <div className="text-sm sm:text-lg opacity-80 font-light">{stat.label}</div>
-                  <div className="text-xs sm:text-sm opacity-50 mt-1">{stat.detail}</div>
+                  <div className="text-sm sm:text-lg text-gray-300 font-light">{stat.label}</div>
+                  <div className="text-xs sm:text-sm text-gray-500 mt-1">{stat.detail}</div>
                 </div>
               </FadeIn>
             ))}
@@ -260,21 +272,24 @@ export default function AboutPage() {
       </section>
 
       {/* Factory Map */}
-      <section className="py-20 sm:py-32 section-bg-accent">
+      <section className="py-24 sm:py-32 section-bg-white">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <FadeIn direction="up" distance={30}>
+          <FadeIn direction="up" distance={40}>
             <div className="text-center mb-12 sm:mb-20">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
+                GLOBAL PRESENCE
+              </p>
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('factoryTitle')}
               </h2>
-              <div className="w-12 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
+              <div className="w-16 h-1 bg-primary mx-auto rounded-full mb-6"></div>
               <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto font-light">
                 {t('factorySubtitle')}
               </p>
             </div>
           </FadeIn>
-          <FadeIn direction="up" distance={40}>
-            <div className="bg-gray-50 rounded-3xl p-4 sm:p-8 shadow-inner">
+          <FadeIn direction="up" distance={40} delay={100}>
+            <div className="bg-section-gray-light rounded-3xl p-4 sm:p-8 shadow-premium border border-gray-200">
               <Image
                 src="/images/thpmg/factory-map.png"
                 alt={t('factoryTitle')}
@@ -288,8 +303,8 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section - Gradient */}
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-700 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+      <section className="py-24 sm:py-32 section-bg-dark relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
             backgroundSize: '48px 48px'
@@ -297,15 +312,16 @@ export default function AboutPage() {
         </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <FadeIn direction="up" distance={40}>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
               {t('ctaTitle')}
             </h2>
-            <p className="text-blue-100 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
+            <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full mb-6"></div>
+            <p className="text-gray-300 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
               {t('ctaSubtitle')}
             </p>
             <Link
               href="/contact"
-              className="inline-block px-10 py-5 bg-white text-blue-600 font-bold rounded-full hover:bg-gray-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+              className="inline-block px-10 py-5 bg-white text-gray-900 font-bold rounded-full hover:bg-section-blue-light transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               {t('ctaButton')}
             </Link>
