@@ -58,6 +58,8 @@ export default function Navigation() {
           : 'bg-transparent'
         }
       `}
+      role="navigation"
+      aria-label="Main navigation"
     >
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
@@ -79,13 +81,14 @@ export default function Navigation() {
           </div>
 
           {/* Desktop Navigation - Minimalist style */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8" role="menubar">
             {navItems.map((item) => {
               const active = isActive(item.href);
               return (
                 <Link
                   key={item.href}
                   href={item.href}
+                  role="menuitem"
                   className={`
                     relative text-sm font-medium tracking-[-0.01em]
                     transition-all duration-300
@@ -95,6 +98,7 @@ export default function Navigation() {
                     }
                     group
                   `}
+                  aria-current={active ? 'page' : undefined}
                 >
                   <span className="relative z-10">{item.label}</span>
                   {/* Animated underline - NIO style minimal */}
