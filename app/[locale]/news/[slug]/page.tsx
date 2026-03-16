@@ -25,7 +25,7 @@ export default function NewsDetailPage() {
 
   if (!news) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
+      <div className="min-h-screen bg-section-white flex items-center justify-center">
         <div className="text-center">
           <FadeIn direction="up" distance={30}>
             <div className="text-6xl mb-6">📰</div>
@@ -43,7 +43,7 @@ export default function NewsDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-section-white">
       {/* Hero Section - NIO Style Banner */}
       <section className="relative h-[50vh] sm:h-[60vh] overflow-hidden">
         <Image
@@ -87,10 +87,10 @@ export default function NewsDetailPage() {
       </section>
 
       {/* Content Section - Minimalist Article */}
-      <section className="py-20 sm:py-32 bg-gray-50">
+      <section className="py-24 sm:py-32 section-bg-gray-light">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
-            <article className="bg-white rounded-3xl shadow-sm p-6 sm:p-10 lg:p-12">
+            <article className="bg-white rounded-3xl shadow-premium p-6 sm:p-10 lg:p-12 border border-gray-200">
               <div className="prose prose-lg max-w-none">
                 {news.content.split('\n').map((paragraph, index) => (
                   paragraph.trim() && (
