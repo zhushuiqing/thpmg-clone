@@ -189,7 +189,7 @@ export default function HomePage() {
       </section>
 
       {/* Business Areas - Clean Minimalist Grid */}
-      <section className="py-24 sm:py-32 section-bg-warm">
+      <section className="py-24 sm:py-32 bg-white">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-16 sm:mb-24">
@@ -207,7 +207,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
             {businessAreas.map((area, index) => (
               <FadeIn key={index} direction="up" distance={30} delay={index * 100}>
-                <div className="group p-6 sm:p-8 border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition-all duration-500 text-center">
+                <div className="group p-6 sm:p-8 bg-gray-50 hover:bg-blue-50/50 transition-all duration-500 text-center border border-gray-200 hover:border-blue-300">
                   <div className="text-4xl sm:text-5xl mb-6">{area.icon}</div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{area.name}</h3>
                   <div className="text-3xl font-bold text-blue-600 mb-3">{area.count}<span className="text-lg font-normal text-gray-500">{t('companiesCount')}</span></div>
@@ -220,7 +220,7 @@ export default function HomePage() {
       </section>
 
       {/* Company Products - Alternating Cards Layout */}
-      <section className="py-24 sm:py-32 section-bg-cool">
+      <section className="py-24 sm:py-32 bg-gray-50">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-16 sm:mb-24">
@@ -305,7 +305,7 @@ export default function HomePage() {
       </section>
 
       {/* News - Minimalist Cards */}
-      <section className="py-24 sm:py-32 section-bg-dots">
+      <section className="py-24 sm:py-32 bg-white">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16 sm:mb-24">
@@ -333,7 +333,7 @@ export default function HomePage() {
               <FadeIn key={news.id} direction="up" distance={30} delay={index * 100}>
                 <Link
                   href={`/news/${news.id}`}
-                  className="group block bg-white p-6 sm:p-8 hover:bg-gray-900 hover:text-white transition-all duration-500"
+                  className="group block bg-gray-50 p-6 sm:p-8 hover:bg-gray-900 hover:text-white transition-all duration-500 border border-gray-200 hover:border-gray-900"
                 >
                   <p className="text-sm text-gray-500 group-hover:text-gray-400 mb-3">{news.date}</p>
                   <h3 className="text-xl font-bold mb-4 line-clamp-2 group-hover:text-white transition-colors">

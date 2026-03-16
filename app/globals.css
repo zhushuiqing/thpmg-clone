@@ -26,12 +26,12 @@
   --background-dark: #0d0d0d;
   --foreground-dark: #fafafa;
 
-  /* Section background variants */
-  --section-alt-1: #F8FAFC;
-  --section-alt-2: #F1F5F9;
-  --section-accent: #EFF6FF;
-  --section-warm: #FFFBF7;
-  --section-cool: #F5F7FF;
+  /* Section background variants - Premium subtle tones */
+  --section-alt-1: #F9FAFB;
+  --section-alt-2: #F3F4F6;
+  --section-accent: #EEF2FF;
+  --section-warm: #FFFEF9;
+  --section-cool: #F7F9FC;
 }
 
 @theme inline {
@@ -268,18 +268,20 @@ body {
 
 /* Subtle gradient backgrounds */
 .section-gradient-1 {
-  background: linear-gradient(180deg, #ffffff 0%, #F8FAFC 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #F9FAFB 100%);
 }
 
 .section-gradient-2 {
-  background: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%);
+  background: linear-gradient(180deg, #F9FAFB 0%, #F7F9FC 100%);
 }
 
-/* Subtle dot pattern background */
-.section-bg-dots {
-  background-color: #FAFAFA;
-  background-image: radial-gradient(circle at 2px 2px, #E5E7EB 1px, transparent 0);
-  background-size: 24px 24px;
+/* Premium border style */
+.border-premium {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.border-premium-light {
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 /* Glass effect */
