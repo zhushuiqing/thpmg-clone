@@ -30,7 +30,7 @@ export default function NewsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-section-white">
       {/* Hero Section - NIO Style Banner */}
       <section className="relative h-[50vh] sm:h-[60vh] overflow-hidden">
         <Image
@@ -65,7 +65,7 @@ export default function NewsPage() {
       </section>
 
       {/* News Categories - Modern Tabs */}
-      <section className="py-8 sm:py-12 bg-white border-b border-gray-100 sticky top-16 sm:top-20 z-40 glass">
+      <section className="py-8 sm:py-12 bg-white/80 backdrop-blur-md border-b border-gray-100 sticky top-16 sm:top-20 z-40">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
             {categories.map((category) => (
@@ -90,7 +90,7 @@ export default function NewsPage() {
       </section>
 
       {/* News List - Modern Cards */}
-      <section className="py-20 sm:py-32 section-bg-alt-2">
+      <section className="py-24 sm:py-32 section-bg-gray">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           {filteredNews.length === 0 ? (
             <FadeIn direction="up" distance={30}>
@@ -105,7 +105,7 @@ export default function NewsPage() {
                 <FadeIn key={news.id} direction="up" distance={30} delay={index * 100}>
                   <Link
                     href={`/news/${news.id}`}
-                    className="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 h-full"
+                    className="group block bg-white rounded-2xl overflow-hidden shadow-premium hover:shadow-premium-lg transition-all duration-500 h-full border border-gray-200"
                   >
                     <div className="aspect-[16/10] bg-gradient-to-br from-blue-50 to-indigo-100 relative overflow-hidden">
                       <div className="absolute inset-0 flex items-center justify-center">
@@ -116,18 +116,18 @@ export default function NewsPage() {
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
-                        <span className="px-3 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full">
+                        <span className="px-3 py-1 bg-blue-100 text-primary text-xs font-medium rounded-full">
                           {news.category === 'employee' ? t('category.employee') : news.category}
                         </span>
                         <span className="text-sm text-gray-500">{news.date}</span>
                       </div>
-                      <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-blue-600 transition-colors tracking-tight">
+                      <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-primary transition-colors tracking-tight">
                         {news.title}
                       </h3>
                       <p className="text-gray-600 text-sm leading-relaxed line-clamp-3 font-light">
                         {news.excerpt}
                       </p>
-                      <div className="mt-4 flex items-center text-blue-600 font-medium text-sm group-hover:translate-x-1 transition-transform">
+                      <div className="mt-4 flex items-center text-primary font-medium text-sm group-hover:translate-x-1 transition-transform">
                         {t('readMore')}
                         <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -143,8 +143,8 @@ export default function NewsPage() {
       </section>
 
       {/* CTA Section - Gradient */}
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-700 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+      <section className="py-24 sm:py-32 section-bg-dark relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
             backgroundSize: '48px 48px'
@@ -152,15 +152,16 @@ export default function NewsPage() {
         </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <FadeIn direction="up" distance={40}>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
               订阅更多资讯
             </h2>
-            <p className="text-blue-100 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
+            <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full mb-8"></div>
+            <p className="text-gray-300 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
               获取 PMI 最新消息和活动通知
             </p>
             <Link
               href="/contact"
-              className="inline-block px-10 py-5 bg-white text-blue-600 font-bold rounded-full hover:bg-gray-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+              className="inline-block px-10 py-5 bg-white text-gray-900 font-bold rounded-full hover:bg-section-blue-light transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               立即订阅
             </Link>
