@@ -244,7 +244,7 @@ export default function AboutPage() {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-12 sm:mb-16">
-              <p className="text-sm font-medium tracking-[0.25em] uppercase text-blue-400 mb-4">
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
                 OUR SCALE
               </p>
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
