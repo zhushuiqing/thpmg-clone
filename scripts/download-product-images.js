@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 /**
  * 下载各子公司官网的产品图片
+ * eslint-disable @typescript-eslint/no-require-imports
  */
 
+/* eslint-disable @typescript-eslint/no-require-imports */
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const zlib = require('zlib');
 
 // 输出目录
 const outputDir = path.join(__dirname, '..', 'public', 'images', 'company-products', 'products');

@@ -2,8 +2,10 @@
 /**
  * 重新抓取各子公司官网的产品图片和说明
  * 使用方法：node scripts/refetch-products.js
+ * eslint-disable @typescript-eslint/no-require-imports
  */
 
+/* eslint-disable @typescript-eslint/no-require-imports */
 const https = require('https');
 const http = require('http');
 const fs = require('fs');

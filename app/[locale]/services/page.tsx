@@ -7,7 +7,6 @@ export const dynamic = 'force-dynamic';
 
 export default function ServicesPage() {
   const t = useTranslations('Services');
-  const tCommon = useTranslations('Common');
 
   // Get service data from translations
   const serviceCategories = t.raw('categories') as Array<{

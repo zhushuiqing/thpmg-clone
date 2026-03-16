@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 /**
  * 根据官网信息更新产品数据
+ * eslint-disable @typescript-eslint/no-require-imports
  */
 
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fs = require('fs');
 const path = require('path');
 

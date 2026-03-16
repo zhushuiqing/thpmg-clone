@@ -93,7 +93,7 @@ export async function POST(request: NextRequest) {
     let body: unknown;
     try {
       body = await request.json();
-    } catch (parseError) {
+    } catch {
       return NextResponse.json(
         { error: '无效的 JSON 格式' },
         { status: 400 }

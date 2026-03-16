@@ -9,7 +9,6 @@ export default function AboutPage() {
   const t = useTranslations('About');
   const tHome = useTranslations('Home');
   const tCommon = useTranslations('Common');
-  const tContact = useTranslations('Contact');
 
   // Get history data from translations
   const historyData = t.raw('historyData') as Array<{

@@ -24,7 +24,6 @@ Object.defineProperty(window, 'location', {
 });
 
 // Mock useLocale from next-intl to return 'zh' by default
-const originalUseLocale = require('next-intl').useLocale;
 jest.mock('next-intl', () => {
   const original = jest.requireActual('next-intl');
   return {

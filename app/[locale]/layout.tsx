@@ -1,5 +1,5 @@
-import { NextIntlClientProvider, useMessages } from 'next-intl';
-import { getLocale, getMessages } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Geist, Geist_Mono } from "next/font/google";

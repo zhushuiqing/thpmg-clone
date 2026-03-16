@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 
 interface HeroProps {
@@ -22,7 +21,6 @@ export default function Hero({
   secondaryCtaLink
 }: HeroProps) {
   const [isVisible, setIsVisible] = useState(false);
-  const t = useTranslations('Common');
 
   useEffect(() => {
     // Trigger animation on mount

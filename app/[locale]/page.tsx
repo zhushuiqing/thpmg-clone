@@ -8,7 +8,6 @@ export const dynamic = 'force-dynamic';
 export default function HomePage() {
   const t = useTranslations('Home');
   const tNav = useTranslations('Navigation');
-  const tCommon = useTranslations('Common');
   const tNews = useTranslations('News');
   const tSubs = useTranslations('Subsidiaries');
   const tContact = useTranslations('Contact');

@@ -1,7 +1,7 @@
 import createMiddleware from 'next-intl/middleware';
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { SUPPORTED_LOCALES, DEFAULT_LOCALE, getEnabledLocales } from '@/lib/i18n/config';
+import { DEFAULT_LOCALE, getEnabledLocales } from '@/lib/i18n/config';
 
 // Create the internationalization middleware
 const intlMiddleware = createMiddleware({
@@ -37,7 +37,7 @@ export function middleware(request: NextRequest) {
   // Add CORS headers for API routes
   if (apiPaths.some(path => pathname.startsWith(path))) {
     const origin = request.headers.get('origin');
-    const allowedOrigins = getAllowedOrigins(request);
+    const allowedOrigins = getAllowedOrigins();
 
     if (origin && allowedOrigins.includes(origin)) {
       response.headers.set('Access-Control-Allow-Origin', origin);
@@ -90,7 +90,7 @@ export function middleware(request: NextRequest) {
   return response;
 }
 
-function getAllowedOrigins(request: NextRequest): string[] {
+function getAllowedOrigins(): string[] {
   const origins: string[] = [];
 
   // From environment
