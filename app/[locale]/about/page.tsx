@@ -207,7 +207,7 @@ export default function AboutPage() {
                           <div className="text-gray-700 mt-2 font-light">{item.event}</div>
                         </div>
                       </div>
-                      <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-br from-primary to-blue-500 rounded-full border-4 border-white shadow-lg"></div>
+                      <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-br from-primary to-primary-hover rounded-full border-4 border-white shadow-lg"></div>
                     </div>
                   </FadeIn>
                 ))}
@@ -219,7 +219,7 @@ export default function AboutPage() {
             {historyData.map((item, index) => (
               <FadeIn key={index} direction="up" distance={30} delay={index * 50}>
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary to-blue-500 rounded-full flex items-center justify-center shadow-lg">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary to-primary-hover rounded-full flex items-center justify-center shadow-lg">
                     <div className="w-3 h-3 bg-white rounded-full"></div>
                   </div>
                   <div className="flex-grow bg-blue-50 p-5 rounded-2xl shadow-premium border border-blue-100">
@@ -250,7 +250,7 @@ export default function AboutPage() {
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('scaleTitle')}
               </h2>
-              <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full"></div>
+              <div className="w-16 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
           </FadeIn>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-10">
@@ -315,7 +315,7 @@ export default function AboutPage() {
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
               {t('ctaTitle')}
             </h2>
-            <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full mb-6"></div>
+            <div className="w-16 h-1 bg-primary mx-auto rounded-full mb-6"></div>
             <p className="text-gray-300 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
               {t('ctaSubtitle')}
             </p>

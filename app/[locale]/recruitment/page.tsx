@@ -248,7 +248,7 @@ export default function RecruitmentPage() {
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
               {t('ctaTitle')}
             </h2>
-            <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full mb-8"></div>
+            <div className="w-16 h-1 bg-primary mx-auto rounded-full mb-8"></div>
             <p className="text-gray-300 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
               {t('ctaSubtitle')}
             </p>

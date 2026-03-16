@@ -168,13 +168,13 @@ export default function HomePage() {
           <FadeIn direction="up" distance={40}>
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
               <div>
-                <p className="text-sm font-medium tracking-[0.25em] uppercase text-blue-400 mb-4">
+                <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
                   OUR SCALE
                 </p>
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight" style={{ letterSpacing: '-0.02em' }}>
                   {t('scaleTitle')}
                 </h2>
-                <div className="w-16 h-1 bg-blue-500 mt-6 rounded-full"></div>
+                <div className="w-16 h-1 bg-primary mt-6 rounded-full"></div>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-16">
                 {[

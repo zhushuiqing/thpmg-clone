@@ -198,13 +198,13 @@ export default function ServicesPage() {
           <div className="max-w-3xl mx-auto">
             <div className="relative">
               {/* Timeline line */}
-              <div className="absolute left-5 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary to-blue-200 hidden md:block"></div>
+              <div className="absolute left-5 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary to-primary-light hidden md:block"></div>
 
               {/* Steps */}
               {process.map((step, index) => (
                 <FadeIn key={index} direction="left" distance={30} delay={index * 100}>
                   <div className="flex mb-10 last:mb-0">
-                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary to-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-6 shadow-lg shadow-blue-200 relative z-10">
+                    <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary to-primary-hover rounded-full flex items-center justify-center text-white font-bold mr-6 shadow-lg shadow-primary/20 relative z-10">
                       {step.step}
                     </div>
                     <div className="flex-1 bg-section-gray-light p-6 rounded-2xl shadow-premium border border-gray-200">
@@ -236,7 +236,7 @@ export default function ServicesPage() {
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
               {t('ctaTitle')}
             </h2>
-            <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full mb-8"></div>
+            <div className="w-16 h-1 bg-primary mx-auto rounded-full mb-8"></div>
             <p className="text-gray-300 mb-8 sm:mb-12 text-base sm:text-lg leading-relaxed">
               {t('ctaDescription')}
             </p>
