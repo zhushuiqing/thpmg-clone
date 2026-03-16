@@ -64,7 +64,7 @@ export default function HomePage() {
           fill
           className="object-cover"
           priority
-          quality={100}
+          quality={80}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/50 via-blue-900/30 to-blue-900/50"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center px-4">

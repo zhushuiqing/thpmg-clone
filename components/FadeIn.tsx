@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useRef } from 'react';
+import { useLayoutEffect, useState, useRef } from 'react';
 
 interface FadeInProps {
   children: React.ReactNode;
@@ -25,7 +25,7 @@ export default function FadeIn({
   const [hasAnimated, setHasAnimated] = useState(false);
   const elementRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !hasAnimated) {
@@ -73,15 +73,17 @@ export default function FadeIn({
     return 'translateY(0)';
   };
 
+  const transformValue = getTransform();
+  const shouldAnimateTransform = direction !== 'none';
+
   return (
     <div
       ref={elementRef}
       className={className}
       style={{
         opacity: isVisible ? 1 : 0,
-        transform: getTransform(),
-        transition: `opacity ${duration}ms cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms,
-                     transform ${duration}ms cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`
+        transform: shouldAnimateTransform ? transformValue : 'none',
+        transition: `opacity ${duration}ms cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms${shouldAnimateTransform ? `, transform ${duration}ms cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms` : ''}`
       }}
     >
       {children}
