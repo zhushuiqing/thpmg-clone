@@ -1,39 +1,48 @@
 @import "tailwindcss";
 
 :root {
-  /* NIO-inspired color palette */
+  /* NIO-inspired color palette - Premium Enterprise Design System */
   --background: #ffffff;
   --foreground: #1a1a1a;
 
-  /* Primary colors - Deep blue like NIO's brand */
+  /* Primary colors - Deep blue for enterprise trust */
   --primary: #0052D9;
   --primary-hover: #003FB3;
   --primary-light: #E8F0FE;
+  --primary-lighter: #F0F5FF;
+  --primary-dark: #003A8C;
 
-  /* Neutral colors */
+  /* Neutral grays - Systematic scale for consistency */
   --gray-50: #FAFAFA;
   --gray-100: #F5F5F5;
-  --gray-200: #EEEEEE;
-  --gray-300: #E0E0E0;
-  --gray-400: #BDBDBD;
-  --gray-500: #9E9E9E;
-  --gray-600: #757575;
-  --gray-700: #616161;
-  --gray-800: #424242;
-  --gray-900: #212121;
+  --gray-150: #F0F0F0;
+  --gray-200: #E5E5E5;
+  --gray-300: #D4D4D4;
+  --gray-400: #A3A3A3;
+  --gray-500: #737373;
+  --gray-600: #525252;
+  --gray-700: #404040;
+  --gray-800: #262626;
+  --gray-900: #171717;
+
+  /* Section backgrounds - Clear visual hierarchy */
+  --section-white: #FFFFFF;
+  --section-gray-light: #F9FAFB;
+  --section-gray: #F3F4F6;
+  --section-gray-dark: #E8EAED;
+  --section-blue-light: #F8FAFF;
+  --section-blue: #F0F5FF;
+  --section-dark: #0F172A;
+  --section-dark-light: #1E293B;
+
+  /* Accent colors */
+  --accent-blue: #0066FF;
+  --accent-indigo: #4F46E5;
+  --accent-slate: #64748B;
 
   /* Dark mode */
   --background-dark: #0d0d0d;
   --foreground-dark: #fafafa;
-
-  /* Section background variants - Premium subtle tones */
-  --section-alt-1: #F9FAFB;
-  --section-alt-2: #F3F4F6;
-  --section-accent: #EEF2FF;
-  --section-warm: #FFFEF9;
-  --section-cool: #F7F9FC;
-  --section-gray-deep: #E8E8E8;
-  --section-gray-medium: #F0F0F0;
 }
 
 @theme inline {
@@ -42,10 +51,34 @@
   --color-primary: var(--primary);
   --color-primary-hover: var(--primary-hover);
   --color-primary-light: var(--primary-light);
+  --color-primary-lighter: var(--primary-lighter);
+  --color-primary-dark: var(--primary-dark);
+  --color-gray-50: var(--gray-50);
+  --color-gray-100: var(--gray-100);
+  --color-gray-150: var(--gray-150);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --color-gray-400: var(--gray-400);
+  --color-gray-500: var(--gray-500);
+  --color-gray-600: var(--gray-600);
+  --color-gray-700: var(--gray-700);
+  --color-gray-800: var(--gray-800);
+  --color-gray-900: var(--gray-900);
+  --color-section-white: var(--section-white);
+  --color-section-gray-light: var(--section-gray-light);
+  --color-section-gray: var(--section-gray);
+  --color-section-gray-dark: var(--section-gray-dark);
+  --color-section-blue-light: var(--section-blue-light);
+  --color-section-blue: var(--section-blue);
+  --color-section-dark: var(--section-dark);
+  --color-section-dark-light: var(--section-dark-light);
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-indigo: var(--accent-indigo);
+  --color-accent-slate: var(--accent-slate);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  /* Custom animations */
+  /* Custom animations - Premium easing */
   --animate-fade-in: fade-in 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   --animate-fade-in-down: fade-in-down 0.8s cubic-bezier(0.16, 1, 0.3, 1);
@@ -247,51 +280,121 @@ body {
   background-clip: text;
 }
 
-/* Section background variants */
-.section-bg-alt-1 {
-  background: var(--section-alt-1);
+/* Section background variants - Premium design system */
+.section-bg-white {
+  background: var(--section-white);
 }
 
-.section-bg-alt-2 {
-  background: var(--section-alt-2);
+.section-bg-gray-light {
+  background: var(--section-gray-light);
 }
 
-.section-bg-accent {
-  background: var(--section-accent);
+.section-bg-gray {
+  background: var(--section-gray);
 }
 
-.section-bg-warm {
-  background: var(--section-warm);
+.section-bg-gray-dark {
+  background: var(--section-gray-dark);
 }
 
-.section-bg-cool {
-  background: var(--section-cool);
+.section-bg-blue-light {
+  background: var(--section-blue-light);
 }
 
-.section-bg-gray-deep {
-  background: var(--section-gray-deep);
+.section-bg-blue {
+  background: var(--section-blue);
 }
 
-.section-bg-gray-medium {
-  background: var(--section-gray-medium);
+.section-bg-dark {
+  background: var(--section-dark);
 }
 
-/* Subtle gradient backgrounds */
-.section-gradient-1 {
+.section-bg-dark-light {
+  background: var(--section-dark-light);
+}
+
+/* Gradient backgrounds - Subtle premium transitions */
+.section-gradient-white {
   background: linear-gradient(180deg, #ffffff 0%, #F9FAFB 100%);
 }
 
-.section-gradient-2 {
-  background: linear-gradient(180deg, #F9FAFB 0%, #F7F9FC 100%);
+.section-gradient-gray {
+  background: linear-gradient(180deg, #F9FAFB 0%, #F3F4F6 100%);
 }
 
-/* Premium border style */
+.section-gradient-blue {
+  background: linear-gradient(180deg, #F8FAFF 0%, #F0F5FF 100%);
+}
+
+.section-gradient-dark {
+  background: linear-gradient(180deg, #1E293B 0%, #0F172A 100%);
+}
+
+/* Premium border styles */
 .border-premium {
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .border-premium-light {
   border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.border-gray-subtle {
+  border: 1px solid var(--gray-200);
+}
+
+.border-gray-medium {
+  border: 1px solid var(--gray-300);
+}
+
+/* Premium shadow system */
+.shadow-premium-sm {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-premium {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-premium-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-premium-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.04), 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-premium-xl {
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.04);
+}
+
+/* Card styles - Premium enterprise */
+.card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid var(--gray-200);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.card-premium {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid var(--gray-200);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.card-premium:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  border-color: var(--gray-300);
 }
 
 /* Glass effect */

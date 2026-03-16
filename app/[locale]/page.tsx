@@ -44,7 +44,7 @@ export default function HomePage() {
   const companyOrder = ['baxin', 'tingzheng', 'hesheng', 'prostar', 'tingzhi', 'starpro', 'weizhen', 'tingtong'];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-section-white">
       {/* Hero Section - NIO Style Full Screen with Centered Content */}
       <section className="relative h-screen overflow-hidden">
         <Image
@@ -55,7 +55,7 @@ export default function HomePage() {
           priority
           quality={80}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/50 via-blue-900/30 to-blue-900/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/60 via-blue-900/40 to-blue-900/60"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center px-4">
           <div className="max-w-[1440px] mx-auto w-full text-center">
             <FadeIn direction="up" distance={60} delay={200}>
@@ -63,13 +63,13 @@ export default function HomePage() {
                 <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6 mx-auto" style={{ letterSpacing: '-0.03em' }}>
                   {t('heroTitle')}
                 </h1>
-                <p className="text-base sm:text-xl md:text-2xl font-light max-w-3xl mx-auto opacity-90 mb-10">
+                <p className="text-base sm:text-xl md:text-2xl font-light max-w-3xl mx-auto opacity-95 mb-10">
                   {t('heroSubtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                   <Link
                     href={`/${tNav('locale')}/about`}
-                    className="group inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 font-medium rounded-none hover:bg-blue-50 transition-all duration-300"
+                    className="group inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 font-medium hover:bg-section-blue-light transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
                     {t('ctaAbout')}
                     <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@ export default function HomePage() {
                   </Link>
                   <Link
                     href={`/${tNav('locale')}/subsidiaries`}
-                    className="group inline-flex items-center justify-center px-8 py-4 bg-transparent text-white font-medium border-2 border-white/50 hover:border-white hover:bg-white/10 transition-all duration-300 rounded-none"
+                    className="group inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-medium border-2 border-white/60 hover:bg-white/20 transition-all duration-300"
                   >
                     {t('ctaSubsidiaries')}
                   </Link>
@@ -89,17 +89,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Company Intro - NIO Style Left-Aligned Large Layout */}
-      <section className="py-24 sm:py-32 bg-white">
+      {/* Company Intro - Clean White Background */}
+      <section className="py-24 sm:py-32 section-gradient-white">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="max-w-4xl">
-              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
                 ABOUT US
               </p>
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('aboutTitle')}
               </h2>
+              <div className="w-16 h-1 bg-primary rounded-full"></div>
             </div>
           </FadeIn>
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20 mt-16">
@@ -107,23 +108,23 @@ export default function HomePage() {
               <p className="text-lg sm:text-xl text-gray-600 leading-relaxed font-light">
                 {t('aboutDescription')}
               </p>
-              <div className="mt-8 space-y-4">
+              <div className="mt-8 space-y-5">
                 <div className="flex items-start">
-                  <span className="text-2xl font-bold text-blue-600 mr-4">P</span>
+                  <span className="text-2xl font-bold text-primary mr-4">P</span>
                   <div>
                     <span className="font-semibold text-gray-900">Packaging</span>
                     <p className="text-gray-600 font-light">{t('pmiP')}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-2xl font-bold text-blue-600 mr-4">M</span>
+                  <span className="text-2xl font-bold text-primary mr-4">M</span>
                   <div>
                     <span className="font-semibold text-gray-900">Materials</span>
                     <p className="text-gray-600 font-light">{t('pmiM')}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-2xl font-bold text-blue-600 mr-4">I</span>
+                  <span className="text-2xl font-bold text-primary mr-4">I</span>
                   <div>
                     <span className="font-semibold text-gray-900">Ingredients</span>
                     <p className="text-gray-600 font-light">{t('pmiI')}</p>
@@ -132,7 +133,7 @@ export default function HomePage() {
               </div>
               <Link
                 href="/about"
-                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors group mt-8"
+                className="inline-flex items-center text-primary hover:text-primary-dark font-medium transition-colors group mt-8"
               >
                 {t('learnMore')}
                 <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -141,7 +142,7 @@ export default function HomePage() {
               </Link>
             </FadeIn>
             <FadeIn direction="left" distance={40} delay={300}>
-              <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-premium-lg">
                 <Image
                   src="/images/thpmg/history.png"
                   alt={t('history')}
@@ -155,18 +156,25 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Scale Stats - Minimalist Full Width Dark Section */}
-      <section className="py-24 sm:py-32 bg-gray-900 relative overflow-hidden">
+      {/* Scale Stats - Dark Premium Section */}
+      <section className="py-24 sm:py-32 section-bg-dark relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+            backgroundSize: '48px 48px'
+          }}></div>
+        </div>
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <FadeIn direction="up" distance={40}>
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
               <div>
-                <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-400 mb-4">
+                <p className="text-sm font-medium tracking-[0.25em] uppercase text-blue-400 mb-4">
                   OUR SCALE
                 </p>
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight" style={{ letterSpacing: '-0.02em' }}>
                   {t('scaleTitle')}
                 </h2>
+                <div className="w-16 h-1 bg-blue-500 mt-6 rounded-full"></div>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-16">
                 {[
@@ -188,29 +196,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Business Areas - Clean Minimalist Grid */}
-      <section className="py-24 sm:py-32 bg-gray-100">
+      {/* Business Areas - Light Gray Background with Cards */}
+      <section className="py-24 sm:py-32 section-bg-gray-light">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-16 sm:mb-24">
-              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
                 BUSINESS AREAS
               </p>
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('businessTitle')}
               </h2>
+              <div className="w-16 h-1 bg-primary mx-auto rounded-full mb-6"></div>
               <p className="text-lg text-gray-600 font-light max-w-2xl mx-auto">
                 {t('businessSubtitle')}
               </p>
             </div>
           </FadeIn>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             {businessAreas.map((area, index) => (
               <FadeIn key={index} direction="up" distance={30} delay={index * 100}>
-                <div className="group p-6 sm:p-8 bg-white hover:bg-blue-50/50 transition-all duration-500 text-center border border-gray-300 hover:border-blue-400 shadow-md hover:shadow-xl">
+                <div className="group p-6 sm:p-8 bg-white text-center border border-gray-200 hover:border-primary/50 shadow-premium hover:shadow-premium-lg transition-all duration-500 rounded-xl h-full">
                   <div className="text-4xl sm:text-5xl mb-6">{area.icon}</div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{area.name}</h3>
-                  <div className="text-3xl font-bold text-blue-600 mb-3">{area.count}<span className="text-lg font-normal text-gray-500">{t('companiesCount')}</span></div>
+                  <div className="text-3xl font-bold text-primary mb-3">{area.count}<span className="text-lg font-normal text-gray-500">{t('companiesCount')}</span></div>
                   <p className="text-sm text-gray-600 font-light leading-relaxed">{area.desc}</p>
                 </div>
               </FadeIn>
@@ -219,17 +228,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Company Products - Alternating Cards Layout */}
-      <section className="py-24 sm:py-32 bg-gray-50">
+      {/* Company Products - White Background with Card Separators */}
+      <section className="py-24 sm:py-32 section-bg-white">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-16 sm:mb-24">
-              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+              <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
                 PRODUCTS & SERVICES
               </p>
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 事业单位产品与服务
               </h2>
+              <div className="w-16 h-1 bg-primary mx-auto rounded-full mb-6"></div>
               <p className="text-lg text-gray-600 font-light max-w-2xl mx-auto">
                 8 家事业单位提供多元化产品与服务
               </p>
@@ -244,10 +254,10 @@ export default function HomePage() {
 
               return (
                 <FadeIn key={companyId} direction="up" distance={40} delay={index * 100}>
-                  <div className={`bg-white rounded-2xl p-6 sm:p-10 shadow-md border border-gray-200`}>
+                  <div className="bg-white rounded-2xl p-6 sm:p-10 shadow-premium-md border border-gray-200 hover:shadow-premium-lg transition-shadow duration-500">
                     <div className={`grid md:grid-cols-2 gap-8 lg:gap-12 items-center ${isEven ? '' : 'md:flex-row-reverse'}`}>
                       <div className={isEven ? 'md:order-1' : 'md:order-2'}>
-                        <p className="text-xs font-medium tracking-[0.2em] uppercase text-blue-600 mb-3">
+                        <p className="text-xs font-medium tracking-[0.2em] uppercase text-primary mb-3">
                           {company.category}
                         </p>
                         <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 tracking-tight">{company.name}</h3>
@@ -306,22 +316,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* News - Minimalist Cards */}
-      <section className="py-24 sm:py-32 bg-gray-200">
+      {/* News - Gray Background with White Cards */}
+      <section className="py-24 sm:py-32 section-bg-gray">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16 sm:mb-24">
               <div>
-                <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-600 mb-4">
+                <p className="text-sm font-medium tracking-[0.25em] uppercase text-primary mb-4">
                   NEWS & UPDATES
                 </p>
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                   {t('newsTitle')}
                 </h2>
+                <div className="w-16 h-1 bg-primary mt-4 rounded-full"></div>
               </div>
               <Link
                 href="/news"
-                className="group inline-flex items-center text-gray-900 font-medium hover:text-blue-600 transition-colors"
+                className="group inline-flex items-center text-gray-900 font-medium hover:text-primary transition-colors"
               >
                 {t('viewAllNews')}
                 <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -335,7 +346,7 @@ export default function HomePage() {
               <FadeIn key={news.id} direction="up" distance={30} delay={index * 100}>
                 <Link
                   href={`/news/${news.id}`}
-                  className="group block bg-white p-6 sm:p-8 hover:bg-gray-900 hover:text-white transition-all duration-500 border border-gray-300 hover:border-gray-900 shadow-md hover:shadow-xl"
+                  className="group block bg-white p-6 sm:p-8 hover:bg-gray-900 hover:text-white transition-all duration-500 border border-gray-200 hover:border-gray-900 rounded-xl shadow-premium hover:shadow-premium-lg h-full"
                 >
                   <p className="text-sm text-gray-500 group-hover:text-gray-400 mb-3">{news.date}</p>
                   <h3 className="text-xl font-bold mb-4 line-clamp-2 group-hover:text-white transition-colors">
@@ -351,31 +362,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Contact CTA - Full Width Minimalist */}
-      <section className="py-24 sm:py-32 bg-blue-600 relative overflow-hidden">
+      {/* Contact CTA - Dark Premium Section */}
+      <section className="py-24 sm:py-32 section-bg-dark relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+            backgroundSize: '48px 48px'
+          }}></div>
+        </div>
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <FadeIn direction="up" distance={40}>
             <div className="max-w-3xl">
-              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-200 mb-4">
+              <p className="text-sm font-medium tracking-[0.2em] uppercase text-blue-400 mb-4">
                 GET IN TOUCH
               </p>
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-8 leading-tight" style={{ letterSpacing: '-0.02em' }}>
                 {t('contactTitle')}
               </h2>
+              <div className="w-16 h-1 bg-blue-500 rounded-full mb-8"></div>
               <div className="grid sm:grid-cols-2 gap-6 mb-12">
-                <div>
-                  <p className="text-blue-200 text-sm mb-1">{t('addressLabel')}</p>
+                <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+                  <p className="text-blue-300 text-sm mb-2">{t('addressLabel')}</p>
                   <p className="text-white font-medium">{tContact('addressValue')}</p>
                 </div>
-                <div>
-                  <p className="text-blue-200 text-sm mb-1">{t('phoneLabel')}</p>
+                <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+                  <p className="text-blue-300 text-sm mb-2">{t('phoneLabel')}</p>
                   <p className="text-white font-medium">{tContact('phoneValue')}</p>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/contact"
-                  className="group inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300"
+                  className="group inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 font-medium hover:bg-section-blue-light transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   {t('contactButton')}
                   <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
