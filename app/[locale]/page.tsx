@@ -220,7 +220,7 @@ export default function HomePage() {
       </section>
 
       {/* Company Products - Alternating Cards Layout */}
-      <section className="py-24 sm:py-32 bg-gray-50">
+      <section className="py-24 sm:py-32 bg-gray-100">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-16 sm:mb-24">
