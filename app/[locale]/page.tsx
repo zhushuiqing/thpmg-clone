@@ -220,7 +220,7 @@ export default function HomePage() {
       </section>
 
       {/* Company Products - Alternating Cards Layout */}
-      <section className="py-24 sm:py-32 bg-white">
+      <section className="py-24 sm:py-32 bg-gray-50">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up" distance={40}>
             <div className="text-center mb-16 sm:mb-24">
@@ -236,7 +236,7 @@ export default function HomePage() {
             </div>
           </FadeIn>
 
-          <div className="space-y-16 sm:space-y-24">
+          <div className="space-y-12 sm:space-y-16">
             {companyOrder.slice(0, 4).map((companyId, index) => {
               const company = productsData[companyId];
               if (!company) return null;
@@ -244,56 +244,58 @@ export default function HomePage() {
 
               return (
                 <FadeIn key={companyId} direction="up" distance={40} delay={index * 100}>
-                  <div className={`grid md:grid-cols-2 gap-8 lg:gap-16 items-center ${isEven ? '' : 'md:flex-row-reverse'}`}>
-                    <div className={isEven ? 'md:order-1' : 'md:order-2'}>
-                      <p className="text-xs font-medium tracking-[0.2em] uppercase text-blue-600 mb-3">
-                        {company.category}
-                      </p>
-                      <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 tracking-tight">{company.name}</h3>
-                      <p className="text-gray-500 font-light mb-6">{company.english}</p>
-                      <p className="text-gray-600 font-light leading-relaxed mb-8">{company.description}</p>
-                      <div className="grid grid-cols-2 gap-4">
-                        {company.products.slice(0, 4).map((product, idx) => (
-                          <div key={idx} className="group">
-                            <div className="aspect-square bg-gray-100 mb-3 overflow-hidden">
-                              {product.image ? (
-                                <Image
-                                  src={product.image}
-                                  alt={product.name}
-                                  width={200}
-                                  height={200}
-                                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-                                />
-                              ) : (
-                                <div className="w-full h-full flex items-center justify-center">
-                                  <svg className="w-10 h-10 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                                  </svg>
-                                </div>
-                              )}
+                  <div className={`bg-white rounded-2xl p-6 sm:p-10 shadow-md border border-gray-200`}>
+                    <div className={`grid md:grid-cols-2 gap-8 lg:gap-12 items-center ${isEven ? '' : 'md:flex-row-reverse'}`}>
+                      <div className={isEven ? 'md:order-1' : 'md:order-2'}>
+                        <p className="text-xs font-medium tracking-[0.2em] uppercase text-blue-600 mb-3">
+                          {company.category}
+                        </p>
+                        <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 tracking-tight">{company.name}</h3>
+                        <p className="text-gray-500 font-light mb-4">{company.english}</p>
+                        <p className="text-gray-600 font-light leading-relaxed mb-6">{company.description}</p>
+                        <div className="grid grid-cols-2 gap-3">
+                          {company.products.slice(0, 4).map((product, idx) => (
+                            <div key={idx} className="group">
+                              <div className="aspect-square bg-gray-100 mb-2 overflow-hidden rounded-lg">
+                                {product.image ? (
+                                  <Image
+                                    src={product.image}
+                                    alt={product.name}
+                                    width={200}
+                                    height={200}
+                                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                  />
+                                ) : (
+                                  <div className="w-full h-full flex items-center justify-center">
+                                    <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                                    </svg>
+                                  </div>
+                                )}
+                              </div>
+                              <p className="text-sm font-medium text-gray-900">{product.name}</p>
                             </div>
-                            <p className="text-sm font-medium text-gray-900">{product.name}</p>
-                          </div>
-                        ))}
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                    <div className={isEven ? 'md:order-2' : 'md:order-1'}>
-                      <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
-                        {company.products[0]?.image ? (
-                          <Image
-                            src={company.products[0].image}
-                            alt={company.name}
-                            width={600}
-                            height={450}
-                            className="w-full h-full object-cover"
-                          />
-                        ) : (
-                          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50">
-                            <svg className="w-20 h-20 text-blue-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                            </svg>
-                          </div>
-                        )}
+                      <div className={isEven ? 'md:order-2' : 'md:order-1'}>
+                        <div className="aspect-[4/3] bg-gray-100 overflow-hidden rounded-xl">
+                          {company.products[0]?.image ? (
+                            <Image
+                              src={company.products[0].image}
+                              alt={company.name}
+                              width={600}
+                              height={450}
+                              className="w-full h-full object-cover"
+                            />
+                          ) : (
+                            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50">
+                              <svg className="w-20 h-20 text-blue-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                              </svg>
+                            </div>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
