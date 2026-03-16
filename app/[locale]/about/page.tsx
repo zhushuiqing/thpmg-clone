@@ -155,8 +155,8 @@ export default function AboutPage() {
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8 text-center tracking-tight">{t('values')}</h3>
                 <div className="grid grid-cols-2 gap-3 sm:gap-4">
                   {valuesItems.map((item, index) => (
-                    <div key={index} className="bg-gradient-to-br from-green-50 to-emerald-50 p-4 sm:p-6 rounded-xl text-center hover:shadow-md transition-shadow duration-300 border border-green-100">
-                      <div className="text-base sm:text-2xl font-bold text-green-600">{item.label}</div>
+                    <div key={index} className="bg-gradient-to-br from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-xl text-center hover:shadow-md transition-shadow duration-300 border border-blue-100">
+                      <div className="text-base sm:text-2xl font-bold text-primary">{item.label}</div>
                     </div>
                   ))}
                 </div>

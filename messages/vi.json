@@ -468,25 +468,25 @@
       {
         "title": "Tư vấn chuyên nghiệp",
         "description": "Cung cấp dịch vụ tư vấn chuyên nghiệp toàn diện, may đo giải pháp tối ưu cho khách hàng",
-        "icon": "💡",
+        "icon": "consulting",
         "services": ["Tư vấn hoạch định chiến lược", "Tối ưu hóa quy trình kinh doanh", "Tư vấn quản lý rủi ro", "Dịch vụ tư vấn tuân thủ"]
       },
       {
         "title": "Hỗ trợ kỹ thuật",
         "description": "Đội ngũ kỹ thuật mạnh mẽ, cung cấp hỗ trợ và đảm bảo kỹ thuật toàn diện cho khách hàng",
-        "icon": "🛠️",
+        "icon": "support",
         "services": ["Thiết kế kiến trúc hệ thống", "Triển khai giải pháp kỹ thuật", "Hỗ trợ vận hành hệ thống", "Dịch vụ đào tạo kỹ thuật"]
       },
       {
         "title": "Phát triển tùy chỉnh",
         "description": "Phát triển tùy chỉnh theo nhu cầu khách hàng để đảm bảo hệ thống vận hành ổn định và hiệu quả",
-        "icon": "💻",
+        "icon": "development",
         "services": ["Phát triển ứng dụng Web", "Phát triển ứng dụng di động", "Tùy chỉnh hệ thống doanh nghiệp", "Phát triển tích hợp giao diện"]
       },
       {
         "title": "Phân tích dữ liệu",
         "description": "Dịch vụ phân tích dữ liệu chuyên nghiệp giúp doanh nghiệp có được thông tin kinh doanh và tối ưu hóa quyết định",
-        "icon": "📊",
+        "icon": "analytics",
         "services": ["Thu thập và làm sạch dữ liệu", "Phân tích và khai thác dữ liệu", "Trực quan hóa dữ liệu", "Báo cáo thông minh kinh doanh"]
       }
     ],

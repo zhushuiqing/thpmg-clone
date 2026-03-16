@@ -468,25 +468,25 @@
       {
         "title": "Konsultasi Profesional",
         "description": "Menyediakan layanan konsultasi profesional komprehensif, solusi optimal yang disesuaikan untuk pelanggan",
-        "icon": "💡",
+        "icon": "consulting",
         "services": ["Konsultasi Perencanaan Strategis", "Optimasi Proses Bisnis", "Konsultasi Manajemen Risiko", "Layanan Konsultasi Kepatuhan"]
       },
       {
         "title": "Dukungan Teknis",
         "description": "Tim teknis yang kuat, menyediakan dukungan dan jaminan teknis komprehensif bagi pelanggan",
-        "icon": "🛠️",
+        "icon": "support",
         "services": ["Desain Arsitektur Sistem", "Implementasi Solusi Teknis", "Dukungan Operasi Sistem", "Layanan Pelatihan Teknis"]
       },
       {
         "title": "Pengembangan Kustom",
         "description": "Pengembangan yang disesuaikan sesuai kebutuhan pelanggan untuk memastikan operasi sistem yang stabil dan efisien",
-        "icon": "💻",
+        "icon": "development",
         "services": ["Pengembangan Aplikasi Web", "Pengembangan Aplikasi Mobile", "Kustomisasi Sistem Perusahaan", "Pengembangan Integrasi Antarmuka"]
       },
       {
         "title": "Analisis Data",
         "description": "Layanan analisis data profesional membantu perusahaan mendapatkan wawasan bisnis dan mengoptimalkan keputusan",
-        "icon": "📊",
+        "icon": "analytics",
         "services": ["Pengumpulan dan Pembersihan Data", "Analisis dan Penambangan Data", "Visualisasi Data", "Laporan Bisnis Intelijen"]
       }
     ],

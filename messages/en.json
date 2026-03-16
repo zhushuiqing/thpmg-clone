@@ -531,25 +531,25 @@
       {
         "title": "Professional Consulting",
         "description": "Provide comprehensive professional consulting services, tailor-made optimal solutions for customers",
-        "icon": "💡",
+        "icon": "consulting",
         "services": ["Strategic Planning Consulting", "Business Process Optimization", "Risk Management Consulting", "Compliance Consulting Services"]
       },
       {
         "title": "Technical Support",
         "description": "Strong technical team, providing comprehensive technical support and guarantee for customers",
-        "icon": "🛠️",
+        "icon": "support",
         "services": ["System Architecture Design", "Technical Solution Implementation", "System Operations Support", "Technical Training Services"]
       },
       {
         "title": "Custom Development",
         "description": "Customized development according to customer needs to ensure stable and efficient system operation",
-        "icon": "💻",
+        "icon": "development",
         "services": ["Web Application Development", "Mobile Application Development", "Enterprise System Customization", "Interface Integration Development"]
       },
       {
         "title": "Data Analysis",
         "description": "Professional data analysis services to help enterprises gain business insights and optimize decisions",
-        "icon": "📊",
+        "icon": "analytics",
         "services": ["Data Collection and Cleaning", "Data Analysis and Mining", "Data Visualization", "Business Intelligence Reports"]
       }
     ],
