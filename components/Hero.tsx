@@ -38,7 +38,7 @@ export default function Hero({
             absolute -top-1/2 -right-1/4 w-[800px] h-[800px]
             bg-gradient-to-br from-primary/10 to-transparent
             rounded-full blur-3xl
-            transition-all duration-1000 ease-out
+            transition-all duration-1000 cubic-bezier(0.16, 1, 0.3, 1)
             ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
           `}
         />
@@ -47,7 +47,7 @@ export default function Hero({
             absolute -bottom-1/2 -left-1/4 w-[600px] h-[600px]
             bg-gradient-to-tr from-primary/5 to-transparent
             rounded-full blur-3xl
-            transition-all duration-1000 ease-out delay-300
+            transition-all duration-1000 cubic-bezier(0.16, 1, 0.3, 1) delay-300
             ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
           `}
         />

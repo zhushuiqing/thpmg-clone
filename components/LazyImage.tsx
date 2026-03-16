@@ -10,7 +10,7 @@ interface LazyImageProps extends Omit<ImageProps, 'onLoad'> {
 
 export default function LazyImage({
   alt,
-  placeholderColor = '#f3f4f6',
+  placeholderColor = 'var(--gray-100)',
   className = '',
   ...props
 }: LazyImageProps) {
