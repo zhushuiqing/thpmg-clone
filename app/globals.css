@@ -30,6 +30,8 @@
   --section-alt-1: #F8FAFC;
   --section-alt-2: #F1F5F9;
   --section-accent: #EFF6FF;
+  --section-warm: #FFFBF7;
+  --section-cool: #F5F7FF;
 }
 
 @theme inline {
@@ -256,6 +258,14 @@ body {
   background: var(--section-accent);
 }
 
+.section-bg-warm {
+  background: var(--section-warm);
+}
+
+.section-bg-cool {
+  background: var(--section-cool);
+}
+
 /* Subtle gradient backgrounds */
 .section-gradient-1 {
   background: linear-gradient(180deg, #ffffff 0%, #F8FAFC 100%);
@@ -263,6 +273,13 @@ body {
 
 .section-gradient-2 {
   background: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%);
+}
+
+/* Subtle dot pattern background */
+.section-bg-dots {
+  background-color: #FAFAFA;
+  background-image: radial-gradient(circle at 2px 2px, #E5E7EB 1px, transparent 0);
+  background-size: 24px 24px;
 }
 
 /* Glass effect */
