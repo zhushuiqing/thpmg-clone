@@ -200,19 +200,19 @@ export default function ContactForm({ locale }: ContactFormProps) {
   };
 
   return (
-    <div className="max-w-2xl mx-auto bg-gray-50 rounded-lg shadow-sm p-8">
+    <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-premium p-8 sm:p-10 border border-gray-200">
       {submitSuccess ? (
         <div className="text-center py-12">
           <div className="text-6xl mb-4">✅</div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-2xl font-bold text-gray-900 mb-3 tracking-tight">
             {t('successTitle')}
           </h3>
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-600 mb-6 font-light">
             {t('successMessage')}
           </p>
           <button
             onClick={handleReset}
-            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="px-8 py-3 bg-primary text-white font-medium rounded-full hover:bg-primary-hover transition-colors shadow-lg hover:shadow-xl"
           >
             {t('successButton')}
           </button>
@@ -235,7 +235,7 @@ export default function ContactForm({ locale }: ContactFormProps) {
               maxLength={100}
               aria-describedby={formErrors.name ? 'name-error' : undefined}
               aria-invalid={!!formErrors.name}
-              className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors ${
+              className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors ${
                 formErrors.name ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder={t('name')}
@@ -263,7 +263,7 @@ export default function ContactForm({ locale }: ContactFormProps) {
               maxLength={254}
               aria-describedby={formErrors.email ? 'email-error' : undefined}
               aria-invalid={!!formErrors.email}
-              className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors ${
+              className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors ${
                 formErrors.email ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder="example@email.com"
@@ -290,7 +290,7 @@ export default function ContactForm({ locale }: ContactFormProps) {
               maxLength={20}
               aria-describedby={formErrors.phone ? 'phone-error' : undefined}
               aria-invalid={!!formErrors.phone}
-              className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors ${
+              className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors ${
                 formErrors.phone ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder={t('phone')}
@@ -314,7 +314,7 @@ export default function ContactForm({ locale }: ContactFormProps) {
               value={formData.company}
               onChange={handleChange}
               maxLength={200}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
               placeholder={t('company')}
             />
           </div>
@@ -335,7 +335,7 @@ export default function ContactForm({ locale }: ContactFormProps) {
               maxLength={2000}
               aria-describedby={formErrors.message ? 'message-error' : undefined}
               aria-invalid={!!formErrors.message}
-              className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none ${
+              className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors resize-none ${
                 formErrors.message ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder={t('message')}
@@ -370,7 +370,7 @@ export default function ContactForm({ locale }: ContactFormProps) {
           <button
             type="submit"
             disabled={isSubmitting || (rateLimitRemaining !== null && rateLimitRemaining <= 0)}
-            className="w-full px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl"
+            className="w-full px-8 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl"
             aria-busy={isSubmitting}
           >
             {isSubmitting ? (
